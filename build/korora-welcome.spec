@@ -4,15 +4,15 @@ Release:        1%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
-URL:            https://launchpad.net/jockey
+URL:            http://kororaproject.org
 Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 Requires:       python-simplejson python-gi
 
 %description
-The Korora welcome utiltiy provides a simple interface for accessing all
-the relevant information to a new user of Korora.
+The Korora Welcome utility provides a simple interface for accessing all
+the relevant information for a new user of Korora.
 
 %prep
 %setup -q
@@ -21,25 +21,20 @@ the relevant information to a new user of Korora.
 
 %install
 mkdir -p %{buildroot}%{_datadir}/%{name}
+mkdir -p %{buildroot}%{_bindir}
 
 cp -a data/* %{buildroot}%{_datadir}/%{name}
-#install -d %{buildroot}%{_datadir}/selinux/${selinuxvariant}
-install -p -m 644 korora-welcome %{_bindir}/korora-welcome
-
-
-# validate desktop files
-desktop-file-validate %{buildroot}%{_datadir}/applications/jockey-gtk.desktop
-desktop-file-validate %{buildroot}%{_datadir}/applications/jockey-kde.desktop
+install -p -m 644 korora-welcome %{buildroot}%{_bindir}/korora-welcome
 
 %post
 
 %postun
 
-%files -f %{name}.lang
+%files
 %{_bindir}/korora-welcome
-%{_datadir}/share/%{name}/data
+%{_datadir}/%{name}
 
 %changelog
-* Sun Jan 03 2013 Ian Firns <firnsy@kororaproject.org> - 0.9.7-5
-- Initial version
+* Sun Jan 03 2013 Ian Firns <firnsy@kororaproject.org> - 0.18.0-1
+- Initial version.
 
