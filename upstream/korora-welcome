@@ -24,7 +24,7 @@ class WelcomeConfig(object):
     # ensure our config directory exists
     if not os.path.exists( self._config_dir ):
       print("Creating path: %s" % self._config_dir)
-      os.makedirs( config_dir )
+      os.makedirs( self._config_dir )
     else:
       print("Config path exists: %s" % self._config_dir)
 
