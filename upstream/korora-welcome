@@ -147,8 +147,8 @@ class WelcomeApp(object):
     if( os.path.exists( os.path.join(self._location, 'data/' ) ) ):
       print("Using relative path for data source. Non-production testing.")
       self._data_path = os.path.join(self._location, 'data/')
-    elif( os.path.exists('/usr/share/korora-welcome/data/') ):
-      self._data_path = '/usr/share/korora-welcome/data/'
+    elif( os.path.exists('/usr/share/korora-welcome/') ):
+      self._data_path = '/usr/share/korora-welcome/'
     else:
       print("Unable to source the korora-welcome data directory.")
       sys.exit(1)
