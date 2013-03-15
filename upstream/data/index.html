@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="css/welcome.css" rel="stylesheet" media="screen">
+</head>
+<body class="backdrop" ng-controller="WelcomeCtrl">
+  <div id="wrapper">
+    <div id="header" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span9">
+          <div class="container-fluid">
+            <div class="row-fluid">
+              <div class="span12">
+                <h1 class="title">Welcome to Korora Linux</h1>
+              </div>
+            </div>
+            <div class="row-fluid">
+              <div class="span12">
+                <p class="no-space"><strong>Release:</strong> 18 (Flo)</p>
+                <p><strong>Edition:</strong> GNOME</p>
+                <p>Welcome and thank you for choosing Korora Linux. We hope you'll enjoy it as much as we did building it. The links below will help you get started with your new operating system.</p>
+                <p>Have a great time and don't hesitate to send us your feedback.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span3">
+          <div class="center">
+            <img src="img/logo.png" class="logo"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="content" class="container-fluid">
+      <div class="row-fluid divider">
+        <div class="span4 btn-showcase">
+          <!--Body content-->
+          <h4>Documentation</h4>
+          <a class="btn btn-block" href="./readme.html"><i class="icon-book"></i> Read Me</a>
+          <a class="btn btn-block btn-info" href="./features.html"><i class="icon-star"></i> New Features</a>
+          <button class="btn btn-block btn-warning hide"><i class="icon-warning-sign"></i> Known Bugs</button>
+        </div>
+        <div class="span4 btn-showcase">
+          <h4>Support</h4>
+          <a href="cmd://link?https://kororaproject.org/forum/" class="btn btn-block"><i class="icon-group"></i> Forums</a>
+          <button class="btn btn-block hide"><i class="icon-comments"></i> Chat Room</button>
+        </div>
+        <div class="span4 btn-showcase">
+          <h4>Project</h4>
+          <a class="btn btn-block" href="./involved.html"><i class="icon-hand-up"></i> Get Involved</a>
+          <button class="btn btn-block hide"><i class="icon-gift"></i> Donations</button>
+          <a href="cmd://link?https://github.com/kororaproject/" class="btn btn-block btn-success"><i class="icon-github"></i> Build It</a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footer-content">
+        <div class="form">
+          <a href="cmd://toggle-startup"><i id="autostart" class="icon icon-check"></i> Show this dialog on startup.</a>
+          <a href="cmd://close" class="btn btn-inverse">Close</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/welcome.js"></script>
+</body>
+</html>

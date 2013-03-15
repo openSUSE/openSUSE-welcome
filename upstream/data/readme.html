@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="css/welcome.css" rel="stylesheet" media="screen">
+</head>
+<body class="backdrop">
+  <div id="wrapper">
+    <div id="header" class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <h1>Read Me</h1>
+        </div>
+      </div>
+      <div id="navigation">
+        <ul>
+          <li><a href="./index.html"><i class="icon icon-2x icon-home"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content" class="container-fluid">
+      <div class="row-fluid divider">
+        <div class="span12">
+          <h2>Installing extras</h2>
+          <p>There are certain proprietary drivers (such as nvidia) and packages (such as flash) that Korora cannot ship by default. They are however, available for you to install if you want them.</p>
+          <p>To get drivers such as nvidia (for NVIDIA graphics cards) or fglrx (for AMD/ATI graphics cards), use the Jockey device manager. It is available in the applications menu under the name of Additional Drivers.</p>
+          <p>Want to install Skype? Then, just head over to http://skype.com to download the package for Fedora and double click to install.</p>
+          <h2>Getting help</h2>
+          <p>Although Korora is designed to work as much "out of the box" as possible, it's no-where near perfect. There will be times when things go wrong, you might have questions and a desire to learn more or just want to personalise it to suit your tastes. This page provides details of some available resources to help you!</p>
+          <h3>Search the web</h3>
+          <p>Perhaps the first place to look for generic Linux help is by using your favourite search engine. Just include words like Linux or Fedora in your search query.</p>
+          <p>As Korora is a Fedora Remix<a href="#footnote_1"><sup>1</sup></a> why not head on over to the official Ask Fedora site?</p>
+          <h3>Look in the forums</h3>
+          <p>For specific help with Korora we have a dedicated online forum where you can search for topics, or create one yourself! This is probably the next best place to go for collaboration, discussion and assistance. Ask for help, post your thoughts, or outline some suggestions. Don't be shy!</p>
+          <p>As Korora is a Fedora Remix<a href="#footnote_1"><sup>1</sup></a>, the unofficial Fedora Forum is also a great place to go for good community support.</p>
+          <p>Korora currently comes with the option of two desktops, both of which have their own user forum too. Depending on your version, visit either that for KDE or GNOME.</p>
+          <h3>Join us on IRC (Internet Relay Chat)</h3>
+          <p>Another option is to join us on IRC by joining our #korora channel on the chat.freenode.net servers.
+          <h3>Sign up to a mailing list</h3>
+          <p>Another way to get help is to email questions to a Fedora mailing list (you can also search the history for past discussions). Simply sign up to the list you prefer and follow the instructions. There is a list dedicated to KDE as well as a general list for users. Remember, Korora is a Fedora Remix!</p>
+          <h2>Other resources</h2>
+          <ul>
+            <li>Fedora Project - official, unmodified Fedora packages available from here.</li>
+            <li>Fedora People Repositories - extra software not in the regular repositories, built by community developers.</li>
+            <li>Fedora FAQ - unofficial Frequently Asked Questions, tips and tricks.</li>
+            <li>KDE userbase documentation - introduction, help, applications, tutorials.</li>
+            <li>GNOME Documentation Library - user guides and documentation.</li>
+            <li>KDE eye candy - themes, icons, etc.</li>
+            <li>GNOME eye candy - themes, icons, etc.</li>
+            <li>GNOME Shell Extensions - install lots of extensions for GNOME, make it your desktop!</li>
+            <li>User contributed</li>
+            <li>Jim's (ozjd) KDE Tips Page - tips and hints for tweaking KDE.</li>
+        </ul>
+          <h2>Suggestions</h2>
+          Got a suggestion on how we can make Korora better? Found a great package you want included, or want to
+          help out? Please let us know, by posting your suggestion on the forum or drop by on IRC.
+          Thank you!
+          <p>We hope you enjoy using Korora!</p>
+          <div class="alert alert-info">
+            <p><a name="footnote_1"><sup>1</sup></a>Korora is not provided or supported by the Fedora Project. Official, unmodified Fedora software is available through the Fedora Project website.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="bottom">
+      <div class="footer-content">
+        <div class="form pull-right">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/angular.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      var $nav = $('#navigation');
+      $nav.css('left', -$nav.outerWidth());
+      $nav.show();
+      $nav.delay(250).animate({ left: 0 }, 500);
+    });
+  </script>
+</body>
+</html>
