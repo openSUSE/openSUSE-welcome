@@ -1,14 +1,28 @@
 #!/usr/bin/python
 #
+# Copyright 2012-2013 "Korora Project" <dev@kororaproject.org>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the temms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
 import inspect
 import os
 import json
 import signal
-import time
-import webbrowser
+import sys
 import urllib
+import webbrowser
 
 from simplejson import dumps as to_json
 
@@ -17,17 +31,21 @@ from gi.repository import WebKit
 
 class WelcomeConfig(object):
   def __init__(self):
+    # store full path to our binary
     self._welcome_bin_path = os.path.abspath(inspect.getfile(inspect.currentframe()))
+
+    # store directory to our welcome configuration
     self._config_dir = os.path.expanduser("~/.config/korora/welcome/")
+
+    # store full path to our autostart symlink
     self._autostart_path = os.path.expanduser("~/.config/autostart/welcome")
 
     # ensure our config directory exists
     if not os.path.exists( self._config_dir ):
-      print("Creating path: %s" % self._config_dir)
-      os.makedirs( self._config_dir )
-    else:
-      print("Config path exists: %s" % self._config_dir)
-
+      try:
+        os.makedirs( self._config_dir )
+      except OSError, e:
+        pass
 
     # does autostart symlink exist
     self._autostart = os.path.exists( self._autostart_path )
@@ -39,16 +57,23 @@ class WelcomeConfig(object):
   @autostart.setter
   def autostart(self, state):
     if( state and not os.path.exists( self._autostart_path ) ):
-      print("Setting up symlink")
-      os.symlink( self._welcome_bin_path, self._autostart_path )
+      # create the autostart symlink
+      try:
+        os.symlink( self._welcome_bin_path, self._autostart_path )
+      except OSError, e:
+        pass
     elif( not state and os.path.exists( self._autostart_path ) ):
-      print("Tearing down symlink")
-      os.unlink( self._autostart_path )
+      # remove the autostart symlink
+      try:
+        os.unlink( self._autostart_path )
+      except OSError, e:
+        pass
 
+    # determine autostart state based on symlink existence
     self._autostart = os.path.exists( self._autostart_path )
 
 
-class BrowserPage(WebKit.WebView):
+class KororaAppView(WebKit.WebView):
   def __init__(self):
     WebKit.WebView.__init__(self)
 
@@ -58,10 +83,14 @@ class BrowserPage(WebKit.WebView):
     self.connect("navigation-policy-decision-requested",self._nav_request_policy_decision_cb)
     self.l_uri = None
 
+  def _push_config(self):
+    # TODO: push notification should be connected to angularjs and use a broadcast event
+    # any suitable controllers will be able to listen and respond accordingly, for now
+    # we just use jQuery to manually toggle
+    self.execute_script("$('#autostart').toggleClass('icon-check', %s).toggleClass('icon-check-empty', %s)" % (to_json(self._config.autostart), to_json(not self._config.autostart)))
 
   def _load_finished_cb(self, view, frame):
-    # on page load, provide our config
-    self.execute_script("$('#autostart').toggleClass('icon-check', %s).toggleClass('icon-check-empty', %s)" % (to_json(self._config.autostart), to_json(not self._config.autostart)))
+    self._push_config()
 
   def _nav_request_policy_decision_cb(self,view,frame,net_req,nav_act,pol_dec):
     uri = net_req.get_uri()
@@ -94,24 +123,39 @@ class BrowserPage(WebKit.WebView):
 
     if( uri == "close" ):
       Gtk.main_quit();
+
     elif( uri == 'toggle-startup' ):
       # toggle autostart
       self._config.autostart ^= True
 
-      # does symlink exist
-      self.execute_script("$('#autostart').toggleClass('icon-check', %s).toggleClass('icon-check-empty', %s)" % (to_json(self._config.autostart), to_json(not self._config.autostart)))
-
-
-
-
+      self._push_config()
 
     elif( uri.startswith("link?") ):
       webbrowser.open_new_tab(uri[5:])
+
     else:
       print("unknown commanad: %s" % uri)
 
+
 class WelcomeApp(object):
   def __init__(self):
+
+    # establish our location
+    self._location = os.path.dirname( os.path.abspath(inspect.getfile(inspect.currentframe())) )
+
+    # check for relative path
+    if( os.path.exists( os.path.join(self._location, 'data/' ) ) ):
+      print("Using relative path for data source. Non-production testing.")
+      self._data_path = os.path.join(self._location, 'data/')
+    elif( os.path.exists('/usr/share/korora-welcome/data/') ):
+      self._data_path = '/usr/share/korora-welcome/data/'
+    else:
+      print("Unable to source the korora-welcome data directory.")
+      sys.exit(1)
+
+    self._build_app()
+
+  def _build_app(self):
     # build window
     w = Gtk.Window()
     w.set_position(Gtk.WindowPosition.CENTER)
@@ -119,27 +163,29 @@ class WelcomeApp(object):
     w.set_size_request(768,496)
 
     # build webkit container
-    wv = BrowserPage()
+    kv = KororaAppView()
 
     # load our index file
-    file = os.path.abspath('data/index.html')
+    file = os.path.abspath( os.path.join( self._data_path, 'index.html') )
     uri = 'file://' + urllib.pathname2url(file)
-    wv.open(uri)
+    kv.open(uri)
 
+    # build scrolled window widget and add our appview container
     sw = Gtk.ScrolledWindow()
     sw.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
-    sw.add(wv)
+    sw.add(kv)
 
+    # build a an autoexpanding box and add our scrolled window
     b = Gtk.VBox(homogeneous=False, spacing=0)
     b.pack_start(sw, expand=True, fill=True, padding=0)
 
+    # add the box to the parent window and show
     w.add(b)
-
     w.connect("delete-event", self.close)
     w.show_all()
 
     self._window = w
-    self._webView = wv
+    self._appView = kv
 
   def run(self):
     signal.signal(signal.SIGINT, signal.SIG_DFL)
@@ -150,6 +196,5 @@ class WelcomeApp(object):
 
 
 app = WelcomeApp()
-
 app.run()
 
