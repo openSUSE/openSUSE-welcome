@@ -38,7 +38,7 @@ class WelcomeConfig(object):
     self._config_dir = os.path.expanduser("~/.config/korora/welcome/")
 
     # store full path to our autostart symlink
-    self._autostart_path = os.path.expanduser("~/.config/autostart/welcome")
+    self._autostart_path = os.path.expanduser("~/.config/autostart/korora-welcome.desktop")
 
     # ensure our config directory exists
     if not os.path.exists( self._config_dir ):
@@ -57,9 +57,9 @@ class WelcomeConfig(object):
   @autostart.setter
   def autostart(self, state):
     if( state and not os.path.exists( self._autostart_path ) ):
-      # create the autostart symlink
+      # create the autostart .desktop file
       try:
-        os.symlink( self._welcome_bin_path, self._autostart_path )
+        os.symlink( '/usr/share/applications/korora-welcome.desktop', self._autostart_path )
       except OSError, e:
         pass
     elif( not state and os.path.exists( self._autostart_path ) ):
@@ -159,7 +159,8 @@ class WelcomeApp(object):
     # build window
     w = Gtk.Window()
     w.set_position(Gtk.WindowPosition.CENTER)
-    w.set_title("Welcome")
+    w.set_wmclass("Korora Welcome", "Korora Welcome")
+    w.set_title("Korora Welcome")
     w.set_size_request(768,496)
 
     # build webkit container
