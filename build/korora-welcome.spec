@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        18.0
+Version:        19.0
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -53,6 +53,9 @@ fi
 %{_datadir}/applications/korora-welcome.desktop
 
 %changelog
-* Fri Mar 15 2013 Ian Firns <firnsy@kororaproject.org> - 0.18.0-1
+* Sun May 12 2013 Ian Firns <firnsy@kororaproject.org> - 19.0-1
+- Updated for Korora 19 release.
+
+* Fri Mar 15 2013 Ian Firns <firnsy@kororaproject.org> - 18.0-1
 - Initial version.
 
