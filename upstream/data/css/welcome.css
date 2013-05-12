@@ -33,8 +33,8 @@ body, button {
 }
 
 p.no-space {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
 .center {
@@ -51,8 +51,10 @@ p.no-space {
 */
 
 #header {
-  background: url("../img/header-bg.png");
+  background: url("../img/footer-bg.jpg");
   padding: 0;
+
+  color: #f0f0f0;
 }
 
 #header h1 {
@@ -60,22 +62,45 @@ p.no-space {
   line-height: 64px;
   text-align: center;
 
-  color: rgba(0,0,0,0.6);
-  text-shadow: 2px 4px 8px rgba(0,0,0,0.2),
-               0px -5px 35px rgba(255,255,255,0.3);
+  color: #ffffff;
 
-  font-variant: small-caps;
+  text-shadow: 2px 4px 8px rgba(0,0,0,0.4),
+               0px -5px 35px rgba(64,64,64,0.8);
+
+  font-weight: normal;
+}
+
+#header h2 {
+  margin-left: 16px;
+  line-height: 16px;
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 2px 4px 8px rgba(0,0,0,0.4),
+               0px -5px 35px rgba(64,64,64,0.8);
+
+  margin-top: -16px;
+
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#header p {
+  margin: 0 16px 8px 16px;
+}
+
+#header span.whitespace {
+  margin-right: 16px;
 }
 
 #header .title {
-  margin-left: 0;
-  text-align: left;
 }
 
 #header .logo {
-  margin-top: 20px;
-  width: 160px;
-  max-width: 160px
+  margin-right: 16px;
+  width: 64px;
+  max-width: 64px
 }
 
 /*
@@ -117,7 +142,7 @@ p.no-space {
 }
 
 #navigation ul li a {
-  color: inherit;
+  color: #333333;
 }
 
 #navigation ul li a:hover {
@@ -134,7 +159,6 @@ p.no-space {
 
 .divider {
   padding-top: 16px;
-  border-top: 1px solid #ccc;
   background: url("../img/header-shadow.png") center 0 no-repeat;
 }
 
