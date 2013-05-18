@@ -38,7 +38,7 @@ class WelcomeConfig(object):
     self._config_dir = os.path.expanduser("~/.config/korora/welcome/")
 
     # store full path to our autostart symlink
-    self._autostart_path = os.path.expanduser("~/.config/autostart/korora-welcome.desktop")
+    self._autostart_path = os.path.expanduser("~/.config/korora-welcome-disable")
 
     # ensure our config directory exists
     if not os.path.exists( self._config_dir ):
@@ -57,20 +57,20 @@ class WelcomeConfig(object):
   @autostart.setter
   def autostart(self, state):
     if( state and not os.path.exists( self._autostart_path ) ):
-      # create the autostart .desktop file
-      try:
-        os.symlink( '/usr/share/applications/korora-welcome.desktop', self._autostart_path )
-      except OSError, e:
-        pass
-    elif( not state and os.path.exists( self._autostart_path ) ):
       # remove the autostart symlink
       try:
         os.unlink( self._autostart_path )
       except OSError, e:
         pass
+    elif( not state and os.path.exists( self._autostart_path ) ):
+      # create the disable file
+      try:
+        open(self._autostart_path, 'w').close()
+      except OSError, e:
+        pass
 
-    # determine autostart state based on symlink existence
-    self._autostart = os.path.exists( self._autostart_path )
+    # determine autostart state based on absence of the disable file
+    self._autostart = not os.path.exists( self._autostart_path )
 
 
 class KororaAppView(WebKit.WebView):

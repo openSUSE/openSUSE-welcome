@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        19.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -25,10 +25,12 @@ mkdir -p %{buildroot}%{_datadir}/%{name}
 mkdir -p %{buildroot}%{_datadir}/icons/hicolor
 mkdir -p %{buildroot}%{_datadir}/applications
 mkdir -p %{buildroot}%{_bindir}
+mkdir -p %{buildroot}/etc/xdg/autostart
 
 cp -a data/* %{buildroot}%{_datadir}/%{name}
 cp -a icons/* %{buildroot}%{_datadir}/icons/hicolor/
 install -p -m 644 korora-welcome.desktop %{buildroot}%{_datadir}/applications/korora-welcome.desktop
+install -p -m 644 korora-welcome.desktop %{buildroot}/etc/xdg/autostart/korora-welcome.desktop
 install -p -m 755 korora-welcome %{buildroot}%{_bindir}/korora-welcome
 
 # validate desktop file
@@ -51,6 +53,7 @@ fi
 %{_datadir}/%{name}
 %{_datadir}/icons/hicolor/*/*/*
 %{_datadir}/applications/korora-welcome.desktop
+/etc/xdg/autostart/korora-welcome.desktop
 
 %changelog
 * Sun May 12 2013 Ian Firns <firnsy@kororaproject.org> - 19.0-1
