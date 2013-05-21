@@ -48,7 +48,7 @@ class WelcomeConfig(object):
         pass
 
     # does autostart symlink exist
-    self._autostart = os.path.exists( self._autostart_path )
+    self._autostart = not os.path.exists( self._autostart_path )
 
   @property
   def autostart(self):
@@ -56,13 +56,13 @@ class WelcomeConfig(object):
 
   @autostart.setter
   def autostart(self, state):
-    if( state and not os.path.exists( self._autostart_path ) ):
+    if( state and os.path.exists( self._autostart_path ) ):
       # remove the autostart symlink
       try:
         os.unlink( self._autostart_path )
       except OSError, e:
         pass
-    elif( not state and os.path.exists( self._autostart_path ) ):
+    elif( not state and not os.path.exists( self._autostart_path ) ):
       # create the disable file
       try:
         open(self._autostart_path, 'w').close()
