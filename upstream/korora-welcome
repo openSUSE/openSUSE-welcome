@@ -23,6 +23,7 @@ import signal
 import sys
 import urllib
 import webbrowser
+import yum
 
 from simplejson import dumps as to_json
 
@@ -31,14 +32,37 @@ from gi.repository import WebKit
 
 class WelcomeConfig(object):
   def __init__(self):
+    yb = yum.YumBase()
+
+    # store our base architecture
+    if yb.conf.yumvar['basearch'] in ['i386', 'i686']:
+      self._arch = '32-bit'
+    else:
+      self._arch = '64-bit'
+
+    # store our release version
+    self._version = yb.conf.yumvar['releasever']
+
+    # store our codename
+    self._codename = ""
+    try:
+      f = open('/etc/fedora-release', 'r')
+      c = f.readline()
+
+      # trim what's between the first '(' and last ')'
+      self._codename = c[c.index('(')+1:c.rindex(')')]
+      f.close()
+    except IOEerror, e:
+      print "IO error: ", e
+
     # store full path to our binary
     self._welcome_bin_path = os.path.abspath(inspect.getfile(inspect.currentframe()))
 
     # store directory to our welcome configuration
-    self._config_dir = os.path.expanduser("~/.config/korora/welcome/")
+    self._config_dir = os.path.expanduser('~/.config/korora/welcome/')
 
     # store full path to our autostart symlink
-    self._autostart_path = os.path.expanduser("~/.config/korora-welcome-disable")
+    self._autostart_path = os.path.expanduser('~/.config/korora-welcome-disable')
 
     # ensure our config directory exists
     if not os.path.exists( self._config_dir ):
@@ -49,6 +73,10 @@ class WelcomeConfig(object):
 
     # does autostart symlink exist
     self._autostart = not os.path.exists( self._autostart_path )
+
+  @property
+  def arch(self):
+    return self._arch
 
   @property
   def autostart(self):
@@ -72,6 +100,14 @@ class WelcomeConfig(object):
     # determine autostart state based on absence of the disable file
     self._autostart = not os.path.exists( self._autostart_path )
 
+  @property
+  def codename(self):
+    return self._codename
+
+  @property
+  def version(self):
+    return self._version
+
 
 class KororaAppView(WebKit.WebView):
   def __init__(self):
@@ -79,15 +115,19 @@ class KororaAppView(WebKit.WebView):
 
     self._config = WelcomeConfig()
 
-    self.connect("load-finished",self._load_finished_cb)
-    self.connect("navigation-policy-decision-requested",self._nav_request_policy_decision_cb)
+    self.connect('load-finished', self._load_finished_cb)
+    self.connect('navigation-policy-decision-requested', self._nav_request_policy_decision_cb)
     self.l_uri = None
 
   def _push_config(self):
     # TODO: push notification should be connected to angularjs and use a broadcast event
     # any suitable controllers will be able to listen and respond accordingly, for now
     # we just use jQuery to manually toggle
+
+    self.execute_script("$('#arch').html('%s')" % (self._config.arch))
     self.execute_script("$('#autostart').toggleClass('icon-check', %s).toggleClass('icon-check-empty', %s)" % (to_json(self._config.autostart), to_json(not self._config.autostart)))
+    self.execute_script("$('#codename').html('%s')" % (to_json(self._config.codename)))
+    self.execute_script("$('#version').html('%s')" % (self._config.version))
 
   def _load_finished_cb(self, view, frame):
     self._push_config()
@@ -121,7 +161,7 @@ class KororaAppView(WebKit.WebView):
     if( uri.startswith('cmd://') ):
       uri = uri[6:]
 
-    if( uri == "close" ):
+    if( uri == 'close' ):
       Gtk.main_quit();
 
     elif( uri == 'toggle-startup' ):
@@ -134,7 +174,7 @@ class KororaAppView(WebKit.WebView):
       webbrowser.open_new_tab(uri[5:])
 
     else:
-      print("unknown commanad: %s" % uri)
+      print('Unknown commanad: %s' % uri)
 
 
 class WelcomeApp(object):
@@ -145,12 +185,12 @@ class WelcomeApp(object):
 
     # check for relative path
     if( os.path.exists( os.path.join(self._location, 'data/' ) ) ):
-      print("Using relative path for data source. Non-production testing.")
+      print('Using relative path for data source. Non-production testing.')
       self._data_path = os.path.join(self._location, 'data/')
     elif( os.path.exists('/usr/share/korora-welcome/') ):
       self._data_path = '/usr/share/korora-welcome/'
     else:
-      print("Unable to source the korora-welcome data directory.")
+      print('Unable to source the korora-welcome data directory.')
       sys.exit(1)
 
     self._build_app()
@@ -159,9 +199,9 @@ class WelcomeApp(object):
     # build window
     w = Gtk.Window()
     w.set_position(Gtk.WindowPosition.CENTER)
-    w.set_wmclass("Korora Welcome", "Korora Welcome")
-    w.set_title("Korora Welcome")
-    w.set_size_request(768,496)
+    w.set_wmclass('Korora Welcome', 'Korora Welcome')
+    w.set_title('Korora Welcome')
+    w.set_size_request(768, 496)
 
     # build webkit container
     kv = KororaAppView()
@@ -182,7 +222,7 @@ class WelcomeApp(object):
 
     # add the box to the parent window and show
     w.add(b)
-    w.connect("delete-event", self.close)
+    w.connect('delete-event', self.close)
     w.show_all()
 
     self._window = w

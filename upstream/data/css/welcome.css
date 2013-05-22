@@ -80,7 +80,7 @@ p.no-space {
   text-shadow: 2px 4px 8px rgba(0,0,0,0.4),
                0px -5px 35px rgba(64,64,64,0.8);
 
-  margin-top: -16px;
+  margin-top: -8px;
 
   font-size: 16px;
   font-weight: normal;
@@ -95,6 +95,16 @@ p.no-space {
 }
 
 #header .title {
+  margin-bottom: 8px;
+}
+
+#header .subtitle {
+  margin-bottom: 0;
+}
+
+#header .summary {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 #header .logo {
