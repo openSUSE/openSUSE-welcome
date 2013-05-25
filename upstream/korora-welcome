@@ -27,8 +27,7 @@ import yum
 
 from simplejson import dumps as to_json
 
-from gi.repository import Gtk
-from gi.repository import WebKit
+from gi.repository import WebKit, Gtk
 
 class WelcomeConfig(object):
   def __init__(self):
