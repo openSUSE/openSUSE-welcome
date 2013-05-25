@@ -56,7 +56,7 @@ fi
 /etc/xdg/autostart/korora-welcome.desktop
 
 %changelog
-* Sun May 12 2013 Ian Firns <firnsy@kororaproject.org> - 19.0-1
+* Sun May 12 2013 Ian Firns <firnsy@kororaproject.org> - 19.0-2
 - Updated for Korora 19 release.
 
 * Fri Mar 15 2013 Ian Firns <firnsy@kororaproject.org> - 18.0-1
