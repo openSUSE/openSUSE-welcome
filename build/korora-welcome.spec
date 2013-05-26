@@ -1,6 +1,6 @@
 Name:           korora-welcome
-Version:        19.0
-Release:        2%{?dist}
+Version:        19.1
+Release:        1%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -56,6 +56,9 @@ fi
 /etc/xdg/autostart/korora-welcome.desktop
 
 %changelog
+* Sun May 26 2013 Ian Firns <firnsy@kororaproject.org> - 19.1-1
+- Lighter header and social icons added.
+
 * Sun May 12 2013 Ian Firns <firnsy@kororaproject.org> - 19.0-2
 - Updated for Korora 19 release.
 

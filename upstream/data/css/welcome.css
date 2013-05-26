@@ -51,10 +51,12 @@ p.no-space {
 */
 
 #header {
-  background: url("../img/footer-bg.jpg");
-  padding: 0;
+  padding: 8px 0;
+  background-color: rgba(208, 208, 208, 0.25);
+}
 
-  color: #f0f0f0;
+#header .logo {
+  height: 64px;
 }
 
 #header h1 {
@@ -62,10 +64,8 @@ p.no-space {
   line-height: 64px;
   text-align: center;
 
-  color: #ffffff;
-
   text-shadow: 2px 4px 8px rgba(0,0,0,0.4),
-               0px -5px 35px rgba(64,64,64,0.8);
+               0px -5px 35px rgba(255,255,255,0.8);
 
   font-weight: normal;
 }
@@ -75,42 +75,29 @@ p.no-space {
   line-height: 16px;
   text-align: center;
 
-  color: #ffffff;
-
   text-shadow: 2px 4px 8px rgba(0,0,0,0.4),
-               0px -5px 35px rgba(64,64,64,0.8);
-
-  margin-top: -8px;
+               0px -5px 35px rgba(255,255,255,0.8);
 
   font-size: 16px;
   font-weight: normal;
 }
 
-#header p {
+#header .system-information {
+  margin: 12px 8px 8px 8px;
+}
+
+#header .system-information p {
+  margin: 0px;
+  text-align: right;
+}
+
+#header .summary p {
   margin: 0 16px 8px 16px;
 }
 
-#header span.whitespace {
-  margin-right: 16px;
-}
-
-#header .title {
-  margin-bottom: 8px;
-}
-
-#header .subtitle {
-  margin-bottom: 0;
-}
-
 #header .summary {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-#header .logo {
-  margin-right: 16px;
-  width: 64px;
-  max-width: 64px
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 /*
@@ -219,7 +206,7 @@ p.no-space {
   right: 8px;
 }
 
-#footer a {
+#footer .form a {
   color: #fff;
   text-decoration: none;
   margin-right: 8px;
@@ -233,4 +220,31 @@ p.no-space {
   vertical-align: middle;
   margin-right: 8px;
   color: #fff;
+}
+
+#toggle_autostart {
+  margin-top: 8px;
+}
+
+#social {
+  margin: 6px 0px 0 0;
+}
+
+#social img {
+  position: relative;
+  top: 0px;
+  opacity: 0.7;
+
+  -webkit-backface-visibility: hidden;
+  transition: all 0.2s ease-in-out;
+
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-delay: initial;
+}
+
+#social img:hover {
+  top: -4px;
+  opacity: 1.0;
 }
