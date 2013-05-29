@@ -71,7 +71,7 @@ class WelcomeConfig(object):
         pass
 
     # does autostart symlink exist
-    self._autostart = not os.path.exists( self._autostart_path )
+    self._autostart = os.path.exists( self._autostart_path )
 
   @property
   def arch(self):
@@ -97,7 +97,7 @@ class WelcomeConfig(object):
         pass
 
     # determine autostart state based on absence of the disable file
-    self._autostart = not os.path.exists( self._autostart_path )
+    self._autostart = os.path.exists( self._autostart_path )
 
   @property
   def codename(self):
