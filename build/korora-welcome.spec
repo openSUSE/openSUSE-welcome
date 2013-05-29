@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        19.1
+Version:        19.2
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -25,12 +25,12 @@ mkdir -p %{buildroot}%{_datadir}/%{name}
 mkdir -p %{buildroot}%{_datadir}/icons/hicolor
 mkdir -p %{buildroot}%{_datadir}/applications
 mkdir -p %{buildroot}%{_bindir}
-mkdir -p %{buildroot}/etc/xdg/autostart
+mkdir -p %{buildroot}/etc/skel/.config/autostart
 
 cp -a data/* %{buildroot}%{_datadir}/%{name}
 cp -a icons/* %{buildroot}%{_datadir}/icons/hicolor/
 install -p -m 644 korora-welcome.desktop %{buildroot}%{_datadir}/applications/korora-welcome.desktop
-install -p -m 644 korora-welcome.desktop %{buildroot}/etc/xdg/autostart/korora-welcome.desktop
+install -p -m 644 korora-welcome.desktop %{buildroot}/etc/skel/.config/autostart/korora-welcome.desktop
 install -p -m 755 korora-welcome %{buildroot}%{_bindir}/korora-welcome
 
 # validate desktop file
@@ -53,9 +53,12 @@ fi
 %{_datadir}/%{name}
 %{_datadir}/icons/hicolor/*/*/*
 %{_datadir}/applications/korora-welcome.desktop
-/etc/xdg/autostart/korora-welcome.desktop
+/etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Wed May 29 2013 Ian Firns <firnsy@kororaproject.org> - 19.2-1
+- Moved autostart to skeleton profile.
+
 * Sun May 26 2013 Ian Firns <firnsy@kororaproject.org> - 19.1-1
 - Lighter header and social icons added.
 
