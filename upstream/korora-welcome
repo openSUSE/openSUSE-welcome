@@ -20,6 +20,7 @@ import inspect
 import os
 import json
 import signal
+import subprocess
 import sys
 import urllib
 import webbrowser
@@ -32,6 +33,12 @@ from gi.repository import WebKit, Gtk
 class WelcomeConfig(object):
   def __init__(self):
     yb = yum.YumBase()
+
+    # store we are a live CD session
+    self._live = ( os.getlogin() == 'liveuser' )
+
+    # store desktop session
+    self._desktop = os.environ['DESKTOP_SESSION'].upper()
 
     # store our base architecture
     if yb.conf.yumvar['basearch'] in ['i386', 'i686']:
@@ -104,6 +111,14 @@ class WelcomeConfig(object):
     return self._codename
 
   @property
+  def desktop(self):
+    return self._desktop
+
+  @property
+  def live(self):
+    return self._live
+
+  @property
   def version(self):
     return self._version
 
@@ -125,8 +140,18 @@ class KororaAppView(WebKit.WebView):
 
     self.execute_script("$('#arch').html('%s')" % (self._config.arch))
     self.execute_script("$('#autostart').toggleClass('icon-check', %s).toggleClass('icon-check-empty', %s)" % (to_json(self._config.autostart), to_json(not self._config.autostart)))
+
+    if self._config.desktop == 'GNOME':
+      self.execute_script("$('#gnome_help').toggleClass('hide', false);")
+    elif self._config.desktop == 'KDE':
+      self.execute_script("$('#kde_help').toggleClass('hide', false))")
+
     self.execute_script("$('#codename').html('%s')" % (to_json(self._config.codename)))
+    self.execute_script("$('#desktop').html('%s')" % (to_json(self._config.desktop)))
     self.execute_script("$('#version').html('%s')" % (self._config.version))
+
+    if self._config.live:
+      self.execute_script("$('#install').toggleClass('hide', false);")
 
   def _load_finished_cb(self, view, frame):
     self._push_config()
@@ -160,7 +185,16 @@ class KororaAppView(WebKit.WebView):
     if( uri.startswith('cmd://') ):
       uri = uri[6:]
 
-    if( uri == 'close' ):
+    if( uri == 'gnome-help' ):
+      subprocess.Popen(['yelp'])
+
+    elif( uri == 'kde-help' ):
+      subprocess.Popen(['khelpcenter'])
+
+    elif( uri == 'install' ):
+      subprocess.Popen(['/usr/bin/liveinst'])
+
+    elif( uri == 'close' ):
       Gtk.main_quit();
 
     elif( uri == 'toggle-startup' ):
