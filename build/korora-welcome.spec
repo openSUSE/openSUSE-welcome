@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        19.3
+Version:        19.4
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Wed Jun 26 2013 Ian Firns <firnsy@kororaproject.org> - 19.4-1
+- Updated feature list.
+
 * Tue Jun 25 2013 Ian Firns <firnsy@kororaproject.org> - 19.3-1
 - Updated home button size. Added launchers for desktop specific help and
   installation on live sessions.
