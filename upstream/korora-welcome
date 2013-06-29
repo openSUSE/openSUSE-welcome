@@ -38,7 +38,7 @@ class WelcomeConfig(object):
     self._live = ( os.getlogin() == 'liveuser' )
 
     # store desktop session
-    self._desktop = os.environ['DESKTOP_SESSION'].upper()
+    self._desktop = os.environ['XDG_MENU_PREFIX'].upper()[:-1]
 
     # store our base architecture
     if yb.conf.yumvar['basearch'] in ['i386', 'i686']:
