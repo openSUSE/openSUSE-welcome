@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        19.5
+Version:        19.6
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Sat Jun 29 2013 Ian Firns <firnsy@kororaproject.org> - 19.6-1
+- Fixed KDE desktop detection and button display.
+
 * Sat Jun 29 2013 Ian Firns <firnsy@kororaproject.org> - 19.5-1
 - Fixed desktop detection.
 

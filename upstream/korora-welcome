@@ -38,7 +38,12 @@ class WelcomeConfig(object):
     self._live = ( os.getlogin() == 'liveuser' )
 
     # store desktop session
-    self._desktop = os.environ['XDG_MENU_PREFIX'].upper()[:-1]
+    if 'gnome' in os.environ['DESKTOP_SESSION'].lower():
+      self._desktop = 'GNOME'
+    elif 'kde' in os.environ['XDG_CURRENT_DESKTOP'].lower():
+      self._desktop = 'KDE'
+    else:
+      self._desktop = 'UNKNOWN'
 
     # store our base architecture
     if yb.conf.yumvar['basearch'] in ['i386', 'i686']:
@@ -144,7 +149,7 @@ class KororaAppView(WebKit.WebView):
     if self._config.desktop == 'GNOME':
       self.execute_script("$('#gnome_help').toggleClass('hide', false);")
     elif self._config.desktop == 'KDE':
-      self.execute_script("$('#kde_help').toggleClass('hide', false))")
+      self.execute_script("$('#kde_help').toggleClass('hide', false);")
 
     self.execute_script("$('#codename').html('%s')" % (to_json(self._config.codename)))
     self.execute_script("$('#desktop').html('%s')" % (to_json(self._config.desktop)))
