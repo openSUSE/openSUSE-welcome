@@ -38,10 +38,12 @@ class WelcomeConfig(object):
     self._live = ( os.getlogin() == 'liveuser' )
 
     # store desktop session
-    if 'gnome' in os.environ['DESKTOP_SESSION'].lower():
-      self._desktop = 'GNOME'
-    elif 'kde' in os.environ['XDG_CURRENT_DESKTOP'].lower():
-      self._desktop = 'KDE'
+    if 'DESKTOP_SESSION' in os.environ and not 'default' in os.environ['DESKTOP_SESSION'].lower():
+      self._desktop = os.environ['DESKTOP_SESSION'].upper()
+    elif 'GDMSESSION' in os.environ and not 'default' in os.environ['GDMSESSION']:
+      self._desktop = os.environ['GDMSESSION'].upper()
+    elif 'XDG_CURRENT_DESKTOP' in os.environ and not 'default' in os.environ['XDG_CURRENT_DESKTOP']:
+      self._desktop = os.environ['XDG_CURRENT_DESKTOP'].upper()
     else:
       self._desktop = 'UNKNOWN'
 
