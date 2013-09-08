@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        19.6
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Sun Sep 8 2013 Chris Smart <csmart@kororaproject.org> - 19.6-3
+- Add links to resources in readme.html
+
 * Sat Sep 7 2013 Chris Smart <csmart@kororaproject.org> - 19.6-2
 - Add support for other desktops, including MATE and Cinnamon
 
