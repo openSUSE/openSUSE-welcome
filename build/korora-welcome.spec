@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        19.6
-Release:        3%{?dist}
+Release:        4%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Sun Sep 8 2013 Chris Smart <csmart@kororaproject.org> - 19.6-4
+- Update and add links to resources in involved.html
+
 * Sun Sep 8 2013 Chris Smart <csmart@kororaproject.org> - 19.6-3
 - Add links to resources in readme.html
 
