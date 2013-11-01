@@ -144,10 +144,13 @@ class KororaAppView(WebKit.WebView):
   def __init__(self):
     WebKit.WebView.__init__(self)
 
+    # load the config object
     self._config = WelcomeConfig()
 
+    # register signals
     self.connect('load-finished', self._load_finished_cb)
     self.connect('navigation-policy-decision-requested', self._nav_request_policy_decision_cb)
+
     self.l_uri = None
 
   def _push_config(self):
@@ -155,36 +158,48 @@ class KororaAppView(WebKit.WebView):
     self.execute_script("app_rs.$apply( function() { app_rs.$broadcast('configUpdate', %s) });" % to_json(self._config.toDict()) )
 
   def _load_finished_cb(self, view, frame):
+    # push config on every page load
     self._push_config()
 
   def _nav_request_policy_decision_cb(self,view,frame,net_req,nav_act,pol_dec):
+    # grab the requested URI
     uri = net_req.get_uri()
 
+    # TODO: improve separation of HTML5 hash bang versus inline anchors
     try:
       if uri.index('#') > 0:
         uri = uri[:uri.index('#')]
     except ValueError:
       pass
 
+    # don't reload ourself ( side effect of managing inline anchors )
     if uri == self.l_uri:
       pol_dec.use()
       return True
+    # TODO: end
 
+    # process command URIs
     if uri.startswith('cmd://'):
       self._do_command(uri)
       return True
 
+    # store the requested URI for later self checks
     self.l_uri = uri
 
+    # we have a legitimate page so let's load
     page = urllib.urlopen(uri)
     frame.load_string(page.read(),"text/html","iso-8859-15",page.geturl())
     pol_dec.ignore()
+
     return True
 
   def _do_command(self, uri):
+    # validate the command URI
+    if( not uri.startswith('cmd://') ):
+      print('Invalid command URI: %s' % uri)
 
-    if( uri.startswith('cmd://') ):
-      uri = uri[6:]
+    # strip command prefix "cmd://"
+    uri = uri[6:]
 
     if( uri == 'gnome-help' ):
       subprocess.Popen(['yelp'])
@@ -202,13 +217,15 @@ class KororaAppView(WebKit.WebView):
       # toggle autostart
       self._config.autostart ^= True
 
+      # update our config
       self._push_config()
 
+    # open links in a new tab in the default browser
     elif( uri.startswith("link?") ):
       webbrowser.open_new_tab(uri[5:])
 
     else:
-      print('Unknown commanad: %s' % uri)
+      print('Unknown commanad specified: %s' % uri)
 
 
 class WelcomeApp(object):
@@ -227,6 +244,7 @@ class WelcomeApp(object):
       print('Unable to source the korora-welcome data directory.')
       sys.exit(1)
 
+    # build the app window
     self._build_app()
 
   def _build_app(self):
@@ -250,7 +268,7 @@ class WelcomeApp(object):
     sw.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
     sw.add(kv)
 
-    # build a an autoexpanding box and add our scrolled window
+    # build an autoexpanding box and add our scrolled window
     b = Gtk.VBox(homogeneous=False, spacing=0)
     b.pack_start(sw, expand=True, fill=True, padding=0)
 
