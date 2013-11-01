@@ -1,74 +1,96 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="welcome">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
   <link href="css/welcome.css" rel="stylesheet" media="screen">
 </head>
-<body class="backdrop" ng-controller="WelcomeCtrl">
-  <div id="wrapper">
-    <div id="header" class="container-fluid">
-      <div class="row-fluid">
-        <div class="span6 offset3 center">
-          <a href="cmd://link?https://kororaproject.org/">
-            <img class="logo" src="./img/logo2.png"></img>
-          </a>
-        </div>
-        <div class="span3">
-          <div class="system-information">
-            <p><span class="label label-info" id="version">18</span> <span class="label label-info" id="codename">Flo</span></p>
-            <p><span class="label label-info" id="arch">64-bit</span> <span class="label label-info" id="desktop"></span></p>
+<body class="unselectable" ng-controller="WelcomeCtrl">
+  <div class="page-container">
+    <nav id="korobar" class="navbar navbar-default" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="kp-logo kp-logo-48">KORORA<span>PROJECT</span></div>
+      </div>
+
+      <!-- navigation content for toggling -->
+      <div class="collapse navbar-collapse navbar-primary-collapse">
+        <ul class="nav navbar-nav">
+        </ul>
+        <p class="navbar-text pull-right"><span class="label label-success">{{config.version}}</span> <span class="label label-success">{{config.codename}}</span> <span class="label label-success">{{config.arch}}</span> <span class="label label-success">{{config.desktop}}</span></p>
+        <ul class="nav navbar-nav navbar-right hide">
+          <li class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">user <b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="/">Settings</a></li>
+              <li><a href="/deauthenticate">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="page-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="summary">
+              <p>Welcome and thank you for choosing Korora! We hope that you will enjoy using it as much as we did building it. Please don't hesitate to send us your feedback.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row-fluid">
-        <div class="span12">
-          <div class="summary">
-            <p>Welcome and thank you for choosing Korora! We hope that you will enjoy using it as much as we did building it. Please don't hesitate to send us your feedback.</p>
+        <div class="row">
+          <div class="col-sm-4 btn-showcase">
+            <!--Body content-->
+            <h4>Documentation</h4>
+            <a class="btn btn-block btn-default" href="./readme.html"><i class="icon-book"></i> Read Me</a>
+            <a class="btn btn-block btn-info" href="./features.html"><i class="icon-star"></i> New Features</a>
+            <a class="btn btn-block btn-default" ng-show="isGNOME()" href="cmd://gnome-help"><i class="icon-question-sign"></i> GNOME Help</a>
+            <a class="btn btn-block btn-default" ng-show="isKDE()" href="cmd://kde-help"><i class="icon-question-sign"></i> KDE Help</a>
           </div>
-        </div>
-      </div>
-    </div>
-    <div id="content" class="container-fluid">
-      <div class="row-fluid divider">
-        <div class="span4 btn-showcase">
-          <!--Body content-->
-          <h4>Documentation</h4>
-          <a class="btn btn-block" href="./readme.html"><i class="icon-book"></i> Read Me</a>
-          <a class="btn btn-block btn-info" href="./features.html"><i class="icon-star"></i> New Features</a>
-          <a id="kde_help" class="btn btn-block hide" href="cmd://kde-help"><i class="icon-question-sign"></i> KDE Help</a>
-          <a id="gnome_help" class="btn btn-block hide" href="cmd://gnome-help"><i class="icon-question-sign"></i> GNOME Help</a>
-        </div>
-        <div class="span4 btn-showcase">
-          <h4>Support</h4>
-          <a href="cmd://link?https://kororaproject.org/forum/" class="btn btn-block"><i class="icon-group"></i> Forums</a>
-          <button class="btn btn-block hide"><i class="icon-comments"></i> Chat Room</button>
-        </div>
-        <div class="span4 btn-showcase">
-          <h4>Project</h4>
-          <a class="btn btn-block" href="./involved.html"><i class="icon-hand-up"></i> Get Involved</a>
-          <button class="btn btn-block hide"><i class="icon-gift"></i> Donations</button>
-          <a href="cmd://link?https://github.com/kororaproject/kp" class="btn btn-block btn-success"><i class="icon-github"></i> Build Korora</a>
-          <a id="install" href="cmd://install" class="btn btn-primary btn-block hide"><i class="icon-hdd"></i> Install Korora</a>
-        </div>
-      </div>
-    </div>
-    <div id="footer">
-      <div class="footer-content">
-        <div id="social" class="pull-left">
-          <a href="cmd://link?https://plus.google.com/u/0/113276359756252515026"><img src="img/social-google.png"></a>
-          <a href="cmd://link?http://facebook.com/kororaproject"><img src="img/social-facebook.png"></a>
-          <a href="cmd://link?http://identi.ca/kororaproject"><img src="img/social-identica.png"></a>
-          <a href="cmd://link?http://twitter.com/#!/kororaproject"><img src="img/social-twitter.png"></a>
-        </div>
-        <div class="form">
-          <a id="toggle_autostart" href="cmd://toggle-startup"><i id="autostart" class="icon icon-check"></i> Show this dialog on startup.</a>
-          <a href="cmd://close" class="btn btn-inverse">Close</a>
+          <div class="col-sm-4 btn-showcase">
+            <h4>Support</h4>
+            <a href="cmd://link?https://kororaproject.org/forum/" class="btn btn-block btn-default"><i class="icon-group"></i> Forums</a>
+            <button class="btn btn-block btn-default hide"><i class="icon-comments"></i> Chat Room</button>
+          </div>
+          <div class="col-sm-4 btn-showcase">
+            <h4>Project</h4>
+            <a class="btn btn-block btn-default" href="./involved.html"><i class="icon-hand-up"></i> Get Involved</a>
+            <button class="btn btn-block btn-default hide"><i class="icon-gift"></i> Donations</button>
+            <a href="cmd://link?https://github.com/kororaproject/kp" class="btn btn-block btn-success"><i class="icon-github-alt"></i> Build Korora</a>
+            <a href="cmd://install" class="btn btn-block btn-primary" ng-show="isLive()"><i class="icon-hdd"></i> Install Korora</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div id="social">
+            <a href="cmd://link?https://plus.google.com/u/0/113276359756252515026"><img src="img/social-google.png"></a>
+            <a href="cmd://link?http://facebook.com/kororaproject"><img src="img/social-facebook.png"></a>
+            <a href="cmd://link?http://identi.ca/kororaproject"><img src="img/social-identica.png"></a>
+            <a href="cmd://link?http://twitter.com/#!/kororaproject"><img src="img/social-twitter.png"></a>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="form">
+            <a href="cmd://toggle-startup"><i class="icon" ng-class="{'icon-check': isAutoStart(), 'icon-check-empty': !isAutoStart()}"></i> Show this dialog on startup.</a>
+            <a href="cmd://close" class="btn btn-dark">Close</a>
+          </div>
+          </div>
+        </div>
+    </div>
+  </footer>
   <script src="js/jquery.min.js"></script>
   <script src="js/angular.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

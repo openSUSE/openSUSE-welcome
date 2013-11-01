@@ -129,6 +129,16 @@ class WelcomeConfig(object):
   def version(self):
     return self._version
 
+  def toDict(self):
+    return {
+      'auto_start': self._autostart,
+      'arch':       self._arch,
+      'codename':   self._codename,
+      'desktop':    self._desktop,
+      'live':       self._live,
+      'version':    self._version
+    }
+
 
 class KororaAppView(WebKit.WebView):
   def __init__(self):
@@ -141,24 +151,8 @@ class KororaAppView(WebKit.WebView):
     self.l_uri = None
 
   def _push_config(self):
-    # TODO: push notification should be connected to angularjs and use a broadcast event
-    # any suitable controllers will be able to listen and respond accordingly, for now
-    # we just use jQuery to manually toggle
-
-    self.execute_script("$('#arch').html('%s')" % (self._config.arch))
-    self.execute_script("$('#autostart').toggleClass('icon-check', %s).toggleClass('icon-check-empty', %s)" % (to_json(self._config.autostart), to_json(not self._config.autostart)))
-
-    if self._config.desktop == 'GNOME':
-      self.execute_script("$('#gnome_help').toggleClass('hide', false);")
-    elif self._config.desktop == 'KDE':
-      self.execute_script("$('#kde_help').toggleClass('hide', false);")
-
-    self.execute_script("$('#codename').html('%s')" % (to_json(self._config.codename)))
-    self.execute_script("$('#desktop').html('%s')" % (to_json(self._config.desktop)))
-    self.execute_script("$('#version').html('%s')" % (self._config.version))
-
-    if self._config.live:
-      self.execute_script("$('#install').toggleClass('hide', false);")
+    # we externaly inject a broadcast of the configUpdate event, wrapped in apply for angular's satisifaction
+    self.execute_script("app_rs.$apply( function() { app_rs.$broadcast('configUpdate', %s) });" % to_json(self._config.toDict()) )
 
   def _load_finished_cb(self, view, frame):
     self._push_config()
@@ -241,7 +235,7 @@ class WelcomeApp(object):
     w.set_position(Gtk.WindowPosition.CENTER)
     w.set_wmclass('Korora Welcome', 'Korora Welcome')
     w.set_title('Korora Welcome')
-    w.set_size_request(768, 496)
+    w.set_size_request(784, 496)
 
     # build webkit container
     kv = KororaAppView()
