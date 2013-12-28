@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        20.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Sat Dec 28 2013 Chris Smart <csmart@kororaproject.org> - 20.0-2
+- Updated content to reflect changes in 20 release, including new desktops.
+
 * Fri Nov 1 2013 Ian Firns <firnsy@kororaproject.org> - 20.0-1
 - Updated theme to align with new canvas and web themes
 - Added validation of command URIs and general comments
