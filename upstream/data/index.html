@@ -38,6 +38,7 @@
 
     <div class="page-content">
       <div class="container">
+        <div class="hr hr-lg"></div>
         <div class="row">
           <div class="col-sm-12">
             <div class="summary">
@@ -48,23 +49,23 @@
         <div class="row">
           <div class="col-sm-4 btn-showcase">
             <!--Body content-->
-            <h4>Documentation</h4>
-            <a class="btn btn-block btn-default" href="./readme.html"><i class="icon-book"></i> Read Me</a>
-            <a class="btn btn-block btn-info" href="./features.html"><i class="icon-star"></i> New Features</a>
-            <a class="btn btn-block btn-default" ng-show="isGNOME()" href="cmd://gnome-help"><i class="icon-question-sign"></i> GNOME Help</a>
-            <a class="btn btn-block btn-default" ng-show="isKDE()" href="cmd://kde-help"><i class="icon-question-sign"></i> KDE Help</a>
+            <h4><b>Documentation</b></h4>
+            <a class="btn btn-block btn-default" href="./readme.html"><i class="fa fa-book"></i> Read Me</a>
+            <a class="btn btn-block btn-info" href="./features.html"><i class="fa fa-star"></i> New Features</a>
+            <a class="btn btn-block btn-default" ng-show="isGNOME()" href="cmd://gnome-help"><i class="fa fa-question"></i> GNOME Help</a>
+            <a class="btn btn-block btn-default" ng-show="isKDE()" href="cmd://kde-help"><i class="fa fa-question"></i> KDE Help</a>
           </div>
           <div class="col-sm-4 btn-showcase">
-            <h4>Support</h4>
-            <a href="cmd://link?https://kororaproject.org/support/engage/" class="btn btn-block btn-default"><i class="icon-group"></i> Engage</a>
-            <button class="btn btn-block btn-default hide"><i class="icon-comments"></i> Chat Room</button>
+            <h4><b>Support</b></h4>
+            <a href="cmd://link?https://kororaproject.org/support/engage/" class="btn btn-block btn-default"><i class="fa fa-group"></i> Engage</a>
+            <button class="btn btn-block btn-default hide"><i class="fa fa-comments"></i> Chat Room</button>
           </div>
           <div class="col-sm-4 btn-showcase">
-            <h4>Project</h4>
-            <a class="btn btn-block btn-default" href="./involved.html"><i class="icon-hand-up"></i> Get Involved</a>
-            <button class="btn btn-block btn-default hide"><i class="icon-gift"></i> Donations</button>
-            <a href="cmd://link?https://github.com/kororaproject/kp" class="btn btn-block btn-success"><i class="icon-github-alt"></i> Build Korora</a>
-            <a href="cmd://install" class="btn btn-block btn-primary" ng-show="isLive()"><i class="icon-hdd"></i> Install Korora</a>
+            <h4><b>Project</b></h4>
+            <a class="btn btn-block btn-default" href="./involved.html"><i class="fa fa-hand-o-up"></i> Contribute</a>
+            <button class="btn btn-block btn-default hide"><i class="fa fa-gift"></i> Donations</button>
+            <a href="cmd://link?https://github.com/kororaproject/kp" class="btn btn-block btn-success"><i class="fa fa-github-alt"></i> Build Korora</a>
+            <a href="cmd://install" class="btn btn-block btn-primary" ng-show="isLive()"><i class="fa fa-hdd-o"></i> Install Korora</a>
           </div>
         </div>
       </div>
@@ -84,7 +85,7 @@
         </div>
         <div class="col-sm-8">
           <div class="form">
-            <a href="cmd://toggle-startup"><i class="icon" ng-class="{'icon-check': isAutoStart(), 'icon-check-empty': !isAutoStart()}"></i> Show this dialog on startup.</a>
+            <a href="cmd://toggle-startup"><i class="fa" ng-class="{'fa-check-square-o': isAutoStart(), 'fa-square-o': !isAutoStart()}"></i> Show this dialog on startup.</a>
             <a href="cmd://close" class="btn btn-dark">Close</a>
           </div>
           </div>

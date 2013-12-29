@@ -40,7 +40,11 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="page-title"><a href="index.html"><i class="icon-home"></i></a>NEW FEATURES</h1>
+            <ol class="breadcrumb">
+              <li><a href="index.html">Home</a></li>
+              <li class="active">New Features</li>
+            </ol>
+            <h1 class="page-title"><strong>Features.</strong> What's New?</h1>
           </div>
         </div>
         <div class="row">
@@ -64,16 +68,16 @@
             <h2>But wait, there's more ...</h2>
             <p>Derived from Fedora 20<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
             <p>A complete list with details of each new inherited feature is available at the <a href="cmd://link?http://fedoraproject.org/wiki/Releases/20/ChangeSet#Fedora_20_Accepted_System_Wide_Changes_Proposals">Fedora 20 Change Set</a> page.
-            <ul class="icons clean">
-              <li><i class="icon-check"></i><b>Application Installer</b> brings a new interface for installing packages in GNOME.</li>
-              <li><i class="icon-check"></i><b>NetworkManager</b> should be able to configure bond master and bridge interfaces with commonly used options and recognise their existing configuration on startup without disrupting their operation.</li>
-              <li><i class="icon-check"></i><b>Ruby on Rails</b> 4.0, which is the latest version of the well known web framework written in Ruby.</li>
-              <li><i class="icon-check"></i><b>LVM</b> has introduced thin provisioning technology, which provides greatly improved snapshot functionality in addition to thin provisioning capability. This change will make it possible to configure thin provisioning during OS installation.</li>
-              <li><i class="icon-check"></i><b>Plasma-nm</b> replaces the current network applet in KDE with a new one and bring the latest features in NetworkManager to KDE.</li>
-              <li><i class="icon-check"></i><b>SSD Cache</b> is updated thanks to the recent kernel to support (fast) SSD caching of (slow) ordinary hard disks.</li>
-              <li><i class="icon-check"></i><b>VirtManager</b> user interface for managing virtual machines has the ability to easily manage snapshots.</li>
+            <ul class="fa-ul clean">
+              <li><i class="fa fa-li fa-check-square-o"></i><b>Application Installer</b> brings a new interface for installing packages in GNOME.</li>
+              <li><i class="fa fa-li fa-check-square-o"></i><b>NetworkManager</b> should be able to configure bond master and bridge interfaces with commonly used options and recognise their existing configuration on startup without disrupting their operation.</li>
+              <li><i class="fa fa-li fa-check-square-o"></i><b>Ruby on Rails</b> 4.0, which is the latest version of the well known web framework written in Ruby.</li>
+              <li><i class="fa fa-li fa-check-square-o"></i><b>LVM</b> has introduced thin provisioning technology, which provides greatly improved snapshot functionality in addition to thin provisioning capability. This change will make it possible to configure thin provisioning during OS installation.</li>
+              <li><i class="fa fa-li fa-check-square-o"></i><b>Plasma-nm</b> replaces the current network applet in KDE with a new one and bring the latest features in NetworkManager to KDE.</li>
+              <li><i class="fa fa-li fa-check-square-o"></i><b>SSD Cache</b> is updated thanks to the recent kernel to support (fast) SSD caching of (slow) ordinary hard disks.</li>
+              <li><i class="fa fa-li fa-check-square-o"></i><b>VirtManager</b> user interface for managing virtual machines has the ability to easily manage snapshots.</li>
             </ul>
-            <div class="alert alert-info">
+            <div class="callout callout-info">
               <p><a name="footnote"></a> <sup>1</sup> Korora is not provided or supported by the <a href="cmd://link?http://fedoraproject.org/">Fedora Project</a>. Official, unmodified Fedora software is available through the Fedora Project website.</em></p>
             </div>
           </div>
@@ -95,7 +99,7 @@
         </div>
         <div class="col-sm-8">
           <div class="form">
-            <a href="cmd://toggle-startup"><i class="icon" ng-class="{'icon-check': isAutoStart(), 'icon-check-empty': !isAutoStart()}"></i> Show this dialog on startup.</a>
+            <a href="cmd://toggle-startup"><i class="fa" ng-class="{'fa-check-square-o': isAutoStart(), 'fa-square-o': !isAutoStart()}"></i> Show this dialog on startup.</a>
             <a href="cmd://close" class="btn btn-dark">Close</a>
           </div>
           </div>
