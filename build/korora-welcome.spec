@@ -1,6 +1,6 @@
 Name:           korora-welcome
-Version:        20.0
-Release:        2%{?dist}.1
+Version:        20.1
+Release:        1%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Fri Jan 3 2014 Ian Firns <firnsy@kororaproject.org> - 20.1-1
+- Fixed premature resize on KDE desktops.
+
 * Sat Dec 28 2013 Chris Smart <csmart@kororaproject.org> - 20.0-2
 - Updated content to reflect changes in 20 release, including new desktops.
 

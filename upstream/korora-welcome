@@ -253,7 +253,7 @@ class WelcomeApp(object):
     w.set_position(Gtk.WindowPosition.CENTER)
     w.set_wmclass('Korora Welcome', 'Korora Welcome')
     w.set_title('Korora Welcome')
-    w.set_size_request(784, 496)
+    w.set_size_request(792, 496)
 
     # build webkit container
     kv = KororaAppView()
