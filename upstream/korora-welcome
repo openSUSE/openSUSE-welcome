@@ -49,9 +49,9 @@ class WelcomeConfig(object):
 
     # store our base architecture
     if yb.conf.yumvar['basearch'] in ['i386', 'i686']:
-      self._arch = '32-bit'
+      self._arch = '32 bit'
     else:
-      self._arch = '64-bit'
+      self._arch = '64 bit'
 
     # store our release version
     self._version = yb.conf.yumvar['releasever']
