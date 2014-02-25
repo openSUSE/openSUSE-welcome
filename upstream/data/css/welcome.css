@@ -3,7 +3,30 @@
 */
 
 /* fonts */
-@import url("fonts.css");
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url(../fonts/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff) format('woff');
+}
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
@@ -82,18 +105,72 @@ body.modal-open,
 }
 
 /*
+** LOGOS / IMAGES
+*/
+#banner {
+  background-color: #428bca;
+
+  color: #fff;
+}
+
+.kp-logo {
+  display: inline-block;
+
+  height: 48px;
+  padding-left: 48px;
+  background-image: url('/img/kp-logo.png');
+  background-size: 32px 32px;
+  background-repeat: no-repeat;
+  background-position: center 8px;
+  line-height: 48px;
+  font-size: 36px;
+  font-weight: 300;
+
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .6);
+}
+
+.navbar-brand {
+  padding: 0;
+  height: 50px;
+}
+
+.navbar-toggle {
+  padding: 4px 8px;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.navbar-toggle:hover {
+  color: #666;
+}
+
+.navbar-brand .title {
+  display: inline-block;
+  margin: 6px 0;
+  font-size: 36px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.navbar-brand .title-dark {
+  color: #ccc;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+/*
 ** FONTS
 */
 body, button {
   font-family:'Open Sans';
-  font-weight: 300;
+  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family:'Open Sans';
-  font-weight: 300;
+  font-weight: normal;
 }
 
 p {
@@ -198,6 +275,10 @@ blockquote p {
   font-size: inherit;
 }
 
+.fa-lj {
+  text-align: left !important;
+}
+
 /*
 ** BUTTONS
 */
@@ -232,6 +313,22 @@ blockquote p {
 
 .btn-showcase .btn {
   line-height: 32px;
+}
+
+.btn-rss {
+  color: #ff7f00;
+}
+
+.btn-google-plus {
+  color: #dd4b39;
+}
+
+.btn-facebook {
+  color: #3b5998;
+}
+
+.btn-twitter {
+  color: #4099ff;
 }
 
 /*
@@ -311,13 +408,15 @@ blockquote p {
 }
 
 .kp-logo-48 {
+  display: inline-block;
   height: 48px;
-  width: 48px;
+  min-width: 48px;
+  padding-left: 48px;
 
   background-image: url('../img/kp-logo.png');
   background-size: 40px 40px;
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: 4px center;
 }
 
 /*
@@ -395,6 +494,24 @@ blockquote p {
 .navbar {
   border-radius: 0;
   z-index: 1039;
+}
+
+.navbar-brand {
+  padding: 0;
+  height: 50px;
+}
+
+.navbar-brand .title {
+  display: inline-block;
+  margin: 6px 0;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+.navbar-brand .title-dark {
+  color: #ccc;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
 }
 
 .navbar-container {
@@ -500,6 +617,11 @@ blockquote p {
   border-left: 2px solid transparent;
 }
 
+.navbar-text {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 .nav a.user-avatar {
   padding: 9px 15px;
 }
@@ -509,7 +631,6 @@ blockquote p {
 */
 
 .page-container {
-  min-height: 100%;
   padding-bottom: 32px;
   margin-bottom: 64px; /* footer height */
 

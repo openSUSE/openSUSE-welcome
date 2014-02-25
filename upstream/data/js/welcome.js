@@ -49,53 +49,75 @@ function WelcomeCtrl($scope) {
 ** PAGE HANDLER
 */
 $(document).ready( function() {
-  // configure korobar
+  /* configure korobar */
+  var fixed   = true;
   var korobar = $('#korobar');
-  var fixed = true;
-
+  var page    = $('.page-container');
   var footer  = $('footer');
+  var start   = 0;
 
-  // TODO: correct korobar start position
-  // HOME PAGE correction
-  var start = 0;
+  /* helper function to frob element heights for the layered effect */
+  var resizeHelper = function() {
+    // banner correction
+    if( $('#banner').length ) {
+      start = $('#banner').outerHeight();
+    }
 
-  if( start - $(window).scrollTop() <= 0 ) {
-    korobar.css('top', 0);
-    korobar.css('position', 'fixed');
-    fixed = true;
+    /* calculate korobar position and initial pinning state */
+    if( start - $(window).scrollTop() <= 0 ) {
+      korobar.css({ position: 'fixed', top: 0 });
+      fixed = true;
+    }
+    else {
+      korobar.css({ position: 'absolute', top: start + 'px' });
+      fixed = false;
+    }
+
+    /* frob page-container minimum height to at least the footer top */
+    page.css({
+      'min-height': ($(window).height()-footer.outerHeight()) + 'px',
+      'margin-bottom': footer.outerHeight() + 'px'
+    });
+
+    /* frob page-content minimum height to consume immediate window */
+    $('.page-content').css('min-height', ( $(window).height() - 96 )  + 'px');
   }
-  else {
-    korobar.css('position', 'absolute');
-    korobar.css('top', start + 'px');
-    fixed = false;
-  }
 
-  // pin korobar to top when it passes
-  $(window).off('scroll');
-  $(window).on('scroll', function () {
+  /* pin korobar to top when it passes */
+  $(window).on('scroll', function() {
     if( !fixed && (korobar.offset().top - $(window).scrollTop() <= 0) ) {
-      korobar.css('top', 0);
-      korobar.css('position', 'fixed');
+      korobar.css({ position: 'fixed', top: 0, });
       fixed = true;
     }
     else if( fixed && $(window).scrollTop() <= start ) {
-      korobar.css('position', 'absolute');
-      korobar.css('top', start + 'px');
+      korobar.css({ position: 'absolute', top: start + 'px' });
       fixed = false;
     }
   });
 
-  // frob page-container minimum height to at least the footer top
-  $('.page-container').css('min-height', ($(window).height()-footer.outerHeight()) + 'px');
+  /* bind to resize events */
+  $(window).on('resize', resizeHelper);
 
+  /* turn on tooltips */
+  $("[data-toggle='tooltip']").tooltip();
 
+  /* smooth scroll targets */
+  $('a[href*=#]:not([href=#]):not([data-toggle])').click(function() {
+    if( location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') || location.hostname == this.hostname ) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if( target.length ) {
+        $('html,body').animate({ scrollTop: target.offset().top - korobar.height() - 16 }, 1000);
+        return false;
+      }
+    }
+  });
+
+  /* initial call to page resize helper */
+  setTimeout(function() { resizeHelper(); }, 0);
+
+  /* fetch the rootscope */
   app_rs = angular.element(document).scope();
-
-  /*
-  var data = { arch: 'woot' };
-  app_rs.$apply( function() { app_rs.$broadcast( 'configUpdate', data ) });
-  console.log('emitting done...');
-  */
 });
 
 

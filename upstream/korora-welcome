@@ -1,6 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
-# Copyright 2012-2013 "Korora Project" <dev@kororaproject.org>
+# Copyright 2012-2014 "Korora Project" <dev@kororaproject.org>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the temms of the GNU General Public License as published by
@@ -16,23 +16,21 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
+import dnf
 import inspect
-import os
 import json
+import os
 import signal
 import subprocess
 import sys
-import urllib
+import urllib.request
 import webbrowser
-import yum
-
-from simplejson import dumps as to_json
 
 from gi.repository import WebKit, Gtk
 
 class WelcomeConfig(object):
   def __init__(self):
-    yb = yum.YumBase()
+    yb = dnf.Base()
 
     # store we are a live CD session
     self._live = ( os.getlogin() == 'liveuser' )
@@ -54,7 +52,8 @@ class WelcomeConfig(object):
       self._arch = '64 bit'
 
     # store our release version
-    self._version = yb.conf.yumvar['releasever']
+    yb.conf.releasever = None # force update of releasver by setting to None, possible bug in DNF
+    self._version = yb.conf.releasever
 
     # store our codename
     self._codename = ""
@@ -65,8 +64,8 @@ class WelcomeConfig(object):
       # trim what's between the first '(' and last ')'
       self._codename = c[c.index('(')+1:c.rindex(')')]
       f.close()
-    except IOEerror, e:
-      print "IO error: ", e
+    except IOEerror as e:
+      print("IO error: %s" % ( e ))
 
     # store full path to our binary
     self._welcome_bin_path = os.path.abspath(inspect.getfile(inspect.currentframe()))
@@ -81,7 +80,7 @@ class WelcomeConfig(object):
     if not os.path.exists( self._config_dir ):
       try:
         os.makedirs( self._config_dir )
-      except OSError, e:
+      except OSError as e:
         pass
 
     # does autostart symlink exist
@@ -101,13 +100,13 @@ class WelcomeConfig(object):
       # create the autostart symlink
       try:
         os.symlink( '/usr/share/applications/korora-welcome.desktop', self._autostart_path )
-      except OSError, e:
+      except OSError as e:
         pass
     elif( not state and os.path.exists( self._autostart_path ) ):
       # remove the autostart symlink
       try:
         os.unlink( self._autostart_path )
-      except OSError, e:
+      except OSError as e:
         pass
 
     # determine autostart state based on absence of the disable file
@@ -153,9 +152,12 @@ class KororaAppView(WebKit.WebView):
 
     self.l_uri = None
 
+    # disable right-click context menu
+    self.get_settings().set_property('enable-default-context-menu', False)
+
   def _push_config(self):
     # we externaly inject a broadcast of the configUpdate event, wrapped in apply for angular's satisifaction
-    self.execute_script("app_rs.$apply( function() { app_rs.$broadcast('configUpdate', %s) });" % to_json(self._config.toDict()) )
+    self.execute_script("app_rs.$apply( function() { app_rs.$broadcast('configUpdate', %s) });" % json.dumps(self._config.toDict()) )
 
   def _load_finished_cb(self, view, frame):
     # push config on every page load
@@ -169,7 +171,7 @@ class KororaAppView(WebKit.WebView):
     try:
       if uri.index('#') > 0:
         uri = uri[:uri.index('#')]
-    except ValueError:
+    except ValueError as e:
       pass
 
     # don't reload ourself ( side effect of managing inline anchors )
@@ -183,12 +185,19 @@ class KororaAppView(WebKit.WebView):
       self._do_command(uri)
       return True
 
-    # store the requested URI for later self checks
+    # process absolute URIs
+    # open links in a new tab in the default browser
+    if uri.startswith("http://") or \
+       uri.startswith("https://"):
+      webbrowser.open_new_tab(uri)
+      return True
+
+    # store the requested URI for self checks
     self.l_uri = uri
 
     # we have a legitimate page so let's load
-    page = urllib.urlopen(uri)
-    frame.load_string(page.read(),"text/html","iso-8859-15",page.geturl())
+    page = urllib.request.urlopen(uri)
+    frame.load_string(page.read().decode('utf-8'), "text/html", "iso-8859-15", page.geturl())
     pol_dec.ignore()
 
     return True
@@ -222,6 +231,7 @@ class KororaAppView(WebKit.WebView):
 
     # open links in a new tab in the default browser
     elif( uri.startswith("link?") ):
+      print('DEPRACTED: cmd://link is no longer supported, valid absolute URIs are auto opened in a new window.');
       webbrowser.open_new_tab(uri[5:])
 
     else:
@@ -260,7 +270,7 @@ class WelcomeApp(object):
 
     # load our index file
     file = os.path.abspath( os.path.join( self._data_path, 'index.html') )
-    uri = 'file://' + urllib.pathname2url(file)
+    uri = 'file://' + urllib.request.pathname2url(file)
     kv.open(uri)
 
     # build scrolled window widget and add our appview container
