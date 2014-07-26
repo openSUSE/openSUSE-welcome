@@ -17,6 +17,7 @@
 #
 
 import dnf
+import hawkey
 import inspect
 import json
 import os
@@ -26,11 +27,12 @@ import sys
 import urllib.request
 import webbrowser
 
+# GTK
 from gi.repository import WebKit, Gtk
 
 class WelcomeConfig(object):
   def __init__(self):
-    yb = dnf.Base()
+    db = dnf.Base()
 
     # store we are a live CD session
     self._live = ( os.getlogin() == 'liveuser' )
@@ -46,14 +48,13 @@ class WelcomeConfig(object):
       self._desktop = 'UNKNOWN'
 
     # store our base architecture
-    if yb.conf.yumvar['basearch'] in ['i386', 'i686']:
+    if dnf.arch.basearch( hawkey.detect_arch() ) in ['i386', 'i686']:
       self._arch = '32 bit'
     else:
       self._arch = '64 bit'
 
     # store our release version
-    yb.conf.releasever = None # force update of releasver by setting to None, possible bug in DNF
-    self._version = yb.conf.releasever
+    self._version = dnf.rpm.detect_releasever( db.conf.installroot )
 
     # store our codename
     self._codename = ""
@@ -130,14 +131,14 @@ class WelcomeConfig(object):
 
   def toDict(self):
     return {
-      'auto_start': self._autostart,
-      'arch':       self._arch,
-      'codename':   self._codename,
-      'desktop':    self._desktop,
-      'live':       self._live,
-      'version':    self._version
+      'auto_start':     self._autostart,
+      'arch':           self._arch,
+      'codename':       self._codename,
+      'desktop':        self._desktop,
+      'live':           self._live,
+      'version':        self._version,
+      'system_literal': "K%s (%s) - %s - %s" % (self._version, self._codename, self._arch, self.desktop)
     }
-
 
 class KororaAppView(WebKit.WebView):
   def __init__(self):
@@ -258,6 +259,9 @@ class WelcomeApp(object):
     self._build_app()
 
   def _build_app(self):
+    file = os.path.abspath( os.path.join( self._data_path, 'index.html') )
+    uri = 'file://' + urllib.request.pathname2url(file)
+
     # build window
     w = Gtk.Window()
     w.set_position(Gtk.WindowPosition.CENTER)
@@ -269,9 +273,9 @@ class WelcomeApp(object):
     kv = KororaAppView()
 
     # load our index file
-    file = os.path.abspath( os.path.join( self._data_path, 'index.html') )
-    uri = 'file://' + urllib.request.pathname2url(file)
     kv.open(uri)
+
+    # TODO: Move to AppView
 
     # build scrolled window widget and add our appview container
     sw = Gtk.ScrolledWindow()

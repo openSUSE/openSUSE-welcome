@@ -27,7 +27,6 @@
       <div class="collapse navbar-collapse navbar-primary-collapse">
         <ul class="nav navbar-nav">
         </ul>
-        <p class="navbar-text pull-right"><span class="label label-success">{{config.version}}</span> <span class="label label-success">{{config.codename}}</span> <span class="label label-success">{{config.arch}}</span> <span class="label label-success">{{config.desktop}}</span></p>
         <ul class="nav navbar-nav navbar-right hide">
           <li class="dropdown">
             <a href="" class="dropdown-toggle" data-toggle="dropdown">user <b class="caret"></b></a>
@@ -55,8 +54,8 @@
             <!--Body content-->
             <h4><b>Documentation</b></h4>
             <a class="btn btn-block btn-default" href="./readme.html"><i class="fa fa-book"></i> Read Me</a>
-            <a class="btn btn-block btn-info" href="./features.html"><i class="fa fa-star"></i> New Features</a>
-            <a class="btn btn-block btn-default" ng-show="isGNOME()" href="cmd://gnome-help"><i class="fa fa-question"></i> GNOME Help</a>
+            <a class="btn btn-block btn-info" href="./features.html"><i class="fa fa-rocket"></i> New Features</a>
+            <a class="btn btn-block btn-default" ng-show="isGNOME()" href="cmd://gnome-help"><i class="fa fa-life-ring"></i> GNOME Help</a>
             <a class="btn btn-block btn-default" ng-show="isKDE()" href="cmd://kde-help"><i class="fa fa-question"></i> KDE Help</a>
           </div>
           <div class="col-sm-4 btn-showcase">
@@ -79,10 +78,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <div id="social">
-            <a href="https://plus.google.com/+KororaProjectOrg"><img src="img/social-google.png"></a>
-            <a href="http://facebook.com/kororaproject"><img src="img/social-facebook.png"></a>
-            <a href="http://twitter.com/kororaproject"><img src="img/social-twitter.png"></a>
+          <div id="os-info">
+            <p>{{config.system_literal}}</p>
           </div>
         </div>
         <div class="col-sm-8">
