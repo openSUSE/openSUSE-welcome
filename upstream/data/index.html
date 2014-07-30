@@ -41,9 +41,18 @@
 
     <div class="page-content">
       <div class="container">
-        <div class="hr hr-lg"></div>
         <div class="row">
           <div class="col-sm-12">
+            <ol class="breadcrumb">
+              <div class="btn-group pull-right">
+                <a href="https://plus.google.com/+KororaProjectOrg" class="btn btn-xs btn-default btn-google-plus"><i class="fa fa-fw fa-google-plus"></i></a>
+                <a href="https://www.facebook.com/kororaproject" class="btn btn-xs btn-default btn-facebook"><i class="fa fa-fw fa-facebook"></i></a>
+                <a href="https://twitter.com/kororaproject" class="btn btn-xs btn-default btn-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+              </div>
+              <li class="active">K{{config.version}} ({{config.codename}})</li>
+              <li class="active">{{config.arch}}</li>
+              <li class="active">{{config.desktop}}</li>
+            </ol>
             <div class="summary">
               <p>Welcome and thank you for choosing Korora! We hope that you will enjoy using it as much as we did building it. Please don't hesitate to send us your feedback.</p>
             </div>
@@ -77,18 +86,15 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-          <div id="os-info">
-            <p>{{config.system_literal}}</p>
-          </div>
-        </div>
         <div class="col-sm-8">
           <div class="form">
             <a href="cmd://toggle-startup"><i class="fa fa-fw fa-lj" ng-class="{'fa-check-square-o': isAutoStart(), 'fa-square-o': !isAutoStart()}"></i> Show this dialog on startup.</a>
-            <a href="cmd://close" class="btn btn-dark">Close</a>
-          </div>
           </div>
         </div>
+        <div class="col-sm-4 text-right">
+          <a id="close" href="cmd://close" class="btn btn-dark">Close</a>
+        </div>
+      </div>
     </div>
   </footer>
   <script src="js/jquery.min.js"></script>

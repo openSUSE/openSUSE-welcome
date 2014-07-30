@@ -97,18 +97,15 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
-          <div id="os-info">
-            <p>{{config.system_literal}}</p>
-          </div>
-        </div>
         <div class="col-sm-8">
           <div class="form">
-            <a href="cmd://toggle-startup"><i class="fa fa-fw" ng-class="{'fa-check-square-o': isAutoStart(), 'fa-square-o': !isAutoStart()}"></i> Show this dialog on startup.</a>
-            <a href="cmd://close" class="btn btn-dark">Close</a>
-          </div>
+            <a href="cmd://toggle-startup"><i class="fa fa-fw fa-lj" ng-class="{'fa-check-square-o': isAutoStart(), 'fa-square-o': !isAutoStart()}"></i> Show this dialog on startup.</a>
           </div>
         </div>
+        <div class="col-sm-4 text-right">
+          <a id="close" href="cmd://close" class="btn btn-dark">Close</a>
+        </div>
+      </div>
     </div>
   </footer>
   <script src="js/jquery.min.js"></script>

@@ -434,10 +434,10 @@ blockquote p {
   min-width: 48px;
   padding-left: 48px;
 
-  background-image: url('../img/kp-logo.png');
-  background-size: 40px 40px;
+  background-image: url('../img/kp-logo-32.png');
+  background-size: 32px 32px;
   background-repeat: no-repeat;
-  background-position: 4px center;
+  background-position: 8px center;
 }
 
 /*
@@ -766,14 +766,12 @@ footer .site-map {
 */
 footer .form {
   display: inline-block;
-  position: absolute;
-  right: 8px;
+  margin-top: 4px;
 }
 
 footer .form a {
   color: #fff;
   text-decoration: none;
-  margin-right: 8px;
 }
 
 footer label {
@@ -782,7 +780,6 @@ footer label {
   padding-left: 0;
   margin-bottom: 0;
   vertical-align: middle;
-  margin-right: 8px;
   color: #fff;
 }
 

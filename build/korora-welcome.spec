@@ -1,6 +1,6 @@
 Name:           korora-welcome
-Version:        20.1
-Release:        1%{?dist}.2
+Version:        20.99
+Release:        1%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -9,7 +9,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
-Requires:       python-simplejson pygobject3
+Requires:       dnf python-simplejson pygobject3
 
 %description
 The Korora Welcome utility provides a simple interface for accessing all
@@ -56,6 +56,10 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Sat Jul 26 2014 Ian Firns <firnsy@kororaproject.org> - 20.99-1
+- Upgraded boostrap, angular and aligned with kp.org css.
+- Fixed support for DNF usage.
+
 * Fri Jan 3 2014 Ian Firns <firnsy@kororaproject.org> - 20.1-1
 - Fixed premature resize on KDE desktops.
 
