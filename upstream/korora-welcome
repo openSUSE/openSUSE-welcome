@@ -60,18 +60,8 @@ class Config(object):
     except:
       self._codename = 'Unknown'
 
-    # store directory to our welcome configuration
-    self._config_dir = os.path.expanduser('~/.config/korora/welcome/')
-
     # store full path to our autostart symlink
     self._autostart_path = os.path.expanduser('~/.config/autostart/korora-welcome.desktop')
-
-    # ensure our config directory exists
-    if not os.path.exists( self._config_dir ):
-      try:
-        os.makedirs( self._config_dir )
-      except OSError as e:
-        pass
 
     # does autostart symlink exist
     self._autostart = os.path.exists( self._autostart_path )
@@ -120,13 +110,12 @@ class Config(object):
 
   def toDict(self):
     return {
-      'auto_start':     self._autostart,
-      'arch':           self._arch,
-      'codename':       self._codename,
-      'desktop':        self._desktop,
-      'live':           self._live,
-      'version':        self._version,
-      'system_literal': "K%s (%s) - %s - %s" % (self._version, self._codename, self._arch, self.desktop)
+      'autostart': self._autostart,
+      'arch':      self._arch,
+      'codename':  self._codename,
+      'desktop':   self._desktop,
+      'live':      self._live,
+      'version':   self._version,
     }
 
 

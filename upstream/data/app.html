@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-            <checkbox ng-model="config.auto_start">Show this dialog on startup.</checkbox>
+            <checkbox ng-model="config.autostart" ng-click="autostart()">Show this dialog on startup.</checkbox>
         </div>
         <div class="col-sm-4 text-right">
           <button id="close" class="btn btn-dark" ng-click="close()">Close</button>

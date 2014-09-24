@@ -34,7 +34,7 @@ function WelcomeCtrl($scope) {
     desktop:    'n/a',
     version:    'n/a',
     live:       true,
-    auto_start: false,
+    autostart: false,
   };
 
   $scope.isDE = function(desktop) {
@@ -42,13 +42,15 @@ function WelcomeCtrl($scope) {
   }
 
   $scope.openURI = function(uri) {
-    console.log(uri);
     $scope.emit('open-url', uri);
   };
 
   $scope.command = function(cmd) {
-    console.log(cmd);
-    $scope.emit('do-command', cmd);
+    $scope.emit('command', cmd);
+  };
+
+  $scope.autostart = function() {
+    $scope.emit('set-autostart', $scope.config.autostart);
   };
 
   $scope.close = function() {
