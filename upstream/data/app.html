@@ -9,7 +9,7 @@
   <div class="page-container">
     <nav id="korobar" class="navbar navbar-default navbar-empty" role="navigation"></nav>
 
-    <div class="page-content" ng-view></div>
+    <div class="page-content no-nav" ng-view></div>
   </div>
 
   <footer>
@@ -48,19 +48,19 @@
       <div class="row">
         <div class="col-sm-4 btn-showcase">
           <!--Body content-->
-          <h3>Documentation</h3>
+          <h4>Documentation</h4>
           <a class="btn btn-block btn-default" href="#/readme"><i class="fa fa-book"></i> Read Me</a>
           <a class="btn btn-block btn-info" href="#/features"><i class="fa fa-rocket"></i> New Features</a>
           <button class="btn btn-block btn-default" ng-show="isDE('gnome')" ng-click="command('gnome-help')"><i class="fa fa-life-ring"></i> GNOME Help</button>
           <button class="btn btn-block btn-default" ng-show="isDE('kde')" ng-click="command('kde-help')"><i class="fa fa-question"></i> KDE Help</button>
         </div>
         <div class="col-sm-4 btn-showcase">
-          <h3>Support</h3>
+          <h4>Support</h4>
           <button class="btn btn-block btn-default" ng-click="openURI('https://kororaproject.org/support/engage/')"><i class="fa fa-group"></i> Engage</button>
           <button class="btn btn-block btn-default hide"><i class="fa fa-comments"></i> Chat Room</button>
         </div>
         <div class="col-sm-4 btn-showcase">
-          <h3>Project</h3>
+          <h4>Project</h4>
           <a class="btn btn-block btn-default" href="#/contribute"><i class="fa fa-hand-o-up"></i> Contribute</a>
           <button class="btn btn-block btn-success" ng-click="openURI('https://github.com/kororaproject/kp')"><i class="fa fa-github-alt"></i> Build Korora</button>
           <button class="btn btn-block btn-primary" ng-show="config.live" ng-click="command('install')"><i class="fa fa-hdd-o"></i> Install Korora</button>
@@ -235,7 +235,6 @@
   </script>
 
   <script src="lens://js/lens.min.js"></script>
-  <script src="app://js/angular-route.min.js"></script>
   <script src="app://js/app.js"></script>
 </body>
 </html>

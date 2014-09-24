@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        20.99
+Version:        20.99.1
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -9,7 +9,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
-Requires:       dnf python-simplejson pygobject3
+Requires:       dnf lens
 
 %description
 The Korora Welcome utility provides a simple interface for accessing all
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Wed Sep 24 2014 Ian Firns <firnsy@kororaproject.org> - 20.99.1-1
+- Initial conversion to lens app.
+
 * Sat Jul 26 2014 Ian Firns <firnsy@kororaproject.org> - 20.99-1
 - Upgraded boostrap, angular and aligned with kp.org css.
 - Fixed support for DNF usage.
