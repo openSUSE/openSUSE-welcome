@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="welcome">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="lens://css/lens.css" rel="stylesheet" media="screen">
+  <link href="app://css/app.css" rel="stylesheet" media="screen">
+</head>
+<body class="unselectable" ng-controller="WelcomeCtrl">
+  <div class="page-container">
+    <nav id="korobar" class="navbar navbar-default navbar-empty" role="navigation"></nav>
+
+    <div class="page-content" ng-view></div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+            <checkbox ng-model="config.auto_start">Show this dialog on startup.</checkbox>
+        </div>
+        <div class="col-sm-4 text-right">
+          <button id="close" class="btn btn-dark" ng-click="close()">Close</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/ng-template" id="partials/main.html">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ol class="breadcrumb">
+            <div class="btn-group pull-right">
+              <button class="btn btn-xs btn-default btn-google-plus" ng-click="openURI('https://plus.google.com/+KororaProjectOrg')"><i class="fa fa-fw fa-google-plus"></i></button>
+              <button class="btn btn-xs btn-default btn-facebook" ng-click="openURI('https://www.facebook.com/kororaproject')"><i class="fa fa-fw fa-facebook"></i></button>
+              <button class="btn btn-xs btn-default btn-twitter" ng-click="openURI('https://twitter.com/kororaproject')"><i class="fa fa-fw fa-twitter"></i></button>
+            </div>
+            <li class="active">K{{config.version}} ({{config.codename}})</li>
+            <li class="active">{{config.arch}}</li>
+            <li class="active">{{config.desktop}}</li>
+          </ol>
+          <h1 class="page-title"><strong>Welcome.</strong> This is Korora</h1>
+          <div class="summary">
+            <p>G'day and thank you for choosing Korora! We, the Korora Developers, hope that you will enjoy using Korora as much as we did building it. The links below will help you get started with your new operating system.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 btn-showcase">
+          <!--Body content-->
+          <h3>Documentation</h3>
+          <a class="btn btn-block btn-default" href="#/readme"><i class="fa fa-book"></i> Read Me</a>
+          <a class="btn btn-block btn-info" href="#/features"><i class="fa fa-rocket"></i> New Features</a>
+          <button class="btn btn-block btn-default" ng-show="isDE('gnome')" ng-click="command('gnome-help')"><i class="fa fa-life-ring"></i> GNOME Help</button>
+          <button class="btn btn-block btn-default" ng-show="isDE('kde')" ng-click="command('kde-help')"><i class="fa fa-question"></i> KDE Help</button>
+        </div>
+        <div class="col-sm-4 btn-showcase">
+          <h3>Support</h3>
+          <button class="btn btn-block btn-default" ng-click="openURI('https://kororaproject.org/support/engage/')"><i class="fa fa-group"></i> Engage</button>
+          <button class="btn btn-block btn-default hide"><i class="fa fa-comments"></i> Chat Room</button>
+        </div>
+        <div class="col-sm-4 btn-showcase">
+          <h3>Project</h3>
+          <a class="btn btn-block btn-default" href="#/contribute"><i class="fa fa-hand-o-up"></i> Contribute</a>
+          <button class="btn btn-block btn-success" ng-click="openURI('https://github.com/kororaproject/kp')"><i class="fa fa-github-alt"></i> Build Korora</button>
+          <button class="btn btn-block btn-primary" ng-show="config.live" ng-click="command('install')"><i class="fa fa-hdd-o"></i> Install Korora</button>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/ng-template" id="partials/contribute.html">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ol class="breadcrumb">
+            <div class="btn-group pull-right">
+              <button class="btn btn-xs btn-default btn-google-plus" ng-click="openURI('https://plus.google.com/+KororaProjectOrg')"><i class="fa fa-fw fa-google-plus"></i></button>
+              <button class="btn btn-xs btn-default btn-facebook" ng-click="openURI('https://www.facebook.com/kororaproject')"><i class="fa fa-fw fa-facebook"></i></button>
+              <button class="btn btn-xs btn-default btn-twitter" ng-click="openURI('https://twitter.com/kororaproject')"><i class="fa fa-fw fa-twitter"></i></button>
+            </div>
+            <li><a href="#/main">Home</a></li>
+            <li class="active">Contribute</li>
+          </ol>
+          <h1 class="page-title"><strong>Contribute.</strong> Securing our Future</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Thanks for your support</h2>
+          <p>The Korora Project receives a great deal of support from its community and we would like to thank each and every contributor for participating. We are growing at a steady pace and our distribution is getting better every day, thanks to you.</p>
+          <p>It is very easy to make a difference. Depending on your skill set and availability you can help Korora in one or more of the following ways:</p>
+
+          <h2>Support &amp; Promotion</h2>
+          <h3>Spreading the word</h3>
+          <p>If you like Korora, <em>let people know</em>. Write a review and publish it on a blog. Follow and mention us on social media like Facebook, Google+ and Twitter. Talk about it with your friends and the people around you.</p>
+
+          <h3>Joining the Community</h3>
+          <p>Korora isn't just an operating system, it's also a dynamic community of people who enjoy and interact with a free and open project. Whether it's by helping others sort through issues, making them feel welcome, or simply meeting with and talking to other Korora users, we recommend you join the community and participate in making it better.</p >
+          <p>You can register an account online at <a ng-click="openURI('http://kororaproject.org/register/')">our website</a>, which gives <a ng-click="openURI'http://kororaproject.org/support/engage/')">access to Engage</a> (our support platform) and other goodies.</p>
+
+          <h3>Helping Others</h3>
+          <p>If you have some spare time and you're willing to help other users with technical problems, you should seriously consider reading threads in <a ng-click="openURI('http://kororaproject.org/support/engage/')">Engage</a> and/or joining our #korora IRC channel on the <a ng-click="openURI('http://freenode.net/using_the_network.shtml')">Freenode</a> network. You don't have to be an expert, just willing. Helping other Korora users to solve problems frees up time for our main developers, plus it's a rewarding and great way to learn more yourself.</p>
+
+          <h2>Project Contributions</h2>
+          <h3>Bug Reports</h3>
+          <p>If you've noticed something that doesn't work properly while using Korora, please <a ng-click="openURI('https://kororaproject.org/support/engage?type=problem')">let us know</a>. The problem you have discovered is likely to affect others as well and the sooner we know about it, the sooner we're able to fix it for the benefit of everyone.</p>
+
+          <h3>New Ideas</h3>
+          <p>The vast majority of improvements included in each release come from the community. If there's something that you think is missing or that could be done better, <a ng-click="openURI('https://kororaproject.org/support/engage?type=idea')">please tell us</a>. Whether it's the inclusion of a missing hardware driver, a software application that should be part of a stock installation, or any other ideas on how to make Korora better, we're always interested in hearing them.</p>
+
+          <h3>Artwork</h3>
+          <p>If you are talented in graphic design and willing to contribute to the project, please send us your creations and artwork. Whether it's a simple wallpaper, an icon set, a splash screen, or even a new logo, we're always interested to hear from you about new artwork.</p>
+
+          <h3>Code</h3>
+          <p>Most of our development is done in Python, Perl, HTML5/CSS and Bash. We also use Git for version control and (naturally) RPMs for packaging. If you're comfortable with these technologies, don't hesitate to have a <a ng-click="openURI(http://github.com/kororaproject/')">look at the code</a>. If you think you can improve our applications or write new ones don't hesitate to suggest patches or to fork our Git repositories.</p>
+          <p>We can help you get started with our packaging tool, <a ng-click="openURI('http://github.com/kororaproject/kp')">kp</a>, so that you can create, test and share any improvements you make.</p>
+
+          <h2>Financial Support</h2>
+          <h3>Donations</h3>
+          <p>You can help by making a financial contribution to the Korora Project. Revenue from your donations allows the Korora Project to afford new hardware and equipment, maintain the server hosting costs, and to provide an income for the development team.</p>
+          <a ng-click="openURI('https://kororaproject.org/contribute/donate')" class="btn btn-success">I want to Donate</a>
+          <h3>Sponsor</h3>
+          <p>By financially sponsoring the Korora Project, you will be giving the development team a regular and predictable income. Sponsorships are the best way to help developers plan and prioritise development costs.</p>
+          <a ng-click="openURI('https://kororaproject.org/contribute/sponsor')" class="btn btn-success">I want to Sponsor</a>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/ng-template" id="partials/readme.html">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ol class="breadcrumb">
+            <div class="btn-group pull-right">
+              <button class="btn btn-xs btn-default btn-google-plus" ng-click="openURI('https://plus.google.com/+KororaProjectOrg')"><i class="fa fa-fw fa-google-plus"></i></button>
+              <button class="btn btn-xs btn-default btn-facebook" ng-click="openURI('https://www.facebook.com/kororaproject')"><i class="fa fa-fw fa-facebook"></i></button>
+              <button class="btn btn-xs btn-default btn-twitter" ng-click="openURI('https://twitter.com/kororaproject')"><i class="fa fa-fw fa-twitter"></i></button>
+            </div>
+            <li><a href="#/main">Home</a></li>
+            <li class="active">Read Me</li>
+          </ol>
+          <h1 class="page-title"><strong>Read Me.</strong> To Get Started</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Installing Extras</h2>
+          <p>There are certain proprietary drivers (such as nvidia) and packages (such as Google Chrome) that Korora cannot include by default. To get such drivers, please use the Pharlap device manager which is available in the applications menu.</p>
+          <p>To install Google Chrome, just use the system's package manager. We can't distribute it, but we have included the repository to make it easy for you to install.</p>
+          <p>Looking for Skype? We cannot ship this either and unfortunately we also can't make it easier like Google Chrome as there is no repository. However, just head over to <a href="http://skype.com">http://skype.com</a> to download the 32 bit RPM package for Fedora and double it click to install. The package manager will take care of the dependencies for you, even if you're running a 64 bit system.</p>
+          <h2>Getting Help</h2>
+          <p>Although Korora is designed to work as much "out of the box" as possible, it's no-where near perfect. There will be times when things go wrong, you might have questions and a desire to learn more, or just want to personalise it to suit your tastes. This page provides details of some available resources to help you!</p>
+          <h3>Online Support</h3>
+          <p>The Korora Project has created a custom open source support platform for interacting with the community called <a href="https://kororaproject.org/support/engage">Engage</a>. Here you can ask a question, post a problem, suggest any ideas you might have, or even leave a little "thanks!" for the team. Simply <a href="https://kororaproject.org/register/">register online</a> and join us.
+          <h3>Join us on IRC (Internet Relay Chat)</h3>
+          <p>Another option is to join us on IRC by joining our <em>#korora</em> channel on the <a href="http://freenode.net/using_the_network.shtml">freenode</a> network.
+          <h3>Search the Web</h3>
+          <p>Perhaps the first place to look for generic Linux help is by using your favourite search engine. Just include words like Linux or Fedora in your search query.</p>
+          <p>As Korora is a Fedora Remix<a href="#footnote_1"><sup>1</sup></a> so why not head on over to the official <a href="http://ask.fedoraproject.org/">Ask Fedora</a> site? The unofficial <a href="http://www.forums.fedoraforum.org/">Fedora Forum</a> is also a great place to go for good community support.</p>
+          <p>You can also visit the forums for the desktop you are using with Korora, such as <a href="http://forum.kde.org">KDE</a>, <a href="http://forums.worldofgnome.org">GNOME</a>, <a href="http://forum.xfce.org/">Xfce</a>, <a href="http://forums.mate-desktop.org/">MATE</a>, or <a href="http://forums.linuxmint.com/">Cinnamon</a>.</p>
+          <h3>Sign up to a mailing list</h3>
+          <p>Another way to get help is to email questions to a <a href="http://lists.fedoraproject.org">Fedora mailing list</a> (you can also search the history for past discussions). Simply sign up to the list you prefer and follow the instructions. There is a list dedicated to KDE as well as a general list for users. Remember, Korora is a Fedora Remix!</p>
+          <h2>Other Resources</h2>
+          <ul>
+            <li><a href="http://fedoraproject.org">Fedora Project</a> - official, unmodified Fedora packages available from here.</li>
+            <li><a href="http://repos.fedorapeople.org">Fedora People Repositories</a> - extra software not in the regular repositories, built by community developers.</li>
+            <li><a href="http://www.fedorafaq.org">Fedora FAQ</a> - unofficial Frequently Asked Questions, tips and tricks.</li>
+          </ul>
+          <h2>Suggestions</h2>
+          <p>Got a suggestion on how we can make Korora better? Found a great package you want included, or want to
+          help out? Please let us know, by <a href="https://kororaproject.org/support/engage?type=idea">posting your suggestion in Engage</a> or drop by on IRC.
+          <p>Thank you, we hope you enjoy using Korora!</p>
+          <div class="callout callout-info">
+            <p><a name="footnote_1"><sup>1</sup></a>Korora is not provided or supported by the Fedora Project. Official, unmodified Fedora software is available through the <a href="http://fedoraproject.org">Fedora Project website</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script type="text/ng-template" id="partials/features.html">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ol class="breadcrumb">
+            <div class="btn-group pull-right">
+              <button class="btn btn-xs btn-default btn-google-plus" ng-click="openURI('https://plus.google.com/+KororaProjectOrg')"><i class="fa fa-fw fa-google-plus"></i></button>
+              <button class="btn btn-xs btn-default btn-facebook" ng-click="openURI('https://www.facebook.com/kororaproject')"><i class="fa fa-fw fa-facebook"></i></button>
+              <button class="btn btn-xs btn-default btn-twitter" ng-click="openURI('https://twitter.com/kororaproject')"><i class="fa fa-fw fa-twitter"></i></button>
+            </div>
+            <li><a href="#/main">Home</a></li>
+            <li class="active">New Features</li>
+          </ol>
+          <h1 class="page-title"><strong>Features.</strong> What's New?</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Cinnamon 2.0</h2>
+          <p>This new major release of Cinnamon includes many great features. It supports better edge tiling and snapping of windows, includes sound effects, better user management, system tray support for file operations, as well as better localisation and date formats. Under the hood, Cinnamon is now no-longer a frontend on top of GNOME, but rather a desktop in its own right built on GNOME technologies such as GTK and Clutter. Refer to the <a href="http://segfault.linuxmint.com/2013/10/cinnamon-2-0-released/">Cinnamon Release Announcement</a> for more details.</p>
+
+          <h2>GNOME 3.10</h2>
+          <p>GNOME 3.10 brings several new applications such as Maps, Music and Notes to the desktop as well as a new package management tool, called Software. Clocks has gained geolocation support and Photos now supports Flickr while Zimbra support has been added to Evolution. Documents has gained the ability to browse and read documents stored on ownCloud. GNOME 3.10 also has a revamped system status menu and initial support for the Wayland compositor. Refer to the <a href="https://help.gnome.org/misc/release-notes/3.10/">GNOME Release Notes</a> for more details.</p>
+
+          <h2>KDE Plasma Workspaces 4.11</h2>
+          <p>A modern, stable desktop environment, KDE Plasma Workspaces 4.11 refines this further focusing on speed and memory usage improvements. File manager Dolphin has seen a 30% drop in memory usage when browsing large directories and heavy disk and CPU activity is prevented by only loading previews around the visible items. The Personal Information Management (PIM) software suite has seen a number of enhancements including a Send Later features, resizing images on the fly and a theme editor for email headers. Refer to the <a href="http://www.kde.org/announcements/4.11/">KDE Plasma Workspaces Announcement</a> for more details.</p>
+
+          <h2>MATE 1.6</h2>
+          <p>MATE is a fork of the deprecated GNOME 2, which has seen many great improvements and brought life back to the much-loved desktop. The focus has been on replacing many deprecated packages and libraries with new technologies, as well as pulling in some new features for core applications. See the <a href="http://mate-desktop.org/blog/2013-04-02-mate-1-6-released/">Release Announcement</a> for more details.</p>
+
+          <h2>Xfce 4.10</h2>
+          <p>This release mainly focused on polishing the desktop and improving the user experience in various ways. The application finder has been completely rewritten and now supports creating custom actions matching a prefix or regex pattern. The Panel has seen improvements including a Deskbar mode where the panel is aligned vertically but the plugins are laid out horizontally which works really well on systems with wide screens. Refer to the <a
+            href="http://xfce.org/about/tour">Xfce Tour</a> for more details.</p>
+
+          <h2>But wait, there's more ...</h2>
+          <p>Derived from Fedora 20<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
+          <p>A complete list with details of each new inherited feature is available at the <a href="http://fedoraproject.org/wiki/Releases/20/ChangeSet#Fedora_20_Accepted_System_Wide_Changes_Proposals">Fedora 20 Change Set</a> page.
+          <ul class="fa-ul clean">
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Application Installer</b> brings a new interface for installing packages in GNOME.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>NetworkManager</b> should be able to configure bond master and bridge interfaces with commonly used options and recognise their existing configuration on startup without disrupting their operation.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Ruby on Rails</b> 4.0, which is the latest version of the well known web framework written in Ruby.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>LVM</b> has introduced thin provisioning technology, which provides greatly improved snapshot functionality in addition to thin provisioning capability. This change will make it possible to configure thin provisioning during OS installation.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Plasma-nm</b> replaces the current network applet in KDE with a new one and bring the latest features in NetworkManager to KDE.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>SSD Cache</b> is updated thanks to the recent kernel to support (fast) SSD caching of (slow) ordinary hard disks.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>VirtManager</b> user interface for managing virtual machines has the ability to easily manage snapshots.</li>
+          </ul>
+          <div class="callout callout-info">
+            <p><a name="footnote"></a> <sup>1</sup> Korora is not provided or supported by the <a href="http://fedoraproject.org/">Fedora Project</a>. Official, unmodified Fedora software is available through the Fedora Project website.</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+
+  <script src="lens://js/lens.min.js"></script>
+  <script src="app://js/angular-route.min.js"></script>
+  <script src="app://js/app.js"></script>
+</body>
+</html>

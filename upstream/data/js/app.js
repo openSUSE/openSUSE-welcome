@@ -1,9 +1,31 @@
 /*
 ** ANGULAR DEFINITIONS
 */
-var app = angular.module("welcome", []);
-//var app_rscope = angular.injector(['ng']).get('$rootScope');
-var app_rs;
+var app = angular.module("welcome", ['ngRoute', 'lens-core', 'lens-ui'])
+  .config(['$routeProvider',
+    function($routeProvider) {
+      $routeProvider
+        .when('/main', {
+          templateUrl: 'partials/main.html',
+          controller: 'WelcomeCtrl'
+        })
+        .when('/contribute', {
+          templateUrl: 'partials/contribute.html',
+          controller: 'WelcomeCtrl'
+        })
+        .when('/features', {
+          templateUrl: 'partials/features.html',
+          controller: 'WelcomeCtrl'
+        })
+        .when('/readme', {
+          templateUrl: 'partials/readme.html',
+          controller: 'WelcomeCtrl'
+        })
+        .otherwise({
+          redirectTo: '/main'
+        });
+    }
+  ]);;
 
 function WelcomeCtrl($scope) {
   $scope.config = {
@@ -15,34 +37,34 @@ function WelcomeCtrl($scope) {
     auto_start: false,
   };
 
-  // register to configuration updates
-  $scope.$on('configUpdate', function(e, d) {
-    $scope.config = d;
+  $scope.isDE = function(desktop) {
+    return $scope.config.desktop.toLowerCase() === desktop.toLowerCase();
+  }
+
+  $scope.openURI = function(uri) {
+    console.log(uri);
+    $scope.emit('open-url', uri);
+  };
+
+  $scope.command = function(cmd) {
+    console.log(cmd);
+    $scope.emit('do-command', cmd);
+  };
+
+  $scope.close = function() {
+    $scope.emit('close-app');
+  };
+
+  /* register for signals */
+  $scope.$on('get-config', function(e, c) {
+    $scope.config = c;
   });
 
-  $scope.isAutoStart = function() {
-    return $scope.config.auto_start === true;
-  }
+  $scope.emit('get-config');
+}
 
-  $scope.isLive = function() {
-    return $scope.config.live === true;
-  }
+function MainCtrl($scope) {
 
-  $scope.isCINNAMON = function() {
-    return $scope.config.desktop.toLowerCase() === 'cinnamon';
-  }
-
-  $scope.isGNOME = function() {
-    return $scope.config.desktop.toLowerCase() === 'gnome';
-  }
-
-  $scope.isKDE = function() {
-    return $scope.config.desktop.toLowerCase() === 'kde';
-  }
-
-  $scope.isMATE = function() {
-    return $scope.config.desktop.toLowerCase() === 'mate';
-  }
 }
 
 /*
@@ -115,9 +137,6 @@ $(document).ready( function() {
 
   /* initial call to page resize helper */
   setTimeout(function() { resizeHelper(); }, 0);
-
-  /* fetch the rootscope */
-  app_rs = angular.element(document).scope();
 });
 
 

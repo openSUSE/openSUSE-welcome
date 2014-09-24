@@ -18,19 +18,13 @@
 
 import dnf
 import hawkey
-import inspect
-import json
 import os
-import signal
 import subprocess
-import sys
-import urllib.request
 import webbrowser
 
-# GTK
-from gi.repository import WebKit, Gtk
+from Lens.App import App
 
-class WelcomeConfig(object):
+class Config(object):
   def __init__(self):
     db = dnf.Base()
 
@@ -59,17 +53,12 @@ class WelcomeConfig(object):
     # store our codename
     self._codename = ""
     try:
-      f = open('/etc/fedora-release', 'r')
-      c = f.readline()
+      c = open('/etc/fedora-release', 'r').read()
 
       # trim what's between the first '(' and last ')'
       self._codename = c[c.index('(')+1:c.rindex(')')]
-      f.close()
-    except IOEerror as e:
-      print("IO error: %s" % ( e ))
-
-    # store full path to our binary
-    self._welcome_bin_path = os.path.abspath(inspect.getfile(inspect.currentframe()))
+    except:
+      self._codename = 'Unknown'
 
     # store directory to our welcome configuration
     self._config_dir = os.path.expanduser('~/.config/korora/welcome/')
@@ -140,168 +129,40 @@ class WelcomeConfig(object):
       'system_literal': "K%s (%s) - %s - %s" % (self._version, self._codename, self._arch, self.desktop)
     }
 
-class KororaAppView(WebKit.WebView):
-  def __init__(self):
-    WebKit.WebView.__init__(self)
 
-    # load the config object
-    self._config = WelcomeConfig()
+app = App(name="Welcome", width=792, height=496, inspector=True)
+config = Config()
 
-    # register signals
-    self.connect('load-finished', self._load_finished_cb)
-    self.connect('navigation-policy-decision-requested', self._nav_request_policy_decision_cb)
+app.namespaces.append('./data')
+app.load_ui('app.html')
 
-    self.l_uri = None
+@app.connect('close-app')
+def close_app_cb():
+  app.close()
 
-    # disable right-click context menu
-    self.get_settings().set_property('enable-default-context-menu', False)
+@app.connect('do-command')
+def do_command_cb(cmd):
+  if( cmd == 'gnome-help' ):
+    subprocess.Popen(['yelp'])
 
-  def _push_config(self):
-    # we externaly inject a broadcast of the configUpdate event, wrapped in apply for angular's satisifaction
-    self.execute_script("app_rs.$apply( function() { app_rs.$broadcast('configUpdate', %s) });" % json.dumps(self._config.toDict()) )
+  elif( cmd == 'kde-help' ):
+    subprocess.Popen(['khelpcenter'])
 
-  def _load_finished_cb(self, view, frame):
-    # push config on every page load
-    self._push_config()
+  elif( cmd == 'install' ):
+    subprocess.Popen(['/usr/bin/liveinst'])
 
-  def _nav_request_policy_decision_cb(self,view,frame,net_req,nav_act,pol_dec):
-    # grab the requested URI
-    uri = net_req.get_uri()
+@app.connect('get-config')
+def get_config_cb(*args):
+  app.emit('get-config', config.toDict())
 
-    # TODO: improve separation of HTML5 hash bang versus inline anchors
-    try:
-      if uri.index('#') > 0:
-        uri = uri[:uri.index('#')]
-    except ValueError as e:
-      pass
+@app.connect('open-url')
+def open_url_cb(uri):
+  webbrowser.open_new_tab(uri)
 
-    # don't reload ourself ( side effect of managing inline anchors )
-    if uri == self.l_uri:
-      pol_dec.use()
-      return True
-    # TODO: end
-
-    # process command URIs
-    if uri.startswith('cmd://'):
-      self._do_command(uri)
-      return True
-
-    # process absolute URIs
-    # open links in a new tab in the default browser
-    if uri.startswith("http://") or \
-       uri.startswith("https://"):
-      webbrowser.open_new_tab(uri)
-      return True
-
-    # store the requested URI for self checks
-    self.l_uri = uri
-
-    # we have a legitimate page so let's load
-    page = urllib.request.urlopen(uri)
-    frame.load_string(page.read().decode('utf-8'), "text/html", "iso-8859-15", page.geturl())
-    pol_dec.ignore()
-
-    return True
-
-  def _do_command(self, uri):
-    # validate the command URI
-    if( not uri.startswith('cmd://') ):
-      print('Invalid command URI: %s' % uri)
-
-    # strip command prefix "cmd://"
-    uri = uri[6:]
-
-    if( uri == 'gnome-help' ):
-      subprocess.Popen(['yelp'])
-
-    elif( uri == 'kde-help' ):
-      subprocess.Popen(['khelpcenter'])
-
-    elif( uri == 'install' ):
-      subprocess.Popen(['/usr/bin/liveinst'])
-
-    elif( uri == 'close' ):
-      Gtk.main_quit();
-
-    elif( uri == 'toggle-startup' ):
-      # toggle autostart
-      self._config.autostart ^= True
-
-      # update our config
-      self._push_config()
-
-    # open links in a new tab in the default browser
-    elif( uri.startswith("link?") ):
-      print('DEPRACTED: cmd://link is no longer supported, valid absolute URIs are auto opened in a new window.');
-      webbrowser.open_new_tab(uri[5:])
-
-    else:
-      print('Unknown commanad specified: %s' % uri)
+@app.connect('set-autostart')
+def set_autostart_cb(state):
+  config.autostart = state
+  app.emit('get-config', config.toDict())
 
 
-class WelcomeApp(object):
-  def __init__(self):
-
-    # establish our location
-    self._location = os.path.dirname( os.path.abspath(inspect.getfile(inspect.currentframe())) )
-
-    # check for relative path
-    if( os.path.exists( os.path.join(self._location, 'data/' ) ) ):
-      print('Using relative path for data source. Non-production testing.')
-      self._data_path = os.path.join(self._location, 'data/')
-    elif( os.path.exists('/usr/share/korora-welcome/') ):
-      self._data_path = '/usr/share/korora-welcome/'
-    else:
-      print('Unable to source the korora-welcome data directory.')
-      sys.exit(1)
-
-    # build the app window
-    self._build_app()
-
-  def _build_app(self):
-    file = os.path.abspath( os.path.join( self._data_path, 'index.html') )
-    uri = 'file://' + urllib.request.pathname2url(file)
-
-    # build window
-    w = Gtk.Window()
-    w.set_position(Gtk.WindowPosition.CENTER)
-    w.set_wmclass('Korora Welcome', 'Korora Welcome')
-    w.set_title('Korora Welcome')
-    w.set_size_request(792, 496)
-
-    # build webkit container
-    kv = KororaAppView()
-
-    # load our index file
-    kv.open(uri)
-
-    # TODO: Move to AppView
-
-    # build scrolled window widget and add our appview container
-    sw = Gtk.ScrolledWindow()
-    sw.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
-    sw.add(kv)
-
-    # build an autoexpanding box and add our scrolled window
-    b = Gtk.VBox(homogeneous=False, spacing=0)
-    b.pack_start(sw, expand=True, fill=True, padding=0)
-
-    # add the box to the parent window and show
-    w.add(b)
-    w.connect('delete-event', self.close)
-    w.show_all()
-
-    self._window = w
-    self._appView = kv
-
-  def run(self):
-    signal.signal(signal.SIGINT, signal.SIG_DFL)
-    Gtk.main()
-
-  def close(self, p1, p2):
-    Gtk.main_quit(p1, p2);
-
-
-app = WelcomeApp()
-app.run()
-
+app.start()
