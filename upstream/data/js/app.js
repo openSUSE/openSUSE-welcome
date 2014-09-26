@@ -1,7 +1,7 @@
 /*
 ** ANGULAR DEFINITIONS
 */
-var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens-core', 'lens-ui'])
+var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens.bridge', 'lens.ui'])
   .config(['$routeProvider',
     function($routeProvider) {
       $routeProvider
