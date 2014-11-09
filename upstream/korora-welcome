@@ -22,7 +22,7 @@ import os
 import subprocess
 import webbrowser
 
-from Lens.App import App
+from lens.app import App
 
 class Config(object):
   def __init__(self):
