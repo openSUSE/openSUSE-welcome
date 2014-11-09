@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        20.99.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -9,7 +9,7 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
-Requires:       dnf lens
+Requires:       python3-dnf python3-lens
 
 %description
 The Korora Welcome utility provides a simple interface for accessing all
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Sun Nov  9 2014 Ian Firns <firnsy@kororaproject.org> - 20.99.1-2
+- Ensure that we capture the python3 bindings in the requires.
+
 * Wed Sep 24 2014 Ian Firns <firnsy@kororaproject.org> - 20.99.1-1
 - Initial conversion to lens app.
 
