@@ -2,6 +2,6 @@
 Type=Application
 Name=Korora Welcome
 Exec=/usr/bin/korora-welcome
-Icon=korora-icon-generic
+Icon=korora-welcome
 Comment=The Korora Welcome utility.
 Categories=GTK;GNOME;Application;System;

@@ -1,6 +1,6 @@
 Name:           korora-welcome
-Version:        20.99.1
-Release:        2%{?dist}
+Version:        20.99.2
+Release:        1%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Sat Nov 15 2014 Ian Firns <firnsy@kororaproject.org> - 20.99.2-1
+- Update desktop to use korora-welcome icon from our icon theme.
+
 * Sun Nov  9 2014 Ian Firns <firnsy@kororaproject.org> - 20.99.1-2
 - Ensure that we capture the python3 bindings in the requires.
 
