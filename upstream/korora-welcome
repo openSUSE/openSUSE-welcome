@@ -122,7 +122,7 @@ class Config(object):
 app = App(name="Welcome", width=792, height=496, inspector=True)
 config = Config()
 
-app.namespaces.append('./data')
+app.namespaces = ['/usr/share/korora-welcome', 'data']
 app.load_ui('app.html')
 
 @app.connect('close-app')
