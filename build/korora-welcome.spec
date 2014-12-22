@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        21
+Version:        21.1
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -56,6 +56,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Mon Dec 22 2014 Ian Firns <firnsy@kororaproject.org> - 21.1-1
+- Force opt-in for starting next session
+
 * Mon Dec 15 2014 Chris Smart <csmart@kororaproject.org> - 21-1
 - Finalise for k21, fix path issue
 

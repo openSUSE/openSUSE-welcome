@@ -16,7 +16,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
-            <checkbox ng-model="config.autostart" ng-click="autostart()">Show this dialog on startup.</checkbox>
+            <checkbox ng-model="autostart" ng-click="updateAutoStart()">Show this dialog next session startup.</checkbox>
         </div>
         <div class="col-sm-4 text-right">
           <button id="close" class="btn btn-dark" ng-click="close()">Close</button>
@@ -35,9 +35,9 @@
               <button class="btn btn-xs btn-default btn-facebook" ng-click="openURI('https://www.facebook.com/kororaproject')"><i class="fa fa-fw fa-facebook"></i></button>
               <button class="btn btn-xs btn-default btn-twitter" ng-click="openURI('https://twitter.com/kororaproject')"><i class="fa fa-fw fa-twitter"></i></button>
             </div>
-            <li class="active">K{{config.version}} ({{config.codename}})</li>
-            <li class="active">{{config.arch}}</li>
-            <li class="active">{{config.desktop}}</li>
+            <li class="active">K{{system.distribution.version}} ({{system.distribution.codename}})</li>
+            <li class="active">{{system.arch}}</li>
+            <li class="active">{{system.distribution.desktop}}</li>
           </ol>
           <h1 class="page-title"><strong>Welcome.</strong> This is Korora</h1>
           <div class="summary">

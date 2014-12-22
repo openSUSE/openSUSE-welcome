@@ -23,135 +23,61 @@ import subprocess
 import webbrowser
 
 from lens.app import App
-
-class Config(object):
-  def __init__(self):
-    db = dnf.Base()
-
-    # store we are a live CD session
-    self._live = ( os.getlogin() == 'liveuser' )
-
-    # store desktop session
-    if 'DESKTOP_SESSION' in os.environ and not 'default' in os.environ['DESKTOP_SESSION'].lower():
-      self._desktop = os.environ['DESKTOP_SESSION'].upper()
-    elif 'GDMSESSION' in os.environ and not 'default' in os.environ['GDMSESSION']:
-      self._desktop = os.environ['GDMSESSION'].upper()
-    elif 'XDG_CURRENT_DESKTOP' in os.environ and not 'default' in os.environ['XDG_CURRENT_DESKTOP']:
-      self._desktop = os.environ['XDG_CURRENT_DESKTOP'].upper()
-    else:
-      self._desktop = 'UNKNOWN'
-
-    # store our base architecture
-    if dnf.arch.basearch( hawkey.detect_arch() ) in ['i386', 'i686']:
-      self._arch = '32 bit'
-    else:
-      self._arch = '64 bit'
-
-    # store our release version
-    self._version = dnf.rpm.detect_releasever( db.conf.installroot )
-
-    # store our codename
-    self._codename = ""
-    try:
-      c = open('/etc/fedora-release', 'r').read()
-
-      # trim what's between the first '(' and last ')'
-      self._codename = c[c.index('(')+1:c.rindex(')')]
-    except:
-      self._codename = 'Unknown'
-
-    # store full path to our autostart symlink
-    self._autostart_path = os.path.expanduser('~/.config/autostart/korora-welcome.desktop')
-
-    # does autostart symlink exist
-    self._autostart = os.path.exists( self._autostart_path )
-
-  @property
-  def arch(self):
-    return self._arch
-
-  @property
-  def autostart(self):
-    return self._autostart
-
-  @autostart.setter
-  def autostart(self, state):
-    if( state and not os.path.exists( self._autostart_path ) ):
-      # create the autostart symlink
-      try:
-        os.symlink( '/usr/share/applications/korora-welcome.desktop', self._autostart_path )
-      except OSError as e:
-        pass
-    elif( not state and os.path.exists( self._autostart_path ) ):
-      # remove the autostart symlink
-      try:
-        os.unlink( self._autostart_path )
-      except OSError as e:
-        pass
-
-    # determine autostart state based on absence of the disable file
-    self._autostart = os.path.exists( self._autostart_path )
-
-  @property
-  def codename(self):
-    return self._codename
-
-  @property
-  def desktop(self):
-    return self._desktop
-
-  @property
-  def live(self):
-    return self._live
-
-  @property
-  def version(self):
-    return self._version
-
-  def toDict(self):
-    return {
-      'autostart': self._autostart,
-      'arch':      self._arch,
-      'codename':  self._codename,
-      'desktop':   self._desktop,
-      'live':      self._live,
-      'version':   self._version,
-    }
-
+from lens.system import System
 
 app = App(name="Welcome", width=792, height=496, inspector=True)
-config = Config()
+
+autostart_path = os.path.expanduser('~/.config/autostart/korora-welcome.desktop')
+autostart_state = False
+system = System().to_dict()
 
 app.namespaces = ['/usr/share/korora-welcome', 'data']
 app.load_ui('app.html')
 
-@app.connect('close-app')
-def close_app_cb():
+@app.connect('close-request')
+def close_request_cb():
   app.close()
 
 @app.connect('do-command')
 def do_command_cb(cmd):
-  if( cmd == 'gnome-help' ):
+  if cmd == 'gnome-help':
     subprocess.Popen(['yelp'])
 
-  elif( cmd == 'kde-help' ):
+  elif cmd == 'kde-help':
     subprocess.Popen(['khelpcenter'])
 
-  elif( cmd == 'install' ):
+  elif cmd == 'install':
     subprocess.Popen(['/usr/bin/liveinst'])
 
-@app.connect('get-config')
+@app.connect('get-system-config')
 def get_config_cb(*args):
-  app.emit('get-config', config.toDict())
+  app.emit('system-config', system)
 
 @app.connect('open-url')
 def open_url_cb(uri):
   webbrowser.open_new_tab(uri)
 
 @app.connect('set-autostart')
-def set_autostart_cb(state):
-  config.autostart = state
-  app.emit('get-config', config.toDict())
+def _app_close_cb(state):
+  global autostart_state
+  autostart_state = state
 
+@app.connect('app.close')
+def close_app_cb():
+  if autostart_state and not os.path.exists(autostart_path):
+    autostart_dir = os.path.dirname(autostart_path)
+
+    # ensure destination dir exists
+    if not os.path.exists(autostart_dir):
+      os.makedirs(autostart_dir)
+
+    os.symlink('/usr/share/applications/korora-welcome.desktop', autostart_path)
+
+
+try:
+  # remove the autostart symlink
+  os.unlink(autostart_path)
+except:
+  pass
 
 app.start()

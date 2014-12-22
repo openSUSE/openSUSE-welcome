@@ -28,17 +28,20 @@ var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens.bridge', 'len
   ]);;
 
 function WelcomeCtrl($scope) {
-  $scope.config = {
+  $scope.system = {
     arch:       'n/a',
-    codename:   'n/a',
-    desktop:    'n/a',
-    version:    'n/a',
-    live:       true,
-    autostart: false,
+    distribution: {
+      codename:   'n/a',
+      desktop:    'n/a',
+      version:    'n/a',
+      live:       true,
+    }
   };
 
+  $scope.autostart = false;
+
   $scope.isDE = function(desktop) {
-    return $scope.config.desktop.toLowerCase() === desktop.toLowerCase();
+    return $scope.system.distribution.desktop.toLowerCase() === desktop.toLowerCase();
   }
 
   $scope.openURI = function(uri) {
@@ -49,20 +52,20 @@ function WelcomeCtrl($scope) {
     $scope.emit('command', cmd);
   };
 
-  $scope.autostart = function() {
-    $scope.emit('set-autostart', $scope.config.autostart);
+  $scope.updateAutoStart = function() {
+    $scope.emit('set-autostart', $scope.autostart);
   };
 
   $scope.close = function() {
-    $scope.emit('close-app');
+    $scope.emit('close-request');
   };
 
   /* register for signals */
-  $scope.$on('get-config', function(e, c) {
-    $scope.config = c;
+  $scope.$on('system-config', function(e, system) {
+    $scope.system = system;
   });
 
-  $scope.emit('get-config');
+  $scope.emit('get-system-config');
 }
 
 function MainCtrl($scope) {
