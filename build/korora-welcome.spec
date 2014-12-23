@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        21.1
-Release:        1%{?dist}
+Release:        1%{?dist}.1
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -9,7 +9,8 @@ Source0:        %{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
-Requires:       python3-dnf python3-lens
+Requires:       python3-dnf
+Requires:	python3-lens >= 0.7.2
 
 %description
 The Korora Welcome utility provides a simple interface for accessing all
