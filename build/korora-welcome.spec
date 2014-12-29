@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        21.1
+Version:        21.2
 Release:        1%{?dist}.1
 Summary:        Korora welcome utility
 
@@ -10,7 +10,7 @@ Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
 Requires:       python3-dnf
-Requires:	python3-lens >= 0.7.2
+Requires:       python3-lens >= 0.7.5
 
 %description
 The Korora Welcome utility provides a simple interface for accessing all
@@ -57,6 +57,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Mon Dec 29 2014 Ian Firns <firnsy@kororaproject.org> - 21.2-1
+- Fixed missing install button on live system
+
 * Mon Dec 22 2014 Ian Firns <firnsy@kororaproject.org> - 21.1-1
 - Force opt-in for starting next session
 
