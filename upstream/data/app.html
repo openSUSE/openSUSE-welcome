@@ -51,8 +51,9 @@
           <h4>Documentation</h4>
           <a class="btn btn-block btn-default" href="#/readme"><i class="fa fa-book"></i> Read Me</a>
           <a class="btn btn-block btn-info" href="#/features"><i class="fa fa-rocket"></i> New Features</a>
-          <button class="btn btn-block btn-default" ng-show="isDE('gnome')" ng-click="command('gnome-help')"><i class="fa fa-life-ring"></i> GNOME Help</button>
-          <button class="btn btn-block btn-default" ng-show="isDE('kde')" ng-click="command('kde-help')"><i class="fa fa-question"></i> KDE Help</button>
+          <button class="btn btn-block btn-default" ng-show="isDE('gnome')" ng-click="command('gnome-help')"><i class="fa fa-life-ring"></i> Gnome Help</button>
+          <button class="btn btn-block btn-default" ng-show="isDE('kde')" ng-click="command('kde-help')"><i class="fa fa-life-ring"></i> KDE Help</button>
+          <button class="btn btn-block btn-default" ng-show="isDE('xfce')" ng-click="command('xfce-help')"><i class="fa fa-question"></i> Xfce Help</button>
         </div>
         <div class="col-sm-4 btn-showcase">
           <h4>Support</h4>
@@ -198,33 +199,26 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <h2>Cinnamon 2.0</h2>
-          <p>This new major release of Cinnamon includes many great features. It supports better edge tiling and snapping of windows, includes sound effects, better user management, system tray support for file operations, as well as better localisation and date formats. Under the hood, Cinnamon is now no-longer a frontend on top of GNOME, but rather a desktop in its own right built on GNOME technologies such as GTK and Clutter. Refer to the <a href="http://segfault.linuxmint.com/2013/10/cinnamon-2-0-released/">Cinnamon Release Announcement</a> for more details.</p>
+          <h2>Cinnamon 2.4</h2>
+          <p>This new release of Cinnamon targets a smoother experience, improved settings and updates to thef file manager, nemo. Refer to the <a href="http://segfault.linuxmint.com/2014/11/cinnamon-2-4-released/">Cinnamon Release Announcement</a> for more details.</p>
 
-          <h2>GNOME 3.10</h2>
-          <p>GNOME 3.10 brings several new applications such as Maps, Music and Notes to the desktop as well as a new package management tool, called Software. Clocks has gained geolocation support and Photos now supports Flickr while Zimbra support has been added to Evolution. Documents has gained the ability to browse and read documents stored on ownCloud. GNOME 3.10 also has a revamped system status menu and initial support for the Wayland compositor. Refer to the <a href="https://help.gnome.org/misc/release-notes/3.10/">GNOME Release Notes</a> for more details.</p>
+          <h2>GNOME 3.14</h2>
+          <p>GNOME 3.14 brings revised weather, captive portal handling and it's updated package management tool, called Software. Photos now supports many more online accounts and Media server accounts provide access to home media servers via DLNA. GNOME 3.14 also has improved support for the Wayland compositor. Refer to the <a href="https://help.gnome.org/misc/release-notes/3.14/">GNOME Release Notes</a> for more details.</p>
 
-          <h2>KDE Plasma Workspaces 4.11</h2>
-          <p>A modern, stable desktop environment, KDE Plasma Workspaces 4.11 refines this further focusing on speed and memory usage improvements. File manager Dolphin has seen a 30% drop in memory usage when browsing large directories and heavy disk and CPU activity is prevented by only loading previews around the visible items. The Personal Information Management (PIM) software suite has seen a number of enhancements including a Send Later features, resizing images on the fly and a theme editor for email headers. Refer to the <a href="http://www.kde.org/announcements/4.11/">KDE Plasma Workspaces Announcement</a> for more details.</p>
+          <h2>KDE Software Compilation 4.14.3</h2>
+          <p>A modern, stable desktop environment, KDE 4.14 says majority of it's work with the realignment of the software stacks to the new KDE Frameworks 5, Plasma Workspaces and KDE Applications to better reflect their different development paces and release schedules. The 4.14 compilation has seen most work attributed to the KDE Applications stack. Refer to the <a href="http://www.kde.org/announcements/4.14/">KDE Software Compilation Announcement</a> for more details.</p>
 
-          <h2>MATE 1.6</h2>
-          <p>MATE is a fork of the deprecated GNOME 2, which has seen many great improvements and brought life back to the much-loved desktop. The focus has been on replacing many deprecated packages and libraries with new technologies, as well as pulling in some new features for core applications. See the <a href="http://mate-desktop.org/blog/2013-04-02-mate-1-6-released/">Release Announcement</a> for more details.</p>
-
-          <h2>Xfce 4.10</h2>
+          <h2>Xfce 4.10.1</h2>
           <p>This release mainly focused on polishing the desktop and improving the user experience in various ways. The application finder has been completely rewritten and now supports creating custom actions matching a prefix or regex pattern. The Panel has seen improvements including a Deskbar mode where the panel is aligned vertically but the plugins are laid out horizontally which works really well on systems with wide screens. Refer to the <a
             href="http://xfce.org/about/tour">Xfce Tour</a> for more details.</p>
 
           <h2>But wait, there's more ...</h2>
-          <p>Derived from Fedora 20<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
-          <p>A complete list with details of each new inherited feature is available at the <a href="http://fedoraproject.org/wiki/Releases/20/ChangeSet#Fedora_20_Accepted_System_Wide_Changes_Proposals">Fedora 20 Change Set</a> page.
+          <p>Derived from Fedora 21<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
+          <p>A complete list with details of each new inherited feature is available at the <a href="http://fedoraproject.org/wiki/Releases/21/ChangeSet#Fedora_21_Accepted_System_Wide_Changes_Proposals">Fedora 21 Change Set</a> page.
           <ul class="fa-ul clean">
-            <li><i class="fa fa-li fa-check-square-o"></i><b>Application Installer</b> brings a new interface for installing packages in GNOME.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>NetworkManager</b> should be able to configure bond master and bridge interfaces with commonly used options and recognise their existing configuration on startup without disrupting their operation.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>Ruby on Rails</b> 4.0, which is the latest version of the well known web framework written in Ruby.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>LVM</b> has introduced thin provisioning technology, which provides greatly improved snapshot functionality in addition to thin provisioning capability. This change will make it possible to configure thin provisioning during OS installation.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>Plasma-nm</b> replaces the current network applet in KDE with a new one and bring the latest features in NetworkManager to KDE.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>SSD Cache</b> is updated thanks to the recent kernel to support (fast) SSD caching of (slow) ordinary hard disks.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>VirtManager</b> user interface for managing virtual machines has the ability to easily manage snapshots.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Ruby 2.1</b> Language changes to Ruby 2.1 include the default values of keyword arguments can now be omitted, suffixes for integer and float literals, and def-expr now returns the symbol of its name. To Ruby 2.1's core are new methods, the RGenGC generational garbage collector, new environment variables, bignum performance improvements, standard library updates, and plenty of other changes.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>OpenCL</b> support has been added through enabling the OpenCL/Clover state tracker within Mesa by default, shipping POCL for OpenCL support on CPUs, and packaging other OpenCL-related open-source Linux codes.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Terminal</b> has a set of additional features, including: support for transparent backgrounds, automatic title updates to help you identify different terminals and a simple toggle for disabling shortcuts in the Terminal.</li>
           </ul>
           <div class="callout callout-info">
             <p><a name="footnote"></a> <sup>1</sup> Korora is not provided or supported by the <a href="http://fedoraproject.org/">Fedora Project</a>. Official, unmodified Fedora software is available through the Fedora Project website.</em></p>

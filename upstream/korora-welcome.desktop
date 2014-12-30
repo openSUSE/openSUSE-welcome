@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Korora Welcome
+Name=Welcome
 Exec=/usr/bin/korora-welcome
 Icon=korora-welcome
 Comment=The Korora Welcome utility.

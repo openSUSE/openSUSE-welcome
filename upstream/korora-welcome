@@ -25,7 +25,7 @@ import webbrowser
 from lens.app import App
 from lens.system import System
 
-app = App(name="Welcome", width=792, height=496, inspector=True)
+app = App(name="Welcome", width=792, height=496)
 
 autostart_path = os.path.expanduser('~/.config/autostart/korora-welcome.desktop')
 autostart_state = False
@@ -38,13 +38,19 @@ app.load_ui('app.html')
 def close_request_cb():
   app.close()
 
-@app.connect('do-command')
+@app.connect('command')
 def do_command_cb(cmd):
-  if cmd == 'gnome-help':
+  if cmd == 'cinnamon-help':
+    subprocess.Popen(['yelp'])
+
+  elif cmd == 'gnome-help':
     subprocess.Popen(['yelp'])
 
   elif cmd == 'kde-help':
     subprocess.Popen(['khelpcenter'])
+
+  elif cmd == 'xfce-help':
+    subprocess.Popen(['xfce4-about'])
 
   elif cmd == 'install':
     subprocess.Popen(['/usr/bin/liveinst'])

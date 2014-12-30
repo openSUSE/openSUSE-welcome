@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        21.2
+Version:        21.3
 Release:        1%{?dist}.1
 Summary:        Korora welcome utility
 
@@ -57,6 +57,9 @@ fi
 /etc/skel/.config/autostart/korora-welcome.desktop
 
 %changelog
+* Tue Dec 30 2014 Ian Firns <firnsy@kororaproject.org> - 21.3-1
+- Fixed external command invocation
+
 * Mon Dec 29 2014 Ian Firns <firnsy@kororaproject.org> - 21.2-1
 - Fixed missing install button on live system
 
