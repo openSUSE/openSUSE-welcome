@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Welcome
-Exec=/usr/bin/korora-welcome
+Exec=/usr/bin/welcome
 Icon=korora-welcome
 Comment=The Korora Welcome utility.
 Categories=GTK;GNOME;Application;System;
