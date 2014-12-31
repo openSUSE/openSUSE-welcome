@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        21.3
+Version:        21.4
 Release:        1%{?dist}.1
 Summary:        Korora welcome utility
 
@@ -30,12 +30,12 @@ mkdir -p %{buildroot}/etc/skel/.config/autostart
 
 cp -a data/* %{buildroot}%{_datadir}/%{name}
 cp -a icons/* %{buildroot}%{_datadir}/icons/hicolor/
-install -p -m 644 korora-welcome.desktop %{buildroot}%{_datadir}/applications/korora-welcome.desktop
-install -p -m 644 korora-welcome.desktop %{buildroot}/etc/skel/.config/autostart/korora-welcome.desktop
-install -p -m 755 korora-welcome %{buildroot}%{_bindir}/korora-welcome
+install -p -m 644 welcome.desktop %{buildroot}%{_datadir}/applications/welcome.desktop
+install -p -m 644 welcome.desktop %{buildroot}/etc/skel/.config/autostart/welcome.desktop
+install -p -m 755 welcome %{buildroot}%{_bindir}/welcome
 
 # validate desktop file
-desktop-file-validate %{buildroot}%{_datadir}/applications/korora-welcome.desktop
+desktop-file-validate %{buildroot}%{_datadir}/applications/welcome.desktop
 
 %post
 /bin/touch --no-create %{_datadir}/icons/hicolor &>/dev/null || :
@@ -50,13 +50,16 @@ fi
 /usr/bin/gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 
 %files
-%{_bindir}/korora-welcome
+%{_bindir}/welcome
 %{_datadir}/%{name}
 %{_datadir}/icons/hicolor/*/*/*
-%{_datadir}/applications/korora-welcome.desktop
-/etc/skel/.config/autostart/korora-welcome.desktop
+%{_datadir}/applications/welcome.desktop
+/etc/skel/.config/autostart/welcome.desktop
 
 %changelog
+* Wed Dec 31 2014 Ian Firns <firnsy@kororaproject.org> - 21.4-1
+- Renamed to just welcome
+
 * Tue Dec 30 2014 Ian Firns <firnsy@kororaproject.org> - 21.3-1
 - Fixed external command invocation
 
