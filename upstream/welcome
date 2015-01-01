@@ -27,7 +27,7 @@ from lens.system import System
 
 app = App(name="Welcome", width=792, height=496)
 
-autostart_path = os.path.expanduser('~/.config/autostart/korora-welcome.desktop')
+autostart_path = os.path.expanduser('~/.config/autostart/welcome.desktop')
 autostart_state = False
 system = System().to_dict()
 
@@ -77,7 +77,7 @@ def close_app_cb():
     if not os.path.exists(autostart_dir):
       os.makedirs(autostart_dir)
 
-    os.symlink('/usr/share/applications/korora-welcome.desktop', autostart_path)
+    os.symlink('/usr/share/applications/welcome.desktop', autostart_path)
 
 
 try:

@@ -57,8 +57,8 @@ fi
 /etc/skel/.config/autostart/welcome.desktop
 
 %changelog
-* Fri Jan 2 2015 Chris Smart <csmart@kororaproject.org> - 21.5-1
-- Bump
+* Thu Jan  1 2015 Ian Firns <firnsy@kororaproject.org> - 21.5-1
+- Hardcoded autostart paths updated
 
 * Wed Dec 31 2014 Ian Firns <firnsy@kororaproject.org> - 21.4-1
 - Renamed to just welcome
