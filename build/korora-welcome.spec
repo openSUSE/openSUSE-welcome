@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        21.5
-Release:        1%{?dist}
+Release:        1%{?dist}.1
 Summary:        Korora welcome utility
 
 License:        GPLv2+
