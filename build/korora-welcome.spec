@@ -1,6 +1,6 @@
 Name:           korora-welcome
-Version:        21.5
-Release:        1%{?dist}.2
+Version:        21.6
+Release:        1%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -57,6 +57,9 @@ fi
 /etc/skel/.config/autostart/welcome.desktop
 
 %changelog
+* Thu Jan 8 2015 Chris Smart <csmart@kororaproject.org> - 21.6-1
+- add icon which was not showing up in KDE or when using non-Korora icon themes.
+
 * Thu Jan  1 2015 Ian Firns <firnsy@kororaproject.org> - 21.5-1
 - Hardcoded autostart paths updated
 
