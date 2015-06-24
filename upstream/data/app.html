@@ -199,29 +199,44 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <h2>Cinnamon 2.4</h2>
-          <p>This new release of Cinnamon targets a smoother experience, improved settings and updates to the file manager, nemo. Refer to the <a href="http://segfault.linuxmint.com/2014/11/cinnamon-2-4-released/">Cinnamon Release Announcement</a> for more details.</p>
+          <h2>Faster and better dependency management with DNF</h2>
+          <p>With Korora 22, we're introducing a major change under the hood. Specifically, we're now using DNF and hawkey to manage packages. DNF is much like the Yum software package manager (it's largely command-line compatible), but re-written and re-engineered to provide optimal performance and (along with Hawkey) provide a strict API definition for plugins and extending projects. DNF also makes use of the libsolv library initially pioneered by the openSUSE Project to provide faster and better dependency management.</p>
+          <p>It also boasts a better performance and memory footprint vs. Yum, and is designed to have a cleaner codebase and be easier to maintain.</p>
 
-          <h2>GNOME 3.14</h2>
-          <p>GNOME 3.14 brings revised weather, captive portal handling and it's updated package management tool, called Software. Photos now supports many more online accounts and Media server accounts provide access to home media servers via DLNA. GNOME 3.14 also has improved support for the Wayland compositor. Refer to the <a href="https://help.gnome.org/misc/release-notes/3.14/">GNOME Release Notes</a> for more details.</p>
+          <h2>Elasticsearch</h2>
+          <p>Elasticsearch is full-featured and very popular self-standing open source indexing server, and now it's available by with just a "yum install elasticsearch" &ndash; no, wait, make that "dnf install elasticsearch"!</p>
 
-          <h2>KDE Software Compilation 4.14.3</h2>
-          <p>A modern, stable desktop environment, KDE 4.14 says majority of it's work with the realignment of the software stacks to the new KDE Frameworks 5, Plasma Workspaces and KDE Applications to better reflect their different development paces and release schedules. The 4.14 compilation has seen most work attributed to the KDE Applications stack. Refer to the <a href="http://www.kde.org/announcements/4.14/">KDE Software Compilation Announcement</a> for more details.</p>
+          <h2>GNU Compiler Collection 5</h2>
+          <p>Korora 22 comes with GCC 5.1 as the primary compiler suite.</p>
 
-          <h2>Xfce 4.10.1</h2>
-          <p>This release mainly focused on polishing the desktop and improving the user experience in various ways. The application finder has been completely rewritten and now supports creating custom actions matching a prefix or regex pattern. The Panel has seen improvements including a Deskbar mode where the panel is aligned vertically but the plugins are laid out horizontally which works really well on systems with wide screens. Refer to the <a
-            href="http://xfce.org/about/tour">Xfce Tour</a> for more details.</p>
+          <h2>Captive Portal Detection</h2>
+          <p>Korora Workstation, by default, enables a captive portal detection that requests known content from a trusted Fedora server. If the request is redirected, a window automatically appears for you to interact with the portal's login webpage.</p>
+          <p>To disable this feature, remove /etc/NetworkManager/conf.d/20-connectivity-fedora.conf</p>
+
+          <h2>Developer oriented firewall</h2>
+          <p>Developers often run test servers that run on high numbered ports, and interconnectivity with many modern consumer devices also requires these ports. The firewall in Korora Workstation, firewalld, is configured to allow these things.</p>
+          <p>Ports numbered under 1024, with the exceptions of sshd and clients for samba and DHCPv6, are blocked to prevent access to system services. Ports above 1024, used for user-initiated applications, are open by default.</p>
+          <p>Refer to https://fedoraproject.org/wiki/FirewallD for details on customizing the firewall configuration, or install the firewall-config package for a graphical tool.</p>
+
+          <h2>GNOME 3.16</h2>
+          <p>Gnome developers have provided many enhancements to streamline and improve the GNOME Desktop Environment. Notifications have been significantly reworked and many applications saw numerous improvements including Files, Boxes and Image Viewer.</p>
+
+          <h2>KDE Plasma</h2>
+          <p>Plasma 5, the successor to KDE Plasma 4, is now the default workspace in the Korora spin. It has a new theme called Breeze, which has cleaner visuals and better readability, improves certain work-flows and provides overall more consistent and polished interface. Changes under the hood include switch to Qt 5 and KDE Frameworks 5 and migration to a fully hardware-accelerated graphics stack based on OpenGL(ES).</p>
+
+          <h2>Xfce</h2>
+          <p>The Xfce spin has been updated to Xfce 4.12. This release has an enormous number of improvements, including HiDPI support, improvements to window tiling, support for Gtk3 plugins, and many improvements for multi-monitor support.</p>
 
           <h2>But wait, there's more ...</h2>
-          <p>Derived from Fedora 21<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
-          <p>A complete list with details of each new inherited feature is available at the <a href="http://fedoraproject.org/wiki/Releases/21/ChangeSet#Fedora_21_Accepted_System_Wide_Changes_Proposals">Fedora 21 Change Set</a> page.
+          <p>Derived from Fedora 22<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
+          <p>A complete list with details of each new inherited feature is available at the <a ng-click="openURI('http://fedoraproject.org/wiki/Releases/22/ChangeSet')">Fedora 22 Change Set</a> page.
           <ul class="fa-ul clean">
-            <li><i class="fa fa-li fa-check-square-o"></i><b>Ruby 2.1</b> Language changes to Ruby 2.1 include the default values of keyword arguments can now be omitted, suffixes for integer and float literals, and def-expr now returns the symbol of its name. To Ruby 2.1's core are new methods, the RGenGC generational garbage collector, new environment variables, bignum performance improvements, standard library updates, and plenty of other changes.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>OpenCL</b> support has been added through enabling the OpenCL/Clover state tracker within Mesa by default, shipping POCL for OpenCL support on CPUs, and packaging other OpenCL-related open-source Linux codes.</li>
-            <li><i class="fa fa-li fa-check-square-o"></i><b>Terminal</b> has a set of additional features, including: support for transparent backgrounds, automatic title updates to help you identify different terminals and a simple toggle for disabling shortcuts in the Terminal.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Ruby 2.2</b> Ruby 2.2 is the latest stable version of Ruby. Many new features and improvements are included for the increasingly diverse and expanding demands for Ruby. With this major update from Ruby 2.1 in Fedora 21 to Ruby 2.2 in Fedora 22, alongside JRuby, Fedora becomes the superior Ruby development platform.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Perl 5.20</b> A new perl 5.20 version brings a lot of changes done over a year of development. See 5.20.0 perldelta for more details.</li>
+            <li><i class="fa fa-li fa-check-square-o"></i><b>Vagrant</b> Create and configure lightweight, reproducible, and portable development environments with <a ng-click="openURI('http://www.vagrantup.com/')">Vagrant</a>. It comes configured with the libvirt provider as a default.</li>
           </ul>
           <div class="callout callout-info">
-            <p><a name="footnote"></a> <sup>1</sup> Korora is not provided or supported by the <a href="http://fedoraproject.org/">Fedora Project</a>. Official, unmodified Fedora software is available through the Fedora Project website.</em></p>
+            <p><a name="footnote"></a> <sup>1</sup> Korora is not provided or supported by the <a ng-click="openURI('http://fedoraproject.org/')">Fedora Project</a>. Official, unmodified Fedora software is available through the Fedora Project website.</em></p>
           </div>
         </div>
       </div>
