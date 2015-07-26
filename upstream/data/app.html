@@ -210,11 +210,11 @@
           <p>Korora 22 comes with GCC 5.1 as the primary compiler suite.</p>
 
           <h2>Captive Portal Detection</h2>
-          <p>Korora, by default, enables a captive portal detection that requests known content from a trusted Fedora server. If the request is redirected, a window automatically appears for you to interact with the portal's login webpage.</p>
+          <p>Korora Gnome, by default, enables a captive portal detection that requests known content from a trusted Fedora server. If the request is redirected, a window automatically appears for you to interact with the portal's login webpage.</p>
           <p>To disable this feature, remove /etc/NetworkManager/conf.d/20-connectivity-fedora.conf</p>
 
           <h2>Developer oriented firewall</h2>
-          <p>Developers often run test servers that run on high numbered ports, and interconnectivity with many modern consumer devices also requires these ports. The firewall in Korora, firewalld, is configured to allow these things.</p>
+          <p>Developers often run test servers that run on high numbered ports, and interconnectivity with many modern consumer devices also requires these ports. The firewall in Korora Gnome, firewalld, is configured to allow these things.</p>
           <p>Ports numbered under 1024, with the exceptions of sshd and clients for samba and DHCPv6, are blocked to prevent access to system services. Ports above 1024, used for user-initiated applications, are open by default.</p>
           <p>Refer to https://fedoraproject.org/wiki/FirewallD for details on customizing the firewall configuration, or install the firewall-config package for a graphical tool.</p>
 

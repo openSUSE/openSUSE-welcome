@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        22.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -57,6 +57,9 @@ fi
 /etc/skel/.config/autostart/welcome.desktop
 
 %changelog
+* Sun Jul 26 2015 Ian Firns <firnsy@kororaproject.org> - 22.2-2
+- Workstation is just Gnome.
+
 * Sat Jul 25 2015 Ian Firns <firnsy@kororaproject.org> - 22.2-1
 - We're not workstation.
 
