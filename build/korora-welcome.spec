@@ -1,6 +1,6 @@
 Name:           korora-welcome
 Version:        22.2
-Release:        2%{?dist}
+Release:        2%{?dist}.1
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -58,7 +58,7 @@ fi
 
 %changelog
 * Sun Jul 26 2015 Ian Firns <firnsy@kororaproject.org> - 22.2-2
-- Workstation is just Gnome.
+- Workstation is just GNOME.
 
 * Sat Jul 25 2015 Ian Firns <firnsy@kororaproject.org> - 22.2-1
 - We're not workstation.
