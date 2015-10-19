@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <ol class="breadcrumb">
+        <div class="btn-group pull-right">
+          <button class="btn btn-xs btn-default btn-google-plus" ng-click="openURI('https://plus.google.com/+KororaProjectOrg')"><i class="fa fa-fw fa-google-plus"></i></button>
+          <button class="btn btn-xs btn-default btn-facebook" ng-click="openURI('https://www.facebook.com/kororaproject')"><i class="fa fa-fw fa-facebook"></i></button>
+          <button class="btn btn-xs btn-default btn-twitter" ng-click="openURI('https://twitter.com/kororaproject')"><i class="fa fa-fw fa-twitter"></i></button>
+        </div>
+        <li><a href="#/main">Home</a></li>
+        <li class="active">New Features</li>
+      </ol>
+      <h1 class="page-title"><strong>Features.</strong> What's New?</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Hardened Packages</h2>
+      <p>Hardening is the process of securing a system/application by reducing its unnecessary functions, or restricting access. Liek Fedora, in Korora 22 and before, it was up to the package maintainers to ensure packages were built with hardening enabled. Beginning with Korora 23, hardening is now enabled by default for all packages.
+
+      <h2>Disable SSL3 and RC4 by default</h2>
+      <p>This change will disable by default the SSL 3.0 protocol and the RC4 cipher in components which use the system wide crypto policy. That is, gnutls and openssl libraries, and all the applications based on them.</p>
+
+      <h2>Default Local DNS Resolver</h2>
+      <p>To install a local DNS resolver trusted for the DNSSEC validation running on 127.0.0.1:53. This must be the only name server entry in /etc/resolv.conf.</p>
+
+      <h2>Unicode 8.0 support</h2>
+      <p>Unicode 8.0 got release on 17th June 2015. It includes 41 new emoji characters (including five modifiers for diversity), 5,771 new ideographs for Chinese, Japanese, and Korean, the new Georgian lari currency symbol, and 86 lowercase Cherokee syllables. It also adds letters to existing scripts to support Arwi (the Tamil language written in the Arabic script), the Ik language in Uganda, Kulango in the Côte d’Ivoire, and other languages of Africa. In total, this version adds 7,716 new characters and six new scripts. </p>
+
+      <h2>jQuery</h2>
+      <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
+
+      <h2>GNOME 3.18</h2>
+      <p></p>
+
+      <h2>KDE Plasma</h2>
+      <p></p>
+
+      <h2>Xfce</h2>
+      <p></p>
+
+      <h2>But wait, there's more ...</h2>
+      <p>Derived from Fedora 23<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
+      <p>A complete list with details of each new inherited feature is available at the <a ng-click="openURI('http://fedoraproject.org/wiki/Releases/23/ChangeSet')">Fedora 23 Change Set</a> page.
+      <ul class="fa-ul clean">
+        <li><i class="fa fa-li fa-check-square-o"></i><b>Node.js 0.12</b> Fedora 23 will be updated to Node.js 0.12, the latest release of the platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</li>
+        <li><i class="fa fa-li fa-check-square-o"></i><b>Perl 5.22</b> A new perl 5.22 version brings a lot of changes done over a year of development. Perl 5.22 should be released 5/20/2015. See 5.21.11 perldelta for more details about preparing release.</li>
+        <li><i class="fa fa-li fa-check-square-o"></i><b>Mono 4</b> Update the Mono stack in Fedora from 2.10 to 4.*.</li>
+      </ul>
+      <div class="callout callout-info">
+        <p><a name="footnote"></a> <sup>1</sup> Korora is not provided or supported by the <a ng-click="openURI('http://fedoraproject.org/')">Fedora Project</a>. Official, unmodified Fedora software is available through the Fedora Project website.</em></p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -32,9 +32,8 @@ autostart_state = False
 system = System().to_dict()
 
 app.namespaces = ['/usr/share/korora-welcome', 'data']
-app.load_ui('app.html')
 
-@app.connect('close-request')
+@app.bind('close-request')
 def close_request_cb():
   app.close()
 

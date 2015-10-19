@@ -2,8 +2,8 @@
 ** ANGULAR DEFINITIONS
 */
 var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens.bridge', 'lens.ui'])
-  .config(['$routeProvider',
-    function($routeProvider) {
+  .config(['$routeProvider', '$locationProvider',
+    function($routeProvider, $locationProvider) {
       $routeProvider
         .when('/main', {
           templateUrl: 'partials/main.html',
@@ -24,10 +24,12 @@ var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens.bridge', 'len
         .otherwise({
           redirectTo: '/main'
         });
-    }
-  ]);;
 
-function WelcomeCtrl($scope) {
+//      $locationProvider.html5Mode(true);
+    }
+  ]);
+
+app.controller('WelcomeCtrl', function($scope) {
   $scope.system = {
     arch:       'n/a',
     distribution: {
@@ -66,11 +68,7 @@ function WelcomeCtrl($scope) {
   });
 
   $scope.emit('get-system-config');
-}
-
-function MainCtrl($scope) {
-
-}
+});
 
 /*
 ** PAGE HANDLER
@@ -143,5 +141,3 @@ $(document).ready( function() {
   /* initial call to page resize helper */
   setTimeout(function() { resizeHelper(); }, 0);
 });
-
-
