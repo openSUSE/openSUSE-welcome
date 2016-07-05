@@ -31,7 +31,9 @@ autostart_path = os.path.expanduser('~/.config/autostart/welcome.desktop')
 autostart_state = False
 system = System().to_dict()
 
-app.namespaces = ['/usr/share/korora-welcome', 'data']
+app.namespaces = ['/usr/share/korora-welcome']
+if os.getenv('WELCOME_DEV', 0):
+    app.namespaces.insert(0, 'data')
 
 @app.bind('close-request')
 def close_request_cb():

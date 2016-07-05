@@ -15,37 +15,27 @@
   </div>
   <div class="row">
     <div class="col-sm-12">
-      <h2>Hardened Packages</h2>
-      <p>Hardening is the process of securing a system or application by reducing its unnecessary functions, or restricting access. Like Fedora, in Korora 22 and before, it was up to the package maintainers to ensure packages were built with hardening enabled. Beginning with Korora 23, hardening is now enabled by default for all packages.
 
-      <h2>Disable SSL3 and RC4 by default</h2>
-      <p>This change will disable by default the SSL 3.0 protocol and the RC4 cipher in components which use the system wide crypto policy. That is, GnuTLS and OpenSSL libraries, and all the applications based on them.</p>
+      <h2>GNOME 3.20</h2>
+      The <p>Korora 24 release features GNOME 3.20, with many usability improvements such as easier input device and printer settings, a better search interface, shortcut windows for keyboard commands, and more convenient music controls.</p>
 
-      <h2>Default Local DNS Resolver</h2>
-      <p>To install a local DNS resolver trusted for the DNSSEC validation running on 127.0.0.1:53. This must be the only name server entry in /etc/resolv.conf.</p>
+      <h2>Flatpak</h2>
+      <p>Flatpak (formerly xdg-app) is another building-block feature, with Software able to track installed Flatpaks and adding more features in the future as the technology develops. The Software app has also grown features to provide a full system upgrade directly from the desktop from one Fedora release to the next, and the ability to provide labeling as well as reviews of available software.</p>
 
-      <h2>Unicode 8.0 support</h2>
-      <p>Unicode 8.0 got release on 17th June 2015. It includes 41 new emoji characters (including five modifiers for diversity), 5,771 new ideographs for Chinese, Japanese, and Korean, the new Georgian lari currency symbol, and 86 lowercase Cherokee syllables. It also adds letters to existing scripts to support Arwi (the Tamil language written in the Arabic script), the Ik language in Uganda, Kulango in the Côte d’Ivoire, and other languages of Africa. In total, this version adds 7,716 new characters and six new scripts. </p>
+      <h2>GCC 6.0</h2>
+      <p>GCC 6.0 is packed with improvements and new features including additional warnings for misleading indentation, tautological comparisons, negative shits and shift overflows. Other new features include OpenMP 4.5 support, segment register support as well as defaulting to C++14. And of course, more optimizations and bugfixes than you can shake a stick at.</p>
 
-      <h2>jQuery</h2>
-      <p>jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</p>
-
-      <h2>GNOME 3.18</h2>
-      <p></p>
-
-      <h2>KDE Plasma</h2>
-      <p></p>
-
-      <h2>Xfce</h2>
-      <p></p>
+      <h2>Network Manager 1.2</h2>
+      <p>The NetworkManager team just released NetworkManager 1.2, and it is the biggest update in over a year. With almost 3500 commits since the previous major release (1.0), this release  delivers many new key features: less dependencies, improved Wi-Fi and IPv6 privacy, wider support for software devices, improved command line tool, better documentation, and support for multiple concurrent VPN sessions.</p>
 
       <h2>But wait, there's more ...</h2>
-      <p>Derived from Fedora 23<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
-      <p>A complete list with details of each new inherited feature is available at the <a ng-click="openURI('http://fedoraproject.org/wiki/Releases/23/ChangeSet')">Fedora 23 Change Set</a> page.
+      <p>Derived from Fedora 24<a href="#footnote"><sup>1</sup></a>, Korora benefits from Fedora's long tradition of bringing the latest technologies to open source software users.</p>
+      <p>A complete list with details of each new inherited feature is available at the <a ng-click="openURI('http://fedoraproject.org/wiki/Releases/24/ChangeSet')">Fedora 24 Change Set</a> page.
       <ul class="fa-ul clean">
-        <li><i class="fa fa-li fa-check-square-o"></i><b>Node.js 0.12</b> Fedora 23 will be updated to Node.js 0.12, the latest release of the platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</li>
-        <li><i class="fa fa-li fa-check-square-o"></i><b>Perl 5.22</b> A new perl 5.22 version brings a lot of changes done over a year of development. Perl 5.22 should be released 5/20/2015. See 5.21.11 perldelta for more details about preparing release.</li>
-        <li><i class="fa fa-li fa-check-square-o"></i><b>Mono 4</b> Update the Mono stack in Fedora from 2.10 to 4.*.</li>
+        <li><i class="fa fa-li fa-check-square-o"></i><b>Node.js 5.10</b> Korora 24 will be updated to Node.js 5.10, the latest release of the platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications.</li>
+        <li><i class="fa fa-li fa-check-square-o"></i><b>Ruby 2.3</b> Rebase of Golang package to upcoming version 1.6 in Fedora 24, including rebuild of all dependent packages.</li>
+        <li><i class="fa fa-li fa-check-square-o"></i><b>Golang 1.6</b> Golang was updated to the latest upstream 1.6 with all dependant packages being rebuilt with this latest version.</li>
+        <li><i class="fa fa-li fa-check-square-o"></i><b>Mono 4.2</b> Update the Mono stack in Korora from to 4.2 which includes more adoption of Microsoft’s open source code gaining support for PPDB debugging format, a new threadpool implementation, runtime optimisations and extensive bug fixing.</li>
       </ul>
       <div class="callout callout-info">
         <p><a name="footnote"></a> <sup>1</sup> Korora is not provided or supported by the <a ng-click="openURI('http://fedoraproject.org/')">Fedora Project</a>. Official, unmodified Fedora software is available through the Fedora Project website.</em></p>
