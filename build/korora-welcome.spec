@@ -1,6 +1,6 @@
 Name:           korora-welcome
-Version:        24.0
-Release:        3%{?dist}.1
+Version:        25.0
+Release:        1%{?dist}
 Summary:        Korora welcome utility
 
 License:        GPLv2+
@@ -57,6 +57,9 @@ fi
 /etc/skel/.config/autostart/welcome.desktop
 
 %changelog
+* Sat Nov 12 2016 Ian Firns <firnsy@kororaproject.org> - 25.0-1
+- Updated for 25 beta.
+
 * Mon Jul 11 2016 Ian Firns <firnsy@kororaproject.org> - 24.0-3
 - Removed KDE and Pharlap references.
 - Removed Facebook.
