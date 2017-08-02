@@ -1,6 +1,32 @@
+
+
 .page-container .no-nav {
   padding-top: 16px;
 }
+
+/*
+** SPLASH
+*/
+#splash {
+  align-items: center;
+  background-color: #fff;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  right: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
 
 /*
 ** BUTTONS
