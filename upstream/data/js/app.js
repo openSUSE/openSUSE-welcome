@@ -29,6 +29,10 @@ var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens.bridge', 'len
     }
   ]);
 
+angular.element(document).ready(function () {
+  angular.bootstrap(document, ['welcome']);
+});
+
 app.controller('WelcomeCtrl', function($scope) {
   $scope.system = {
     arch:       'n/a',

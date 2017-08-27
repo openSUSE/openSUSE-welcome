@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        25.0
+Version:        26.0
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -10,7 +10,7 @@ Source0:        %{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  desktop-file-utils
 Requires:       python3-dnf
-Requires:       python3-lens >= 0.7.5
+Requires:       python3-lens >= 0.15.0
 
 %description
 The Korora Welcome utility provides a simple interface for accessing all
@@ -57,6 +57,9 @@ fi
 /etc/skel/.config/autostart/welcome.desktop
 
 %changelog
+* Sun Aug 27 2017 Ian Firns <firnsy@kororaproject.org> - 26.0-1
+- Updated for 26.
+
 * Sat Nov 12 2016 Ian Firns <firnsy@kororaproject.org> - 25.0-1
 - Updated for 25 beta.
 
