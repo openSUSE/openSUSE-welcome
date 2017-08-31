@@ -7,25 +7,19 @@ var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens.bridge', 'len
       $routeProvider
         .when('/main', {
           templateUrl: 'partials/main.html',
-          controller: 'WelcomeCtrl'
         })
         .when('/contribute', {
           templateUrl: 'partials/contribute.html',
-          controller: 'WelcomeCtrl'
         })
         .when('/features', {
           templateUrl: 'partials/features.html',
-          controller: 'WelcomeCtrl'
         })
         .when('/readme', {
           templateUrl: 'partials/readme.html',
-          controller: 'WelcomeCtrl'
         })
         .otherwise({
           redirectTo: '/main'
         });
-
-//      $locationProvider.html5Mode(true);
     }
   ]);
 
@@ -80,7 +74,6 @@ app.controller('WelcomeCtrl', function($scope) {
 $(document).ready( function() {
   /* configure korobar */
   var fixed   = true;
-  var korobar = $('#korobar');
   var page    = $('.page-container');
   var footer  = $('footer');
   var start   = 0;
@@ -92,16 +85,6 @@ $(document).ready( function() {
       start = $('#banner').outerHeight();
     }
 
-    /* calculate korobar position and initial pinning state */
-    if( start - $(window).scrollTop() <= 0 ) {
-      korobar.css({ position: 'fixed', top: 0 });
-      fixed = true;
-    }
-    else {
-      korobar.css({ position: 'absolute', top: start + 'px' });
-      fixed = false;
-    }
-
     /* frob page-container minimum height to at least the footer top */
     page.css({
       'min-height': ($(window).height()-footer.outerHeight()) + 'px',
@@ -111,18 +94,6 @@ $(document).ready( function() {
     /* frob page-content minimum height to consume immediate window */
     $('.page-content').css('min-height', ( $(window).height() - 96 )  + 'px');
   }
-
-  /* pin korobar to top when it passes */
-  $(window).on('scroll', function() {
-    if( !fixed && (korobar.offset().top - $(window).scrollTop() <= 0) ) {
-      korobar.css({ position: 'fixed', top: 0, });
-      fixed = true;
-    }
-    else if( fixed && $(window).scrollTop() <= start ) {
-      korobar.css({ position: 'absolute', top: start + 'px' });
-      fixed = false;
-    }
-  });
 
   /* bind to resize events */
   $(window).on('resize', resizeHelper);
@@ -136,7 +107,7 @@ $(document).ready( function() {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if( target.length ) {
-        $('html,body').animate({ scrollTop: target.offset().top - korobar.height() - 16 }, 1000);
+        $('html,body').animate({ scrollTop: target.offset().top - 16 }, 1000);
         return false;
       }
     }

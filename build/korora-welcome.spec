@@ -1,5 +1,5 @@
 Name:           korora-welcome
-Version:        26.0
+Version:        26.1
 Release:        1%{?dist}
 Summary:        Korora welcome utility
 
@@ -57,6 +57,9 @@ fi
 /etc/skel/.config/autostart/welcome.desktop
 
 %changelog
+* Thu Aug 31 2017 Ian Firns <firnsy@kororaproject.org> - 26.1-1
+- Cleaned up JS.
+
 * Sun Aug 27 2017 Ian Firns <firnsy@kororaproject.org> - 26.0-1
 - Updated for 26.
 
