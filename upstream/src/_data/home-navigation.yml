@@ -1,0 +1,50 @@
+column_width: 4
+values:
+- name: Documentation
+  type: buttons
+  buttons:
+  - name: Read Me
+    type: primary
+    icon: book
+    url: readme
+  - name: Online
+    type: info
+    icon: external-link
+    external-url: https://doc.opensuse.org/
+  - name: Gnome Help
+    type: primary
+    icon: life-ring
+    command: gnome-help
+    show-if: isDE('gnome')
+  - name: Plasma Help
+    type: primary
+    icon: life-ring
+    command: kde-help
+    show-if: isDE('kde')
+  - name: Xfce Help
+    type: primary
+    icon: life-ring
+    command: xfce-help
+    show-if: isDE('xfce')
+- type: image
+  url: images/openSUSE.svg
+- name: Support
+  type: buttons
+  buttons:
+  - name: Engage
+    type: primary
+    icon: group
+    external-url: https://en.opensuse.org/openSUSE:Communication_channels
+  - name: Contribute
+    type: primary
+    icon: hand-o-up
+    url: contribute
+  - name: Build openSUSE
+    type: success
+    icon: github-alt
+    external-url: https://build.opensuse.org/
+  - name: Install Korora
+    type: primary
+    icon: hdd-o
+    show-if: system.distribution.live
+    command: install

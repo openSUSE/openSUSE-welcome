@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,18 +15,7 @@
   <footer class="bg-dark keep-bottom p-3 text-white">
       <div class="d-flex justify-content-between align-items-center">
         <div>
-            <div class="btn-group">
-    
-    <button class="btn btn-sm btn-reddit" ng-click="openURI('https://reddit.com/r/openSUSE')"><i class="fa fa-fw fa-reddit"></i></button>
-    
-    <button class="btn btn-sm btn-facebook" ng-click="openURI('https://facebook.com/en.openSUSE')"><i class="fa fa-fw fa-facebook"></i></button>
-    
-    <button class="btn btn-sm btn-twitter" ng-click="openURI('https://twitter.com/openSUSE')"><i class="fa fa-fw fa-twitter"></i></button>
-    
-    <button class="btn btn-sm btn-google-plus" ng-click="openURI('https://plus.google.com/u/0/+openSUSE')"><i class="fa fa-fw fa-google-plus"></i></button>
-    
-</div>
-
+            {% include social.html %}
         </div>
         <div class="d-flex">
           <checkbox class="btn btn-sm btn-link text-white" ng-model="autostart" ng-click="updateAutoStart()">Show on next startup</checkbox>

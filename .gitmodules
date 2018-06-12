@@ -1,0 +1,6 @@
+[submodule "upstream/data/theme"]
+	path = upstream/data/theme
+	url = https://github.com/opensuse/opensuse-theme-chameleon.git
+[submodule "upstream/src/theme"]
+	path = upstream/src/theme
+	url = https://github.com/opensuse/opensuse-theme-chameleon.git

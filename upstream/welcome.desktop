@@ -2,6 +2,6 @@
 Type=Application
 Name=Welcome
 Exec=/usr/bin/welcome
-Icon=korora-welcome
-Comment=The Korora Welcome utility.
+Icon=openSUSE-welcome
+Comment=The openSUSE Welcome utility.
 Categories=GTK;GNOME;Application;System;

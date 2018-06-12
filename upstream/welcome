@@ -16,7 +16,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 #
 
-import dnf
+import zypp_plugin
 import hawkey
 import os
 import subprocess
@@ -31,7 +31,7 @@ autostart_path = os.path.expanduser('~/.config/autostart/welcome.desktop')
 autostart_state = False
 system = System().to_dict()
 
-app.namespaces = ['/usr/share/korora-welcome']
+app.namespaces = ['/usr/share/openSUSE-welcome']
 if os.getenv('WELCOME_DEV', False):
     app.namespaces = [os.getenv('WELCOME_DEV', '.')]
 
