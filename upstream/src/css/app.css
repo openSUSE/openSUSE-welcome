@@ -20,3 +20,44 @@ body {
 #content {
  margin-bottom:auto!important
 }
+
+.splash {
+  background-color: #73ba25;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 2000;
+  -webkit-animation:fade-away 2s linear;
+  animation:fade-away 2s linear;
+  opacity: 0;
+  pointer-events: none;
+}
+.splash img {
+  width: 200px;
+  margin: auto;
+  display: block;
+  -webkit-animation:unblur 1.5s linear;
+  animation:unblur 1.5s linear;
+}
+
+@keyframes unblur {
+ 0% {
+  filter: blur(10px);
+ }
+ 100% {
+  filter: blur(0px);
+ }
+}
+
+@keyframes fade-away {
+ 0% {
+  opacity: 1;
+ }
+ 80% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
+ }
+}
