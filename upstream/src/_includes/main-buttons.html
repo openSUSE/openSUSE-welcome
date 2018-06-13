@@ -1,6 +1,7 @@
+{% for row in site.data.home-navigation %}
 <div class="row my-3">
-    {% for column in site.data.home-navigation.values %}
-    <div class="col-sm-{{ site.data.home-navigation.column_width }} btn-showcase my-auto">
+    {% for column in row.values %}
+    <div class="col-sm-{{ row.column_width }} btn-showcase my-auto">
         <h4>{{ column.name }}</h4>
             {% if column.type == "buttons" %}
             {% for button in column.buttons %}
@@ -13,3 +14,4 @@
     </div>
     {% endfor %}
 </div>
+{% endfor %}

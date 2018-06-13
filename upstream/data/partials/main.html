@@ -15,18 +15,14 @@
 <div class="row my-3">
     
     <div class="col-sm-4 btn-showcase my-auto">
-        <h4>Documentation</h4>
+        <h4>Basics</h4>
             
             
-            <a class="btn btn-block btn-primary" href="#!/readme"><i class="fa fa-book"></i> Read Me</a>
+            <a class="btn btn-block btn-warning font-weight-bold" href="#!/readme"><i class="fa fa-book"></i> Read Me</a>
             
-            <a class="btn btn-block btn-info" href="" ng-click="openURI('https://doc.opensuse.org/')"><i class="fa fa-external-link"></i> Online</a>
+            <a class="btn btn-block btn-info" href="" ng-click="openURI('https://doc.opensuse.org/')"><i class="fa fa-external-link"></i> Documentation</a>
             
-            <a class="btn btn-block btn-primary" href="" ng-click="command('gnome-help')" ng-show="isDE('gnome')"><i class="fa fa-life-ring"></i> Gnome Help</a>
-            
-            <a class="btn btn-block btn-primary" href="" ng-click="command('kde-help')" ng-show="isDE('kde plasma')"><i class="fa fa-life-ring"></i> Plasma Help</a>
-            
-            <a class="btn btn-block btn-primary" href="" ng-click="command('xfce-help')" ng-show="isDE('xfce')"><i class="fa fa-life-ring"></i> Xfce Help</a>
+            <a class="btn btn-block btn-secondary" href="" ng-click="openURI('https://software.opensuse.org/explore')"><i class="fa fa-shopping-bag"></i> Get software</a>
             
             
             
@@ -44,13 +40,29 @@
         <h4>Support</h4>
             
             
-            <a class="btn btn-block btn-primary" href="" ng-click="openURI('https://en.opensuse.org/openSUSE:Communication_channels')"><i class="fa fa-group"></i> Engage</a>
+            <a class="btn btn-block btn-primary" href="" ng-click="command('gnome-help')" ng-show="isDE('gnome')"><i class="fa fa-life-ring"></i> Gnome Help</a>
+            
+            <a class="btn btn-block btn-primary" href="" ng-click="command('kde-help')" ng-show="isDE('kde plasma')"><i class="fa fa-life-ring"></i> Plasma Help</a>
+            
+            <a class="btn btn-block btn-primary" href="" ng-click="command('xfce-help')" ng-show="isDE('xfce')"><i class="fa fa-life-ring"></i> Xfce Help</a>
             
             <a class="btn btn-block btn-primary" href="#!/contribute"><i class="fa fa-hand-o-up"></i> Contribute</a>
             
             <a class="btn btn-block btn-success" href="" ng-click="openURI('https://build.opensuse.org/')"><i class="fa fa-github-alt"></i> Build openSUSE</a>
             
-            <a class="btn btn-block btn-primary" href="" ng-click="command('install')" ng-show="system.distribution.live"><i class="fa fa-hdd-o"></i> Install Korora</a>
+            
+            
+    </div>
+    
+</div>
+
+<div class="row my-3">
+    
+    <div class="col-sm-12 btn-showcase my-auto">
+        <h4></h4>
+            
+            
+            <a class="btn btn-block btn-primary" href="" ng-click="command('install')" ng-show="system.distribution.live"><i class="fa fa-hdd-o"></i> Install openSUSE</a>
             
             
             

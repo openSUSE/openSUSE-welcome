@@ -10,6 +10,18 @@ Most commonly used social medias are already listed in the footer, but here are 
 
 {% include link url="https://discord.gg/openSUSE" text="Discord" class="btn btn-discord" %}
 
+### Facebook
+
+{% include link url="https://www.facebook.com/groups/opensuseproject/" text="Facebook Group" class="btn btn-facebook" %}
+
+### Forums
+
+{% include link url="https://forums.opensuse.org" text="openSUSE Forums" class="btn btn-openSUSE" %}
+
+### Google+
+
+{% include link url="https://plus.google.com/u/0/communities/115444043324891769569" text="Google+ Community" class="btn btn-google-plus" %}
+
 ### IRC
 
 {% include link url="irc://irc.opensuse.org/#opensuse" text="Tech Support" class="btn btn-openSUSE" %}
