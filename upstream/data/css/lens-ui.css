@@ -44,6 +44,10 @@
 .btn-twitter:hover { color: #fff; background-color: #4099ff; }
 .btn-openSUSE { color: #73ba25; background-color: #fff; }
 .btn-openSUSE:hover { color: #fff; background-color: #73ba25; }
+.btn-discord { color: #6375B7; background-color: #fff; }
+.btn-discord:hover { color: #fff; background-color: #6375B7; }
+.btn-telegram { color: #32AFED; background-color: #fff; }
+.btn-telegram:hover { color: #fff; background-color: #32AFED; }
 
 /*
 ** CHECKBOX/RADIO

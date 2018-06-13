@@ -20,14 +20,14 @@ values:
     type: primary
     icon: life-ring
     command: kde-help
-    show-if: isDE('kde')
+    show-if: isDE('kde plasma')
   - name: Xfce Help
     type: primary
     icon: life-ring
     command: xfce-help
     show-if: isDE('xfce')
 - type: image
-  url: images/openSUSE.svg
+  url: images/sinking.svg
 - name: Support
   type: buttons
   buttons:

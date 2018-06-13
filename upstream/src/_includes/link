@@ -1,1 +1,1 @@
-<a ng-click="openURI('{{ include.url }}')" href="">{{ include.text }}</a>
+<a class="{{ include.class }}" ng-click="openURI('{{ include.url }}')" href=""><i class="fa fa-external-link"> {{ include.text }}</i></a>

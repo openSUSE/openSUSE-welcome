@@ -11,8 +11,8 @@ var app = angular.module("welcome", ['ngAnimate', 'ngRoute', 'lens.bridge', 'len
         .when('/contribute', {
           templateUrl: 'partials/contribute.html',
         })
-        .when('/features', {
-          templateUrl: 'partials/features.html',
+        .when('/socials', {
+          templateUrl: 'partials/socials.html',
         })
         .when('/readme', {
           templateUrl: 'partials/readme.html',
