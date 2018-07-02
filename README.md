@@ -11,6 +11,6 @@ TODO:
 * Add other languages
 * Adjust makefile to take jekyll into account
 * Add all text necessary
-* Add link to software-o-o
+* ~~Add link to software-o-o~~
 * Add openSUSE News headline to main view
-* Commit more to aquatic theme with more fitting graphics (pirates and stuff)
+* ~~Commit more to aquatic theme with more fitting graphics (pirates and stuff)~~
