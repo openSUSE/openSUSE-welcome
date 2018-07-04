@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="lens://css/font-awesome.css" rel="stylesheet" media="screen">
+  <link href="app://css/lens-ui.css" rel="stylesheet" media="screen">
+  <link href="app://theme/dist/css/chameleon.css" rel="stylesheet" media="screen">
+  <link href="app://css/app.css" rel="stylesheet" media="screen">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*"> 
+</head>
+<body ng-controller="WelcomeCtrl">
+  <div id="content" class="page-content no-nav">
+  <div class="sticky-top">
+    <div class="breadcrumb py-0 d-flex justify-content-between align-items-center">
+        <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item active"><a href="app://home.html"><i class="fa fa-home"> </i>Home</a></li>
+            <li class="breadcrumb-item active">Social Media</li>
+        </ol>
+    </div>
+</div>
+<div class="container">
+      <h2 id="social-media-how-to-reach-us">Social media. How to reach us!</h2>
+
+<p>Most commonly used social medias are already listed in the footer, but here are some more you might find useful, alphabetically:</p>
+
+<h3 id="discord">Discord</h3>
+
+<p><a class="btn btn-discord" ng-click="openURI('https://discord.gg/openSUSE')" href=""><i class="fa fa-external-link"> Discord</i></a></p>
+
+<h3 id="facebook">Facebook</h3>
+
+<p><a class="btn btn-facebook" ng-click="openURI('https://www.facebook.com/groups/opensuseproject/')" href=""><i class="fa fa-external-link"> Facebook Group</i></a></p>
+
+<h3 id="forums">Forums</h3>
+
+<p><a class="btn btn-openSUSE" ng-click="openURI('https://forums.opensuse.org')" href=""><i class="fa fa-external-link"> openSUSE Forums</i></a></p>
+
+<h3 id="google">Google+</h3>
+
+<p><a class="btn btn-google-plus" ng-click="openURI('https://plus.google.com/u/0/communities/115444043324891769569')" href=""><i class="fa fa-external-link"> Google+ Community</i></a></p>
+
+<h3 id="irc">IRC</h3>
+
+<p><a class="btn btn-openSUSE" ng-click="openURI('irc://irc.opensuse.org/#opensuse')" href=""><i class="fa fa-external-link"> Tech Support</i></a></p>
+
+<p><a class="btn btn-openSUSE" ng-click="openURI('irc://irc.opensuse.org/#opensuse-project')" href=""><i class="fa fa-external-link"> Project</i></a></p>
+
+<p><a class="btn btn-openSUSE" ng-click="openURI('irc://irc.opensuse.org/#opensuse-factory')" href=""><i class="fa fa-external-link"> Factory</i></a></p>
+
+<p><a class="btn btn-openSUSE" ng-click="openURI('irc://irc.opensuse.org/#opensuse-chat')" href=""><i class="fa fa-external-link"> Chat</i></a></p>
+
+<h3 id="telegram">Telegram</h3>
+
+<p><a class="btn btn-telegram" ng-click="openURI('https://t.me/openSUSE_group')" href=""><i class="fa fa-external-link"> openSUSE Group</i></a></p>
+
+<p><a class="btn btn-telegram" ng-click="openURI('https://t.me/opensusenews')" href=""><i class="fa fa-external-link"> News</i></a></p>
+
+
+</div>
+
+  </div>
+  <footer class="bg-dark keep-bottom p-3 text-white">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <div class="btn-group">
+    
+    <button class="btn btn-sm btn-reddit" ng-click="openURI('https://reddit.com/r/openSUSE')"><i class="fa fa-fw fa-reddit"></i></button>
+    
+    <button class="btn btn-sm btn-facebook" ng-click="openURI('https://facebook.com/en.openSUSE')"><i class="fa fa-fw fa-facebook"></i></button>
+    
+    <button class="btn btn-sm btn-twitter" ng-click="openURI('https://twitter.com/openSUSE')"><i class="fa fa-fw fa-twitter"></i></button>
+    
+    <button class="btn btn-sm btn-google-plus" ng-click="openURI('https://plus.google.com/u/0/+openSUSE')"><i class="fa fa-fw fa-google-plus"></i></button>
+    
+</div>
+
+        </div>
+        <div class="d-flex">
+          <checkbox class="btn btn-sm btn-link text-white" ng-model="autostart" ng-click="updateAutoStart()" lang="en">Show on next startup</checkbox>
+          <button id="close" class="btn btn-sm btn-danger ml-3" ng-click="close()" lang="en"><i class="fa fa-times"></i> Close</button>
+        </div>
+      </div>
+  </footer>
+  <script src="app://theme/dist/js/chameleon.js"></script>
+  <script src="app://js/jquery-lang.js"></script>
+  <script src="app://js/jquery.rss.js"></script>
+  <script src="app://js/search_methods.js"></script>
+  <script src="lens://js/lens-angular.min.js"></script>
+  <script src="app://js/app.js"></script>
+</body>
+</html>

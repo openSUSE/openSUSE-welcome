@@ -1,41 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="lens://css/font-awesome.css" rel="stylesheet" media="screen">
-  <link href="app://css/lens-ui.css" rel="stylesheet" media="screen">
-  <link href="app://theme/dist/css/chameleon.css" rel="stylesheet" media="screen">
-  <link href="app://css/app.css" rel="stylesheet" media="screen">
+<script>
+document.addEventListener("DOMContentLoaded", function(event) { 
+window.setTimeout(function(){ window.location = "app://home.html"; },1500);
+});
+</script>
+<link href="app://theme/dist/css/chameleon.css" rel="stylesheet" media="screen">
+<link href="app://css/app.css" rel="stylesheet" media="screen">
 </head>
-<body class="unselectable" ng-controller="WelcomeCtrl">
-  <div class="splash"><img src="app://images/logo.svg"/></div>
-  <div id="content" class="page-content no-nav" ng-view></div>
-
-  <footer class="bg-dark keep-bottom p-3 text-white">
-      <div class="d-flex justify-content-between align-items-center">
-        <div>
-            <div class="btn-group">
-    
-    <button class="btn btn-sm btn-reddit" ng-click="openURI('https://reddit.com/r/openSUSE')"><i class="fa fa-fw fa-reddit"></i></button>
-    
-    <button class="btn btn-sm btn-facebook" ng-click="openURI('https://facebook.com/en.openSUSE')"><i class="fa fa-fw fa-facebook"></i></button>
-    
-    <button class="btn btn-sm btn-twitter" ng-click="openURI('https://twitter.com/openSUSE')"><i class="fa fa-fw fa-twitter"></i></button>
-    
-    <button class="btn btn-sm btn-google-plus" ng-click="openURI('https://plus.google.com/u/0/+openSUSE')"><i class="fa fa-fw fa-google-plus"></i></button>
-    
-</div>
-
-        </div>
-        <div class="d-flex">
-          <checkbox class="btn btn-sm btn-link text-white" ng-model="autostart" ng-click="updateAutoStart()">Show on next startup</checkbox>
-          <button id="close" class="btn btn-sm btn-danger ml-3" ng-click="close()"><i class="fa fa-times"></i> Close</button>
-        </div>
-      </div>
-  </footer>
-
-  <script src="lens://js/lens-angular.min.js"></script>
-  <script src="app://js/app.js"></script>
-  <script src="app://theme/dist/js/chameleon.js"></script>
+<body>
+<div class="splash"><img src="app://images/logo.svg"/></div>
 </body>
 </html>

@@ -1,4 +1,16 @@
-<div class="sticky-top">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="lens://css/font-awesome.css" rel="stylesheet" media="screen">
+  <link href="app://css/lens-ui.css" rel="stylesheet" media="screen">
+  <link href="app://theme/dist/css/chameleon.css" rel="stylesheet" media="screen">
+  <link href="app://css/app.css" rel="stylesheet" media="screen">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*"> 
+</head>
+<body ng-controller="WelcomeCtrl">
+  <div id="content" class="page-content no-nav">
+  <div class="sticky-top">
     <div class="breadcrumb py-0 d-flex justify-content-between align-items-center">
         <ol class="breadcrumb mb-0 btn-sm">
             
@@ -18,7 +30,7 @@
         <h4>Basics</h4>
             
             
-            <a class="btn btn-block btn-warning font-weight-bold" href="#!/readme"><i class="fa fa-book"></i> Read Me</a>
+            <a class="btn btn-block btn-warning font-weight-bold" href="app://readme.html"><i class="fa fa-book"></i> Read Me</a>
             
             <a class="btn btn-block btn-info" href="" ng-click="openURI('https://doc.opensuse.org/')"><i class="fa fa-external-link"></i> Documentation</a>
             
@@ -46,7 +58,7 @@
             
             <a class="btn btn-block btn-primary" href="" ng-click="command('xfce-help')" ng-show="isDE('xfce')"><i class="fa fa-life-ring"></i> Xfce Help</a>
             
-            <a class="btn btn-block btn-primary" href="#!/contribute"><i class="fa fa-hand-o-up"></i> Contribute</a>
+            <a class="btn btn-block btn-primary" href="app://contribute.html"><i class="fa fa-hand-o-up"></i> Contribute</a>
             
             <a class="btn btn-block btn-success" href="" ng-click="openURI('https://build.opensuse.org/')"><i class="fa fa-github-alt"></i> Build openSUSE</a>
             
@@ -74,3 +86,37 @@
 
 
 </div>
+<div id="rss-feeds">
+</div>
+
+  </div>
+  <footer class="bg-dark keep-bottom p-3 text-white">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <div class="btn-group">
+    
+    <button class="btn btn-sm btn-reddit" ng-click="openURI('https://reddit.com/r/openSUSE')"><i class="fa fa-fw fa-reddit"></i></button>
+    
+    <button class="btn btn-sm btn-facebook" ng-click="openURI('https://facebook.com/en.openSUSE')"><i class="fa fa-fw fa-facebook"></i></button>
+    
+    <button class="btn btn-sm btn-twitter" ng-click="openURI('https://twitter.com/openSUSE')"><i class="fa fa-fw fa-twitter"></i></button>
+    
+    <button class="btn btn-sm btn-google-plus" ng-click="openURI('https://plus.google.com/u/0/+openSUSE')"><i class="fa fa-fw fa-google-plus"></i></button>
+    
+</div>
+
+        </div>
+        <div class="d-flex">
+          <checkbox class="btn btn-sm btn-link text-white" ng-model="autostart" ng-click="updateAutoStart()" lang="en">Show on next startup</checkbox>
+          <button id="close" class="btn btn-sm btn-danger ml-3" ng-click="close()" lang="en"><i class="fa fa-times"></i> Close</button>
+        </div>
+      </div>
+  </footer>
+  <script src="app://theme/dist/js/chameleon.js"></script>
+  <script src="app://js/jquery-lang.js"></script>
+  <script src="app://js/jquery.rss.js"></script>
+  <script src="app://js/search_methods.js"></script>
+  <script src="lens://js/lens-angular.min.js"></script>
+  <script src="app://js/app.js"></script>
+</body>
+</html>

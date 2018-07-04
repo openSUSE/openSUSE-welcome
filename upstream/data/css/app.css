@@ -28,9 +28,6 @@ body {
   height: 100%;
   display: flex;
   z-index: 2000;
-  -webkit-animation:fade-away 2s linear;
-  animation:fade-away 2s linear;
-  opacity: 0;
   pointer-events: none;
 }
 .splash img {
@@ -39,6 +36,7 @@ body {
   display: block;
   -webkit-animation:unblur 1.5s linear;
   animation:unblur 1.5s linear;
+  filter: blur(0px);
 }
 
 @keyframes unblur {
@@ -47,17 +45,5 @@ body {
  }
  100% {
   filter: blur(0px);
- }
-}
-
-@keyframes fade-away {
- 0% {
-  opacity: 1;
- }
- 80% {
-  opacity: 1;
- }
- 100% {
-  opacity: 0;
  }
 }

@@ -25,7 +25,7 @@ import webbrowser
 from lens.app import App
 from lens.system import System
 
-app = App(name="Welcome", width=792, height=496)
+app = App(name="Welcome", width=800, height=540)
 
 autostart_path = os.path.expanduser('~/.config/autostart/welcome.desktop')
 autostart_state = False
