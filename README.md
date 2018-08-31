@@ -4,7 +4,7 @@ This is supposed to be a window that shows up during first boot into openSUSE, s
 
 ![Welcome](Screenshot.png)
 
-Package requires patched python3-lens, which is not yet in repositories (you can get it [here](https://github.com/hellcp/kp-lens))
+Package requires python3-lens, which is not yet in repositories (you can get it [here](https://github.com/kororaproject/kp-lens))
 
 TODO:
 * Provide correct command to live installer
