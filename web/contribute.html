@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="qrc:///web/css/font-awesome.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/lens-ui.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/chameleon.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/app.css" rel="stylesheet" media="screen">
+  <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+</head>
+
+<body ng-controller="WelcomeCtrl">
+  <div id="content" class="page-content no-nav">
+    <div class="sticky-top">
+      <div class="breadcrumb py-0 d-flex justify-content-between align-items-center">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item active"><a onclick="delayedClick('qrc:///web/home.html')" href=""><i
+                class="fa fa-home"> </i>{{conTrans.home}}</a></li>
+          <li class="breadcrumb-item active">{{conTrans.contribute}}</li>
+        </ol>
+      </div>
+    </div>
+    <div class="container">
+      <h1 id="contribute-participate-in-opensuse">{{conTrans.participate}}</h1>
+
+      <p>{{conTrans.conBlurb}}</p>
+
+      <p>{{conTrans.con2p1}}<a class="" onclick="bridge.openURL('https://en.opensuse.org/openSUSE:Members')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con2l1}}</i></a>
+        {{conTrans.con2p2}}</p>
+
+      <h2 id="be-part-of-the-opensuse-community">{{conTrans.partOf}}</h2>
+      <p>{{conTrans.con3p1}} <a class="" onclick="bridge.openURL('https://en.opensuse.org/Portal:Project')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con3l1}}</i></a>
+        {{conTrans.con3p2}} <a class="" onclick="bridge.openURL('https://news.opensuse.org')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con3l2}}</i></a>
+        {{conTrans.con3p3}} <a class="" onclick="bridge.openURL('https://planet.opensuse.org')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con3l3}}</i></a>!</p>
+
+      <h2 id="help-us-to-release-the-next-version-of-opensuse">{{conTrans.helpUs}}</h2>
+      <p>{{conTrans.con4p1}} <a class="" onclick="bridge.openURL('https://progress.opensuse.org/projects/')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con4l1}}</i></a>
+        {{conTrans.con4p2}}</p>
+
+      <h2 id="discuss-opensuse-and-help-other-users">{{conTrans.discussAndHelp}}</h2>
+      <p>{{conTrans.con5p1}} <a class=""
+          onclick="bridge.openURL('https://en.opensuse.org/openSUSE:Communication_channels')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con5l1}}</i></a>
+        {{conTrans.con5p2}}</p>
+
+      <h2 id="suggest-new-features-or-software">{{conTrans.suggest}}</h2>
+      <p>{{conTrans.con6p1}} <a class="" onclick="bridge.openURL('https://bugzilla.opensuse.org/')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con6l1}}</i></a>
+        {{conTrans.con6p2}}</p>
+
+      <h2 id="spread-the-word">{{conTrans.spreadWord}}</h2>
+      <p>{{conTrans.con7p1}} <a class="" onclick="bridge.openURL('https://build.opensuse.org/')" href=""><i
+            class="fa fa-external-link"> {{conTrans.con7l1}}</i></a>
+        {{conTrans.con7p2}}</p>
+
+
+    </div>
+
+  </div>
+  <footer class="bg-dark keep-bottom p-3 text-white">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <div class="btn-group">
+          <button class="btn btn-sm btn-reddit" onclick="bridge.openURL('https://reddit.com/r/openSUSE')"><i
+              class="fa fa-fw fa-reddit"></i></button>
+          <button class="btn btn-sm btn-facebook" onclick="bridge.openURL('https://facebook.com/en.openSUSE')"><i
+              class="fa fa-fw fa-facebook"></i></button>
+          <button class="btn btn-sm btn-twitter" onclick="bridge.openURL('https://twitter.com/openSUSE')"><i
+              class="fa fa-fw fa-twitter"></i></button>
+        </div>
+
+      </div>
+      <div class="d-flex">
+        <button id="close" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()"><i
+            class="fa fa-times">{{conTrans.close}}</i></button>
+      </div>
+    </div>
+  </footer>
+  <script src="qrc:///web/js/chameleon.js"></script>
+  <script src="qrc:///web/js/jquery.min.js"></script>
+  <script src="qrc:///web/js/jquery-lang.js"></script>
+  <script src="qrc:///web/js/jquery.rss.js"></script>
+  <script src="qrc:///web/js/search_methods.js"></script>
+  <script src="qrc:///web/js/lens-angular.min.js"></script>
+  <script src="qrc:///web/js/app.js"></script>
+</body>
+
+</html>

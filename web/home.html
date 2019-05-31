@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="qrc:///web/css/font-awesome.css" rel="stylesheet" media="screen">
+    <link href="qrc:///web/css/lens-ui.css" rel="stylesheet" media="screen">
+    <link href="qrc:///web/css/chameleon.css" rel="stylesheet" media="screen">
+    <link href="qrc:///web/css/app.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+</head>
+
+<body ng-controller="WelcomeCtrl">
+    <div id="content" class="page-content no-nav">
+        <div class="sticky-top">
+            <div class="breadcrumb py-0 d-flex justify-content-between align-items-center">
+                <ol class="breadcrumb mb-0 btn-sm">
+
+                    <li class="breadcrumb-item active"><i class="fa fa-desktop"></i> {{system.distribution.version}}
+                    </li>
+                    <li class="breadcrumb-item active"><i class="fa fa-industry"></i> {{system.arch}}</li>
+                    <li class="breadcrumb-item active"><i class="fa fa-image"></i> {{system.distribution.desktop}}</li>
+
+                </ol>
+            </div>
+        </div>
+        <div class="container">
+            <h1 id="ahoy-this-is-opensuse">{{homeTrans.ahoy}}</h1>
+
+            <div class="row my-3">
+
+                <div class="col-sm-4 btn-showcase my-auto">
+                    <h4>{{homeTrans.basicsHeader}}</h4>
+                    <a class="btn btn-block btn-warning font-weight-bold" href="" onclick="delayedClick('qrc:///web/readme.html')">
+                        <i class="fa fa-book"></i> {{homeTrans.readme}}
+                    </a>
+                    <a class="btn btn-block btn-info" href="" onclick="bridge.openURL('https://doc.opensuse.org/')">
+                        <i class="fa fa-external-link"></i> {{homeTrans.documentation}}
+                    </a>
+                    <a class="btn btn-block btn-secondary" href=""
+                        onclick="bridge.openURL('https://software.opensuse.org/explore')">
+                        <i class="fa fa-shopping-cart"></i> {{homeTrans.getsoftware}}
+                    </a>
+                </div>
+
+                <div class="col-sm-4 btn-showcase my-auto">
+                    <img class="w-75 mx-auto d-block" src="qrc:///web/images/sinking.svg" />
+                </div>
+
+                <div class="col-sm-4 btn-showcase my-auto">
+                    <h4>{{homeTrans.supportHeader}}</h4>
+                    <a class="btn btn-block btn-primary de-help" href="" onclick="launcher.launch('gnome-help')"
+                        data-de="gnome">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.gnomehelp}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href="" onclick="launcher.launch('khelpcenter')"
+                        data-de="kde">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.plasmahelp}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://docs.xfce.org/')" data-de="xfce">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.xfcehelp}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://wiki.mate-desktop.org/docs')" data-de="mate">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.matehelp}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://www.enlightenment.org/start')" data-de="enlightenment">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.enlightenmenthelp}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://en.wikipedia.org/wiki/Budgie_(desktop_environment)')"
+                        data-de="budgie">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.aboutbudgie}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://lumina-desktop.org/')" data-de="lumina">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.aboutlumina}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://wiki.lxde.org/en/Main_Page')" data-de="lxde">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.lxdehelp}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://github.com/lxqt/lxqt/wiki')" data-de="lxqt">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.lxqthelp}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://en.wikipedia.org/wiki/Cinnamon_(Desktop_Environment)')"
+                        data-de="cinnamon">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.aboutcinnamon}}
+                    </a>
+                    <a class="btn btn-block btn-primary de-help" href=""
+                        onclick="bridge.openURL('https://wiki.deepin.org/?language=en_US')" data-de="deepin">
+                        <i class="fa fa-life-ring"></i> {{homeTrans.aboutcinnamon}}
+                    </a>
+                    <a class="btn btn-block btn-primary" onclick="delayedClick('qrc:///web/contribute.html')" href="">
+                        <i class="fa fa-hand-o-up"></i> {{homeTrans.contribute}}
+                    </a>
+                    <a class="btn btn-block btn-success" href=""
+                        onclick="bridge.openURL('https://build.opensuse.org/')">
+                        <i class="fa fa-github-alt"></i> {{homeTrans.build}}
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row my-3" id="live">
+                <div class="col-sm-12 btn-showcase my-auto">
+                    <a class="btn btn-block btn-primary" href="" ononclick="launcher.launch('/usr/bin/liveinst/')"><i class="fa fa-hdd-o"></i> {{homeTrans.install}}</a>
+                </div>
+            </div>
+
+            <p>
+                {{homeTrans.smParagraph}} <a class="" onclick="delayedClick('qrc:///web/socials.html')"
+                    href="">{{homeTrans.smLink}}</a>.
+            </p>
+
+
+        </div>
+        <div id="rss-feeds">
+        </div>
+
+    </div>
+    <footer class="bg-dark keep-bottom p-3 text-white">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <div class="btn-group">
+                    <button class="btn btn-sm btn-reddit" onclick="bridge.openURL('https://reddit.com/r/openSUSE')"><i
+                            class="fa fa-fw fa-reddit"></i></button>
+                    <button class="btn btn-sm btn-facebook"
+                        onclick="bridge.openURL('https://facebook.com/en.openSUSE')"><i
+                            class="fa fa-fw fa-facebook"></i></button>
+                    <button class="btn btn-sm btn-twitter" onclick="bridge.openURL('https://twitter.com/openSUSE')"><i
+                            class="fa fa-fw fa-twitter"></i></button>
+                </div>
+            </div>
+            <div class="d-flex">
+                <checkbox id="autostart" class="btn btn-sm btn-link text-white" ng-checked="bridge.enabled"
+                    ng-model="autostart" onclick="updateAutoStart()">
+                    {{homeTrans.autostart}}
+                </checkbox>
+                <button id="close" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()" lang="en">
+                    <i class="fa fa-times"></i> {{homeTrans.close}}
+                </button>
+            </div>
+        </div>
+    </footer>
+    <script src="qrc:///web/js/chameleon.js"></script>
+    <script src="qrc:///web/js/jquery.min.js"></script>
+    <script src="qrc:///web/js/jquery-lang.js"></script>
+    <script src="qrc:///web/js/jquery.rss.js"></script>
+    <script src="qrc:///web/js/search_methods.js"></script>
+    <script src="qrc:///web/js/lens-angular.min.js"></script>
+    <script src="qrc:///web/js/app.js"></script>
+</body>
+
+</html>
