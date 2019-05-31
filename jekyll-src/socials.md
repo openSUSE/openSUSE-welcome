@@ -1,35 +1,31 @@
 ---
 layout: sub
-title: Social Media
+title: {{socialTrans.socialMedia}}
 ---
-## Social media. How to reach us!
+## {{socialTrans.reachUs}}
 
-Most commonly used social medias are already listed in the footer, but here are some more you might find useful, alphabetically:
+{{socialTrans.smSubtitle}}
 
-### Discord
+### {{socialTrans.smDiscord}}
 
-{% include link url="https://discord.gg/openSUSE" text="Discord" class="btn btn-discord" %}
+{% include link onclick="bridge.openURL('https://discord.gg/openSUSE')" text="{{socialTrans.smDiscord}}" class="btn btn-discord" %}
 
-### Facebook
+### {{socialTrans.smFacebook}}
 
-{% include link url="https://www.facebook.com/groups/opensuseproject/" text="Facebook Group" class="btn btn-facebook" %}
+{% include link onclick="bridge.openURL('https://www.facebook.com/groups/opensuseproject/')" text="{{socialTrans.smFacebookGroup}}" class="btn btn-facebook" %}
 
-### Forums
+### {{socialTrans.smForums}}
 
-{% include link url="https://forums.opensuse.org" text="openSUSE Forums" class="btn btn-openSUSE" %}
+{% include link onclick="bridge.openURL('https://forums.opensuse.org')" text="{{socialTrans.smOpenSuseForums}}" class="btn btn-openSUSE" %}
 
-### Google+
+### {{socialTrans.smIRC}}
 
-{% include link url="https://plus.google.com/u/0/communities/115444043324891769569" text="Google+ Community" class="btn btn-google-plus" %}
+{% include link onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse')" text="{{socialTrans.smIRCTechSupport}}" class="btn btn-openSUSE" %}
+{% include link onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse-project')" text="{{socialTrans.smIRCProject}}" class="btn btn-openSUSE" %}
+{% include link onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse-factory')" text="{{socialTrans.smIRCFactory}}" class="btn btn-openSUSE" %}
+{% include link onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse-chat')" text="{{socialTrans.smIRCChat}}" class="btn btn-openSUSE" %}
 
-### IRC
+### {{socialTrans.smTelegram}}
 
-{% include link url="irc://irc.opensuse.org/#opensuse" text="Tech Support" class="btn btn-openSUSE" %}
-{% include link url="irc://irc.opensuse.org/#opensuse-project" text="Project" class="btn btn-openSUSE" %}
-{% include link url="irc://irc.opensuse.org/#opensuse-factory" text="Factory" class="btn btn-openSUSE" %}
-{% include link url="irc://irc.opensuse.org/#opensuse-chat" text="Chat" class="btn btn-openSUSE" %}
-
-### Telegram
-
-{% include link url="https://t.me/openSUSE_group" text="openSUSE Group" class="btn btn-telegram" %}
-{% include link url="https://t.me/opensusenews" text="News" class="btn btn-telegram" %}
+{% include link onclick="bridge.openURL('https://t.me/openSUSE_group')" text="{{socialTrans.smTelegramOpenSuseGroup}}" class="btn btn-telegram" %}
+{% include link onclick="bridge.openURL('https://t.me/opensusenews')" text="{{socialTrans.smTelegramOpenSuseNews}}" class="btn btn-telegram" %}

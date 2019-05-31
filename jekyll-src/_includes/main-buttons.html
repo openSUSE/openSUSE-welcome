@@ -5,13 +5,21 @@
         <h4>{{ column.name }}</h4>
             {% if column.type == "buttons" %}
             {% for button in column.buttons %}
-            <a class="btn btn-block btn-{{ button.type }}"{% if button.url != nil %} href="app://{{ button.url }}.html"{% else %} href=""{% endif %}{% if button.external-url != nil %} ng-click="openURI('{{ button.external-url }}')"{% endif %}{% if button.command != nil %} ng-click="command('{{ button.command }}')"{% endif %}{% if button.show-if != nil %} ng-show="{{ button.show-if }}"{% endif %}><i class="fa fa-{{ button.icon }}"></i> {{ button.name }}</a>
+            <a class="btn btn-block btn-{{ button.type }}"
+            {% if button.onclick != nil %} onclick="{{ button.onclick }} "{% endif %}
+            {% if button.data-de != nil %} data-de="{{ button.data-de }}"{% endif %}>
+                <i class="fa fa-{{ button.icon }}"></i> {{ button.name }}</a>
             {% endfor %}
             {% endif %}
             {% if column.type == "image" %}
-            <img class="w-75 mx-auto d-block" src="app://{{ column.url }}"/>
+            <img class="w-75 mx-auto d-block" src="qrc:///web/{{ column.url }}"/>
             {% endif %}
     </div>
     {% endfor %}
 </div>
 {% endfor %}
+<div class="row my-3" id="live">
+    <div class="col-sm-12 btn-showcase my-auto">
+        <a class="btn btn-block btn-primary" href="" ononclick="launcher.launch('/usr/bin/liveinst/')"><i class="fa fa-hdd-o"></i> {{homeTrans.install}}</a>
+    </div>
+</div>

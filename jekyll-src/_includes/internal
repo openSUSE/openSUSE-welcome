@@ -1,1 +1,1 @@
-<a class="{{ include.class }}" href="#!/{{ include.url }}">{{ include.text }}</a>
+<a class="{{ include.class }}" onclick="{{ include.onclick}}">{{ include.text }}</a>

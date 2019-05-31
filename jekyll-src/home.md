@@ -1,8 +1,10 @@
 ---
 layout: home
 ---
-# Ahoy, this is openSUSE
+# {{homeTrans.ahoy}}
 
 {% include main-buttons.html %}
 
-If this is your first time using openSUSE, we would like you to feel right at home in your new voyage. Take your time to familiarize yourself with all the buttons and let us know how you like the experience on our {% include internal url="socials" text="social media" %} 
+{{homeTrans.smParagraph}}
+
+{% include internal onclick="delayedClick('qrc:///web/socials.html')" text="{{homeTrans.smLink}}" %}. 

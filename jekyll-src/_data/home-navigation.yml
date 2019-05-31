@@ -1,54 +1,83 @@
 - column_width: 4
   values:
-  - name: Basics
+  - name: {{homeTrans.basicsHeader}}
     type: buttons
     buttons:
-    - name: Read Me
+    - name: {{homeTrans.readme}}
       type: warning font-weight-bold
       icon: book
-      url: readme
-    - name: Documentation
+      onclick: delayedClick('qrc:///web/readme.html')
+    - name: {{homeTrans.documentation}}
       type: info
       icon: external-link
-      external-url: https://doc.opensuse.org/
-    - name: Get software
+      onclick: bridge.openURL('https://doc.opensuse.org/')
+    - name: {{homeTrans.getsoftware}}
       type: secondary
       icon: shopping-bag
-      external-url: https://software.opensuse.org/explore
+      onclick: bridge.openURL('https://software.opensuse.org/explore')
+      
   - type: image
     url: images/sinking.svg
-  - name: Support
+  - name: {{homeTrans.supportHeader}}
     type: buttons
     buttons:
-    - name: Gnome Help
+    - name: {{homeTrans.gnomehelp}}
       type: primary
       icon: life-ring
-      command: gnome-help
-      show-if: isDE('gnome')
-    - name: Plasma Help
+      onclick: launcher.launch('gnome-help')
+      data-de: gnome
+    - name: {{homeTrans.plasmahelp}}
       type: primary
       icon: life-ring
-      command: kde-help
-      show-if: isDE('kde plasma')
-    - name: Xfce Help
+      onclick: launcher.launch('khelpcenter')
+      data-de: kde
+    - name: {{homeTrans.xfcehelp}}
       type: primary
       icon: life-ring
-      command: xfce-help
-      show-if: isDE('xfce')
-    - name: Contribute
+      onclick: bridge.openURL('https://docs.xfce.org/')
+      data-de: xfce
+    - name: {{homeTrans.matehelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://wiki.mate-desktop.org/docs')
+      data-de: mate
+    - name: {{homeTrans.enlightenmenthelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://www.enlightenment.org/start')
+      data-de: enlightenment
+    - name: {{homeTrans.aboutbudgie}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://en.wikipedia.org/wiki/Budgie_(desktop_environment)
+      data-de: budgie
+    - name: {{homeTrans.aboutlumina}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://lumina-desktop.org/')
+      data-de: lumina
+    - name: {{homeTrans.lxdehelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://github.com/lxqt/lxqt/wiki')
+      data-de: lxde
+    - name: {{homeTrans.deepinhelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://wiki.deepin.org/?language=en_US')
+      data-de: deepin
+    - name: {{homeTrans.aboutcinnamon}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://en.wikipedia.org/wiki/Cinnamon_(Desktop_Environment)')
+      data-de: cinnamon
+      
+
+    - name: {{homeTrans.contribute}}
       type: primary
       icon: hand-o-up
-      url: contribute
-    - name: Build openSUSE
+      onclick: delayedClick('qrc:///web/contribute.html')
+    - name: {{homeTrans.build}}
       type: success
       icon: github-alt
-      external-url: https://build.opensuse.org/
-- column_width: 12
-  values:
-  - type: buttons
-    buttons:
-    - name: Install openSUSE
-      type: primary
-      icon: hdd-o
-      show-if: system.distribution.live
-      command: install
+      onclick: bridge.openURL('https://build.opensuse.org/')
