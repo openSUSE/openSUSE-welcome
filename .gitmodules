@@ -1,0 +1,3 @@
+[submodule "upstream"]
+	path = upstream-chameleon
+	url = https://github.com/opensuse/opensuse-theme-chameleon.git
