@@ -1,0 +1,17 @@
+{% for row in site.data.home-navigation %}
+<div class="row my-3">
+    {% for column in row.values %}
+    <div class="col-sm-{{ row.column_width }} btn-showcase my-auto">
+        <h4>{{ column.name }}</h4>
+            {% if column.type == "buttons" %}
+            {% for button in column.buttons %}
+            <a class="btn btn-block btn-{{ button.type }}"{% if button.url != nil %} href="app://{{ button.url }}.html"{% else %} href=""{% endif %}{% if button.external-url != nil %} ng-click="openURI('{{ button.external-url }}')"{% endif %}{% if button.command != nil %} ng-click="command('{{ button.command }}')"{% endif %}{% if button.show-if != nil %} ng-show="{{ button.show-if }}"{% endif %}><i class="fa fa-{{ button.icon }}"></i> {{ button.name }}</a>
+            {% endfor %}
+            {% endif %}
+            {% if column.type == "image" %}
+            <img class="w-75 mx-auto d-block" src="app://{{ column.url }}"/>
+            {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endfor %}

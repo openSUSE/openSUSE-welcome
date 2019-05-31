@@ -1,0 +1,12 @@
+title: openSUSE Documentation
+name: Documentation
+email: opensuse-doc@opensuse.org
+description: >-
+  This site hosts documentation for openSUSE Leap and related projects.
+  For more openSUSE documentation,
+  see the [openSUSE Wiki](http://wiki.opensuse.org/Portal:Documentation).
+  We hope you enjoy *reading the fabulous manuals*.
+baseurl: ""
+url: ""
+
+markdown: kramdown

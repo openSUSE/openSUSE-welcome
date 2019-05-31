@@ -1,0 +1,24 @@
+{
+  "WARNING": "Please see the README.md - this is generated",
+  "token": {
+    "Cancel": "Ångra",
+    "Change language": "Ändra språk",
+    "Change search provider": "Ändra sökleverantör",
+    "Download": "Nedladdningar",
+    "Forums": "Forum",
+    "Guides": "Guider",
+    "Lists": "Listor",
+    "Packages": "Paket",
+    "Save": "Spara",
+    "Search": "Sök",
+    "Search Mailing Lists": "Sök mailinglistor",
+    "Search for package": "Sök paket",
+    "Search openSUSE Forums": "Sök openSUSE-forum",
+    "Search openSUSE wiki": "Sök openSUSE-wikin",
+    "Search the web": "Sök på webben",
+    "Software": "Mjukvara",
+    "Sponsors": "Sponsorer",
+    "openSUSE Search": "openSUSE Sök",
+    "openSUSE contributors": "openSUSE-bidragare"
+  }
+}
