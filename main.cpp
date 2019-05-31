@@ -1,6 +1,8 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QtWebEngine/QtWebEngine>
+#include <QTranslator>
+#include <QLocale>
 #include "sysinfo.h"
 #include "launcher.h"
 #include "enabler.h"
@@ -31,7 +33,7 @@ void myMessageOutput(QtMsgType type, const QMessageLogContext &context, const QS
 
 int main(int argc, char *argv[])
 {
-    // qInstallMessageHandler(myMessageOutput);
+    qInstallMessageHandler(myMessageOutput);
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QGuiApplication app(argc, argv);
@@ -43,6 +45,16 @@ int main(int argc, char *argv[])
     qmlRegisterType<SysInfo>("me.appadeia.SysInfo", 1, 0, "SysInfo");
     qmlRegisterType<Launcher>("me.appadeia.Launcher", 1, 0, "Launcher");
     qmlRegisterType<Enabler>("me.appadeia.Enabler", 1, 0, "Enabler");
+
+    qDebug() << QLocale::system().name();
+    QTranslator qtTranslator;
+    qtTranslator.load("qt_" + QLocale::system().name(),
+                      QLibraryInfo::location(QLibraryInfo::TranslationsPath));
+    app.installTranslator(&qtTranslator);
+
+    QTranslator welcomeTranslator;
+    welcomeTranslator.load("qml_" + QLocale::system().name(), ":/i18n");
+    app.installTranslator(&welcomeTranslator);
 
     QQmlApplicationEngine engine;
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
