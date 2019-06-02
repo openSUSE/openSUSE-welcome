@@ -5,6 +5,5 @@
         <file>web/home.html</file>
         <file>web/readme.html</file>
         <file>web/socials.html</file>
-        <file>i18n/qml_de.qm</file>
     </qresource>
 </RCC>
