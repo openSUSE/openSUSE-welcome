@@ -1,3 +1,4 @@
+# I'll get copied to ~/.config/autostart/ to disable the other desktop file that should be copied to /etc/xdg/autostart/
 [Desktop Entry]
 Type=Application
 Name=Welcome
