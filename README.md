@@ -1,6 +1,6 @@
 # openSUSE Welcome
-- Welcoming window that will welcome you on your openSUSE journey, you are welcome.
-- This is supposed to be a window that shows up during first boot into openSUSE, so people can get familiar with openSUSE before they use it
+Welcoming welcome window that will welcomely welcome you on your openSUSE journey, you are welcome.  
+This is supposed to be a window that shows up during first boot into openSUSE, so people can get familiar with openSUSE before they use it
 ## Todo
  - Get people to translate and test translations
 
