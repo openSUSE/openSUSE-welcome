@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="qrc:///web/css/font-awesome.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/lens-ui.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/chameleon.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/app.css" rel="stylesheet" media="screen">
+  <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+</head>
+<body ng-controller="WelcomeCtrl">
+  <div id="content" class="page-content no-nav">
+  {{content}}
+  </div>
+  <footer class="bg-dark keep-bottom p-3 text-white">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+            {% include social.html %}
+        </div>
+            <div class="d-flex">
+                <checkbox id="autostart" class="btn btn-sm btn-link text-white" ng-checked="bridge.enabled"
+                    ng-model="autostart" onclick="updateAutoStart()"> {{homeTrans.autostart}}
+                </checkbox>
+                <button id="close" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()" lang="en">
+                    <i class="fa fa-times"></i> {{homeTrans.close}}
+                </button>
+            </div>
+      </div>
+  </footer>
+  <script src="qrc:///web/js/chameleon.js"></script>
+  <script src="qrc:///web/js/jquery.min.js"></script>
+  <script src="qrc:///web/js/jquery-lang.js"></script>
+  <script src="qrc:///web/js/jquery.rss.js"></script>
+  <script src="qrc:///web/js/search_methods.js"></script>
+  <script src="qrc:///web/js/lens-angular.min.js"></script>
+  <script src="qrc:///web/js/app.js"></script>
+</body>
+</html>

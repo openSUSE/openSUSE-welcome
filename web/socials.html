@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link href="qrc:///web/css/font-awesome.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/lens-ui.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/chameleon.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/app.css" rel="stylesheet" media="screen">
+  <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+</head>
+
+<body ng-controller="WelcomeCtrl">
+  <div id="content" class="page-content no-nav">
+    <div class="sticky-top">
+      <div class="breadcrumb py-0 d-flex justify-content-between align-items-center">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item active"><a onclick="delayedClick('qrc:///web/home.html')" href=""><i
+                class="fa fa-home"> </i>{{socialTrans.home}}</a></li>
+          <li class="breadcrumb-item active">{{socialTrans.socialMedia}}</li>
+        </ol>
+      </div>
+    </div>
+    <div class="container">
+      <h2 id="social-media-how-to-reach-us">{{socialTrans.reachUs}}</h2>
+
+      <p>{{socialTrans.smSubtitle}}</p>
+
+      <h3 id="discord">{{socialTrans.smDiscord}}</h3>
+
+      <p><a class="btn btn-discord" onclick="bridge.openURL('https://discord.gg/openSUSE')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smDiscord}}</i></a></p>
+
+      <h3 id="facebook">{{socialTrans.smFacebook}}</h3>
+
+      <p><a class="btn btn-facebook" onclick="bridge.openURL('https://www.facebook.com/groups/opensuseproject/')"
+          href=""><i class="fa fa-external-link"> Facebook Group</i></a></p>
+
+      <h3 id="forums">{{socialTrans.smForums}}</h3>
+
+      <p><a class="btn btn-openSUSE" onclick="bridge.openURL('https://forums.opensuse.org')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smOpenSuseForums}}</i></a></p>
+
+      <h3 id="irc">{{socialTrans.smIRC}}</h3>
+
+      <p><a class="btn btn-openSUSE" onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smIRCTechSupport}}</i></a></p>
+
+      <p><a class="btn btn-openSUSE" onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse-project')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smIRCProject}}</i></a></p>
+
+      <p><a class="btn btn-openSUSE" onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse-factory')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smIRCFactory}}</i></a></p>
+
+      <p><a class="btn btn-openSUSE" onclick="bridge.openURL('irc://irc.opensuse.org/#opensuse-chat')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smIRCChat}}</i></a></p>
+
+      <h3 id="telegram">{{socialTrans.smTelegram}}</h3>
+
+      <p><a class="btn btn-telegram" onclick="bridge.openURL('https://t.me/openSUSE_group')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smTelegramOpenSuseGroup}}</i></a></p>
+
+      <p><a class="btn btn-telegram" onclick="bridge.openURL('https://t.me/opensusenews')" href=""><i
+            class="fa fa-external-link"> {{socialTrans.smTelegramOpenSuseNews}}</i></a></p>
+
+
+    </div>
+
+  </div>
+  <footer class="bg-dark keep-bottom p-3 text-white">
+    <div class="d-flex justify-content-between align-items-center">
+      <div>
+        <div class="btn-group">
+
+          <button class="btn btn-sm btn-reddit" onclick="bridge.openURL('https://reddit.com/r/openSUSE')"><i
+              class="fa fa-fw fa-reddit"></i></button>
+          <button class="btn btn-sm btn-facebook" onclick="bridge.openURL('https://facebook.com/en.openSUSE')"><i
+              class="fa fa-fw fa-facebook"></i></button>
+          <button class="btn btn-sm btn-twitter" onclick="bridge.openURL('https://twitter.com/openSUSE')"><i
+              class="fa fa-fw fa-twitter"></i></button>
+
+        </div>
+
+      </div>
+      <div class="d-flex">
+        <button id="close" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()" lang="en"><i
+            class="fa fa-times"></i> {{socialTrans.close}}</button>
+      </div>
+    </div>
+  </footer>
+  <script src="qrc:///web/js/chameleon.js"></script>
+  <script src="qrc:///web/js/jquery.min.js"></script>
+  <script src="qrc:///web/js/jquery-lang.js"></script>
+  <script src="qrc:///web/js/lens-angular.min.js"></script>
+  <script src="qrc:///web/js/app.js"></script>
+</body>
+
+</html>

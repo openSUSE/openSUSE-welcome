@@ -1,0 +1,81 @@
+.keep-bottom {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    z-index: 1020;
+}
+
+body,html {
+ min-height:100vh
+}
+body {
+ display:-webkit-box;
+ display:-ms-flexbox;
+ display:flex;
+ -webkit-box-orient:vertical;
+ -webkit-box-direction:normal;
+ -ms-flex-flow:column;
+ flex-flow:column
+}
+#content {
+ margin-bottom:auto!important
+}
+
+.splash {
+  background-color: #73ba25;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 2000;
+  pointer-events: none;
+}
+.splash img {
+  width: 200px;
+  margin: auto;
+  display: block;
+  -webkit-animation:unblur 1.5s linear;
+  animation:unblur 1.5s linear;
+  filter: blur(0px);
+}
+
+@keyframes unblur {
+ 0% {
+  filter: blur(10px);
+ }
+ 100% {
+  filter: blur(0px);
+ }
+}
+.btn-sm i {
+    color: white;
+}
+.breadcrumb-item i {
+    color: gray;
+}
+.de-help {
+    display: none;
+}
+.de-help.current {
+    display: block;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.alert.alert-info.text-truncate.text-center {
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+}
+#live {
+    display: none;
+}
+#live.active {
+    display: initial;
+}
+a.news-link:not([href]):not([tabindex]) {
+    color: #00a489;
+}
+a.news-link:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+- column_width: 4
+  values:
+  - name: {{homeTrans.basicsHeader}}
+    type: buttons
+    buttons:
+    - name: {{homeTrans.readme}}
+      type: warning font-weight-bold
+      icon: book
+      onclick: delayedClick('qrc:///web/readme.html')
+    - name: {{homeTrans.documentation}}
+      type: info
+      icon: external-link
+      onclick: bridge.openURL('https://doc.opensuse.org/')
+    - name: {{homeTrans.getsoftware}}
+      type: secondary
+      icon: shopping-bag
+      onclick: bridge.openURL('https://software.opensuse.org/explore')
+      
+  - type: image
+    url: images/sinking.svg
+  - name: {{homeTrans.supportHeader}}
+    type: buttons
+    buttons:
+    - name: {{homeTrans.gnomehelp}}
+      type: primary
+      icon: life-ring
+      onclick: launcher.launch('gnome-help')
+      data-de: gnome
+    - name: {{homeTrans.plasmahelp}}
+      type: primary
+      icon: life-ring
+      onclick: launcher.launch('khelpcenter')
+      data-de: kde
+    - name: {{homeTrans.xfcehelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://docs.xfce.org/')
+      data-de: xfce
+    - name: {{homeTrans.matehelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://wiki.mate-desktop.org/docs')
+      data-de: mate
+    - name: {{homeTrans.enlightenmenthelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://www.enlightenment.org/start')
+      data-de: enlightenment
+    - name: {{homeTrans.aboutbudgie}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://en.wikipedia.org/wiki/Budgie_(desktop_environment)
+      data-de: budgie
+    - name: {{homeTrans.aboutlumina}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://lumina-desktop.org/')
+      data-de: lumina
+    - name: {{homeTrans.lxdehelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://github.com/lxqt/lxqt/wiki')
+      data-de: lxde
+    - name: {{homeTrans.deepinhelp}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://wiki.deepin.org/?language=en_US')
+      data-de: deepin
+    - name: {{homeTrans.aboutcinnamon}}
+      type: primary
+      icon: life-ring
+      onclick: bridge.openURL('https://en.wikipedia.org/wiki/Cinnamon_(Desktop_Environment)')
+      data-de: cinnamon
+      
+
+    - name: {{homeTrans.contribute}}
+      type: primary
+      icon: hand-o-up
+      onclick: delayedClick('qrc:///web/contribute.html')
+    - name: {{homeTrans.build}}
+      type: success
+      icon: github-alt
+      onclick: bridge.openURL('https://build.opensuse.org/')

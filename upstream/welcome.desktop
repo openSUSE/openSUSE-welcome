@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Welcome
-Exec=/usr/bin/welcome
-Icon=openSUSE-welcome
-Comment=The openSUSE Welcome utility.
-Categories=GTK;GNOME;Application;System;

@@ -1,0 +1,5 @@
+<div class="btn-group">
+    {% for media in site.data.socials %}
+    <button class="btn btn-sm btn-{{ media.colour }}" onclick="bridge.openURL('{{ media.url }}')"><i class="fa fa-fw fa-{{ media.icon }}"></i></button>
+    {% endfor %}
+</div>
