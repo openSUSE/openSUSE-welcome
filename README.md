@@ -7,4 +7,4 @@ This is supposed to be a window that shows up during first boot into openSUSE, s
 ## About
 openSUSE Welcome is a utility that welcomes users to openSUSE. It includes links to various resources.
 
-![Screenshot of openSUSE Welcome.](https://github.com/Appadeia/openSUSE-welcome-1/blob/master/Welcome.png)
+![Screenshot of openSUSE Welcome.](https://github.com/openSUSE/openSUSE-welcome/raw/master/Welcome.png)
