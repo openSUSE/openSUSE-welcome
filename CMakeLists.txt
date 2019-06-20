@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
 project(opensuse-welcome LANGUAGES CXX)
+include(GNUInstallDirs)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_AUTOMOC ON)
@@ -21,5 +22,5 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 target_compile_definitions(${PROJECT_NAME} PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)
 target_link_libraries(${PROJECT_NAME} PRIVATE Qt5::Core Qt5::Quick Qt5::WebEngine Qt5::WebChannel)
 install(FILES welcome.desktop DESTINATION share/applications)
-install(FILES welcome.desktop DESTINATION /xdg/autostart)
+install(FILES welcome.desktop DESTINATION /${CMAKE_INSTALL_SYSCONFDIR}/xdg/autostart)
 install(TARGETS opensuse-welcome DESTINATION bin)
