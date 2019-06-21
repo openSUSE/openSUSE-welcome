@@ -4,9 +4,6 @@
         <file>web/css/lens-ui.css</file>
         <file>web/images/logo.svg</file>
         <file>web/images/sinking.svg</file>
-        <file>web/js/langpack/nb.json</file>
-        <file>web/js/langpack/pl.json</file>
-        <file>web/js/langpack/sv.json</file>
         <file>web/js/app.js</file>
         <file>web/js/jquery-lang.js</file>
         <file>web/js/jquery.min.js</file>
@@ -21,7 +18,6 @@
         <file>web/fonts/FontAwesome.otf</file>
         <file>web/js/lens-angular.min.js</file>
         <file>web/css/chameleon.css</file>
-        <file>web/css/chameleon.css.map</file>
         <file>web/fonts/OpenSans-Bold.ttf</file>
         <file>web/fonts/OpenSans-Bold.woff</file>
         <file>web/fonts/OpenSans-Bold.woff2</file>
@@ -68,9 +64,7 @@
         <file>web/images/logo/logo-white.svg</file>
         <file>web/images/logo/tumbleweed-green.svg</file>
         <file>web/js/chameleon-no-jquery.js</file>
-        <file>web/js/chameleon-no-jquery.js.map</file>
         <file>web/js/chameleon.js</file>
-        <file>web/js/chameleon.js.map</file>
         <file>desktop-file/welcome.desktop</file>
     </qresource>
 </RCC>
