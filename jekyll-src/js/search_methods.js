@@ -1,6 +1,22 @@
+/*
+    openSUSE Welcome - A welcome utility
+    Copyright (C) 2019  Carson Black
+    Copyright (C) 2019  Stasiek Michalski
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
 var lang = new Lang('en');
-window.lang.dynamic('en', 'app://js/langpack/en.json');
-window.lang.dynamic('pl', 'app://js/langpack/pl.json');
 
 //check if there is a langCookie in the browser
 document.addEventListener("DOMContentLoaded", function(event) { 
@@ -44,7 +60,7 @@ $("#rss-feeds").rss(
 		limit: 1,
 		ssl: true,
 		layoutTemplate: "<div class=\"alert alert-info text-truncate text-center mb-0\" role=\"alert\">{entries}</div>",
-		entryTemplate: '<a href="{url}">{title}</a>'
+        entryTemplate: '<a class="news-link" onclick="bridge.openURL(\'{url}\')">{title}</a>'
 	},
 )
 });
