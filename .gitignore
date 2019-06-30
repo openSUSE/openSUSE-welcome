@@ -1,4 +1,3 @@
 build
 i18n/*.ts
 i18n/*.qm
-i18n.qrc
