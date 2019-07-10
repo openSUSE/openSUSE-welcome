@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 jQuery(function($) {
 $("#rss-feeds").rss(
-	"http://news.opensuse.org/feed",
+	"https://news.opensuse.org/feed",
 	{
 		limit: 1,
 		ssl: true,
