@@ -60,7 +60,18 @@ $("#rss-feeds").rss(
 		limit: 1,
 		ssl: true,
 		layoutTemplate: "<div class=\"alert alert-info text-truncate text-center mb-0\" role=\"alert\">{entries}</div>",
-        entryTemplate: '<a class="news-link" onclick="bridge.openURL(\'{url}\')">{title}</a>'
+        entryTemplate: '<a class="news-link" onclick="bridge.openURL(\'{url}\')">{title}</a>',
+        filter: function(entry, tokens) {
+            console.log(tokens.url);
+            console.log(tokens.title);
+            if (tokens.url.includes("launcher.launch")) {
+                    return false;
+            } else if (tokens.title.includes("launcher.launch")) {
+                    return false;
+            } else {
+                    return true;
+            }
+        }
 	},
 )
 });
