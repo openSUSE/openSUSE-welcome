@@ -56,10 +56,10 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
 
-    app.setDesktopFileName("org.opensuse.opensuse-welcome.desktop");
+    app.setDesktopFileName("org.opensuse.opensuse_welcome.desktop");
     app.setOrganizationName("openSUSE");
     app.setOrganizationDomain("opensuse.org");
-    app.setApplicationName("org.opensuse.opensuse-welcome");
+    app.setApplicationName("org.opensuse.opensuse_welcome");
 
     qmlRegisterType<SysInfo>("me.appadeia.SysInfo", 1, 0, "SysInfo");
     qmlRegisterType<Launcher>("me.appadeia.Launcher", 1, 0, "Launcher");
