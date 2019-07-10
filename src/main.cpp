@@ -56,9 +56,10 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
 
+    app.setDesktopFileName("org.opensuse.opensuse-welcome.desktop");
     app.setOrganizationName("openSUSE");
     app.setOrganizationDomain("opensuse.org");
-    app.setApplicationName("Welcome");
+    app.setApplicationName("org.opensuse.opensuse-welcome");
 
     qmlRegisterType<SysInfo>("me.appadeia.SysInfo", 1, 0, "SysInfo");
     qmlRegisterType<Launcher>("me.appadeia.Launcher", 1, 0, "Launcher");
@@ -78,7 +79,7 @@ int main(int argc, char *argv[])
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;
-    app.setWindowIcon(QIcon::fromTheme(QString("openSUSE-distributor-logo")));
+
     QtWebEngine::initialize();
     return app.exec();
 }

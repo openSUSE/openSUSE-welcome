@@ -21,5 +21,5 @@ endforeach
 
 subdir('src')
 
-install_data('welcome.desktop', install_dir: join_paths(get_option('prefix'), get_option('datadir'), 'applications'))
-install_data('welcome.desktop', install_dir: join_paths(get_option('sysconfdir'), 'xdg/autostart'))
+install_data('org.opensuse.opensuse-welcome.desktop', install_dir: join_paths(get_option('prefix'), get_option('datadir'), 'applications'))
+install_data('org.opensuse.opensuse-welcome.desktop', install_dir: join_paths(get_option('sysconfdir'), 'xdg/autostart'))
