@@ -7,112 +7,112 @@ msgstr ""
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
-#: ../main.qml:38
+#: ../main.qml:56
 msgctxt "main|"
 msgid "Welcome"
 msgstr ""
 
-#: ../main.qml:77
+#: ../main.qml:95
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
 msgstr ""
 
-#: ../main.qml:80
+#: ../main.qml:98
 msgctxt "main|"
 msgid "Basics"
 msgstr ""
 
-#: ../main.qml:81
+#: ../main.qml:99
 msgctxt "main|"
 msgid "Support"
 msgstr ""
 
-#: ../main.qml:84
+#: ../main.qml:102
 msgctxt "main|"
 msgid "Read me"
 msgstr ""
 
-#: ../main.qml:85
+#: ../main.qml:103
 msgctxt "main|"
 msgid "Documentation"
 msgstr ""
 
-#: ../main.qml:86
+#: ../main.qml:104
 msgctxt "main|"
 msgid "Get Software"
 msgstr ""
 
-#: ../main.qml:89
+#: ../main.qml:107
 msgctxt "main|"
 msgid "Install openSUSE"
 msgstr ""
 
-#: ../main.qml:92
+#: ../main.qml:110
 msgctxt "main|"
 msgid "GNOME Help"
 msgstr ""
 
-#: ../main.qml:93
+#: ../main.qml:111
 msgctxt "main|"
 msgid "Plasma Help"
 msgstr ""
 
-#: ../main.qml:94
+#: ../main.qml:112
 msgctxt "main|"
 msgid "Xfce Help"
 msgstr ""
 
-#: ../main.qml:95
+#: ../main.qml:113
 msgctxt "main|"
 msgid "MATE Help"
 msgstr ""
 
-#: ../main.qml:96
+#: ../main.qml:114
 msgctxt "main|"
 msgid "Enlightenment Help"
 msgstr ""
 
-#: ../main.qml:97
+#: ../main.qml:115
 msgctxt "main|"
 msgid "About Budgie"
 msgstr ""
 
-#: ../main.qml:98
+#: ../main.qml:116
 msgctxt "main|"
 msgid "About Lumina"
 msgstr ""
 
-#: ../main.qml:99
+#: ../main.qml:117
 msgctxt "main|"
 msgid "LXDE Help"
 msgstr ""
 
-#: ../main.qml:100
+#: ../main.qml:118
 msgctxt "main|"
 msgid "LXQt Help"
 msgstr ""
 
-#: ../main.qml:101
+#: ../main.qml:119
 msgctxt "main|"
 msgid "About Cinnamon"
 msgstr ""
 
-#: ../main.qml:102
+#: ../main.qml:120
 msgctxt "main|"
 msgid "Deepin Help"
 msgstr ""
 
-#: ../main.qml:105 ../main.qml:159
+#: ../main.qml:123 ../main.qml:177
 msgctxt "main|"
 msgid "Contribute"
 msgstr ""
 
-#: ../main.qml:106
+#: ../main.qml:124
 msgctxt "main|"
 msgid "Build openSUSE"
 msgstr ""
 
-#: ../main.qml:109
+#: ../main.qml:127
 msgctxt "main|"
 msgid ""
 "If this is your first time using openSUSE, we would like you to feel right "
@@ -120,114 +120,114 @@ msgid ""
 "the buttons and let us know how you like the experience on our"
 msgstr ""
 
-#: ../main.qml:110
+#: ../main.qml:128
 msgctxt "main|"
 msgid "social media"
 msgstr ""
 
-#: ../main.qml:113
+#: ../main.qml:131
 msgctxt "main|"
 msgid "Show on next startup"
 msgstr ""
 
-#: ../main.qml:114 ../main.qml:152 ../main.qml:227 ../main.qml:264
+#: ../main.qml:132 ../main.qml:170 ../main.qml:245 ../main.qml:283
 msgctxt "main|"
 msgid "Close"
 msgstr ""
 
-#: ../main.qml:121
+#: ../main.qml:139
 msgctxt "main|"
 msgid "Social Media"
 msgstr ""
 
-#: ../main.qml:122 ../main.qml:160 ../main.qml:235
+#: ../main.qml:140 ../main.qml:178 ../main.qml:253
 msgctxt "main|"
 msgid "Home"
 msgstr ""
 
-#: ../main.qml:125
+#: ../main.qml:143
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
 msgstr ""
 
-#: ../main.qml:128
+#: ../main.qml:146
 msgctxt "main|"
 msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
 
-#: ../main.qml:131
+#: ../main.qml:149
 msgctxt "main|"
 msgid "Discord"
 msgstr ""
 
-#: ../main.qml:132
+#: ../main.qml:150
 msgctxt "main|"
 msgid "Facebook"
 msgstr ""
 
-#: ../main.qml:133
+#: ../main.qml:151
 msgctxt "main|"
 msgid "Forums"
 msgstr ""
 
-#: ../main.qml:134
+#: ../main.qml:152
 msgctxt "main|"
 msgid "IRC"
 msgstr ""
 
-#: ../main.qml:135
+#: ../main.qml:153
 msgctxt "main|"
 msgid "Telegram"
 msgstr ""
 
-#: ../main.qml:138
+#: ../main.qml:156
 msgctxt "main|"
 msgid "Facebook Group"
 msgstr ""
 
-#: ../main.qml:139
+#: ../main.qml:157
 msgctxt "main|"
 msgid "openSUSE Forums"
 msgstr ""
 
-#: ../main.qml:142
+#: ../main.qml:160
 msgctxt "main|"
 msgid "Tech Support"
 msgstr ""
 
-#: ../main.qml:143
+#: ../main.qml:161
 msgctxt "main|"
 msgid "Project"
 msgstr ""
 
-#: ../main.qml:144
+#: ../main.qml:162
 msgctxt "main|"
 msgid "Factory"
 msgstr ""
 
-#: ../main.qml:145
+#: ../main.qml:163
 msgctxt "main|"
 msgid "Chat"
 msgstr ""
 
-#: ../main.qml:148
+#: ../main.qml:166
 msgctxt "main|"
 msgid "openSUSE Group"
 msgstr ""
 
-#: ../main.qml:149
+#: ../main.qml:167
 msgctxt "main|"
 msgid "openSUSE News"
 msgstr ""
 
-#: ../main.qml:163
+#: ../main.qml:181
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
 msgstr ""
 
-#: ../main.qml:166
+#: ../main.qml:184
 msgctxt "main|"
 msgid ""
 "Whether you’re an experienced Linux developer or an end user just getting "
@@ -238,19 +238,19 @@ msgid ""
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
 
-#: ../main.qml:169
+#: ../main.qml:187
 msgctxt "main|"
 msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
 
-#: ../main.qml:171
+#: ../main.qml:189
 msgctxt "main|"
 msgid "active member"
 msgstr ""
 
-#: ../main.qml:173
+#: ../main.qml:191
 msgctxt "main|"
 msgid ""
 "of the openSUSE community. For most activities a login is needed to enjoy "
@@ -258,22 +258,22 @@ msgid ""
 "information or interests about you with others."
 msgstr ""
 
-#: ../main.qml:176
+#: ../main.qml:194
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
 msgstr ""
 
-#: ../main.qml:178
+#: ../main.qml:196
 msgctxt "main|"
 msgid "See where other"
 msgstr ""
 
-#: ../main.qml:180
+#: ../main.qml:198
 msgctxt "main|"
 msgid "openSUSE community"
 msgstr ""
 
-#: ../main.qml:182
+#: ../main.qml:200
 msgctxt "main|"
 msgid ""
 "members are located world-wide, get to know some People of openSUSE, find "
@@ -281,37 +281,37 @@ msgid ""
 "structure and more. Follow"
 msgstr ""
 
-#: ../main.qml:184
+#: ../main.qml:202
 msgctxt "main|"
 msgid "openSUSE news"
 msgstr ""
 
-#: ../main.qml:186
+#: ../main.qml:204
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
 
-#: ../main.qml:188
+#: ../main.qml:206
 msgctxt "main|"
 msgid "Planet openSUSE"
 msgstr ""
 
-#: ../main.qml:191
+#: ../main.qml:209
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
 msgstr ""
 
-#: ../main.qml:193
+#: ../main.qml:211
 msgctxt "main|"
 msgid "For every release there is a"
 msgstr ""
 
-#: ../main.qml:195
+#: ../main.qml:213
 msgctxt "main|"
 msgid "set of tasks"
 msgstr ""
 
-#: ../main.qml:197
+#: ../main.qml:215
 msgctxt "main|"
 msgid ""
 "available. Some are complicated, some are easy to achieve, even for "
@@ -319,12 +319,12 @@ msgid ""
 "found an adequate task."
 msgstr ""
 
-#: ../main.qml:200
+#: ../main.qml:218
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
 msgstr ""
 
-#: ../main.qml:202
+#: ../main.qml:220
 msgctxt "main|"
 msgid ""
 "There are several active communities where you can discuss what is going on "
@@ -332,32 +332,32 @@ msgid ""
 "channels and forums. Please have a look at the"
 msgstr ""
 
-#: ../main.qml:204
+#: ../main.qml:222
 msgctxt "main|"
 msgid "communication channels"
 msgstr ""
 
-#: ../main.qml:206
+#: ../main.qml:224
 msgctxt "main|"
 msgid "for an overview."
 msgstr ""
 
-#: ../main.qml:209
+#: ../main.qml:227
 msgctxt "main|"
 msgid "Suggest New Features or Software"
 msgstr ""
 
-#: ../main.qml:211
+#: ../main.qml:229
 msgctxt "main|"
 msgid "Visit"
 msgstr ""
 
-#: ../main.qml:213
+#: ../main.qml:231
 msgctxt "main|"
 msgid "Bugzilla"
 msgstr ""
 
-#: ../main.qml:215
+#: ../main.qml:233
 msgctxt "main|"
 msgid ""
 "our Feature- and Requirements Management System. Here you can get a sorted "
@@ -367,12 +367,12 @@ msgid ""
 "distribution."
 msgstr ""
 
-#: ../main.qml:218
+#: ../main.qml:236
 msgctxt "main|"
 msgid "Spread the word"
 msgstr ""
 
-#: ../main.qml:220
+#: ../main.qml:238
 msgctxt "main|"
 msgid ""
 "Be sure to spread the word on openSUSE and help others to benefit from it "
@@ -380,12 +380,12 @@ msgid ""
 "like our"
 msgstr ""
 
-#: ../main.qml:222
+#: ../main.qml:240
 msgctxt "main|"
 msgid "build service"
 msgstr ""
 
-#: ../main.qml:224
+#: ../main.qml:242
 msgctxt "main|"
 msgid ""
 "which can help home users as well as sys admins and developers to get work "
@@ -393,36 +393,36 @@ msgid ""
 "help them install it!"
 msgstr ""
 
-#: ../main.qml:234
+#: ../main.qml:252
 msgctxt "main|"
 msgid "Read Me"
 msgstr ""
 
-#: ../main.qml:238
+#: ../main.qml:256
 msgctxt "main|"
 msgid "Extra Software"
 msgstr ""
 
-#: ../main.qml:240
+#: ../main.qml:258
 msgctxt "main|"
 msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
 
-#: ../main.qml:242
+#: ../main.qml:260
 msgctxt "main|"
 msgid ""
 "If you have an NVidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
 
-#: ../main.qml:244
+#: ../main.qml:262
 msgctxt "main|"
 msgid "wiki article"
 msgstr ""
 
-#: ../main.qml:247
+#: ../main.qml:265
 msgctxt "main|"
 msgid ""
 "To install Google Chrome, just download it directly from Google. Google "
@@ -430,7 +430,12 @@ msgid ""
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
 
-#: ../main.qml:250
+#: ../main.qml:266
+msgctxt "main|"
+msgid "Google offers Google Chrome's RPM on its website."
+msgstr ""
+
+#: ../main.qml:269
 msgctxt "main|"
 msgid ""
 "Some codecs for playing media cannot be included in openSUSE due to "
@@ -438,22 +443,22 @@ msgid ""
 "read about"
 msgstr ""
 
-#: ../main.qml:252
+#: ../main.qml:271
 msgctxt "main|"
 msgid "here"
 msgstr ""
 
-#: ../main.qml:255
+#: ../main.qml:274
 msgctxt "main|"
 msgid "Community Repositories"
 msgstr ""
 
-#: ../main.qml:258
+#: ../main.qml:277
 msgctxt "main|"
 msgid "On"
 msgstr ""
 
-#: ../main.qml:261
+#: ../main.qml:280
 msgctxt "main|"
 msgid ""
 ", you may run across community-provided repositories. While we do not "
