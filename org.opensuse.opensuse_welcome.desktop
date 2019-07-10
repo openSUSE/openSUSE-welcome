@@ -3,7 +3,7 @@
 Type=Application
 Name=Welcome
 Exec=/usr/bin/opensuse-welcome
-Icon=system-help
+Icon=org.opensuse.opensuse_welcome
 Comment=The openSUSE Welcome utility.
 Categories=Qt;System;Documentation
 GenericName=Welcome Utility

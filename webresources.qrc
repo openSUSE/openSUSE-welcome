@@ -65,6 +65,6 @@
         <file>web/images/logo/tumbleweed-green.svg</file>
         <file>web/js/chameleon-no-jquery.js</file>
         <file>web/js/chameleon.js</file>
-        <file>desktop-file/org.opensuse.opensuse-welcome.desktop</file>
+        <file>desktop-file/org.opensuse.opensuse_welcome.desktop</file>
     </qresource>
 </RCC>
