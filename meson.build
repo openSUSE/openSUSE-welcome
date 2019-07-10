@@ -7,18 +7,6 @@ processed_files = qt5.preprocess(moc_headers: ['include/enabler.h', 'include/lau
                                  include_directories: inc,
                                  qresources: qresource_files)
 
-lconvert_prog = find_program('lconvert-qt5')
-i18n_gen = generator(lconvert_prog,
-                     output: '@BASENAME@.qm',
-                     arguments: ['@INPUT@', '-o', '@OUTPUT@'])
-
-trans = ['i18n/base.po', 'i18n/qml_de.po', 'i18n/qml_en.po']
-i18n_files = []
-
-foreach tran : trans
-    i18n_files += i18n_gen.process(tran)
-endforeach
-
 subdir('src')
 
 install_data('org.opensuse.opensuse_welcome.desktop', install_dir: join_paths(get_option('prefix'), get_option('datadir'), 'applications'))
