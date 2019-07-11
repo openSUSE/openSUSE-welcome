@@ -8,3 +8,7 @@ Icon=org.opensuse.opensuse_welcome
 Comment=The openSUSE Welcome utility.
 Categories=Qt;System;Documentation
 GenericName=Welcome Utility
+# Spanish translation
+Name[es]=Bienvenida
+Comment[es]=La utilidad de bienvenida de openSUSE.
+GenericName[es]=Utilidad de bienvenida
