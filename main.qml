@@ -263,6 +263,7 @@ Window {
 
         // Google Chrome paragraph
         property string chrome:         qsTr("To install Google Chrome, just download it directly from Google. Google provides a repository that will be added to your system when you install Google Chrome. This will allow it to be updated alongside your system.")
+        property string chromeLink:     qsTr("Google offers Google Chrome's RPM on its website.")
 
         // Packman paragraph part one
         property string packman:        qsTr("Some codecs for playing media cannot be included in openSUSE due to licensing issues. However, there are repositories available that you can read about")

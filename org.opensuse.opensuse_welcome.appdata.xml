@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Carson Black -->
+<component type="desktop-application">
+    <id>org.opensuse.opensuse_welcome</id>
+    <name>openSUSE Welcome</name>
+    <summary> openSUSE Welcome is a welcome utility to welcome people to openSUSE </summary>
+    <description>
+        <p>
+            openSUSE Welcome is a welcome utility to welcome people to openSUSE. 
+            It includes information and links to various useful resources, 
+            such as desktop environment help, links to social media, and resources on how to contribute.
+        </p>
+    </description>
+    <metadata_license>CC0-1.0</metadata_license>
+    <icon type="stock">org.opensuse.opensuse_welcome</icon>
+    <releases>
+        <release version="0.1.3" date="2019-07-10" urgency="high">
+            <description>
+                <p>This update introduces mostly backend fixes for metadata.</p>
+            </description>
+        </release>
+    </releases>
+    <translation type="qt">openSUSE Welcome</translation>
+    <screenshots>
+        <screenshot>
+            <caption>openSUSE Welcome Screenshot</caption>
+            <image type="source">https://raw.githubusercontent.com/openSUSE/openSUSE-welcome/master/Welcome.png</image>
+        </screenshot>
+    </screenshots>
+    <update_contact>uhhadd@gmail.com</update_contact>
+    <url type="homepage">https://github.com/openSUSE/openSUSE-Welcome</url>
+</component>

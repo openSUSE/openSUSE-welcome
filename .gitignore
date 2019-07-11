@@ -1,3 +1,4 @@
 build
 i18n/*.ts
 i18n/*.qm
+CMakeLists.txt.user

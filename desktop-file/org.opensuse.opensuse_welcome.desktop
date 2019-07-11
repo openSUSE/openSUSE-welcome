@@ -1,9 +1,10 @@
-# Copy me to /etc/xdg/autostart and /usr/share/applications
+# I'll get copied to ~/.config/autostart/ to disable the other desktop file that should be copied to /etc/xdg/autostart/
 [Desktop Entry]
 Type=Application
 Name=Welcome
 Exec=/usr/bin/opensuse-welcome
-Icon=system-help
+Hidden=true
+Icon=org.opensuse.opensuse_welcome
 Comment=The openSUSE Welcome utility.
 Categories=Qt;System;Documentation
 GenericName=Welcome Utility

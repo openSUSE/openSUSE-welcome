@@ -97,3 +97,6 @@ a.news-link:not([href]):not([tabindex]) {
 a.news-link:hover {
     cursor: pointer;
 }
+.breadcrumb-item+.breadcrumb-item::before {
+    content: "|";
+}
