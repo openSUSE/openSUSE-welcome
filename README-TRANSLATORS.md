@@ -7,6 +7,7 @@ Use whatever program you like to translate with the `.po` files.
 
 ## How to test your translations
 
+It's needed to install some packages like __meson__ and __ninja__, so first run zypper in as root user or YaST to install this packages.
 To test, build the program following these steps from the build root:
 
  ./i18n.sh
