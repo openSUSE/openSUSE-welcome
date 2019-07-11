@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-07-10 20:38+0200\n"
+"PO-Revision-Date: 2019-07-11 16:35+0200\n"
 "Last-Translator: victorhck <victorhck@mailbox.org>\n"
 "Language-Team: Spanish <>\n"
 "Language: es_ES\n"
@@ -37,7 +37,7 @@ msgstr "Ayuda"
 #: ../main.qml:102
 msgctxt "main|"
 msgid "Read me"
-msgstr "Leeme"
+msgstr "Léeme"
 
 #: ../main.qml:103
 msgctxt "main|"
@@ -255,7 +255,7 @@ msgstr ""
 "para ayudar con openSUSE, encuentra y reporta errores, encárgate de un "
 "problema durante el proceso de publicación, revisa la documentación, envía "
 "tus propuestas de mejoraras para incluir nuevos paquetes o nuevas "
-"funcionalidades, cre y envía parches o encuentra otras formas creativas para "
+"funcionalidades, crea y envía parches o encuentra otras formas creativas para "
 "contribuir."
 
 #: ../main.qml:187
@@ -265,7 +265,7 @@ msgid ""
 "become an"
 msgstr ""
 "Hagas, lo que hagas, tómate unos minutos para hablar de openSUSE con otras "
-"personas y conviértete en"
+"personas y conviértete en "
 
 #: ../main.qml:189
 msgctxt "main|"
@@ -292,7 +292,7 @@ msgstr "Se parte de la comunidad de openSUSE"
 #: ../main.qml:196
 msgctxt "main|"
 msgid "See where other"
-msgstr "Ver donde están otros"
+msgstr "Ver donde están otros ubicados otros miembros de la "
 
 #: ../main.qml:198
 msgctxt "main|"
@@ -306,10 +306,10 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
-"miembros ubicados en todo el mundo, conoce a algunas Personas de openSUSE, "
+"en todo el mundo, conoce a algunas personas de openSUSE, "
 "encuentra grupos de usuarios locales de openSUSE, celebra los lanzamientos, "
 "aprende sobre la estructura del gobierno de la comunidad y mucho más. "
-"Síguenos"
+"Síguenos en nuestra web de "
 
 #: ../main.qml:202
 msgctxt "main|"
@@ -320,8 +320,8 @@ msgstr "Noticias de openSUSE"
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
-"en nuestro sitio de noticias y echa un vistazo en lo que nuestros "
-"desarrolladores hacen en"
+"y echa un vistazo en lo que nuestra "
+"comunidad hace en"
 
 #: ../main.qml:206
 msgctxt "main|"
@@ -336,12 +336,12 @@ msgstr "Ayúdanos a publicar la nueva versión de openSUSE"
 #: ../main.qml:211
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr "Para cada publicación hay una"
+msgstr "Para cada publicación hay unas"
 
 #: ../main.qml:213
 msgctxt "main|"
 msgid "set of tasks"
-msgstr "lista de tareas"
+msgstr "listas de tareas"
 
 #: ../main.qml:215
 msgctxt "main|"
@@ -493,6 +493,8 @@ msgstr ""
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
 msgstr ""
+"Google ofrece un paquete RPM de Google Chrome en su sitio web listo para ser"
+" instalado."
 
 #: ../main.qml:269
 msgctxt "main|"
@@ -501,7 +503,8 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
-"Algúnos \"codecs\" para reproducir material multimedia no puede se incluido "
+"Algunos \"codecs\" para reproducir material multimedia, no pueden ser"
+" incluidos "
 "en openSUSE debido a incompatibilidades con sus licencias. Sin embargo, "
 "existen repositorios disponibles sobre los que puedes leer más "
 
@@ -518,7 +521,7 @@ msgstr "Repositorios comunitarios"
 #: ../main.qml:277
 msgctxt "main|"
 msgid "On"
-msgstr "en"
+msgstr "En"
 
 #: ../main.qml:280
 msgctxt "main|"
@@ -527,6 +530,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
-", puedes utilizar repositorio ofrecidos por la comunidad. Si bien no "
-"revisamos manualmente los repositorios de la comunidad, estos han construido "
+", puedes utilizar repositorios ofrecidos por la comunidad. Si bien no "
+"revisamos manualmente los repositorios de la comunidad, esta ha construido "
 "su software para la última versión de openSUSE y deberían funcionar."
