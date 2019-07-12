@@ -17,6 +17,7 @@ add_custom_command(
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
     COMMENT "Convert .po files into Qt's favorite translation file format"
 )
+include_directories(include)
 set(SOURCES src/main.cpp src/sysinfo.cpp include/sysinfo.h qml.qrc webresources.qrc i18n.qrc src/launcher.cpp include/launcher.h src/enabler.cpp include/enabler.h)
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_compile_definitions(${PROJECT_NAME} PRIVATE $<$<OR:$<CONFIG:Debug>,$<CONFIG:RelWithDebInfo>>:QT_QML_DEBUG>)

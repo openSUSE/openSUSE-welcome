@@ -23,6 +23,7 @@ import QtWebChannel 1.0
 import me.appadeia.SysInfo 1.0
 import me.appadeia.Launcher 1.0
 import me.appadeia.Enabler 1.0
+import QtQuick.XmlListModel 2.0
 
 Window {
     id: root
@@ -62,6 +63,37 @@ Window {
     Launcher {
         WebChannel.id: "launcher"
         id: launcher
+    }
+    function escapeHtml(unsafe) {
+        return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    }
+
+    XmlListModel {
+        id: rssModel
+        source: "https://news.opensuse.org/feed"
+        query: "/rss/channel/item"
+
+        XmlRole { name: "title"; query: "title/string()"}
+        XmlRole { name: "url"; query: "link/string()"}
+    }
+
+    property string rssNewsTitle: ""
+    property url rssPageUrl: ""
+    property bool rssReady: false
+
+    Repeater {
+        model: rssModel
+        delegate: Item {
+            Component.onCompleted: {
+                if (model["index"] == 0) {
+                    root.rssNewsTitle = root.escapeHtml(model["title"])
+                    root.rssPageUrl = root.escapeHtml(model["url"])
+                    root.rssReady = true
+                    console.log(root.rssNewsTitle, root.rssPageUrl);
+                    webView.injectAlert();
+                }
+            }
+        }
     }
 
     QtObject {
@@ -283,10 +315,23 @@ Window {
         property string close:          qsTr("Close")
     }
     WebEngineView {
+        id: webView
         anchors.fill: parent
         url: "web/home.html"
         webChannel: bridge
         property var request;
+        onLoadingChanged: {
+            if (loadRequest.status == WebEngineLoadRequest.LoadSucceededStatus) {
+                webView.injectAlert();
+            }
+        }
+        function injectAlert() {
+            if (!root.rssReady) {
+                return;
+            }
+            var script = "(function() { var rssFeed = document.getElementById('rss-feeds'); if(rssFeed == null) return; var alertdiv = document.createElement('div'); alertdiv.setAttribute('class', 'alert alert-info text-truncate text-center mb-0'); alertdiv.setAttribute('role','alert'); var entrydiv = document.createElement('a'); entrydiv.setAttribute('class', 'news-link'); entrydiv.setAttribute('onclick', 'bridge.openURL(\"%1\")'); entrydiv.textContent = '%2'; alertdiv.appendChild(entrydiv); rssFeed.appendChild(alertdiv); })()".arg(root.rssPageUrl).arg(root.rssNewsTitle)
+            webView.runJavaScript(script);
+        }
     }
 
     Rectangle {
