@@ -353,7 +353,7 @@ Window {
         Behavior on opacity {
             NumberAnimation {
                 duration: 300
-                easing: Easing.InOutQuad
+                easing.type: Easing.InOutQuad
             }
         }
     }

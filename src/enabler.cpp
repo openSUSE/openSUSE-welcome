@@ -7,8 +7,8 @@ Enabler::Enabler(QObject *parent) : QObject(parent)
 void Enabler::enableAutostart()
 {
     qDebug() << "enable autostart called";
-    if (fileExists(QDir::homePath() + "/.config/autostart/welcome.desktop")) {
-        QFile file(QDir::homePath() + "/.config/autostart/welcome.desktop");
+    if (fileExists(QDir::homePath() + "/.config/autostart/org.opensuse.opensuse_welcome.desktop")) {
+        QFile file(QDir::homePath() + "/.config/autostart/org.opensuse.opensuse_welcome.desktop");
 
         file.remove();
 
@@ -21,8 +21,8 @@ void Enabler::enableAutostart()
 void Enabler::disableAutostart()
 {
     qDebug() << "disable autostart called";
-    QFile::copy(":/desktop-file/welcome.desktop", QDir::homePath() + "/.config/autostart/welcome.desktop");
-    qDebug() << QDir::homePath() + "/.config/autostart/welcome.desktop";
+    QFile::copy(":/desktop-file/org.opensuse.opensuse_welcome.desktop", QDir::homePath() + "/.config/autostart/org.opensuse.opensuse_welcome.desktop");
+    qDebug() << QDir::homePath() + "/.config/autostart/org.opensuse.opensuse_welcome.desktop";
 }
 bool Enabler::fileExists(QString path)
 {
@@ -39,7 +39,7 @@ bool Enabler::fileExists(QString path)
 bool Enabler::autostartEnabled()
 {
     qDebug() << "checking if autostart is enabled";
-    if (fileExists(QDir::homePath() + "/.config/autostart/welcome.desktop")) {
+    if (fileExists(QDir::homePath() + "/.config/autostart/org.opensuse.opensuse_welcome.desktop")) {
         qDebug() << "there is a file to disable, so it's disabled";
         return false;
     } else {
@@ -49,7 +49,7 @@ bool Enabler::autostartEnabled()
 }
 void Enabler::toggle() {
     qDebug() << "checking if autostart is enabled";
-    if (fileExists(QDir::homePath() + "/.config/autostart/welcome.desktop")) {
+    if (fileExists(QDir::homePath() + "/.config/autostart/org.opensuse.opensuse_welcome.desktop")) {
         qDebug() << "there is a file to disable, so it's disabled";
         enableAutostart();
     } else {

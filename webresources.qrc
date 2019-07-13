@@ -5,17 +5,12 @@
         <file>web/images/logo.svg</file>
         <file>web/images/sinking.svg</file>
         <file>web/js/app.js</file>
-        <file>web/js/jquery-lang.js</file>
-        <file>web/js/jquery.min.js</file>
-        <file>web/js/jquery.rss.js</file>
-        <file>web/js/search_methods.js</file>
-        <file>web/css/font-awesome.css</file>
-        <file>web/fonts/fontawesome-webfont.eot</file>
-        <file>web/fonts/fontawesome-webfont.svg</file>
-        <file>web/fonts/fontawesome-webfont.ttf</file>
-        <file>web/fonts/fontawesome-webfont.woff</file>
-        <file>web/fonts/fontawesome-webfont.woff2</file>
-        <file>web/fonts/FontAwesome.otf</file>
+        <file>web/css/fork-awesome.css</file>
+        <file>web/fonts/forkawesome-webfont.ttf</file>
+        <file>web/fonts/forkawesome-webfont.woff2</file>
+        <file>web/fonts/forkawesome-webfont.svg</file>
+        <file>web/fonts/forkawesome-webfont.woff</file>
+        <file>web/fonts/forkawesome-webfont.eot</file>
         <file>web/js/lens-angular.min.js</file>
         <file>web/css/chameleon.css</file>
         <file>web/fonts/OpenSans-Bold.ttf</file>
@@ -63,8 +58,6 @@
         <file>web/images/logo/logo-gray.svg</file>
         <file>web/images/logo/logo-white.svg</file>
         <file>web/images/logo/tumbleweed-green.svg</file>
-        <file>web/js/chameleon-no-jquery.js</file>
-        <file>web/js/chameleon.js</file>
         <file>desktop-file/org.opensuse.opensuse_welcome.desktop</file>
     </qresource>
 </RCC>

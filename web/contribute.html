@@ -22,7 +22,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="qrc:///web/css/font-awesome.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/fork-awesome.css" rel="stylesheet" media="screen">
   <link href="qrc:///web/css/lens-ui.css" rel="stylesheet" media="screen">
   <link href="qrc:///web/css/chameleon.css" rel="stylesheet" media="screen">
   <link href="qrc:///web/css/app.css" rel="stylesheet" media="screen">
@@ -86,15 +86,17 @@
   <footer class="bg-dark keep-bottom p-3 text-white">
     <div class="d-flex justify-content-between align-items-center">
       <div>
-        <div class="btn-group">
-          <button class="btn btn-sm btn-reddit" onclick="bridge.openURL('https://reddit.com/r/openSUSE')"><i
-              class="fa fa-fw fa-reddit"></i></button>
-          <button class="btn btn-sm btn-facebook" onclick="bridge.openURL('https://facebook.com/en.openSUSE')"><i
-              class="fa fa-fw fa-facebook"></i></button>
-          <button class="btn btn-sm btn-twitter" onclick="bridge.openURL('https://twitter.com/openSUSE')"><i
-              class="fa fa-fw fa-twitter"></i></button>
-        </div>
-
+                <div class="btn-group">
+                    <button class="btn btn-sm btn-reddit" onclick="bridge.openURL('https://reddit.com/r/openSUSE')"><i
+                            class="fa fa-fw fa-reddit"></i></button>
+                    <button class="btn btn-sm btn-facebook"
+                        onclick="bridge.openURL('https://facebook.com/en.openSUSE')"><i
+                            class="fa fa-fw fa-facebook"></i></button>
+                    <button class="btn btn-sm btn-twitter" onclick="bridge.openURL('https://twitter.com/openSUSE')"><i
+                            class="fa fa-fw fa-twitter"></i></button>
+                    <button class="btn btn-sm btn-mastodon" onclick="bridge.openURL('https://fosstodon.org/@opensuse')"><i
+                            class="fa fa-fw fa-mastodon"></i></button>
+                </div>
       </div>
       <div class="d-flex">
         <button id="close" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()"><i
@@ -102,9 +104,6 @@
       </div>
     </div>
   </footer>
-  <script src="qrc:///web/js/chameleon.js"></script>
-  <script src="qrc:///web/js/jquery.min.js"></script>
-  <script src="qrc:///web/js/jquery-lang.js"></script>
   <script src="qrc:///web/js/lens-angular.min.js"></script>
   <script src="qrc:///web/js/app.js"></script>
 </body>
