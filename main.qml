@@ -64,8 +64,9 @@ Window {
         WebChannel.id: "launcher"
         id: launcher
     }
-    function escapeHtml(unsafe) {
-        return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+    function escapeUnsafe(unsafe) {
+        // preserve this in case it's needed, but it's most likely not.
+        return unsafe;
     }
 
     XmlListModel {
@@ -86,8 +87,8 @@ Window {
         delegate: Item {
             Component.onCompleted: {
                 if (model["index"] == 0) {
-                    root.rssNewsTitle = root.escapeHtml(model["title"])
-                    root.rssPageUrl = root.escapeHtml(model["url"])
+                    root.rssNewsTitle = root.escapeUnsafe(model["title"])
+                    root.rssPageUrl = root.escapeUnsafe(model["url"])
                     root.rssReady = true
                     console.log(root.rssNewsTitle, root.rssPageUrl);
                     webView.injectAlert();
