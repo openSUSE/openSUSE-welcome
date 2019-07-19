@@ -12,8 +12,7 @@ do
 		echo b: $b
 		c=$(rev <<< "$b" | cut -c 4- | rev )
 		echo c: $c
-		lconvert-qt5 $a -o "i18n$c.ts"
-		lrelease-qt5 "i18n/"*".ts"
+		lconvert-qt5 $a -o "i18n$c.qm"
 	fi
 done
 # for each files/folder in the folder "theFokderName"

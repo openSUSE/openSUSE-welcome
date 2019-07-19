@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
     app.installTranslator(&qtTranslator);
 
     QTranslator welcomeTranslator;
-    welcomeTranslator.load("qml_" + QLocale::system().name(), ":/i18n");
+    welcomeTranslator.load("qml_" + QLocale::system().name(), "/usr/share/openSUSE-Welcome/i18n");
     app.installTranslator(&welcomeTranslator);
 
     QQmlApplicationEngine engine;
