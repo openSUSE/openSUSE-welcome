@@ -21,6 +21,7 @@
 #include <QtWebEngine/QtWebEngine>
 #include <QTranslator>
 #include <QLocale>
+#include <QDir>
 #include "sysinfo.h"
 #include "launcher.h"
 #include "enabler.h"
@@ -74,6 +75,11 @@ int main(int argc, char *argv[])
     QTranslator welcomeTranslator;
     welcomeTranslator.load("qml_" + QLocale::system().name(), "/usr/share/openSUSE-Welcome/i18n");
     app.installTranslator(&welcomeTranslator);
+
+    QDir autostartFolder(QDir::homePath() + "/.config/autostart/");
+    if (!autostartFolder.exists()) {
+        autostartFolder.mkdir(QDir::homePath() + "/.config/autostart/");
+    }
 
     QQmlApplicationEngine engine;
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
