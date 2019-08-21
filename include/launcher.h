@@ -8,7 +8,7 @@ class Launcher : public QObject
 public:
     explicit Launcher(QObject *parent = nullptr);
     ~Launcher();
-    Q_INVOKABLE QString launch(const QString &program);
+    Q_INVOKABLE void launch(const QString &program);
     Q_INVOKABLE QString currentDE();
 protected:
     QProcess *m_process;

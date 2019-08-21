@@ -1,9 +1,9 @@
 <!DOCTYPE RCC>
 <RCC version="1.0">
   <qresource prefix="/">
-      <file>i18n/base.qm</file>
-      <file>i18n/qml_de.qm</file>
-      <file>i18n/qml_es.qm</file>
       <file>i18n/qml_fr.qm</file>
+      <file>i18n/base.qm</file>
+      <file>i18n/qml_es.qm</file>
+      <file>i18n/qml_de.qm</file>
   </qresource>
 </RCC>
