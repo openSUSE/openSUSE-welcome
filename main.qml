@@ -367,6 +367,10 @@ Window {
         y: -508
         color: "#73ba25"
 
+        MouseArea {
+            anchors.fill: parent
+            cursorShape: Qt.ArrowCursor
+        }
         SequentialAnimation {
             id: pageIn
             WebChannel.id: "pageIn"
