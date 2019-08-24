@@ -15,3 +15,7 @@ GenericName[es]=Utilidad de bienvenida
 Name[fr]=Bienvenue
 Comment[fr]=Utilitaire de bienvenue
 GenericName[fr]=L'utilitaire de bienvenue d'openSUSE.
+# Polish translation
+Name[pl]=Witaj
+Comment[pl]=Program do powitania
+GenericName[pl]=Program do powitania w openSUSE.
