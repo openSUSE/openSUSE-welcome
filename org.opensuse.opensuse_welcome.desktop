@@ -15,3 +15,7 @@ GenericName[es]=Utilidad de bienvenida
 Name[fr]=Bienvenue
 Comment[fr]=Utilitaire de bienvenue
 GenericName[fr]=L'utilitaire de bienvenue d'openSUSE.
+# Simplified Chinese translation
+Name[zh_CN]=欢迎
+Comment[zh_CN]=openSUSE 欢迎程序。
+GenericName[zh_CN]=欢迎程序
