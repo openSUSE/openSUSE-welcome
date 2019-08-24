@@ -289,8 +289,8 @@ Window {
         property string extras:         qsTr("Extra Software")
         // Cannot include by default
         property string cannotInclude:  qsTr("There are certain proprietary drivers (such as Nvidia) and packages (such as Google Chrome) that openSUSE cannot include by default.")
-        // Read this on NVidia
-        property string readThisNvidia: qsTr("If you have an NVidia device and wish to use the proprietary drivers, read this")
+        // Read this on Nvidia
+        property string readThisNvidia: qsTr("If you have an Nvidia device and wish to use the proprietary drivers, read this")
         // Wiki Article [ link at end of previous sentence ]
         property string wikiArticle:    qsTr("wiki article")
 

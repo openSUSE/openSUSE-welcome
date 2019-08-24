@@ -413,7 +413,7 @@ msgstr ""
 #: ../main.qml:260
 msgctxt "main|"
 msgid ""
-"If you have an NVidia device and wish to use the proprietary drivers, read "
+"If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
 

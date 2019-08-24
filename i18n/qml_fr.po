@@ -462,10 +462,10 @@ msgstr ""
 #: ../main.qml:260
 msgctxt "main|"
 msgid ""
-"If you have an NVidia device and wish to use the proprietary drivers, read "
+"If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
-"Si vous avez une carte NVidia et que vous voulez utiliser les pilotes "
+"Si vous avez une carte Nvidia et que vous voulez utiliser les pilotes "
 "propriétaires, lisez cet"
 
 #: ../main.qml:262
