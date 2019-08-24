@@ -3,9 +3,10 @@
   <qresource prefix="/">
       <file>i18n/qml_fr.qm</file>
       <file>i18n/qml_ca.qm</file>
+      <file>i18n/qml_zh_CN.qm</file>
       <file>i18n/base.qm</file>
+      <file>i18n/qml_pl.qm</file>
       <file>i18n/qml_es.qm</file>
       <file>i18n/qml_de.qm</file>
-      <file>i18n/qml_zh_CN.qm</file>
   </qresource>
 </RCC>
