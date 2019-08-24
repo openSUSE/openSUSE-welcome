@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/">
+      <file>data/i18n/qml_fr.qm</file>
+      <file>data/i18n/qml_ca.qm</file>
+      <file>data/i18n/qml_zh_CN.qm</file>
+      <file>data/i18n/base.qm</file>
+      <file>data/i18n/qml_pl.qm</file>
+      <file>data/i18n/qml_es.qm</file>
+      <file>data/i18n/qml_de.qm</file>
+  </qresource>
+</RCC>

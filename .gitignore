@@ -1,5 +1,5 @@
 build
-i18n/*.ts
-i18n/*.qm
+data/i18n/*.ts
+data/i18n/*.qm
 CMakeLists.txt.user
 .vscode
