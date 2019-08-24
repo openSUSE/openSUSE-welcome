@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Language: en_US\n"
+"X-Qt-Contexts: true\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Dingzhong Chen <wsxy162@gmail.com>\n"
+"Language: zh_CN\n"
+
+#: ../main.qml:56
+msgctxt "main|"
+msgid "Welcome"
+msgstr "欢迎"
+
+#: ../main.qml:95
+msgctxt "main|"
+msgid "Ahoy, this is openSUSE"
+msgstr "嘿，这就是 openSUSE"
+
+#: ../main.qml:98
+msgctxt "main|"
+msgid "Basics"
+msgstr "基本"
+
+#: ../main.qml:99
+msgctxt "main|"
+msgid "Support"
+msgstr "支持"
+
+#: ../main.qml:102
+msgctxt "main|"
+msgid "Read me"
+msgstr "自述"
+
+#: ../main.qml:103
+msgctxt "main|"
+msgid "Documentation"
+msgstr "文档"
+
+#: ../main.qml:104
+msgctxt "main|"
+msgid "Get Software"
+msgstr "获取软件"
+
+#: ../main.qml:107
+msgctxt "main|"
+msgid "Install openSUSE"
+msgstr "安装 openSUSE"
+
+#: ../main.qml:110
+msgctxt "main|"
+msgid "GNOME Help"
+msgstr "GNOME 帮助"
+
+#: ../main.qml:111
+msgctxt "main|"
+msgid "Plasma Help"
+msgstr "Plasma 帮助"
+
+#: ../main.qml:112
+msgctxt "main|"
+msgid "Xfce Help"
+msgstr "Xfce 帮助"
+
+#: ../main.qml:113
+msgctxt "main|"
+msgid "MATE Help"
+msgstr "MATE 帮助"
+
+#: ../main.qml:114
+msgctxt "main|"
+msgid "Enlightenment Help"
+msgstr "Enlightenment 帮助"
+
+#: ../main.qml:115
+msgctxt "main|"
+msgid "About Budgie"
+msgstr "关于 Budgie"
+
+#: ../main.qml:116
+msgctxt "main|"
+msgid "About Lumina"
+msgstr "关于 Lumina"
+
+#: ../main.qml:117
+msgctxt "main|"
+msgid "LXDE Help"
+msgstr "LXDE 帮助"
+
+#: ../main.qml:118
+msgctxt "main|"
+msgid "LXQt Help"
+msgstr "LXQt 帮助"
+
+#: ../main.qml:119
+msgctxt "main|"
+msgid "About Cinnamon"
+msgstr "关于 Cinnamon"
+
+#: ../main.qml:120
+msgctxt "main|"
+msgid "Deepin Help"
+msgstr "Deepin 帮助"
+
+#: ../main.qml:123 ../main.qml:177
+msgctxt "main|"
+msgid "Contribute"
+msgstr "贡献"
+
+#: ../main.qml:124
+msgctxt "main|"
+msgid "Build openSUSE"
+msgstr "构建 openSUSE"
+
+#: ../main.qml:127
+msgctxt "main|"
+msgid ""
+"If this is your first time using openSUSE, we would like you to feel right "
+"at home in your new voyage. Take your time to familiarize yourself with all "
+"the buttons and let us know how you like the experience on our"
+msgstr ""
+"如果这是你首次使用 openSUSE，我们希望你在新的旅途中能感到宾至如归。花点时间熟"
+"悉下所有按钮，然后分享你的使用体验到"
+
+#: ../main.qml:128
+msgctxt "main|"
+msgid "social media"
+msgstr "社交媒体"
+
+#: ../main.qml:131
+msgctxt "main|"
+msgid "Show on next startup"
+msgstr "下次启动时显示"
+
+#: ../main.qml:132 ../main.qml:170 ../main.qml:245 ../main.qml:283
+msgctxt "main|"
+msgid "Close"
+msgstr "关闭"
+
+#: ../main.qml:139
+msgctxt "main|"
+msgid "Social Media"
+msgstr "社交媒体"
+
+#: ../main.qml:140 ../main.qml:178 ../main.qml:253
+msgctxt "main|"
+msgid "Home"
+msgstr "主页"
+
+#: ../main.qml:143
+msgctxt "main|"
+msgid "Social Media: How to reach us!"
+msgstr "社交媒体：怎么联系我们！"
+
+#: ../main.qml:146
+msgctxt "main|"
+msgid ""
+"Most commonly used social medias are already listed in the footer, but here "
+"are some more you might find useful, alphabetically:"
+msgstr "最常用的社交媒体已在页脚列出，还有一些你可能觉得有用的，排列如下："
+
+#: ../main.qml:149
+msgctxt "main|"
+msgid "Discord"
+msgstr "Discord"
+
+#: ../main.qml:150
+msgctxt "main|"
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../main.qml:151
+msgctxt "main|"
+msgid "Forums"
+msgstr "论坛"
+
+#: ../main.qml:152
+msgctxt "main|"
+msgid "IRC"
+msgstr "IRC"
+
+#: ../main.qml:153
+msgctxt "main|"
+msgid "Telegram"
+msgstr "Telegram"
+
+#: ../main.qml:156
+msgctxt "main|"
+msgid "Facebook Group"
+msgstr "Facebook 小组"
+
+#: ../main.qml:157
+msgctxt "main|"
+msgid "openSUSE Forums"
+msgstr "openSUSE 论坛"
+
+#: ../main.qml:160
+msgctxt "main|"
+msgid "Tech Support"
+msgstr "技术支持"
+
+#: ../main.qml:161
+msgctxt "main|"
+msgid "Project"
+msgstr "项目"
+
+#: ../main.qml:162
+msgctxt "main|"
+msgid "Factory"
+msgstr "工厂（Factory）"
+
+#: ../main.qml:163
+msgctxt "main|"
+msgid "Chat"
+msgstr "聊天"
+
+#: ../main.qml:166
+msgctxt "main|"
+msgid "openSUSE Group"
+msgstr "openSUSE 群组"
+
+#: ../main.qml:167
+msgctxt "main|"
+msgid "openSUSE News"
+msgstr "openSUSE 新闻"
+
+#: ../main.qml:181
+msgctxt "main|"
+msgid "Contribute. Participate in openSUSE"
+msgstr "贡献。参与 openSUSE"
+
+#: ../main.qml:184
+msgctxt "main|"
+msgid ""
+"Whether you’re an experienced Linux developer or an end user just getting "
+"started with Linux, there are many ways for you to participate in the "
+"openSUSE project. Join a forum to get help or help others with openSUSE, "
+"find and report bugs, take over an issue from the release process, review "
+"the documentation, send your wish list for new packages and features, create "
+"and submit patches, or find other creative ways to contribute."
+msgstr ""
+"不管你是经验丰富的 Linux 开发者还是刚开始接触 Linux 的用户，你都可以通过多种"
+"方式参与 openSUSE 项目。加入论坛获取关于 openSUSE 的帮助或是帮助其他人，查找"
+"和报告错误，了解发行进程中的问题，阅读文档，发送你的新软件包和功能的期望列"
+"表，创建和提交补丁，又或者也寻找其他创新方式来贡献。"
+
+#: ../main.qml:187
+msgctxt "main|"
+msgid ""
+"Whatever you do, take a few minutes to discuss openSUSE with other users and "
+"become an"
+msgstr "无论你做什么，花几分钟与其他用户讨论下 openSUSE 并成为一名"
+
+#: ../main.qml:189
+msgctxt "main|"
+msgid "active member"
+msgstr "活跃成员"
+
+#: ../main.qml:191
+msgctxt "main|"
+msgid ""
+"of the openSUSE community. For most activities a login is needed to enjoy "
+"all the fun. You might wish to create a user page and share some useful "
+"information or interests about you with others."
+msgstr ""
+"参与 openSUSE 社区。对于大多数活动，需要登录才能享受全部乐趣。你可能希望创建"
+"用户页并与其他人分享些关于你的有用信息和兴趣。"
+
+#: ../main.qml:194
+msgctxt "main|"
+msgid "Be part of the openSUSE Community"
+msgstr "加入 openSUSE 社区"
+
+#: ../main.qml:196
+msgctxt "main|"
+msgid "See where other"
+msgstr "查看其他"
+
+#: ../main.qml:198
+msgctxt "main|"
+msgid "openSUSE community"
+msgstr "openSUSE 社区"
+
+#: ../main.qml:200
+msgctxt "main|"
+msgid ""
+"members are located world-wide, get to know some People of openSUSE, find "
+"local openSUSE user groups, celebrate releases, learn about the governance "
+"structure and more. Follow"
+msgstr ""
+"成员在世界各地的位置，认识下 openSUSE 人员，寻找本地的 openSUSE 用户组，庆祝"
+"发行活动，了解治理结构以及更多。关注我们的新闻站上的"
+
+#: ../main.qml:202
+msgctxt "main|"
+msgid "openSUSE news"
+msgstr "openSUSE 新闻"
+
+#: ../main.qml:204
+msgctxt "main|"
+msgid "on our news site and see what our developers are up to on"
+msgstr "，查看我们开发者的动态于"
+
+#: ../main.qml:206
+msgctxt "main|"
+msgid "Planet openSUSE"
+msgstr "openSUSE 星球"
+
+#: ../main.qml:209
+msgctxt "main|"
+msgid "Help us to release the next version of openSUSE"
+msgstr "帮我们发行下个版本的 openSUSE"
+
+#: ../main.qml:211
+msgctxt "main|"
+msgid "For every release there is a"
+msgstr "每个发行版本都有一个"
+
+#: ../main.qml:213
+msgctxt "main|"
+msgid "set of tasks"
+msgstr "任务集"
+
+#: ../main.qml:215
+msgctxt "main|"
+msgid ""
+"available. Some are complicated, some are easy to achieve, even for "
+"beginners. Look through the issues and tell someone from openSUSE if you "
+"found an adequate task."
+msgstr ""
+"。有些任务复杂，有些容易实现，即使是对于初学者。仔细查看问题，如果找到了适合"
+"的任务，告知 openSUSE 中的成员。"
+
+#: ../main.qml:218
+msgctxt "main|"
+msgid "Discuss openSUSE and help other users"
+msgstr "讨论 openSUSE 和帮助其他用户"
+
+#: ../main.qml:220
+msgctxt "main|"
+msgid ""
+"There are several active communities where you can discuss what is going on "
+"in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
+"channels and forums. Please have a look at the"
+msgstr ""
+"你可以在多个活跃的社区上讨论 openSUSE 中发生的事情并帮助其他的 openSUSE 用"
+"户。我们拥有邮件列表、IRC 频道和论坛。请看一看"
+
+#: ../main.qml:222
+msgctxt "main|"
+msgid "communication channels"
+msgstr "沟通渠道"
+
+#: ../main.qml:224
+msgctxt "main|"
+msgid "for an overview."
+msgstr "获取大概了解。"
+
+#: ../main.qml:227
+msgctxt "main|"
+msgid "Suggest New Features or Software"
+msgstr "建议新功能或软件"
+
+#: ../main.qml:229
+msgctxt "main|"
+msgid "Visit"
+msgstr "访问"
+
+#: ../main.qml:231
+msgctxt "main|"
+msgid "Bugzilla"
+msgstr "Bugzilla"
+
+#: ../main.qml:233
+msgctxt "main|"
+msgid ""
+"our Feature- and Requirements Management System. Here you can get a sorted "
+"overview of things happening in upcoming products, follow and participate on "
+"the discussion by adding comments or work on features for the next product "
+"generation (version) and help to make openSUSE an even better Linux "
+"distribution."
+msgstr ""
+"我们的功能和需求管理系统。这里你可以浏览即将推出产品的分类事务、关注讨论并添"
+"加评论参与、或者研究下一代产品的功能，助力 openSUSE 成为更优秀的 Linux 发行"
+"版。"
+
+#: ../main.qml:236
+msgctxt "main|"
+msgid "Spread the word"
+msgstr "宣传"
+
+#: ../main.qml:238
+msgctxt "main|"
+msgid ""
+"Be sure to spread the word on openSUSE and help others to benefit from it "
+"too! openSUSE offers a great Linux distribution and many other technologies "
+"like our"
+msgstr ""
+"一定要宣传 openSUSE 并帮助其他人从中受益！openSUSE 提供优秀的 Linux 发行版而"
+"且其他技术像我们的"
+
+#: ../main.qml:240
+msgctxt "main|"
+msgid "build service"
+msgstr "包构建服务"
+
+#: ../main.qml:242
+msgctxt "main|"
+msgid ""
+"which can help home users as well as sys admins and developers to get work "
+"done and have fun. Blog about openSUSE, tell your friends and family and "
+"help them install it!"
+msgstr ""
+"可以帮助家庭用户以及系统管理员和开发者完成工作并获得乐趣。编写关于 openSUSE "
+"的博客，告诉你的朋友家人并帮助他们安装它！"
+
+#: ../main.qml:252
+msgctxt "main|"
+msgid "Read Me"
+msgstr "自述"
+
+#: ../main.qml:256
+msgctxt "main|"
+msgid "Extra Software"
+msgstr "额外软件"
+
+#: ../main.qml:258
+msgctxt "main|"
+msgid ""
+"There are certain proprietary drivers (such as Nvidia) and packages (such as "
+"Google Chrome) that openSUSE cannot include by default."
+msgstr ""
+"openSUSE 默认仓库无法包含的一些特定私有驱动（比如 Nvidia）和软件包（比如 "
+"Google Chrome）。"
+
+#: ../main.qml:260
+msgctxt "main|"
+msgid ""
+"If you have an NVidia device and wish to use the proprietary drivers, read "
+"this"
+msgstr "如果你拥有 NVidia 设备且希望使用私有驱动，阅读这篇"
+
+#: ../main.qml:262
+msgctxt "main|"
+msgid "wiki article"
+msgstr "维基文章"
+
+#: ../main.qml:265
+msgctxt "main|"
+msgid ""
+"To install Google Chrome, just download it directly from Google. Google "
+"provides a repository that will be added to your system when you install "
+"Google Chrome. This will allow it to be updated alongside your system."
+msgstr ""
+"要安装 Google Chrome，只需要从 Google 直接下载。Google 提供了一个仓库，在你安"
+"装 Google Chrome 时将添加到你的系统上。这将允许它与你的系统一起更新。"
+
+#: ../main.qml:266
+msgctxt "main|"
+msgid "Google offers Google Chrome's RPM on its website."
+msgstr "Google 在它的网站上提供 Google Chrome 的 RPM 包。"
+
+#: ../main.qml:269
+msgctxt "main|"
+msgid ""
+"Some codecs for playing media cannot be included in openSUSE due to "
+"licensing issues. However, there are repositories available that you can "
+"read about"
+msgstr ""
+"由于许可证问题，有些用于播放媒体的编解码器无法包含进 openSUSE 里。但是你可以"
+"找到可用的仓库于"
+
+#: ../main.qml:271
+msgctxt "main|"
+msgid "here"
+msgstr "此"
+
+#: ../main.qml:274
+msgctxt "main|"
+msgid "Community Repositories"
+msgstr "社区仓库"
+
+#: ../main.qml:277
+msgctxt "main|"
+msgid "On"
+msgstr "在"
+
+#: ../main.qml:280
+msgctxt "main|"
+msgid ""
+", you may run across community-provided repositories. While we do not "
+"manually vet community repositories, they have built their software against "
+"the latest version of openSUSE and should work."
+msgstr ""
+"上，你可以运行各个社区提供的仓库。虽然我们不手动审查社区仓库，但这些仓库基于"
+"最新版本的 openSUSE 构建它们的软件，所以应该可以工作。"
