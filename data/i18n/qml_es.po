@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2019-08-31 19:51+0000\n"
+"PO-Revision-Date: 2019-09-02 20:51+0000\n"
 "Last-Translator: Javier Llorente <javier@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/es/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 #: ../qrc/main.qml:57
 msgctxt "main|"
 msgid "Welcome"
-msgstr "Bienvenido/a"
+msgstr "Bienvenido"
 
 #: ../qrc/main.qml:128
 msgctxt "main|"
