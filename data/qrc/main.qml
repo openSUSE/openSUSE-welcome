@@ -24,6 +24,7 @@ import me.appadeia.SysInfo 1.0
 import me.appadeia.Launcher 1.0
 import me.appadeia.Enabler 1.0
 import QtQuick.XmlListModel 2.0
+import QtQuick.Controls 2.5
 
 Window {
     id: root
@@ -315,23 +316,15 @@ Window {
         // Close button
         property string close:          qsTr("Close")
     }
-    WebEngineView {
-        id: webView
+    MainPage {
         anchors.fill: parent
-        url: "web/home.html"
-        webChannel: bridge
-        property var request;
-        onLoadingChanged: {
-            if (loadRequest.status == WebEngineLoadRequest.LoadSucceededStatus) {
-                webView.injectAlert();
-            }
-        }
-        function injectAlert() {
-            if (!root.rssReady) {
-                return;
-            }
-            var script = "(function() { var rssFeed = document.getElementById('rss-feeds'); if(rssFeed == null) return; var alertdiv = document.createElement('div'); alertdiv.setAttribute('class', 'alert alert-info text-truncate text-center mb-0'); alertdiv.setAttribute('role','alert'); var entrydiv = document.createElement('a'); entrydiv.setAttribute('class', 'news-link'); entrydiv.setAttribute('onclick', 'bridge.openURL(\"%1\")'); entrydiv.textContent = '%2'; alertdiv.appendChild(entrydiv); rssFeed.appendChild(alertdiv); })()".arg(root.rssPageUrl).arg(root.rssNewsTitle)
-            webView.runJavaScript(script);
+        Component.onCompleted: {
+            var timer = Qt.createQmlObject("import QtQuick 2.0; Timer {}", root)
+            timer.interval = 500
+            timer.triggered.connect(() => {
+                splash.opacity = 0
+            })
+            timer.start()
         }
     }
 

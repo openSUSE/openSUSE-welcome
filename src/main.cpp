@@ -22,13 +22,14 @@
 #include <QTranslator>
 #include <QLocale>
 #include <QDir>
+#include <QQuickStyle>
 #include "sysinfo.h"
 #include "launcher.h"
 #include "enabler.h"
 
 void myMessageOutput(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
-    return;
+//  return;
 
     QByteArray localMsg = msg.toLocal8Bit();
     const char *file = context.file ? context.file : "";

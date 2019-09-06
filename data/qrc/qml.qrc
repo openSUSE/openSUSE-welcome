@@ -1,6 +1,8 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>MainPage.qml</file>
+        <file>BrandedButton.qml</file>
         <file>web/contribute.html</file>
         <file>web/home.html</file>
         <file>web/readme.html</file>
