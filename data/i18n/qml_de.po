@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-01 13:51+0000\n"
-"Last-Translator: Thomas Koller <tk120@protonmail.com>\n"
+"PO-Revision-Date: 2019-09-07 17:51+0000\n"
+"Last-Translator: Sarah Kriesch <ada.lovelace@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/de/>\n"
 "Language: de\n"
@@ -46,12 +46,12 @@ msgstr "Dokumentation"
 #: ../qrc/main.qml:137
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Software bekommen"
 
 #: ../qrc/main.qml:140
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr "Installiere openSUSE"
+msgstr "openSUSE installieren"
 
 #: ../qrc/main.qml:143
 msgctxt "main|"
@@ -76,7 +76,7 @@ msgstr "MATE Hilfe"
 #: ../qrc/main.qml:147
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Enlightenment Hilfe"
 
 #: ../qrc/main.qml:148
 msgctxt "main|"
@@ -116,7 +116,7 @@ msgstr "Beitragen"
 #: ../qrc/main.qml:157
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "openSUSE bauen"
 
 #: ../qrc/main.qml:160
 msgctxt "main|"
@@ -150,7 +150,7 @@ msgstr "Soziale Medien"
 #: ../qrc/main.qml:173 ../qrc/main.qml:211 ../qrc/main.qml:286
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: ../qrc/main.qml:176
 msgctxt "main|"
