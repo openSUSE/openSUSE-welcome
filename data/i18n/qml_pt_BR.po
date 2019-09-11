@@ -1,117 +1,122 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2019-09-11 20:52+0000\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive68@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
+"opensuse-welcome/master/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: ../qrc/main.qml:57
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "Bem-vindo"
 
 #: ../qrc/main.qml:128
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr ""
+msgstr "Olá, este é o openSUSE"
 
 #: ../qrc/main.qml:131
 msgctxt "main|"
 msgid "Basics"
-msgstr ""
+msgstr "Básico"
 
 #: ../qrc/main.qml:132
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "Suporte"
 
 #: ../qrc/main.qml:135
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Leia-me"
 
 #: ../qrc/main.qml:136
 msgctxt "main|"
 msgid "Documentation"
-msgstr ""
+msgstr "Documentação"
 
 #: ../qrc/main.qml:137
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Baixar software"
 
 #: ../qrc/main.qml:140
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Instalar o openSUSE"
 
 #: ../qrc/main.qml:143
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "Ajuda do GNOME"
 
 #: ../qrc/main.qml:144
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Ajuda do Plasma"
 
 #: ../qrc/main.qml:145
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Ajuda do Xfce"
 
 #: ../qrc/main.qml:146
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "Ajuda do MATE"
 
 #: ../qrc/main.qml:147
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Ajuda do Enlightenment"
 
 #: ../qrc/main.qml:148
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "Sobre o Budgie"
 
 #: ../qrc/main.qml:149
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "Sobre o Lumina"
 
 #: ../qrc/main.qml:150
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "Ajuda do LXDE"
 
 #: ../qrc/main.qml:151
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "Ajuda do LXQt"
 
 #: ../qrc/main.qml:152
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "Ajuda do Cinnamon"
 
 #: ../qrc/main.qml:153
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Ajuda do Deepin"
 
 #: ../qrc/main.qml:156 ../qrc/main.qml:210
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuir"
 
 #: ../qrc/main.qml:157
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Compilar o openSUSE"
 
 #: ../qrc/main.qml:160
 msgctxt "main|"
@@ -120,37 +125,40 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Se esta for sua primeira vez usando o openSUSE, gostaríamos que você se "
+"sentisse em casa em sua nova viagem. Não tenha pressa e familiarize-se com "
+"todos os botões e nos informe de sua experiência em nossas"
 
 #: ../qrc/main.qml:161
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "mídias sociais"
 
 #: ../qrc/main.qml:164
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Exibir na próxima inicialização"
 
 #: ../qrc/main.qml:165 ../qrc/main.qml:203 ../qrc/main.qml:278
 #: ../qrc/main.qml:316
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: ../qrc/main.qml:172
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Mídias sociais"
 
 #: ../qrc/main.qml:173 ../qrc/main.qml:211 ../qrc/main.qml:286
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Início"
 
 #: ../qrc/main.qml:176
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Mídias sociais: como nos encontrar!"
 
 #: ../qrc/main.qml:179
 msgctxt "main|"
@@ -158,76 +166,78 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"As mídias sociais mas usadas estão listadas no rodapé, mas aqui está mais "
+"algumas que você pode achar útil, em ordem alfabética:"
 
 #: ../qrc/main.qml:182
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../qrc/main.qml:183
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: ../qrc/main.qml:184
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Fóruns"
 
 #: ../qrc/main.qml:185
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: ../qrc/main.qml:186
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: ../qrc/main.qml:189
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Grupo no Facebook"
 
 #: ../qrc/main.qml:190
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "Fórum do openSUSE"
 
 #: ../qrc/main.qml:193
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Suporte técnico"
 
 #: ../qrc/main.qml:194
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Projeto"
 
 #: ../qrc/main.qml:195
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Desenvolvimento"
 
 #: ../qrc/main.qml:196
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Bate-papo"
 
 #: ../qrc/main.qml:199
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "Grupo do openSUSE"
 
 #: ../qrc/main.qml:200
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "Notícias do openSUSE"
 
 #: ../qrc/main.qml:214
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Contribua. Participe do openSUSE"
 
 #: ../qrc/main.qml:217
 msgctxt "main|"
@@ -239,6 +249,13 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Seja você um desenvolvedor Linux experiente ou um usuário final que está "
+"começando no Linux, existem várias maneiras de participar do projeto "
+"openSUSE. Participe de um fórum para obter ajuda ou ajude outras pessoas com "
+"o openSUSE, encontre e relate bugs, assuma uma tarefa do processo de "
+"lançamento, revise a documentação, envie sua lista de desejos para novos "
+"pacotes e recursos, crie e envie correções ou encontre outras maneiras "
+"criativas de contribuir."
 
 #: ../qrc/main.qml:220
 msgctxt "main|"
@@ -246,11 +263,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Faça o que fizer, dedique alguns minutos para discutir o openSUSE com outros "
+"usuários e se torne um"
 
 #: ../qrc/main.qml:222
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "membro ativo"
 
 #: ../qrc/main.qml:224
 msgctxt "main|"
@@ -259,21 +278,25 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"da comunidade openSUSE. Para a maioria das atividades é necessário um login "
+"para aproveitar toda a diversão. Você pode querer criar uma página de "
+"usuário e compartilhar algumas informações úteis ou interesses sobre você "
+"com outros."
 
 #: ../qrc/main.qml:227
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Seja parte da comunidade openSUSE"
 
 #: ../qrc/main.qml:229
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Veja onde outros membros da"
 
 #: ../qrc/main.qml:231
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "comunidade openSUSE"
 
 #: ../qrc/main.qml:233
 msgctxt "main|"
@@ -282,36 +305,41 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"estão localizados no mundo, conheça algumas Pessoas do openSUSE, encontre "
+"grupos de usuários locais, celebre os lançamentos, aprenda sobre a estrutura "
+"de governança e mais. Siga as"
 
 #: ../qrc/main.qml:235
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "notícias do openSUSE"
 
 #: ../qrc/main.qml:237
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
+"em nosso site de notícias e veja o que nossos desenvolvedores estão fazendo "
+"no"
 
 #: ../qrc/main.qml:239
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planeta openSUSE"
 
 #: ../qrc/main.qml:242
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Ajude-nos a lançar a próxima versão do openSUSE"
 
 #: ../qrc/main.qml:244
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Cada cada lançamento existe uma"
 
 #: ../qrc/main.qml:246
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "série de tarefas"
 
 #: ../qrc/main.qml:248
 msgctxt "main|"
@@ -320,11 +348,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"disponíveis. Algumas são complicadas, algumas são fáceis de alcançar, mesmo "
+"para iniciantes. Veja as tarefas e avise alguém do openSUSE se você "
+"encontrou uma tarefa adequada."
 
 #: ../qrc/main.qml:251
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Discuta o openSUSE e ajude outros usuários"
 
 #: ../qrc/main.qml:253
 msgctxt "main|"
@@ -333,31 +364,34 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Existem várias comunidades onde você pode discutir o que está acontecendo no "
+"openSUSE e ajudar outros usuários do openSUSE. Temos listas de discussão, "
+"canais IRC e fóruns. Dê uma olhada nos"
 
 #: ../qrc/main.qml:255
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "canais de comunicação"
 
 #: ../qrc/main.qml:257
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "para uma visão geral."
 
 #: ../qrc/main.qml:260
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Sugira novos recursos ou softwares"
 
 #: ../qrc/main.qml:262
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Visite"
 
 #: ../qrc/main.qml:264
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: ../qrc/main.qml:266
 msgctxt "main|"
@@ -368,11 +402,16 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"nosso sistema de gerenciamento de recursos e requisitos. Aqui você pode ter "
+"uma visão geral ordenada de coisas que estão acontecendo nos próximos "
+"produtos, seguir e participar nas discussões adicionando comentário ou "
+"trabalhar em recursos para a próxima geração (versão) dos produtos e ajudar "
+"a tornar o openSUSE uma distribuição Linux ainda melhor."
 
 #: ../qrc/main.qml:269
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Espalhe a palavra"
 
 #: ../qrc/main.qml:271
 msgctxt "main|"
@@ -381,11 +420,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Certifique-se de espalhar a palavra sobre o openSUSE e ajude outras pessoas "
+"a se beneficiarem também! O openSUSE oferece uma ótima distribuição Linux e "
+"muitas outras tecnologias como nosso"
 
 #: ../qrc/main.qml:273
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "serviço de compilação"
 
 #: ../qrc/main.qml:275
 msgctxt "main|"
@@ -394,16 +436,19 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"que pode ajudar os usuários domésticos bem como administradores de sistemas "
+"e desenvolvedores a ter o trabalho feito e divertir-se. Escreva sobre o "
+"openSUSE, diga a seus amigos e familiares e ajude-os a instalá-lo!"
 
 #: ../qrc/main.qml:285
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Leia-me"
 
 #: ../qrc/main.qml:289
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Softwares extras"
 
 #: ../qrc/main.qml:291
 msgctxt "main|"
@@ -411,6 +456,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Existem certos drivers proprietários (como os da Nvidia) e pacotes (como o "
+"Google Chrome) que o openSUSE não pode incluir na distribuição por padrão."
 
 #: ../qrc/main.qml:293
 msgctxt "main|"
@@ -418,11 +465,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Se você possui uma placa de vídeo da Nvidia e deseja usar os drivers "
+"proprietários, leia este"
 
 #: ../qrc/main.qml:295
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "artigo da wiki"
 
 #: ../qrc/main.qml:298
 msgctxt "main|"
@@ -431,11 +480,15 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Para instalar o Google Chrome baixe-o diretamente do Google. O Google "
+"fornece um repositório que será adicionado ao seu sistema quando você "
+"instalar o Google Chrome. Isto irá permitir que ele seja atualizado junto "
+"com o seu sistema."
 
 #: ../qrc/main.qml:299
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "O Google oferece o RPM do Google Chrome no seu próprio site."
 
 #: ../qrc/main.qml:302
 msgctxt "main|"
@@ -444,21 +497,24 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Alguns codecs para reprodução de mídia não podem ser incluídos no openSUSE "
+"devido à problemas de licenciamento. No entanto existem repositórios sobre "
+"os quais você pode ler"
 
 #: ../qrc/main.qml:304
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "aqui"
 
 #: ../qrc/main.qml:307
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Repositórios da comunidade"
 
 #: ../qrc/main.qml:310
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "No"
 
 #: ../qrc/main.qml:313
 msgctxt "main|"
@@ -467,3 +523,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", você pode esbarrar em repositórios fornecidos pela comunidade. Embora nós "
+"não examinamos manualmente os repositórios da comunidade, eles compilam seus "
+"softwares com relação a última versão do openSUSE e devem funcionar."
