@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-07 17:51+0000\n"
-"Last-Translator: Sarah Kriesch <ada.lovelace@gmx.de>\n"
+"PO-Revision-Date: 2019-09-11 20:52+0000\n"
+"Last-Translator: Marcel Kuehlhorn <tux93@opensuse.org>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/de/>\n"
 "Language: de\n"
@@ -125,16 +125,20 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Falls dies Ihr erstes mal mit openSUSE ist, wünschen wir uns dass Sie siech "
+"direkt auf Ihrer neuen Reise wohl fühlen. Nehmen Sie sich die Zeit sich mit "
+"allen Schaltern bekannt zu machen und teilen Sie Ihre Erfahrungen mit uns "
+"auf unseren"
 
 #: ../qrc/main.qml:161
 msgctxt "main|"
 msgid "social media"
-msgstr "soziale Medien"
+msgstr "sozialen Medien"
 
 #: ../qrc/main.qml:164
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Beim nächsten Start anzeigen"
 
 #: ../qrc/main.qml:165 ../qrc/main.qml:203 ../qrc/main.qml:278
 #: ../qrc/main.qml:316
@@ -163,7 +167,7 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
-"Die meistgenutzten sozialen Medien sind schon in der Fußzeile aufgelistet, "
+"Die meist genutzten sozialen Medien sind schon in der Fußzeile aufgelistet, "
 "aber hier sind einige weitere die Sie praktisch finden könnten, alphabetisch "
 "sortiert:"
 
@@ -205,7 +209,7 @@ msgstr "openSUSE Foren"
 #: ../qrc/main.qml:193
 msgctxt "main|"
 msgid "Tech Support"
-msgstr "Technik Unterstützung"
+msgstr "Technische Unterstützung"
 
 #: ../qrc/main.qml:194
 msgctxt "main|"
@@ -215,7 +219,7 @@ msgstr "Projekt"
 #: ../qrc/main.qml:195
 msgctxt "main|"
 msgid "Factory"
-msgstr "Fabrik"
+msgstr "Factory"
 
 #: ../qrc/main.qml:196
 msgctxt "main|"
@@ -262,7 +266,7 @@ msgid ""
 "become an"
 msgstr ""
 "Egal was Sie tun, nehmen Sie sich ein paar Minuten um mit anderen Benutzern "
-"über openSUSE zu diskutieren und bekommen Sie ein"
+"über openSUSE zu diskutieren und werden Sie ein"
 
 #: ../qrc/main.qml:222
 msgctxt "main|"
@@ -276,6 +280,10 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"der openSUSE Gemeinschaft. Die meisten Aktivitäten erfordern einen Login um "
+"im vollen Umfang teilhaben zu können. Möglicherweise möchten Sie eine "
+"Benutzerseite erstellen und nützliche Informationen oder persönliche "
+"Interessent mit anderen zu teilen."
 
 #: ../qrc/main.qml:227
 msgctxt "main|"
@@ -285,7 +293,7 @@ msgstr "Seien Sie Teil der openSUSE Gemeinschaft"
 #: ../qrc/main.qml:229
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Finden Sie heraus woher andere Mitglieder der"
 
 #: ../qrc/main.qml:231
 msgctxt "main|"
@@ -299,6 +307,9 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"kommen, lernen Sie eineige Personen hinter openSUSE kennen, finden Sie "
+"lokale openSUSE Nutzergruppen, feiern Sie neue Releases, lernen Sie über die "
+"Führungsstruktur und mehr. Folgen Sie"
 
 #: ../qrc/main.qml:235
 msgctxt "main|"
@@ -309,6 +320,8 @@ msgstr "openSUSE Neuigkeiten"
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
+"auf unser Nachrichtenseite und erfahren Sie an was unsere Entwickler "
+"arbeiten auf"
 
 #: ../qrc/main.qml:239
 msgctxt "main|"
@@ -323,12 +336,12 @@ msgstr "Helfen Sie uns die nächste Version von openSUSE zu veröffentlichen"
 #: ../qrc/main.qml:244
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Für jedes Release ist eine"
 
 #: ../qrc/main.qml:246
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "Liste von Aufgaben"
 
 #: ../qrc/main.qml:248
 msgctxt "main|"
@@ -337,6 +350,9 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"verfügbar. Einige sing schwierig, einige sind einfach zu erreichen, selbst "
+"für Anfänger. Schauen Sie Liste der Aufgaben durch und lassen jemanden in "
+"der Gemeinschaft wissen wenn Sie eine für Sie geeignete gefunden haben."
 
 #: ../qrc/main.qml:251
 msgctxt "main|"
@@ -350,6 +366,9 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Es gibt mehrere aktive Communities wo du Sie aktuellen Geschehnisse rund um "
+"openSUSE diskutieren und anderen Nutzern helfen können. Wir haben "
+"Mailinglisten, IRC-Kanäle und Foren. Schauen Sie die auf die Liste der"
 
 #: ../qrc/main.qml:255
 msgctxt "main|"
@@ -369,7 +388,7 @@ msgstr "Schlagen Sie neue Funktionen oder Software vor"
 #: ../qrc/main.qml:262
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Besuchen Sie"
 
 #: ../qrc/main.qml:264
 msgctxt "main|"
@@ -385,11 +404,16 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"unser Funktions- und Anforderungsmanagement System. Hier können Sie eine "
+"sortierte Übersicht über Änderungen in zukünftigen Produkten erhalten, "
+"Diskussionen folgen und an ihnen teilnehmen indem Sie Kommentieren oder an "
+"Funktionen neuer Versionen arbeiten um openSUSE zu helfen eine noch bessere "
+"Linux Distribution zu werden."
 
 #: ../qrc/main.qml:269
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Neuigkeiten verbreiten"
 
 #: ../qrc/main.qml:271
 msgctxt "main|"
@@ -398,11 +422,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Helfen Sie Neuigkeiten über openSUSE zu teilen und andere an ihnen teilhaben "
+"zu lassen! openSUSE bietet eine großartige Linux Distribution und viele "
+"weitere Technologien wie unseren"
 
 #: ../qrc/main.qml:273
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "Build Service"
 
 #: ../qrc/main.qml:275
 msgctxt "main|"
@@ -411,6 +438,9 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"welcher Heimnutzern wie auch Systemadministratoren und Entwicklern helfen "
+"kann Arbeit zu erledigen und Spaß zu haben. Blogge über openSUSE, erzählen "
+"Sie Ihrer Familie und Freunden davon und helfen Sie ihnen es zu installieren!"
 
 #: ../qrc/main.qml:285
 msgctxt "main|"
@@ -429,7 +459,7 @@ msgid ""
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
 "Es gibt bestimmte proprietäre Treiber (wie Nvidia) und Pakete (wie Google "
-"Chrome) die openSUSE standardmäßig nicht beinhaltet."
+"Chrome) die openSUSE standardmäßig nicht beinhalten kann."
 
 #: ../qrc/main.qml:293
 msgctxt "main|"
@@ -438,7 +468,7 @@ msgid ""
 "this"
 msgstr ""
 "Falls Sie ein Nvidia Gerät haben und proprietäre Treiber nutzen wollen, "
-"lesen Sie das"
+"lesen Sie diesen"
 
 #: ../qrc/main.qml:295
 msgctxt "main|"
@@ -454,8 +484,8 @@ msgid ""
 msgstr ""
 "Um Google Chrome zu installieren müssen Sie ihn nur direkt von Google "
 "herunterladen. Google stellt ein Repository bereit, das Ihrem System "
-"hinzugefügt wird wenn Sie Google Chrome installieren. Das wird ihm erlauben "
-"neben dem System aktualisiert zu werden."
+"hinzugefügt wird wenn Sie Google Chrome installieren. Das ermöglicht es ihn "
+"zusammen mit dem System aktuell zu halten."
 
 #: ../qrc/main.qml:299
 msgctxt "main|"
@@ -469,21 +499,24 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Einige Multimedia-Codecs können aufgrund von Lizenzproblemen nicht in "
+"openSUSE ausgeliefert werden. Es sind allerdings Repositories verfügbar über "
+"welche Sie hier lesen können:"
 
 #: ../qrc/main.qml:304
 msgctxt "main|"
 msgid "here"
-msgstr "hier"
+msgstr "Zusätzliche Repositories"
 
 #: ../qrc/main.qml:307
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr "Gemeinschaftsrepositorien"
+msgstr "Gemeinschaftsrepositories"
 
 #: ../qrc/main.qml:310
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "Auf"
 
 #: ../qrc/main.qml:313
 msgctxt "main|"
@@ -492,3 +525,7 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+"findest du möglicherweise von der Gemeinschaft bereitgestellte Repositories. "
+"Auch wenn wir Gemeinschaftsrepositories nicht extra überprüfen bauen diese "
+"ihre Pakete gegen die neuesten Versionen von openSUSE und sollten "
+"funktionieren."
