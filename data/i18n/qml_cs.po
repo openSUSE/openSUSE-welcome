@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-11 20:52+0000\n"
-"Last-Translator: Vojtěch Zeisek <Vojtech.Zeisek@opensuse.org>\n"
+"PO-Revision-Date: 2019-09-12 14:52+0000\n"
+"Last-Translator: Aleš Kastner <alkas@volny.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/cs/>\n"
 "Language: cs\n"
@@ -36,7 +36,7 @@ msgstr "Podpora"
 #: ../qrc/main.qml:135
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Čtěte"
 
 #: ../qrc/main.qml:136
 msgctxt "main|"
@@ -81,12 +81,12 @@ msgstr "Nápověda Enlightenment"
 #: ../qrc/main.qml:148
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "O Budgie"
 
 #: ../qrc/main.qml:149
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "O Lumině"
 
 #: ../qrc/main.qml:150
 msgctxt "main|"
@@ -116,7 +116,7 @@ msgstr "Přispějte"
 #: ../qrc/main.qml:157
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Verze openSUSE"
 
 #: ../qrc/main.qml:160
 msgctxt "main|"
@@ -125,6 +125,9 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Používáte-li openSUSE poprvé, rádi bychom, abyste se na své nové cestě "
+"cítili jako doma. Dopřejte si čas na seznámení se všemi tlačítky a dejte nám "
+"vědět, jak se Vám líbí zkušenost s naší"
 
 #: ../qrc/main.qml:161
 msgctxt "main|"
@@ -155,7 +158,7 @@ msgstr "Domů"
 #: ../qrc/main.qml:176
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Sociální média: Jak nás kontaktovat!"
 
 #: ../qrc/main.qml:179
 msgctxt "main|"
@@ -163,11 +166,13 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"Nejběžnější sociální média jsou vypsána ve spodní tiráži a další užitečná "
+"jsou zde uvedena abecedně:"
 
 #: ../qrc/main.qml:182
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../qrc/main.qml:183
 msgctxt "main|"
@@ -192,7 +197,7 @@ msgstr "Telegram"
 #: ../qrc/main.qml:189
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Facebook Group"
 
 #: ../qrc/main.qml:190
 msgctxt "main|"
@@ -212,17 +217,17 @@ msgstr "Projekt"
 #: ../qrc/main.qml:195
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Factory"
 
 #: ../qrc/main.qml:196
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: ../qrc/main.qml:199
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "openSUSE Group"
 
 #: ../qrc/main.qml:200
 msgctxt "main|"
@@ -244,6 +249,10 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Ať jste zkušený  vývojář Linuxu, nebo koncový uživatel začínající s Linuxem, "
+"máte mnoho způsobů, jak se podílet na projektu openSUSE. Připojte se k fóru, "
+"abyste získali či jiným poskytli pomoc s openSUSE, našli a ohlásili závady, "
+"vytvořili a nabídli záplaty, nebo nalezli jiné kreativní způsoby přispívání."
 
 #: ../qrc/main.qml:220
 msgctxt "main|"
@@ -251,6 +260,7 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Věnujte kdykoli pár minut diskusi o openSUSE s jinými uživateli a staňte se"
 
 #: ../qrc/main.qml:222
 msgctxt "main|"
@@ -264,6 +274,9 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"komunity openSUSE. Ke zpřístupnění většiny aktivit je potřebné přihlášení. "
+"Možná si budete chtít vytvořit svou uživatelskou stránku, kde můžete s "
+"ostatními sdílet některé užitečné informace nebo svoje zájmy."
 
 #: ../qrc/main.qml:227
 msgctxt "main|"
@@ -273,7 +286,7 @@ msgstr "Staňte se součástí komunity openSUSE"
 #: ../qrc/main.qml:229
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Podívejte se, jak jsou ostatní"
 
 #: ../qrc/main.qml:231
 msgctxt "main|"
@@ -287,6 +300,9 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"členové rozmístěni po světě, poznejte některé osoby z openSUSE, najděte "
+"místní skupiny openSUSE, oslavte vydání nových verzí, poznejte ovládací "
+"strukturu a další entity. Sledujte"
 
 #: ../qrc/main.qml:235
 msgctxt "main|"
@@ -296,12 +312,12 @@ msgstr "novinky openSUSE"
 #: ../qrc/main.qml:237
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "je na našem webu novinek a zjistěte, na čem naši vývojáři pracují, na"
 
 #: ../qrc/main.qml:239
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planet openSUSE"
 
 #: ../qrc/main.qml:242
 msgctxt "main|"
@@ -311,12 +327,12 @@ msgstr "Pomozte nám vydat další verzi openSUSE"
 #: ../qrc/main.qml:244
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Pro každou verzi je tam"
 
 #: ../qrc/main.qml:246
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "řada úkolů"
 
 #: ../qrc/main.qml:248
 msgctxt "main|"
@@ -325,11 +341,13 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"k dispozici. Některé jsou složité, jiné snadné i pro začátečníky. Projděte "
+"si témata a řekněte někomu v openSUSE, když najdete přiměřený úkol."
 
 #: ../qrc/main.qml:251
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Prodiskutujte openSUSE a pomozte ostatním uživatelům"
 
 #: ../qrc/main.qml:253
 msgctxt "main|"
