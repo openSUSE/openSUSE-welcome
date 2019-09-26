@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-11 20:52+0000\n"
-"Last-Translator: Alessio Adamo <alessio.adamo@gmail.com>\n"
+"PO-Revision-Date: 2019-09-26 11:52+0000\n"
+"Last-Translator: Giuseppe Gorgoglione <gorgoglione@gmail.com>\n"
 "Language-Team: Italian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/it/>\n"
 "Language: it\n"
@@ -129,33 +129,33 @@ msgstr ""
 #: ../qrc/main.qml:161
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "social media"
 
 #: ../qrc/main.qml:164
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Mostra al prossimo avvio"
 
 #: ../qrc/main.qml:165 ../qrc/main.qml:203 ../qrc/main.qml:278
 #: ../qrc/main.qml:316
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Chiudi"
 
 #: ../qrc/main.qml:172
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Social Media"
 
 #: ../qrc/main.qml:173 ../qrc/main.qml:211 ../qrc/main.qml:286
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Pagina iniziale"
 
 #: ../qrc/main.qml:176
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Social Media: come raggiungerci!"
 
 #: ../qrc/main.qml:179
 msgctxt "main|"
@@ -163,51 +163,53 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"I social media più utilizzati sono elencati a piè di pagina, ma ne puoi "
+"trovare altri qui di seguito, in ordine alfabetico:"
 
 #: ../qrc/main.qml:182
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../qrc/main.qml:183
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: ../qrc/main.qml:184
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Forum"
 
 #: ../qrc/main.qml:185
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: ../qrc/main.qml:186
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: ../qrc/main.qml:189
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Gruppo Facebook"
 
 #: ../qrc/main.qml:190
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "Forum openSUSE"
 
 #: ../qrc/main.qml:193
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Supporto Tecnico"
 
 #: ../qrc/main.qml:194
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Progetto"
 
 #: ../qrc/main.qml:195
 msgctxt "main|"
