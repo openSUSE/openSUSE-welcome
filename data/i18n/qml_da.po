@@ -1,117 +1,122 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2019-10-04 23:52+0000\n"
+"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
+"Language-Team: Danish <https://l10n.opensuse.org/projects/opensuse-welcome/"
+"master/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: ../qrc/main.qml:57
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "Velkomst"
 
 #: ../qrc/main.qml:128
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr ""
+msgstr "Ohøj, her er openSUSE"
 
 #: ../qrc/main.qml:131
 msgctxt "main|"
 msgid "Basics"
-msgstr ""
+msgstr "Grundlæggende"
 
 #: ../qrc/main.qml:132
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: ../qrc/main.qml:135
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Læs mig"
 
 #: ../qrc/main.qml:136
 msgctxt "main|"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: ../qrc/main.qml:137
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Hent software"
 
 #: ../qrc/main.qml:140
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Installer openSUSE"
 
 #: ../qrc/main.qml:143
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "GNOME Hjælp"
 
 #: ../qrc/main.qml:144
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Plasma Hjælp"
 
 #: ../qrc/main.qml:145
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Xfce Hjælp"
 
 #: ../qrc/main.qml:146
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "MATE Hjælp"
 
 #: ../qrc/main.qml:147
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Enlightenment Hjælp"
 
 #: ../qrc/main.qml:148
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "Om Budgie"
 
 #: ../qrc/main.qml:149
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "Om Lumina"
 
 #: ../qrc/main.qml:150
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "LXDE Hjælp"
 
 #: ../qrc/main.qml:151
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "LXQt Hjælp"
 
 #: ../qrc/main.qml:152
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "Om Cinnamon"
 
 #: ../qrc/main.qml:153
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Deepin Hjælp"
 
 #: ../qrc/main.qml:156 ../qrc/main.qml:210
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Bidrag"
 
 #: ../qrc/main.qml:157
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Byg openSUSE"
 
 #: ../qrc/main.qml:160
 msgctxt "main|"
@@ -124,33 +129,33 @@ msgstr ""
 #: ../qrc/main.qml:161
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "sociale medier"
 
 #: ../qrc/main.qml:164
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Vis ved næste opstart"
 
 #: ../qrc/main.qml:165 ../qrc/main.qml:203 ../qrc/main.qml:278
 #: ../qrc/main.qml:316
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Luk"
 
 #: ../qrc/main.qml:172
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Socialemedier"
 
 #: ../qrc/main.qml:173 ../qrc/main.qml:211 ../qrc/main.qml:286
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 #: ../qrc/main.qml:176
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Sociale medier: Kontakt os!"
 
 #: ../qrc/main.qml:179
 msgctxt "main|"
@@ -162,72 +167,72 @@ msgstr ""
 #: ../qrc/main.qml:182
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../qrc/main.qml:183
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: ../qrc/main.qml:184
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Fora"
 
 #: ../qrc/main.qml:185
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: ../qrc/main.qml:186
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: ../qrc/main.qml:189
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Facebook-gruppe"
 
 #: ../qrc/main.qml:190
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "openSUSE-fora"
 
 #: ../qrc/main.qml:193
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Teknisk support"
 
 #: ../qrc/main.qml:194
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Projekt"
 
 #: ../qrc/main.qml:195
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Fabrik"
 
 #: ../qrc/main.qml:196
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: ../qrc/main.qml:199
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "openSUSE-gruppe"
 
 #: ../qrc/main.qml:200
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "openSUSE Nyheder"
 
 #: ../qrc/main.qml:214
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Bidrag. Vær med i openSUSE"
 
 #: ../qrc/main.qml:217
 msgctxt "main|"
@@ -250,7 +255,7 @@ msgstr ""
 #: ../qrc/main.qml:222
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "aktivt medlem"
 
 #: ../qrc/main.qml:224
 msgctxt "main|"
@@ -263,17 +268,17 @@ msgstr ""
 #: ../qrc/main.qml:227
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Vær en del af openSUSE-fællesskabet"
 
 #: ../qrc/main.qml:229
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Se hvor andre"
 
 #: ../qrc/main.qml:231
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "openSUSE-fællesskab"
 
 #: ../qrc/main.qml:233
 msgctxt "main|"
@@ -286,32 +291,32 @@ msgstr ""
 #: ../qrc/main.qml:235
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "openSUSE-nyheder"
 
 #: ../qrc/main.qml:237
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "på vores nyhedssted og se hvad vores udviklere laver"
 
 #: ../qrc/main.qml:239
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planet openSUSE"
 
 #: ../qrc/main.qml:242
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Hjælp os med at udgive den næste version af openSUSE"
 
 #: ../qrc/main.qml:244
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Hver udgivelse har et"
 
 #: ../qrc/main.qml:246
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "sæt opgaver"
 
 #: ../qrc/main.qml:248
 msgctxt "main|"
@@ -324,7 +329,7 @@ msgstr ""
 #: ../qrc/main.qml:251
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Snak om openSUSE og hjælp andre brugere"
 
 #: ../qrc/main.qml:253
 msgctxt "main|"
@@ -337,7 +342,7 @@ msgstr ""
 #: ../qrc/main.qml:255
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "kommunikationskanaler"
 
 #: ../qrc/main.qml:257
 msgctxt "main|"
@@ -347,17 +352,17 @@ msgstr ""
 #: ../qrc/main.qml:260
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Foreslå nye funktionaliteter eller software"
 
 #: ../qrc/main.qml:262
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Besøg"
 
 #: ../qrc/main.qml:264
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: ../qrc/main.qml:266
 msgctxt "main|"
@@ -372,7 +377,7 @@ msgstr ""
 #: ../qrc/main.qml:269
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Spred ordet"
 
 #: ../qrc/main.qml:271
 msgctxt "main|"
@@ -385,7 +390,7 @@ msgstr ""
 #: ../qrc/main.qml:273
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "byggetjeneste"
 
 #: ../qrc/main.qml:275
 msgctxt "main|"
@@ -398,12 +403,12 @@ msgstr ""
 #: ../qrc/main.qml:285
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Læs mig"
 
 #: ../qrc/main.qml:289
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Ekstra software"
 
 #: ../qrc/main.qml:291
 msgctxt "main|"
@@ -422,7 +427,7 @@ msgstr ""
 #: ../qrc/main.qml:295
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "wikiartikel"
 
 #: ../qrc/main.qml:298
 msgctxt "main|"
@@ -448,7 +453,7 @@ msgstr ""
 #: ../qrc/main.qml:304
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "her"
 
 #: ../qrc/main.qml:307
 msgctxt "main|"
@@ -458,7 +463,7 @@ msgstr ""
 #: ../qrc/main.qml:310
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "På"
 
 #: ../qrc/main.qml:313
 msgctxt "main|"
