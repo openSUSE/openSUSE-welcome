@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-04 23:52+0000\n"
+"PO-Revision-Date: 2019-10-05 16:52+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/da/>\n"
@@ -125,6 +125,9 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Hvis det er første gang du bruger openSUSE, så ønsker vi at du føler dig "
+"hjemme på din nye rejse. Tag dig tid til at lærer alle knapperne at kende og "
+"fortæl os om din oplevelse på vores"
 
 #: ../qrc/main.qml:161
 msgctxt "main|"
@@ -163,6 +166,8 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"De mest brugte sociale medier findes allerede i bunden, men der er flere som "
+"du måske kan bruge, alfabetisk:"
 
 #: ../qrc/main.qml:182
 msgctxt "main|"
@@ -244,6 +249,13 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Hvad enten du er en erfaren Linux-udvikler eller en slutbruger som lige er "
+"gået i gang med Linux, så er der mange måder hvorpå du kan deltage i "
+"openSUSE-projektet. Deltag i et forum for at få hjælp eller hjælp andre med "
+"openSUSE, find og rapportér fejl, overtag en problemstilling i "
+"udgivelsesprocessen, gennemgå dokumentationen, send din ønskeliste om nye "
+"pakker og funktionaliteter, opret og indsend rettelser eller find andre "
+"kreative måder at bidrage på."
 
 #: ../qrc/main.qml:220
 msgctxt "main|"
@@ -251,6 +263,8 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Hvad end du gør så brug nogle minutter på at snakke om openSUSE med andre "
+"brugere og bliv en"
 
 #: ../qrc/main.qml:222
 msgctxt "main|"
@@ -264,6 +278,9 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"i openSUSE-fællesskabet. Der kræves et login til de fleste aktiviteter for "
+"at være med til alt det sjove. Måske vil du oprette en brugerside og dele "
+"dine informationer eller interesser med andre brugere."
 
 #: ../qrc/main.qml:227
 msgctxt "main|"
@@ -287,6 +304,9 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"-medlemmer findes verden over, lær nogen personer i openSUSE at kende, find "
+"lokale openSUSE-brugergrupper, glæd dig over udgivelser, lær om "
+"styringsstrukturen og mere. Følg"
 
 #: ../qrc/main.qml:235
 msgctxt "main|"
@@ -325,6 +345,9 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"tilgængelige. Nogle er kompliceret, nogle er lette at opnå, selv for "
+"begyndere. Kig i problemstillingerne og fortæl nogen fra openSUSE hvis du "
+"fandt en passende opgave."
 
 #: ../qrc/main.qml:251
 msgctxt "main|"
@@ -338,6 +361,9 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Der findes flere aktive fællesskaber hvor du kan diskutere hvad der sker i "
+"openSUSE og hjælpe andre openSUSE-brugere. Vi har mailinglister, IRC-kanaler "
+"og fora. Se venligst vores"
 
 #: ../qrc/main.qml:255
 msgctxt "main|"
@@ -347,7 +373,7 @@ msgstr "kommunikationskanaler"
 #: ../qrc/main.qml:257
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "for at få et overblik."
 
 #: ../qrc/main.qml:260
 msgctxt "main|"
@@ -386,6 +412,9 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Sørg for at sprede ordet om openSUSE og hjælp andre til at få gavn af det! "
+"openSUSE byder på en fantastisk Linux-distribution og mange andre "
+"teknologier såsom vores"
 
 #: ../qrc/main.qml:273
 msgctxt "main|"
@@ -399,6 +428,9 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"som kan hjælpe hjemmebrugere samt systemadministratorer med at udføre "
+"arbejde og have det sjovt. Blog om openSUSE, snak om det med dine venner og "
+"familje og hjælp dem med at installere det!"
 
 #: ../qrc/main.qml:285
 msgctxt "main|"
@@ -416,6 +448,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Der findes bestemte proprietære drivere (såsom Nvidia) og pakker (såsom "
+"Google Chrome) som openSUSE ikke kan medtage som standard."
 
 #: ../qrc/main.qml:293
 msgctxt "main|"
@@ -423,6 +457,8 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Hvis du har en Nvidia-enhed og vil bruge de proprietærer drivere, så læs "
+"denne"
 
 #: ../qrc/main.qml:295
 msgctxt "main|"
@@ -440,7 +476,7 @@ msgstr ""
 #: ../qrc/main.qml:299
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google tilbyder Google Chrome's RPM på deres websted."
 
 #: ../qrc/main.qml:302
 msgctxt "main|"
@@ -458,7 +494,7 @@ msgstr "her"
 #: ../qrc/main.qml:307
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Fællesskabssoftwarekilder"
 
 #: ../qrc/main.qml:310
 msgctxt "main|"
