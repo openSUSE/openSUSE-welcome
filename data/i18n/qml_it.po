@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-26 11:52+0000\n"
+"PO-Revision-Date: 2019-10-14 10:52+0000\n"
 "Last-Translator: Giuseppe Gorgoglione <gorgoglione@gmail.com>\n"
 "Language-Team: Italian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/it/>\n"
@@ -21,12 +21,12 @@ msgstr "Benvenuto"
 #: ../qrc/main.qml:128
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr "Ciao, questa è openSUSE"
+msgstr "Ehi!, questa è openSUSE"
 
 #: ../qrc/main.qml:131
 msgctxt "main|"
 msgid "Basics"
-msgstr "I fondamentali"
+msgstr "Fondamenti"
 
 #: ../qrc/main.qml:132
 msgctxt "main|"
@@ -125,6 +125,10 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Se utilizzi openSUSE per la prima volta vorremmo che tu ti sentissi a casa "
+"in questa nuova avventura. Prendi tutto il tempo che ti serve per "
+"familiarizzare con l'interfaccia e facci sapere se ti piace attraverso i "
+"nostri"
 
 #: ../qrc/main.qml:161
 msgctxt "main|"
@@ -214,27 +218,27 @@ msgstr "Progetto"
 #: ../qrc/main.qml:195
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Factory"
 
 #: ../qrc/main.qml:196
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Chat"
 
 #: ../qrc/main.qml:199
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "openSUSE Group"
 
 #: ../qrc/main.qml:200
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "openSUSE News"
 
 #: ../qrc/main.qml:214
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Contribuisci. Partecipa al progetto openSUSE"
 
 #: ../qrc/main.qml:217
 msgctxt "main|"
@@ -257,7 +261,7 @@ msgstr ""
 #: ../qrc/main.qml:222
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "membro attivo"
 
 #: ../qrc/main.qml:224
 msgctxt "main|"
@@ -270,7 +274,7 @@ msgstr ""
 #: ../qrc/main.qml:227
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Entra a far parte della Comunità openSUSE"
 
 #: ../qrc/main.qml:229
 msgctxt "main|"
@@ -280,7 +284,7 @@ msgstr ""
 #: ../qrc/main.qml:231
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "comunità openSUSE"
 
 #: ../qrc/main.qml:233
 msgctxt "main|"
