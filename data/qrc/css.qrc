@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>web/css/app.css</file>
+        <file>web/css/lens-ui.css</file>
+        <file>web/css/fork-awesome.css</file>
+        <file>web/css/chameleon.css</file>
+    </qresource>
+</RCC>

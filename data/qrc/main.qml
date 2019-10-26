@@ -20,9 +20,7 @@ import QtQuick 2.9
 import QtQuick.Window 2.2
 import QtWebEngine 1.1
 import QtWebChannel 1.0
-import me.appadeia.SysInfo 1.0
-import me.appadeia.Launcher 1.0
-import me.appadeia.Enabler 1.0
+import org.openSUSE.Welcome 1.0
 import QtQuick.XmlListModel 2.0
 
 Window {
@@ -97,6 +95,11 @@ Window {
         }
     }
 
+    XfceLayouter {
+        id: layouter
+        WebChannel.id: "layouter"
+    }
+
     QtObject {
         id: bridgeObject
         property string arch: ""
@@ -162,7 +165,31 @@ Window {
 
         // Footer
         property string autostart:              qsTr("Show on next startup")
+        property string customize:              qsTr("Customise")
         property string close:                  qsTr("Close")
+    }
+    QtObject {
+        WebChannel.id: "xfceTr"
+        id: xfceTr
+
+        property string customize:         qsTr("Customise")
+        property string panelLayout:       qsTr("Panel Layouts")
+        property string clickToApply:      qsTr("Click the images to apply panel layouts.")
+
+        property string ancientDwarf:      qsTr("Ancient Dwarf")
+        property string modernDwarf:       qsTr("Modern Dwarf")
+        property string cupertino:         qsTr("Cupertino")
+        property string elRaton:           qsTr("El Ratón")
+        property string unitatis:          qsTr("Unitatis")
+        property string redmond:           qsTr("Redmond")
+
+        property string theme:             qsTr("Themes")
+        property string clickToApplyTheme: qsTr("Click the images to apply application themes.")
+
+        property string gbGkLight:         qsTr("Greybird Geeko Light")
+        property string gbGkDark:          qsTr("Greybird Geeko Dark")
+        property string aLight:            qsTr("Adwaita Light")
+        property string aDark:             qsTr("Adwaita Dark")
     }
     QtObject {
         WebChannel.id: "socialTr"
@@ -410,6 +437,6 @@ Window {
 
     WebChannel {
         id: bridge
-        registeredObjects: [bridgeObject, launcher, enabler, homeTr, socialTr, readmeTr, contributeTr, pageIn, pageOut]
+        registeredObjects: [bridgeObject, launcher, enabler, homeTr, socialTr, readmeTr, contributeTr, pageIn, pageOut, xfceTr, layouter]
     }
 }

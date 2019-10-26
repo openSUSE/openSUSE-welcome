@@ -26,11 +26,13 @@ var launcher;
 var enabler;
 var pageIn;
 var pageOut;
+var xfceLayout;
 
 var homeTr;
 var socialTr;
 var conTr;
 var readTr;
+var xfceTr;
 
 function updateAutoStart() {
     enabler.toggle();
@@ -47,6 +49,8 @@ window.onload = function () {
         homeTr = channel.objects.homeTr;
         socialTr = channel.objects.socialTr;
         readTr = channel.objects.readmeTr;
+        xfceTr = channel.objects.xfceTr;
+        xfceLayout = channel.objects.layouter;
         conTr = channel.objects.contributeTr;
         pageIn = channel.objects.pageIn;
         pageOut = channel.objects.pageOut;
@@ -66,7 +70,7 @@ window.onload = function () {
             }
         }
 
-        var deHelpElms = document.querySelectorAll(".de-help");
+        var deHelpElms = document.querySelectorAll(".de-help,.de-footer");
         for (var i = 0; i < deHelpElms.length; i++) {
             var name = deHelpElms[i].getAttribute("data-de");
             if (name.toLowerCase().includes(bridge.de.toLowerCase())) {
@@ -108,6 +112,8 @@ app.controller('WelcomeCtrl', function($scope) {
   $scope.socialTrans = socialTr;
   $scope.conTrans = conTr;
   $scope.readTrans = readTr;
+  $scope.xfceTrans = xfceTr;
+  $scope.xfceLayout = xfceLayout;
 
   $scope.autostart = bridge.enabled;
 

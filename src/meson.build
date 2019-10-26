@@ -1,4 +1,4 @@
-welcome_sources = ['enabler.cpp', 'launcher.cpp', 'main.cpp', 'sysinfo.cpp']
+welcome_sources = ['enabler.cpp', 'launcher.cpp', 'main.cpp', 'sysinfo.cpp', 'panellayouter.cpp']
 
 welcome = executable('opensuse-welcome', 
                      welcome_sources, 

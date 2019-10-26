@@ -1,0 +1,161 @@
+<!--
+    openSUSE Welcome - A welcome utility
+    Copyright (C) 2019  Carson Black
+    Copyright (C) 2019  Stasiek Michalski
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+--> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="qrc:///web/css/fork-awesome.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/lens-ui.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/chameleon.css" rel="stylesheet" media="screen">
+  <link href="qrc:///web/css/app.css" rel="stylesheet" media="screen">
+  <script type="text/javascript" src="qrc:///qtwebchannel/qwebchannel.js"></script>
+  <meta http-equiv="Access-Control-Allow-Origin" content="*">
+  <style>
+    ::-webkit-scrollbar {
+      width: 0;
+    }
+  </style>
+</head>
+
+<body ng-controller="WelcomeCtrl">
+  <div id="content" class="page-content no-nav">
+    <div class="sticky-top">
+      <div class="breadcrumb py-0 d-flex justify-content-between align-items-center">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item active"><a onclick="delayedClick('qrc:///web/home.html')" href=""><i
+                class="fa fa-home"> </i> {{readTrans.home}}</a></li>
+          <li class="breadcrumb-item active">{{xfceTrans.customize}}</li>
+        </ol>
+      </div>
+    </div>
+    <div class="container">
+        <h1>{{xfceTrans.customize}}</h1>
+        <h2>{{xfceTrans.panelLayout}}</h2>
+        <p>{{xfceTrans.clickToApply}}</p>
+        <div class="centerwrap">
+            <table>
+                <tr>
+                    <td>
+                        <img src="qrc:///web/images/xfce/Ali Pana.svg" 
+                             onclick="xfceLayout.applyLayout(':/layouts/Ancient Dwarf.tar.bz2')"/>
+                        <br>
+                        {{xfceTrans.ancientDwarf}}
+                    </td>
+                    <td>
+                        <img src="qrc:///web/images/xfce/Ilo Tomo Kasi.svg"
+                             onclick="xfceLayout.applyLayout(':/layouts/Dwarf.tar.bz2')"/>
+                        <br>
+                        {{xfceTrans.modernDwarf}}
+                    </td>
+                    <td>
+                        <img src="qrc:///web/images/xfce/Kili Loje.svg"
+                             onclick="xfceLayout.applyLayout(':/layouts/Cupertino.tar.bz2')"/>
+                        <br>
+                        {{xfceTrans.cupertino}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="qrc:///web/images/xfce/Kiwen.svg"
+                             onclick="xfceLayout.applyLayout(':/layouts/Vanadium.tar.bz2')"/>
+                        <br>
+                        {{xfceTrans.elRaton}}
+                    </td>
+                    <td>
+                        <img src="qrc:///web/images/xfce/Kulupu.svg"
+                             onclick="xfceLayout.applyLayout(':/layouts/Unitatis.tar.bz2')"/>
+                        <br>
+                        {{xfceTrans.unitatis}}
+                    </td>
+                    <td>
+                        <img src="qrc:///web/images/xfce/Poki.svg"
+                             onclick="xfceLayout.applyLayout(':/layouts/Redmond.tar.bz2')"/>
+                        <br>
+                        {{xfceTrans.redmond}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <h2>{{xfceTrans.theme}}</h2>
+        <p>{{xfceTrans.clickToApplyTheme}}</p>
+        <div class="centerwrap">
+            <table>
+                <tr>
+                    <td>
+                        <img class="noshadow" src="qrc:///web/images/xfce/Greybird-Geeko-Light.png"
+                             onclick="xfceLayout.setLook('gbGkLight')" />
+                        <br>
+                        {{xfceTrans.gbGkLight}}
+                    </td>
+                    <td>
+                        <img class="noshadow" src="qrc:///web/images/xfce/Greybird-Geeko-Dark.png" 
+                             onclick="xfceLayout.setLook('gbGkDark')" />
+                        <br>
+                        {{xfceTrans.gbGkDark}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="noshadow" src="qrc:///web/images/xfce/Adwaita-Light.png" 
+                             onclick="xfceLayout.setLook('aLight')" />
+                        <br>
+                        {{xfceTrans.aLight}}
+                    </td>
+                    <td>
+                        <img class="noshadow" src="qrc:///web/images/xfce/Adwaita-Light.png"  
+                             onclick="xfceLayout.setLook('aDark')" />
+                        <br>
+                        {{xfceTrans.aDark}}
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer class="bg-dark keep-bottom p-3 text-white">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <div class="btn-group">
+                    <button class="btn btn-sm btn-reddit" onclick="bridge.openURL('https://reddit.com/r/openSUSE')"><i
+                            class="fa fa-fw fa-reddit"></i></button>
+                    <button class="btn btn-sm btn-facebook"
+                        onclick="bridge.openURL('https://facebook.com/en.openSUSE')"><i
+                            class="fa fa-fw fa-facebook"></i></button>
+                    <button class="btn btn-sm btn-twitter" onclick="bridge.openURL('https://twitter.com/openSUSE')"><i
+                            class="fa fa-fw fa-twitter"></i></button>
+                    <button class="btn btn-sm btn-mastodon" onclick="bridge.openURL('https://fosstodon.org/@opensuse')"><i
+                            class="fa fa-fw fa-mastodon"></i></button>
+                </div>
+            </div>
+            <div class="d-flex">
+                <button class="btn btn-sm btn-secondary ml-3" onclick="delayedClick('qrc:///web/home.html')" lang="en">
+                    <i class="fa fa-arrow-left"></i> {{readTrans.home}}
+                </button>
+                <button id="close" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()" lang="en">
+                    <i class="fa fa-times"></i> {{readTrans.close}}
+                </button>
+            </div>
+        </div>
+    </footer>
+  <script src="qrc:///web/js/lens-angular.min.js"></script>
+  <script src="qrc:///web/js/app.js"></script>
+</body>
+
+</html>

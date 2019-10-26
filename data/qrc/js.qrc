@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>web/js/app.js</file>
+        <file>web/js/lens-angular.min.js</file>
+    </qresource>
+</RCC>

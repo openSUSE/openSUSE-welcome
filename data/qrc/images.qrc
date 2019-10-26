@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>web/images/logo/leap-black.svg</file>
+        <file>web/images/logo/leap-green.svg</file>
+        <file>web/images/logo/logo-gray.svg</file>
+        <file>web/images/logo/logo-white.svg</file>
+        <file>web/images/logo/tumbleweed-green.svg</file>
+        <file>web/images/logo.svg</file>
+        <file>web/images/sinking.svg</file>
+        <file>web/images/xfce/Ali Pana.svg</file>
+        <file>web/images/xfce/Ilo Tomo Kasi.svg</file>
+        <file>web/images/xfce/Kili Loje.svg</file>
+        <file>web/images/xfce/Kiwen.svg</file>
+        <file>web/images/xfce/Kulupu.svg</file>
+        <file>web/images/xfce/Poki.svg</file>
+        <file>web/images/xfce/Adwaita-Dark.png</file>
+        <file>web/images/xfce/Adwaita-Light.png</file>
+        <file>web/images/xfce/Greybird-Geeko-Light.png</file>
+        <file>web/images/xfce/Greybird-Geeko-Dark.png</file>
+    </qresource>
+</RCC>

@@ -25,11 +25,10 @@
 #include "sysinfo.h"
 #include "launcher.h"
 #include "enabler.h"
+#include "panellayouter.h"
 
 void myMessageOutput(QtMsgType type, const QMessageLogContext &context, const QString &msg)
 {
-    return;
-
     QByteArray localMsg = msg.toLocal8Bit();
     const char *file = context.file ? context.file : "";
     const char *function = context.function ? context.function : "";
@@ -64,9 +63,10 @@ int main(int argc, char *argv[])
     app.setOrganizationDomain("opensuse.org");
     app.setApplicationName("org.opensuse.opensuse_welcome");
 
-    qmlRegisterType<SysInfo>("me.appadeia.SysInfo", 1, 0, "SysInfo");
-    qmlRegisterType<Launcher>("me.appadeia.Launcher", 1, 0, "Launcher");
-    qmlRegisterType<Enabler>("me.appadeia.Enabler", 1, 0, "Enabler");
+    qmlRegisterType<SysInfo>("org.openSUSE.Welcome", 1, 0, "SysInfo");
+    qmlRegisterType<Launcher>("org.openSUSE.Welcome", 1, 0, "Launcher");
+    qmlRegisterType<Enabler>("org.openSUSE.Welcome", 1, 0, "Enabler");
+    qmlRegisterType<PanelLayouter>("org.openSUSE.Welcome", 1, 0, "XfceLayouter");
 
     qDebug() << QLocale::system().name();
     QTranslator qtTranslator;
