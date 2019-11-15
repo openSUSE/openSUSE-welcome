@@ -173,8 +173,8 @@ Window {
         id: xfceTr
 
         property string customize:         qsTr("Customise")
-        property string panelLayout:       qsTr("Panel Layouts")
-        property string clickToApply:      qsTr("Click the images to apply panel layouts.")
+        property string panelLayout:       qsTr("Desktop Layouts")
+        property string clickToApply:      qsTr("openSUSE Xfce offers a variety of customisation options, including the ability to choose a desktop layout that fits your workflow. You can choose one of these as a starting point and customise it further later.")
 
         property string ancientDwarf:      qsTr("Ancient Dwarf")
         property string modernDwarf:       qsTr("Modern Dwarf")
