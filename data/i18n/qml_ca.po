@@ -16,112 +16,112 @@ msgstr ""
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
-#: ../qrc/main.qml:57
+#: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
 msgstr "Benvingut/da"
 
-#: ../qrc/main.qml:128
+#: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
 msgstr "Ei, això és l'opensSUSE!"
 
-#: ../qrc/main.qml:131
+#: qrc/main.qml:134
 msgctxt "main|"
 msgid "Basics"
 msgstr "El més bàsic"
 
-#: ../qrc/main.qml:132
+#: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
 msgstr "Ajuda"
 
-#: ../qrc/main.qml:135
+#: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
 msgstr "Llegiu-me"
 
-#: ../qrc/main.qml:136
+#: qrc/main.qml:139
 msgctxt "main|"
 msgid "Documentation"
 msgstr "Documentació"
 
-#: ../qrc/main.qml:137
+#: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
 msgstr "Obtingueu programari"
 
-#: ../qrc/main.qml:140
+#: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
 msgstr "Instal·leu l'openSUSE"
 
-#: ../qrc/main.qml:143
+#: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
 msgstr "Ajuda per al GNOME"
 
-#: ../qrc/main.qml:144
+#: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
 msgstr "Ajuda per al Plasma"
 
-#: ../qrc/main.qml:145
+#: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
 msgstr "Ajuda per a l'Xfce"
 
-#: ../qrc/main.qml:146
+#: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
 msgstr "Ajuda per al MATE"
 
-#: ../qrc/main.qml:147
+#: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
 msgstr "Ajuda per a l'Enlightenment"
 
-#: ../qrc/main.qml:148
+#: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
 msgstr "Quant al Budgie"
 
-#: ../qrc/main.qml:149
+#: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
 msgstr "Quant al Lumina"
 
-#: ../qrc/main.qml:150
+#: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
 msgstr "Ajuda per a l'LXDE"
 
-#: ../qrc/main.qml:151
+#: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
 msgstr "Ajuda per a l'LXQt"
 
-#: ../qrc/main.qml:152
+#: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
 msgstr "Quant al Cinnamon"
 
-#: ../qrc/main.qml:153
+#: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
 msgstr "Ajuda per al Deepin"
 
-#: ../qrc/main.qml:156 ../qrc/main.qml:210
+#: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
 msgstr "Col·laboreu-hi"
 
-#: ../qrc/main.qml:157
+#: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
 msgstr "Construcció de l'openSUSE"
 
-#: ../qrc/main.qml:160
+#: qrc/main.qml:163
 msgctxt "main|"
 msgid ""
 "If this is your first time using openSUSE, we would like you to feel right "
@@ -133,38 +133,105 @@ msgstr ""
 "familiaritzar-vos amb tots els botons i feu-nos saber com us va "
 "l'experiència a les nostres"
 
-#: ../qrc/main.qml:161
+#: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
 msgstr "xarxes socials"
 
-#: ../qrc/main.qml:164
+#: qrc/main.qml:167
 msgctxt "main|"
 msgid "Show on next startup"
 msgstr "Mostra-ho a la propera arrencada."
 
-#: ../qrc/main.qml:165 ../qrc/main.qml:203 ../qrc/main.qml:278
-#: ../qrc/main.qml:316
+#: qrc/main.qml:168 qrc/main.qml:175
+msgctxt "main|"
+msgid "Customise"
+msgstr ""
+
+#: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
 msgid "Close"
 msgstr "Tanca"
 
-#: ../qrc/main.qml:172
+#: qrc/main.qml:176
+msgctxt "main|"
+msgid "Desktop Layouts"
+msgstr ""
+
+#: qrc/main.qml:177
+msgctxt "main|"
+msgid ""
+"openSUSE Xfce offers a variety of customisation options, including the "
+"ability to choose a desktop layout that fits your workflow. You can choose "
+"one of these as a starting point and customise it further later."
+msgstr ""
+
+#: qrc/main.qml:179
+msgctxt "main|"
+msgid "Cupertino"
+msgstr ""
+
+#: qrc/main.qml:180
+msgctxt "main|"
+msgid "El Ratón"
+msgstr ""
+
+#: qrc/main.qml:181
+msgctxt "main|"
+msgid "Unitatis"
+msgstr ""
+
+#: qrc/main.qml:182
+msgctxt "main|"
+msgid "Redmond"
+msgstr ""
+
+#: qrc/main.qml:184
+msgctxt "main|"
+msgid "Themes"
+msgstr ""
+
+#: qrc/main.qml:185
+msgctxt "main|"
+msgid "Click the images to apply application themes."
+msgstr ""
+
+#: qrc/main.qml:187
+msgctxt "main|"
+msgid "Greybird Geeko Light"
+msgstr ""
+
+#: qrc/main.qml:188
+msgctxt "main|"
+msgid "Greybird Geeko Dark"
+msgstr ""
+
+#: qrc/main.qml:189
+msgctxt "main|"
+msgid "Adwaita Light"
+msgstr ""
+
+#: qrc/main.qml:190
+msgctxt "main|"
+msgid "Adwaita Dark"
+msgstr ""
+
+#: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
 msgstr "Xarxes socials"
 
-#: ../qrc/main.qml:173 ../qrc/main.qml:211 ../qrc/main.qml:286
+#: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
 msgstr "Inici"
 
-#: ../qrc/main.qml:176
+#: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
 msgstr "Xarxes socials: com arribar a nosaltres!"
 
-#: ../qrc/main.qml:179
+#: qrc/main.qml:204
 msgctxt "main|"
 msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
@@ -173,77 +240,77 @@ msgstr ""
 "Les xarxes socials més usades ja són a la llista que hi ha al final de la "
 "pàgina, però n'hi ha algunes més que podríeu trobar útils; alfabèticament:"
 
-#: ../qrc/main.qml:182
+#: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
 msgstr "Discord"
 
-#: ../qrc/main.qml:183
+#: qrc/main.qml:208
 msgctxt "main|"
 msgid "Facebook"
 msgstr "Facebook"
 
-#: ../qrc/main.qml:184
+#: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
 msgstr "Fòrums"
 
-#: ../qrc/main.qml:185
+#: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
 msgstr "IRC"
 
-#: ../qrc/main.qml:186
+#: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
 msgstr "Telegram"
 
-#: ../qrc/main.qml:189
+#: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
 msgstr "Grup de Facebook"
 
-#: ../qrc/main.qml:190
+#: qrc/main.qml:215
 msgctxt "main|"
 msgid "openSUSE Forums"
 msgstr "Fòrums de l'openSUSE"
 
-#: ../qrc/main.qml:193
+#: qrc/main.qml:218
 msgctxt "main|"
 msgid "Tech Support"
 msgstr "Ajuda tècnica"
 
-#: ../qrc/main.qml:194
+#: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
 msgstr "Projecte"
 
-#: ../qrc/main.qml:195
+#: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
 msgstr "Factoria"
 
-#: ../qrc/main.qml:196
+#: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
 msgstr "Xat"
 
-#: ../qrc/main.qml:199
+#: qrc/main.qml:224
 msgctxt "main|"
 msgid "openSUSE Group"
 msgstr "Grup de l'openSUSE"
 
-#: ../qrc/main.qml:200
+#: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
 msgstr "Notícies de l'openSUSE"
 
-#: ../qrc/main.qml:214
+#: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
 msgstr "Col·laboreu-hi: participeu a l'openSUSE"
 
-#: ../qrc/main.qml:217
+#: qrc/main.qml:242
 msgctxt "main|"
 msgid ""
 "Whether you’re an experienced Linux developer or an end user just getting "
@@ -261,7 +328,7 @@ msgstr ""
 "envieu una llista de paquets i funcions noves que desitgeu, creeu i apliqueu "
 "pedaços... o trobeu altres maneres creatives de contribuir-hi."
 
-#: ../qrc/main.qml:220
+#: qrc/main.qml:245
 msgctxt "main|"
 msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
@@ -270,12 +337,12 @@ msgstr ""
 "Feu el que feu, dediqueu alguns minuts a parlar de l'openSUSE amb altres "
 "usuaris i esdevingueu un"
 
-#: ../qrc/main.qml:222
+#: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
 msgstr "membre actiu"
 
-#: ../qrc/main.qml:224
+#: qrc/main.qml:249
 msgctxt "main|"
 msgid ""
 "of the openSUSE community. For most activities a login is needed to enjoy "
@@ -286,22 +353,22 @@ msgstr ""
 "un compte per accedir a tota la diversió. També podríeu crear una pàgina "
 "d'usuari i compartir amb altres informació útil o els vostres interessos."
 
-#: ../qrc/main.qml:227
+#: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
 msgstr "Formeu part de la comunitat de l'openSUSE"
 
-#: ../qrc/main.qml:229
+#: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
 msgstr "Vegeu on són altres membres"
 
-#: ../qrc/main.qml:231
+#: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
 msgstr "de la comunitat d'openSUSE"
 
-#: ../qrc/main.qml:233
+#: qrc/main.qml:258
 msgctxt "main|"
 msgid ""
 "members are located world-wide, get to know some People of openSUSE, find "
@@ -312,37 +379,37 @@ msgstr ""
 "d'usuaris locals, celebreu-ne les publicacions, apreneu sobre l'estructura "
 "de governança i més coses. Seguiu"
 
-#: ../qrc/main.qml:235
+#: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
 msgstr "les notícies de l'openSUSE"
 
-#: ../qrc/main.qml:237
+#: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr "al nostre lloc web i vegeu què fan els desenvolupadors al"
 
-#: ../qrc/main.qml:239
+#: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
 msgstr "Planeta openSUSE."
 
-#: ../qrc/main.qml:242
+#: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
 msgstr "Ajudeu-nos a publicar la propera versió de l'openSUSE"
 
-#: ../qrc/main.qml:244
+#: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
 msgstr "Per a cada publicació hi ha"
 
-#: ../qrc/main.qml:246
+#: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
 msgstr "una sèrie de tasques"
 
-#: ../qrc/main.qml:248
+#: qrc/main.qml:273
 msgctxt "main|"
 msgid ""
 "available. Some are complicated, some are easy to achieve, even for "
@@ -353,12 +420,12 @@ msgstr ""
 "tot per a principiants. Remeneu pels temes i comuniqueu-vos amb algú de "
 "l'openSUSE si trobeu alguna tasca adequada que pugueu fer."
 
-#: ../qrc/main.qml:251
+#: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
 msgstr "Parleu de l'openSUSE i ajudeu altres usuaris"
 
-#: ../qrc/main.qml:253
+#: qrc/main.qml:278
 msgctxt "main|"
 msgid ""
 "There are several active communities where you can discuss what is going on "
@@ -369,32 +436,32 @@ msgstr ""
 "l'openSUSE i ajudar altres usuaris. Tenim llistes de correu, canals d'IRC i "
 "fòrums. Si us plau, feu un cop d'ull als"
 
-#: ../qrc/main.qml:255
+#: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
 msgstr "canals de comunicació"
 
-#: ../qrc/main.qml:257
+#: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
 msgstr "per tindre'n una visió general."
 
-#: ../qrc/main.qml:260
+#: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
 msgstr "Suggeriu funcions i programari nou"
 
-#: ../qrc/main.qml:262
+#: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
 msgstr "Visiteu el"
 
-#: ../qrc/main.qml:264
+#: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
 msgstr "Bugzilla,"
 
-#: ../qrc/main.qml:266
+#: qrc/main.qml:291
 msgctxt "main|"
 msgid ""
 "our Feature- and Requirements Management System. Here you can get a sorted "
@@ -409,12 +476,12 @@ msgstr ""
 "funcions per a la nova generació de productes (versió) i ajudar a fer que "
 "l'openSUSE sigui una distribució de Linux encara millor."
 
-#: ../qrc/main.qml:269
+#: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
 msgstr "Feu-ne difusió"
 
-#: ../qrc/main.qml:271
+#: qrc/main.qml:296
 msgctxt "main|"
 msgid ""
 "Be sure to spread the word on openSUSE and help others to benefit from it "
@@ -424,12 +491,12 @@ msgstr ""
 "Feu conèixer l'openSUSE i ajudeu altres a beneficiar-se'n! L'openSUSE "
 "ofereix una gran distribució Linux i moltes altres tecnologies com ara el"
 
-#: ../qrc/main.qml:273
+#: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
 msgstr "sistema de construcció,"
 
-#: ../qrc/main.qml:275
+#: qrc/main.qml:300
 msgctxt "main|"
 msgid ""
 "which can help home users as well as sys admins and developers to get work "
@@ -440,17 +507,17 @@ msgstr ""
 "a fer la feina i a passar-ho bé. Escriviu sobre l'openSUSE, feu-lo conèixer "
 "als amics i família i ajudeu-los a instal·lar-lo!"
 
-#: ../qrc/main.qml:285
+#: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
 msgstr "Llegiu-me"
 
-#: ../qrc/main.qml:289
+#: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
 msgstr "Programari extra"
 
-#: ../qrc/main.qml:291
+#: qrc/main.qml:316
 msgctxt "main|"
 msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
@@ -459,7 +526,7 @@ msgstr ""
 "Hi ha alguns controladors de propietat (com ara Nvidia) i paquets (com ara "
 "el Google Chrome) que l'openSUSE no pot incloure per defecte."
 
-#: ../qrc/main.qml:293
+#: qrc/main.qml:318
 msgctxt "main|"
 msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
@@ -468,12 +535,12 @@ msgstr ""
 "Si teniu un dispositiu d'Nvidia i voleu usar els controladors de propietat, "
 "llegiu aquest"
 
-#: ../qrc/main.qml:295
+#: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
 msgstr "article del wiki."
 
-#: ../qrc/main.qml:298
+#: qrc/main.qml:323
 msgctxt "main|"
 msgid ""
 "To install Google Chrome, just download it directly from Google. Google "
@@ -484,12 +551,12 @@ msgstr ""
 "Google proporciona un repositori que s'afegirà al sistema quan instal·leu el "
 "navegador. Això permetrà que s'actualitzi conjuntament amb el sistema."
 
-#: ../qrc/main.qml:299
+#: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
 msgstr "Google ofereix l'RPM del Google Chrome al seu lloc web."
 
-#: ../qrc/main.qml:302
+#: qrc/main.qml:327
 msgctxt "main|"
 msgid ""
 "Some codecs for playing media cannot be included in openSUSE due to "
@@ -500,22 +567,22 @@ msgstr ""
 "l'openSUSE a causa de les llicències. Ara bé, hi ha repositoris disponibles "
 "sobre els quals podeu llegir"
 
-#: ../qrc/main.qml:304
+#: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
 msgstr "aquí."
 
-#: ../qrc/main.qml:307
+#: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
 msgstr "Repositoris de la comunitat"
 
-#: ../qrc/main.qml:310
+#: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
 msgstr "A"
 
-#: ../qrc/main.qml:313
+#: qrc/main.qml:338
 msgctxt "main|"
 msgid ""
 ", you may run across community-provided repositories. While we do not "
