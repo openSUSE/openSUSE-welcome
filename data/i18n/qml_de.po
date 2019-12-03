@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-11-26 21:06+0000\n"
-"Last-Translator: Christian Imhorst <datenteiler@opensuse.org>\n"
+"PO-Revision-Date: 2019-12-03 16:54+0000\n"
+"Last-Translator: Sarah Kriesch <ada.lovelace@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/de/>\n"
 "Language: de\n"
@@ -143,7 +143,7 @@ msgstr "Beim nächsten Start anzeigen"
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Anpassen"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
@@ -153,7 +153,7 @@ msgstr "Schließen"
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Desktop-Layouts"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -166,32 +166,32 @@ msgstr ""
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Themes"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Auf die Bilder klicken  um Anwendungs-Themes auszuwählen."
 
 #: qrc/main.qml:187
 msgctxt "main|"
