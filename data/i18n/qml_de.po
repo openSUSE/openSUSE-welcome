@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-03 16:54+0000\n"
+"PO-Revision-Date: 2019-12-05 20:54+0000\n"
 "Last-Translator: Sarah Kriesch <ada.lovelace@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/de/>\n"
@@ -191,27 +191,27 @@ msgstr "Themes"
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr "Auf die Bilder klicken  um Anwendungs-Themes auszuwählen."
+msgstr "Auf die Bilder klicken um Anwendungs-Themes auszuwählen."
 
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko Light"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko Dark"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita Light"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita Dark"
 
 #: qrc/main.qml:197
 msgctxt "main|"
@@ -301,7 +301,7 @@ msgstr "openSUSE Gruppe"
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr "openSUSE News"
+msgstr "openSUSE Neuigkeiten"
 
 #: qrc/main.qml:239
 msgctxt "main|"
@@ -568,7 +568,7 @@ msgid ""
 msgstr ""
 "Einige Codecs für die Wiedergabe von Medien können aus lizenzrechtlichen "
 "Gründen nicht in openSUSE integriert werden. Es gibt aber Repositories, über "
-"die du dich informieren kannst."
+"die du dich informieren kannst"
 
 #: qrc/main.qml:329
 msgctxt "main|"
