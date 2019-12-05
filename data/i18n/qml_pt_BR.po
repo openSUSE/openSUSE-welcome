@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-02 13:54+0000\n"
+"PO-Revision-Date: 2019-12-05 20:54+0000\n"
 "Last-Translator: Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/pt_BR/>\n"
@@ -199,22 +199,22 @@ msgstr "Clique nas imagens para aplicar os temas do aplicativo."
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko Leve"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko Escuro"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita Leve"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita Escuro"
 
 #: qrc/main.qml:197
 msgctxt "main|"
