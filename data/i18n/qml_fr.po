@@ -2,17 +2,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: opensuse-welcome\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2019-12-14 15:54+0000\n"
 "Last-Translator: Antoine Belvire <antoine.belvire@opensuse.org>\n"
-"Language-Team: French\n"
+"Language-Team: French <https://l10n.opensuse.org/projects/opensuse-welcome/"
+"master/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 2.2.3\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
@@ -144,7 +145,7 @@ msgstr "Afficher au prochain démarrage"
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Personnaliser"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
@@ -154,7 +155,7 @@ msgstr "Fermer"
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Dispositions du bureau"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -163,56 +164,60 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce offre une grande variété d'options de personnalisation, dont "
+"la possibilité de choisir la disposition de bureau qui correspond le mieux à "
+"votre façon de travailler. Vous pouvez choisir une de celles-ci comme point "
+"de départ et la personnaliser davantage plus tard."
 
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Thèmes"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Cliquez sur les images pour appliquer les thèmes d'application."
 
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko clair"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko sombre"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita clair"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita sombre"
 
 #: qrc/main.qml:197
 msgctxt "main|"
