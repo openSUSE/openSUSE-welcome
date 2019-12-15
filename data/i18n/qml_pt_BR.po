@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-05 20:54+0000\n"
+"PO-Revision-Date: 2019-12-15 14:54+0000\n"
 "Last-Translator: Rodrigo Macedo <rmsolucoeseminformatic4@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/pt_BR/>\n"
@@ -31,7 +31,7 @@ msgstr "Básico"
 #: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
-msgstr "Suporte"
+msgstr "Ajuda"
 
 #: qrc/main.qml:138
 msgctxt "main|"
@@ -152,7 +152,7 @@ msgstr "Fechar"
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr "layouts de área de trabalho"
+msgstr "Layouts de área de trabalho"
 
 #: qrc/main.qml:177
 msgctxt "main|"
