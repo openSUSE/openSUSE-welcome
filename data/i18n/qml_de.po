@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-05 20:54+0000\n"
+"PO-Revision-Date: 2019-12-21 17:54+0000\n"
 "Last-Translator: Sarah Kriesch <ada.lovelace@gmx.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/de/>\n"
@@ -162,6 +162,9 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce bietet eine Auswahl an anpassbaren Optionen, inkl. die "
+"Möglichkeit ein Desktop-Layout, das zu Deinem Workflow passt, auszuwählen. "
+"Du kannst eins von diesen als Startpunkt wählen und später weiter anpassen."
 
 #: qrc/main.qml:179
 msgctxt "main|"
