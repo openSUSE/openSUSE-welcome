@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-20 01:53+0000\n"
+"PO-Revision-Date: 2020-01-20 14:53+0000\n"
 "Last-Translator: Dimitrios <tagigachan@gmail.com>\n"
 "Language-Team: Greek <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/el/>\n"
@@ -219,7 +219,7 @@ msgstr ""
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Κοινωνικά Δύκτια"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
@@ -320,6 +320,13 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Είτε είσαι έμπειρος προγραμματιστής Linux είτε μόλις ξεκινάς με τα Linux, "
+"υπάρχουν πάρα πολλοί τρόποι με τους οποίους μπορείς να συμμετάσχεις στο "
+"openSUSE project.  Συνδέσου σε ένα forum και δέξου βοήθεια ή δώσε βοήθεια σε "
+"άλλους σχετικά με το openSUSE, βρες και ανέφερε σφάλματα, ανέλαβε κάποιο "
+"θέμα από τη διαδικασία έκδοσης, επιθεώρησε τις τεκμηριώσεις, στείλε την "
+"λίστα επιθυμιών για νέα πακέτα και χαρακτηριστικά, δημιούργισε και υπέβαλε "
+"μπαλώμματα , ή βρες άλλους δημιουργικούς τρόπου για να συνεισφέρεις."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -327,11 +334,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Ό,τι και να κάνεις, πάρε τον χρόνο σου για να συζητήσεις για το openSUSE με "
+"τους άλλους χρήστες και γίνε ένα"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "ενεργό μέλος"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -340,21 +349,25 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"της openSUSE κοινότητας. Για τις περισσότερες δραστηριότητες ένας "
+"λογαριασμός είναι απαραίτητος για να απολαύσεις όλη τη χαρά. Μπορεί να θες "
+"να φτίαξεις μια σελίδα χρήστη και να μοιραστείς μερικές χρήσιμες πληροφορίες "
+"ή ενδιαφέροντα για σένα μαζί με άλλους."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Πάρε μέρος στην openSUSE Κοινώτητα"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Δες που άλλα μέλη της"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "openSUSE κοινώτητας"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -363,36 +376,40 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"βρίσκονται παγκοσμίως, γνώρισε μερικά Άτομα του openSUSE, βρες τοπικές "
+"ομάδες χρηστών openSUSE, γιόρτασε νέες κυκλοφορίες, μάθε τη δομή "
+"διακυβέρνησης και άλλα. Ακολούθησε τα"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "νέα του openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
+"στον ιστότοπο με τις ειδήσεις και δες σε τι δουλεύουν οι προγραμματιστές μας"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Πλανήτης openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Βοήθησε μας να κυκλοφορήσουμε την επόμενη έκδοση του openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Για κάθε κυκλοφορία υπάρχει ένα"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "σύνολο καθηκόντων"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -401,11 +418,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"διαθέσιμο. Μερικά είναι περίπλοκα, μερίκα είναι εύκολα να τα καταφέρεις, "
+"ακόμα και για αρχαρίους. Ρίξε μιά ματιά στα προβλήματα και πες σε κάποιον "
+"απο το openSUSE αν βρήκες ένα επαρκή έργο."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Συζήτησε για το openSUSE και βοήθησε άλλους χρήστες."
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -414,31 +434,34 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Υπάρχουν αρκετές ενεργές κοινώτητς όπου μπορείς να συζητήσεις για το τι "
+"τρέχει στο openSUSE και βοήθησε άλλους χρήστες του openSUSE. Έχουμε mailing "
+"λίστες, κανάλια IRC και forums. Παρακαλώ ρίξε μια ματιά στα"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "κανάλια επικοινωνίας"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "για μια πιο σφαιρική εικόνα."
 
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Πρότεινε Νέα Χαρακτηριστικά ή Λογισμικό"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Επισκέψου το"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
