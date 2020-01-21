@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-20 14:53+0000\n"
+"PO-Revision-Date: 2020-01-21 23:54+0000\n"
 "Last-Translator: Dimitrios <tagigachan@gmail.com>\n"
 "Language-Team: Greek <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/el/>\n"
@@ -132,7 +132,7 @@ msgstr ""
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr "κοινωνικά δύκτια"
+msgstr "κοινωνικά δίκτυα"
 
 #: qrc/main.qml:167
 msgctxt "main|"
@@ -219,7 +219,7 @@ msgstr ""
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr "Κοινωνικά Δύκτια"
+msgstr "Κοινωνικά Δίκτυα"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
@@ -229,7 +229,7 @@ msgstr "Αρχική Σελίδα"
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr "Κοινωνικά Δύκτια: Πως να μας βρείτε!"
+msgstr "Κοινωνικά Δίκτυα: Πως να μας βρείτε!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -237,7 +237,7 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
-"Τα κοινωνικά δύκτια που χρησιμοποιούμε περισσότερο βρίσκονται στο υποσέλιδο, "
+"Τα κοινωνικά δίκτυα που χρησιμοποιούμε περισσότερο βρίσκονται στο υποσέλιδο, "
 "αλλά εδώ υπάρχουν μερικά ακόμα που μπορεί να βρεις χρήσιμα, αλφαβητικά:"
 
 #: qrc/main.qml:207
