@@ -39,7 +39,7 @@
     - name: {{homeTrans.matehelp}}
       type: primary
       icon: life-ring
-      onclick: bridge.openURL('https://wiki.mate-desktop.org/docs')
+      onclick: bridge.openURL('https://wiki.mate-desktop.org/#!index.md')
       data-de: mate
     - name: {{homeTrans.enlightenmenthelp}}
       type: primary
