@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-11 20:52+0000\n"
+"PO-Revision-Date: 2020-02-05 17:54+0000\n"
 "Last-Translator: Alex Minton <alex239@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/ru/>\n"
@@ -8,8 +8,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
@@ -221,7 +221,7 @@ msgstr "Социальные сети"
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Домой"
 
 #: qrc/main.qml:201
 msgctxt "main|"
@@ -255,7 +255,7 @@ msgstr "Форумы"
 #: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: qrc/main.qml:211
 msgctxt "main|"
