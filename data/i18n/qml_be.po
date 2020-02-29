@@ -1,118 +1,123 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2020-03-01 01:55+0000\n"
+"Last-Translator: Yahor Pravdikov <mocachin@protonmail.com>\n"
+"Language-Team: Belarusian <https://l10n.opensuse.org/projects/"
+"opensuse-welcome/master/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
 "4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "Сардэчна запрашаем"
 
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr ""
+msgstr "Йо-ха, гэта openSUSE"
 
 #: qrc/main.qml:134
 msgctxt "main|"
 msgid "Basics"
-msgstr ""
+msgstr "Асновы"
 
 #: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "Падтрымка"
 
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "readme"
 
 #: qrc/main.qml:139
 msgctxt "main|"
 msgid "Documentation"
-msgstr ""
+msgstr "Дакументацыя"
 
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Атрымаць Прыкладанні"
 
 #: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Усталяваць openSUSE"
 
 #: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "Даведка GNOME"
 
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Даведка Plasma"
 
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Даведка Xfce"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "Даведка MATE"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Даведка Enlightment"
 
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "Аб Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "Аб Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "Даведка LXDE"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "Даведка LXQt"
 
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "Аб Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Даведка Deepin"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Унесці ўклад у праэкт"
 
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Зборка openSUSE"
 
 #: qrc/main.qml:163
 msgctxt "main|"
@@ -121,31 +126,34 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Калі вы выкарыстоўваеце openSUSE у першы раз, то мы бы хацелі, каб вы "
+"адчувалі сябе як дома падчас гэтага новага падарожжа. Азнаёмцеся з "
+"асяроддзем і дайце нам ведаць а сваіх думках праз"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "сацыяльныя сеткі"
 
 #: qrc/main.qml:167
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Паказваць пры запуску"
 
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Наладзіць"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Закрыць"
 
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Варыянты працоўнага стала"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -154,71 +162,74 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce дае свабоду тонкай налады, уключая ў сябе мажлівасць выбару "
+"варыянта працоўнага сталу які вам падыходзіць больш усяго. Вы можаце абраць "
+"адзін з гэтых як пункт пачатку і потым наладзіць па-свойму."
 
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Куперціна"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "Эль Ратон"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Унітаціс"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Рэдманд"
 
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Тэмы"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Націсніце на выявы каб ужыць тэмы для прыкладанняў."
 
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko - Светлая"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko - Цёмная"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita Светлая"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita Цёмная"
 
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Сацыяльныя сеткі"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Дадому"
 
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Сацыяльныя сеткі: Як з намі связацца!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -226,76 +237,78 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"Самыя выкарыстоўваемыя сеткі паказаны знізу, но тут яшчэ ёсць іншыя ў "
+"алфавітным парадку:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Дыскорд"
 
 #: qrc/main.qml:208
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Фэйсбук"
 
 #: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Форумы"
 
 #: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Тэлеграм"
 
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Група ў Facebook"
 
 #: qrc/main.qml:215
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "Форумы openSUSE"
 
 #: qrc/main.qml:218
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Тэхпадтрымка"
 
 #: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Праэкт"
 
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Фабрыка (Factory)"
 
 #: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Чат"
 
 #: qrc/main.qml:224
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "Група openSUSE"
 
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "Навіны openSUSE"
 
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Паўдзельнічаць ў жыцці і распрацоўцы openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -307,6 +320,14 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Не залежна ад таго, што вы дасведчаны распрацоўшчык Linuz або просты "
+"карыстальнік які толькі пачынае выкарыстоўваць Linux, у жыцці праэкта "
+"openSUSE можа паўдзельнічаць розныі спосабамі. Напрыклад, далучайцеся да "
+"форуму каб атрымаць дапамогу або самаму дапамагчы іншым з openSUSE, "
+"знаходзіць і адпраўляць багі, браць на сябе работу на працягу падрыхтоўкі "
+"рэлізу, працаваць над дакументацыяй, прапаноўваць новыя пакеты і функцыі, "
+"ствараць і апублікоўваць патчы, або знайсці іншыя і творчыя варыянты каб "
+"унесці ўклад ў жыццё openSUSE."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -314,11 +335,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Што б вы ні рабілі, знайдзіце некалькі хвілін каб абсудзіць openSUSE з "
+"іншымі карыстальнікамі каб стаць"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "актыўным членам"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -327,21 +350,24 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"абшчыны openSUSE. Для большых дзеянняў патрабуецца ўваход у уліковы запіс "
+"каб насладзіцца вяселлем. Вам толькі патрэбна стварыць старонку "
+"карыстальніка і трошкі карыснай інфармацыі або вашых інтэрэсаў для іншых."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Будзьце часткай абшчыны openSUSE"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Паглядзіце, дзе"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "члены абшчыны openSUSE"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -350,36 +376,41 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"знаходзяцца ў міры, пазнаёмцеся з некаторымі людзьмі з openSUSE, знайдзіце "
+"лакальные карыстальніцкія групы openSUSE, святкуйце выхады рэлізаў, "
+"даведайцеся пра структуру кіравання і так далей. Сачыце"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "за навінамі openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
+"на нашым сайце навін і сачыце над чым нашы распрацоўшчыкі працуюць на даны "
+"момант"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Планета openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Дапамагайце нам выпусціць наступную версію openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Для кожнага рэлізу ёсць"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "спіс задач"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -388,11 +419,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"які трэба выканаць. Некаторыя складаныя, некаторыя із ніх простыя на "
+"выкананне, нават для пачаткоўцаў. Праглядзіце іх і паведаміце каго-небудь з "
+"openSUSE калі вы знайшлі задачу, якую можаце выканаць."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Абмяркуйце openSUSE і дапамагайце іншым карыстальнікам"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -401,31 +435,34 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"На даны момент ёсць пара актыўных абшчын дзе вы можаце абмеркаваць што зараз "
+"адбываецца ў openSUSE і дапамагчы іншым карыстальнікам openSUSE. У нас ёсць "
+"спісы з поштай, каналы IRC і форумы. Калі ласка, паглядзіце на"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "каналы сувязі"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "для агляду."
 
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Прапаноўвайце Новыя Мажлівасці або Праграмы"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Наведайце"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzillа"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -436,11 +473,16 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"нашу Сістэму Кіравання Функцыямі- і Патрэбнасцямі. Тут вы можаце атрымаць "
+"пашыраны агляд на рэчы, якія адбываюцца ў прадуктах, якія амаль што гатовы, "
+"пасачыць і прыняць удзел ў абмеркаванні метадам дадання каментарыяў або "
+"папрацаваць над функцыямі для наступнага пакалення прадукта (версіі) і "
+"дапамагчы openSUSE стаць яшчэ больш лепшым дыстрыбутывам Linux."
 
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Падзяліцеся словам"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -449,11 +491,13 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Распаусюджвайце словы пра openSUSE каб таксама данесці карысць іншым! "
+"openSUSE прадлагае добры дыстрыбутыў Linux і шмат іншых тэхналогій як наша"
 
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "сістэма будоўлі"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -462,16 +506,20 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"якая можа дапамагчы звычайным карыстальнікам, таксама і сісадмінам з "
+"распрацоўшчыкаімі закончыць свою працу і весела правесці час. Рабіце блогі "
+"пра openSUSE, расказвайце сваім сябрам і сваёй сям'і пра яго і дапамагайце "
+"ім усталяваць яго!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Прачытай мяне"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Дадактовыя праграмы"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -479,6 +527,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Ёсць некаторыя прапіетарныя драйверы (як Nvidia напрыклад) і пакеты (як "
+"Google Chrome), якія openSUSE не можа ўключыць у сябе з пачатку."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -486,11 +536,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Калі ў вас стаіць прылада ад Nvidia і вы жадаеце выкарыстоўваць прапіетарныя "
+"драйверы, прачытайце гэты"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "артыкул вікі"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -499,11 +551,14 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Каб усталяваць Google Chrome, усяго-ліш спампуйце яго з Google. Google "
+"забяспечвае рэпазіторый, які будзе дададзены ў вашу сістему падчас усталёўкі "
+"Google Chrome. Гэта дазволіць яму быць аднаўлённым зразу з вашай сістэмай."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google прапануе пакеты RPM ад Google Chrome на яго вэб-сайце."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -512,21 +567,24 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Некаторыя кодэкі для прайгравання медыя не могуць быць уключаны ў openSUSE "
+"із за ліцэнзій. Но гэта не праблема, таму што ёсць рэпазіторыі, аб якіх вы "
+"можаце прачытаць"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "тут"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Рэпазіторыі абшчыны"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "Укл"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -535,3 +593,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", таму вы можаце выкарыстоўваць рэпазіторыі ад абшчыны. Пакуль мы не можам "
+"глядзець на такія рэпазіторыі самі, яны будуюць свае праграмы на аснове "
+"апошняй версіі з openSUSE, таму яны павінны працаваць."
