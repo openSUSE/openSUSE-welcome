@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-02-26 22:55+0000\n"
+"PO-Revision-Date: 2020-03-10 21:55+0000\n"
 "Last-Translator: jcsl <trcs@gmx.com>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/es/>\n"
@@ -194,10 +194,9 @@ msgid "Themes"
 msgstr "Temas"
 
 #: qrc/main.qml:185
-#, fuzzy
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr "Haga clic en las imágenes para aplicar los temás de la aplicación."
+msgstr "Haga clic en las imágenes para aplicar los temas de la aplicación."
 
 #: qrc/main.qml:187
 msgctxt "main|"
