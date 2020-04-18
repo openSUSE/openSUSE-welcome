@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2020-05-02 19:51+0000\n"
-"Last-Translator: Isak Holmström <isak@iah.io>\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sv/>\n"
 "Language: sv\n"
@@ -300,7 +300,7 @@ msgstr "openSUSE Grupp"
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "openSUSE Nyheter"
 
 #: qrc/main.qml:239
 msgctxt "main|"
@@ -328,7 +328,7 @@ msgstr ""
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "aktiv medlem"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -364,7 +364,7 @@ msgstr ""
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "openSUSE nyheter"
 
 #: qrc/main.qml:262
 msgctxt "main|"
@@ -402,7 +402,7 @@ msgstr ""
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Diskutera openSUSE och hjälp andra användare"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -415,7 +415,7 @@ msgstr ""
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "kommunikations kanaler"
 
 #: qrc/main.qml:282
 msgctxt "main|"
@@ -425,17 +425,17 @@ msgstr ""
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Föreslå nya funktioner eller programvara"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Besök"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -481,7 +481,7 @@ msgstr ""
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Extra programvara"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -500,7 +500,7 @@ msgstr ""
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "wiki artikel"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -526,7 +526,7 @@ msgstr ""
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "här"
 
 #: qrc/main.qml:332
 msgctxt "main|"
@@ -536,7 +536,7 @@ msgstr ""
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "På"
 
 #: qrc/main.qml:338
 msgctxt "main|"
