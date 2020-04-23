@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-03-10 21:55+0000\n"
+"PO-Revision-Date: 2020-05-02 19:51+0000\n"
 "Last-Translator: jcsl <trcs@gmx.com>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/es/>\n"
@@ -201,22 +201,22 @@ msgstr "Haga clic en las imágenes para aplicar los temas de la aplicación."
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko claro"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko oscuro"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita claro"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita oscuro"
 
 #: qrc/main.qml:197
 msgctxt "main|"
@@ -351,10 +351,10 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
-"de la comunidad de openSUSE. Para la mayoría de actividades se requiere un "
-"inicio de sesión para disfrutarlas y poder participar. Puede que quieras "
-"crear una página de usuario y compartir información útil o intereses sobre "
-"ti con otros."
+"de la comunidad de openSUSE. Para disfrutar plenamente de la mayoría de "
+"actividades se requiere un inicio de sesión. Puede que quieras crear una "
+"página de usuario y compartir información útil o intereses sobre ti con "
+"otros."
 
 #: qrc/main.qml:252
 msgctxt "main|"
@@ -426,7 +426,7 @@ msgstr ""
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr "Comenta sobre openSUSE y ayuda a otras personas"
+msgstr "Habla de openSUSE y ayuda a otras personas"
 
 #: qrc/main.qml:278
 msgctxt "main|"
