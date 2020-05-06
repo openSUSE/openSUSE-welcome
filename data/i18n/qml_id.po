@@ -1,117 +1,122 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2020-05-07 08:52+0000\n"
+"Last-Translator: Kukuh Syafaat <syafaatkukuh@gmail.com>\n"
+"Language-Team: Indonesian <https://l10n.opensuse.org/projects/"
+"opensuse-welcome/master/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "Selamat Datang"
 
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr ""
+msgstr "Ahoy, ini adalah openSUSE"
 
 #: qrc/main.qml:134
 msgctxt "main|"
 msgid "Basics"
-msgstr ""
+msgstr "Dasar"
 
 #: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "Dukungan"
 
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Baca saya"
 
 #: qrc/main.qml:139
 msgctxt "main|"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentasi"
 
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Dapatkan Perangkat Lunak"
 
 #: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Pasang openSUSE"
 
 #: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "Bantuan GNOME"
 
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Bantuan Plasma"
 
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Bantuan Xfce"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "Bantuan MATE"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Bantuan Enlightenment"
 
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "Tentang Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "Tentang Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "Bantuan LXDE"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "Bantuan LXQt"
 
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "Tentang Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Bantuan Deepin"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Kontribusi"
 
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Membangun openSUSE"
 
 #: qrc/main.qml:163
 msgctxt "main|"
@@ -120,31 +125,35 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Jika ini adalah pertama kalinya Anda menggunakan openSUSE, kami ingin Anda "
+"merasa seperti di rumah sendiri dalam perjalanan baru Anda. Luangkan waktu "
+"Anda untuk membiasakan diri dengan semua tombol dan biarkan kami tahu "
+"bagaimana Anda menyukai pengalaman kami di"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "media sosial"
 
 #: qrc/main.qml:167
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Tampilkan pada awal mula berikutnya"
 
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Sesuaikan"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Tutup"
 
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Tata Letak Destop"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -153,71 +162,75 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce menawarkan berbagai opsi penyesuaian, termasuk kemampuan untuk "
+"memilih tata letak destop yang sesuai dengan alur kerja Anda. Anda dapat "
+"memilih salah satu dari ini sebagai titik awal dan menyesuaikannya lebih "
+"lanjut nanti."
 
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Tema"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Klik gambar untuk menerapkan tema aplikasi."
 
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko Terang"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko Gelap"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita Terang"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita Gelap"
 
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Media Sosial"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Rumah"
 
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Media Sosial: Cara menghubungi kami!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -225,76 +238,78 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"Media sosial yang paling umum digunakan sudah terdaftar di catatan kaki, "
+"tetapi berikut ini beberapa yang mungkin berguna menurut abjad:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: qrc/main.qml:208
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Forum"
 
 #: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Grup Facebook"
 
 #: qrc/main.qml:215
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "Forum openSUSE"
 
 #: qrc/main.qml:218
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Dukungan Teknis"
 
 #: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Proyek"
 
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Pabrik"
 
 #: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Obrolan"
 
 #: qrc/main.qml:224
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "Grup openSUSE"
 
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "Berita openSUSE"
 
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Berkontribusi. Berpartisipasi dalam openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -306,6 +321,14 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Apakah Anda seorang pengembang Linux yang berpengalaman atau pengguna akhir "
+"yang baru memulai dengan Linux, ada banyak cara bagi Anda untuk "
+"berpartisipasi dalam proyek openSUSE. Bergabunglah dengan sebuah forum untuk "
+"mendapatkan bantuan atau membantu orang lain dengan openSUSE, menemukan dan "
+"melaporkan kutu, mengambil alih masalah dari proses rilis, meninjau "
+"dokumentasi, mengirim daftar keinginan Anda untuk paket dan fitur baru, "
+"membuat dan mengirimkan tambalan, atau menemukan cara kreatif lainnya untuk "
+"berkontribusi."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -313,11 +336,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Apa pun yang Anda lakukan, luangkan beberapa menit untuk mendiskusikan "
+"openSUSE dengan pengguna lain dan menjadi seorang"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "anggota aktif"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -326,21 +351,25 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"dari komunitas openSUSE. Untuk sebagian besar kegiatan, log masuk diperlukan "
+"untuk menikmati semua kesenangan. Anda mungkin ingin membuat halaman "
+"pengguna dan membagikan beberapa informasi bermanfaat atau minat tentang "
+"Anda kepada orang lain."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Jadilah bagian dari komunitas openSUSE"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Lihat di mana"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "anggota Komunitas openSUSE"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -349,36 +378,40 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"lainnya berlokasi di seluruh dunia, kenali beberapa Orang dari openSUSE, "
+"temukan grup pengguna openSUSE lokal, rayakan rilis, pelajari tentang "
+"struktur tata kelola dan banyak lagi. Ikuti"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "berita openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
+"di situs berita kami dan lihat apa yang sedang dilakukan pengembang kami"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planet openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Bantu kami untuk merilis versi openSUSE berikutnya"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Untuk setiap rilis ada"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "satu set tugas"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -387,11 +420,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"yang tersedia. Ada yang rumit, ada yang mudah dicapai, bahkan untuk pemula. "
+"Cari tahu masalahnya dan beri tahu seseorang dari openSUSE jika Anda "
+"menemukan tugas yang memadai."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Diskusikan openSUSE dan bantu pengguna lain"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -400,31 +436,34 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Ada beberapa komunitas aktif di mana Anda dapat mendiskusikan apa yang "
+"terjadi di openSUSE dan membantu pengguna openSUSE lainnya. Kami memiliki "
+"milis, saluran dan forum IRC. Silakan lihat di"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "saluran komunikasi"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "untuk ikhtisar."
 
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Sarankan Fitur Baru atau Perangkat Lunak"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Kunjungi"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -435,11 +474,16 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"sistem Manajemen Fitur dan Persyaratan kami. Di sini Anda bisa mendapatkan "
+"gambaran umum tentang hal-hal yang terjadi di produk mendatang, ikuti dan "
+"berpartisipasi dalam diskusi dengan menambahkan komentar atau bekerja pada "
+"fitur untuk generasi (versi) produk berikutnya dan membantu menjadikan "
+"openSUSE distribusi Linux yang lebih baik."
 
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Sebarkan berita"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -448,11 +492,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Pastikan untuk menyebarkan berita di openSUSE dan bantu orang lain untuk "
+"mendapat manfaat darinya juga! openSUSE menawarkan distribusi Linux yang "
+"hebat dan banyak teknologi lain seperti"
 
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "layanan bangun kami"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -461,16 +508,19 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"yang dapat membantu pengguna rumahan serta administrator sistem dan "
+"pengembang untuk menyelesaikan pekerjaan dan bersenang-senang. Blog tentang "
+"openSUSE, beri tahu teman dan keluarga Anda dan bantu mereka memasangnya!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Baca Saya"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Perangkat Lunak Ekstra"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -478,6 +528,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Ada penggerak proprietari tertentu (seperti NVIDIA) dan paket (seperti "
+"Google Chrome) yang tidak dapat disertakan openSUSE secara bawaan."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -485,11 +537,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Jika Anda memiliki perangkat Nvidia dan ingin menggunakan penggerak "
+"proprietari, baca"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "artikel wiki ini"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -498,11 +552,15 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Untuk memasang Google Chrome, cukup unduh langsung dari Google. Google "
+"menyediakan repositori yang akan ditambahkan ke sistem Anda ketika Anda "
+"memasang Google Chrome. Ini akan memungkinkannya dimutakhirkan bersama "
+"sistem Anda."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google menawarkan RPM Google Chrome di situs webnya."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -511,21 +569,23 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Beberapa kodek untuk memutar media tidak dapat dimasukkan dalam openSUSE "
+"karena masalah perizinan. Namun, ada repositori tersedia yang dapat Anda baca"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "disini"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Repositori Komunitas"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "Di"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -534,3 +594,7 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", Anda dapat menjalankan seluruh repositori yang disediakan komunitas. "
+"Meskipun kami tidak secara manual memeriksa repositori komunitas, mereka "
+"telah membangun perangkat lunak mereka terhadap versi openSUSE terbaru dan "
+"akan berfungsi."
