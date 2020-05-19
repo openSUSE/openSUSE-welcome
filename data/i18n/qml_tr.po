@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-13 19:59+0000\n"
-"Last-Translator: Ad Soyad <kalemlik100@yandex.com>\n"
+"PO-Revision-Date: 2020-05-26 14:40+0000\n"
+"Last-Translator: Mert Gör <mertgor@masscollabs.com>\n"
 "Language-Team: Turkish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/tr/>\n"
 "Language: tr\n"
@@ -16,7 +16,7 @@ msgstr ""
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr "Hoş Geldiniz"
+msgstr "Hoşgeldiniz"
 
 #: qrc/main.qml:131
 msgctxt "main|"
@@ -41,42 +41,42 @@ msgstr "Beni oku"
 #: qrc/main.qml:139
 msgctxt "main|"
 msgid "Documentation"
-msgstr "Dokümantasyon"
+msgstr "Belgelendirme"
 
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr "Yazılım Edin"
+msgstr "Yazılım Edinin"
 
 #: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr "openSUSE'yi Kur"
+msgstr "openSUSE'yi Kurun"
 
 #: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr "GNOME Help"
+msgstr "GNOME Yardımı"
 
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr "Plasma Help"
+msgstr "Plasma Yardımı"
 
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr "Xfce Help"
+msgstr "Xfce Yardımı"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr "MATE Help"
+msgstr "MATE Yardımı"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr "Enlightenment Help"
+msgstr "Enlightenment Yardımı"
 
 #: qrc/main.qml:151
 msgctxt "main|"
@@ -91,12 +91,12 @@ msgstr "Lumina Hakkında"
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr "LXDE Help"
+msgstr "LXDE Yardımı"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr "LXQt Help"
+msgstr "LXQt Yardımı"
 
 #: qrc/main.qml:155
 msgctxt "main|"
@@ -106,17 +106,17 @@ msgstr "Cinnamon Hakkında"
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr "Deepin Help"
+msgstr "Deepin Yardımı"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
-msgstr "Katkıda Bulun"
+msgstr "Katkıda Bulunun"
 
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr "openSUSE'yi İnşa Et"
+msgstr "openSUSE'yi İnşa Edin"
 
 #: qrc/main.qml:163
 msgctxt "main|"
@@ -227,7 +227,7 @@ msgstr "Ana Sayfa"
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr "Sosyal Medya: Bize Nasıl Ulaşabilirsiniz?"
+msgstr "Sosyal Medya: Bize Nasıl Ulaşabilirsiniz!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -332,11 +332,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Ne yaparsanız yapın, openSUSE'yi diğer kullanıcılarla tartışmak için birkaç "
+"dakikanızı ayırın ve"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "openSUSE topluluğunun aktif bir üyesi olun"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -345,21 +347,25 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"Çoğu aktivite için tüm eğlencenin tadını çıkarmak için bir oturum açmak "
+"gereklidir. Bir kullanıcı sayfası oluşturmak isteyebilir ve sizinle ilgili "
+"bazı yararlı bilgileri veya ilgi alanlarını başkalarıyla paylaşmak "
+"isteyebilirsiniz."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "openSUSE Topluluğunun bir parçası olun"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "diğerlerinin nerede olduğunu görün"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "openSUSE Topluluğu"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -368,36 +374,39 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"üyeleri dünya çapında bulunur, bazı openSUSE çalışanlarını tanıyabilir, "
+"yerel openSUSE kullanıcı gruplarını bulabilir, sürümleri kutlayabilir, "
+"yönetişim yapısı hakkında bilgi edinebilir ve daha fazlasını yapabilirsiniz"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "openSUSE'den haberler'i takip edip"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "haber sitemizde ve geliştiricilerimizin neler yaptığını görün"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "openSUSE Gezegeni"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "OpenSUSE'nin sonraki sürümünü yayınlamamıza yardımcı olun"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Her sürüm için bir"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "görevler kümesi"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -406,11 +415,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"mevcut. Bazıları karmaşıktır, bazıları yeni başlayanlar için bile kolaydır. "
+"Sorunlara bakın ve yeterli bir görev bulduysanız openSUSE'den birine "
+"bildirin."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "openSUSE'yi tartışın ve diğer kullanıcılara yardımcı olun"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -419,31 +431,34 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"openSUSE'de neler olup bittiğini tartışabileceğiniz ve diğer openSUSE "
+"kullanıcılarına yardımcı olabileceğiniz birkaç aktif topluluk vardır. Posta "
+"listelerimiz, IRC kanallarımız ve forumlarımız var. Lütfen şuna bir göz atın"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "iletişim kanalları"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "genel bir bakış için."
 
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Yeni Özellikler veya Yazılım Önerin"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Ziyaret edin"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -454,11 +469,16 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"Özellik ve Gereksinim Yönetim Sistemimiz. Burada, yaklaşan ürünlerde meydana "
+"gelen şeylere ilişkin sıralı bir genel bakış elde edebilir, bir sonraki ürün "
+"nesli (sürüm) için yorum ekleyerek veya özellikler üzerinde çalışarak "
+"tartışmaya katılabilir ve katılabilir ve openSUSE'yi daha iyi bir Linux "
+"dağıtımı yapmaya yardımcı olabilirsiniz."
 
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Sözümüzü yayın"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -467,11 +487,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Sözümüzü openSUSE üzerinde yaydığınızdan ve başkalarının da bundan "
+"yararlanmasına yardımcı olduğunuzdan emin olun! openSUSE mükemmel bir Linux "
+"dağıtımı ve"
 
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "inşa süreci"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -480,16 +503,20 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"bu da ev kullanıcılarının yanı sıra sistem yöneticilerinin ve "
+"geliştiricilerin işlerini halletmelerine ve eğlenmelerine yardımcı olabilir. "
+"openSUSE hakkında blog yaz, arkadaşlarına ve ailene anlat ve yüklemelerine "
+"yardımcı ol!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Beni Oku"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Ekstra Yazılım"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -497,18 +524,20 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"OpenSUSE'nin varsayılan olarak içeremeyeceği belirli sahipli sürücüler ("
+"Nvidia gibi) ve paketler (Google Chrome gibi) vardır."
 
 #: qrc/main.qml:318
 msgctxt "main|"
 msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
-msgstr ""
+msgstr "Bir Nvidia cihazınız varsa ve sahipli sürücüleri kullanmak istiyorsanız"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "bu wiki makalesi'ni okuyun"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -517,11 +546,15 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Google Chrome'u yüklemek için doğrudan Google'dan indirmeniz yeterlidir. "
+"Google, Google Chrome'u yüklediğinizde sisteminize eklenecek bir depo "
+"sağlar. Bu, sisteminizle birlikte Google Chrome'un da  güncellenmesine "
+"olanak tanır."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google, web sitesinde Google Chrome'un RPM paketini sunar."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -530,21 +563,24 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Medya oynatmaya yönelik bazı codec bileşenleri, lisanslama sorunları "
+"nedeniyle openSUSE ürününe eklenemez. Ancak, hakkında okuyabileceğiniz "
+"depolar vardır"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "burada"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Topluluk Depoları"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "Üzerinde"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -553,3 +589,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", topluluk tarafından sağlanan depolarla karşılaşabilirsiniz. Topluluk "
+"depolarını manuel olarak incelememize rağmen, yazılımlarını openSUSE'nin en "
+"son sürümüne göre oluşturdular ve çalışmalılar."
