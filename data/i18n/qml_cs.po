@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-13 19:59+0000\n"
-"Last-Translator: Daniel Noga <noga.dany@gmail.com>\n"
+"PO-Revision-Date: 2020-07-14 12:36+0000\n"
+"Last-Translator: Jan Papež <honyczek@centrum.cz>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/cs/>\n"
 "Language: cs\n"
@@ -36,7 +36,7 @@ msgstr "Podpora"
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr "Čtěte"
+msgstr "Přečtěte si"
 
 #: qrc/main.qml:139
 msgctxt "main|"
@@ -116,7 +116,7 @@ msgstr "Přispějte"
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr "Verze openSUSE"
+msgstr "Sestavení openSUSE"
 
 #: qrc/main.qml:163
 msgctxt "main|"
@@ -267,7 +267,7 @@ msgstr "Telegram"
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr "Facebook Group"
+msgstr "Skupina na Facebooku"
 
 #: qrc/main.qml:215
 msgctxt "main|"
@@ -297,7 +297,7 @@ msgstr "Chat"
 #: qrc/main.qml:224
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr "openSUSE Group"
+msgstr "skupina openSUSE"
 
 #: qrc/main.qml:225
 msgctxt "main|"
@@ -319,10 +319,12 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
-"Ať jste zkušený  vývojář Linuxu, nebo koncový uživatel začínající s Linuxem, "
+"Ať jste zkušený vývojář Linuxu nebo koncový uživatel začínající s Linuxem, "
 "máte mnoho způsobů, jak se podílet na projektu openSUSE. Připojte se k fóru, "
 "abyste získali či jiným poskytli pomoc s openSUSE, našli a ohlásili závady, "
-"vytvořili a nabídli záplaty, nebo nalezli jiné kreativní způsoby přispívání."
+"převzali závadu z procesu vydání, revidovali dokumentaci, poslali váš seznam "
+"přání nových balíčků a funkcí, vytvořili a nabídli záplaty, nebo nalezli "
+"jiné kreativní způsoby přispívání."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -335,7 +337,7 @@ msgstr ""
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr "aktivní člen"
+msgstr "aktivním členem"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -356,12 +358,12 @@ msgstr "Staňte se součástí komunity openSUSE"
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr "Podívejte se, jak jsou ostatní"
+msgstr "Podívejte se, jak jsou ostatní členové"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr "komunita openSUSE"
+msgstr "komunity openSUSE"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -370,9 +372,9 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
-"členové rozmístěni po světě, poznejte některé osoby z openSUSE, najděte "
-"místní skupiny openSUSE, oslavte vydání nových verzí, poznejte ovládací "
-"strukturu a další entity. Sledujte"
+"rozmístěni po světě, poznejte některé osoby z openSUSE, najděte místní "
+"skupiny openSUSE, oslavte vydání nových verzí, poznejte ovládací strukturu a "
+"další entity. Sledujte"
 
 #: qrc/main.qml:260
 msgctxt "main|"
@@ -382,12 +384,12 @@ msgstr "novinky openSUSE"
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr "je na našem webu novinek a zjistěte, na čem naši vývojáři pracují, na"
+msgstr "na našem webu novinek a zjistěte, na čem naši vývojáři pracují na"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr "Planet openSUSE"
+msgstr "planetě openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
@@ -397,7 +399,7 @@ msgstr "Pomozte nám vydat další verzi openSUSE"
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr "Pro každou verzi je tam"
+msgstr "Pro každou verzi je tam k dispozici"
 
 #: qrc/main.qml:271
 msgctxt "main|"
@@ -411,13 +413,13 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
-"k dispozici. Některé jsou složité, jiné snadné i pro začátečníky. Projděte "
-"si témata a řekněte někomu v openSUSE, když najdete přiměřený úkol."
+". Některé jsou složité, jiné snadné i pro začátečníky. Projděte si témata a "
+"řekněte někomu v openSUSE, když najdete přiměřený úkol."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr "Prodiskutujte openSUSE a pomozte ostatním uživatelům"
+msgstr "Diskutujte o openSUSE a pomozte ostatním uživatelům"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -427,8 +429,8 @@ msgid ""
 "channels and forums. Please have a look at the"
 msgstr ""
 "Existuje několik aktivních komunit, kde můžete diskutovat o tom, co se děje "
-"v openSUSE a pomoci ostatním uživatelům openSUSE. Máme seznamy adres, IRC "
-"kanály a fóra. Podívejte se prosím na"
+"v openSUSE a pomoci ostatním uživatelům openSUSE. Máme e-mailové konference, "
+"IRC kanály a fóra. Podívejte se prosím na"
 
 #: qrc/main.qml:280
 msgctxt "main|"
@@ -443,7 +445,7 @@ msgstr ", kde je přehled."
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr "Navrhněte nové vlastnosti a software"
+msgstr "Navrhněte nové funkce a software"
 
 #: qrc/main.qml:287
 msgctxt "main|"
@@ -466,8 +468,8 @@ msgid ""
 msgstr ""
 "náš systém správy funkcí a požadavků. Zde můžete získat seřazený přehled "
 "věcí, které se dějí v připravovaných produktech, sledovat a účastnit se "
-"diskuse přidáním komentářů nebo prací na funkcích pro příští generaci "
-"(verzi) produktů a pomoci zlepšit distribuci Linuxu - openSUSE."
+"diskuse přidáním komentářů nebo prací na funkcích pro příští generaci (verzi)"
+" produktů a pomoci zlepšit linuxovou distribuci openSUSE."
 
 #: qrc/main.qml:294
 msgctxt "main|"
@@ -488,7 +490,7 @@ msgstr ""
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr "služba verzí"
+msgstr "sestavovací službu"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -525,12 +527,14 @@ msgctxt "main|"
 msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
-msgstr "Přejete-li si používat proprietární ovladače zařízení Nvidia, čtěte"
+msgstr ""
+"Přejete-li si používat proprietární ovladače zařízení Nvidia, přečtěte si "
+"tento"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr "článek wiki"
+msgstr "wiki článek"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -546,7 +550,7 @@ msgstr ""
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr "Na svém webu nabízí Google RPM Chromu."
+msgstr "Google na svém webu nabízí RPM balíček Chromu."
 
 #: qrc/main.qml:327
 msgctxt "main|"
