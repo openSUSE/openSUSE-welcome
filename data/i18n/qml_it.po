@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-24 00:40+0000\n"
+"PO-Revision-Date: 2020-09-09 19:08+0000\n"
 "Last-Translator: Paolo Za <zapaolo@email.it>\n"
 "Language-Team: Italian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/it/>\n"
@@ -383,7 +383,7 @@ msgstr ""
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr "openSUSE news"
+msgstr "Notizie su openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
