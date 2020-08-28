@@ -196,22 +196,22 @@ msgstr "יש ללחוץ על התמונות כדי להחיל ערכות נוש�
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko Light"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko Dark"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita Light"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita Dark"
 
 #: qrc/main.qml:197
 msgctxt "main|"
@@ -240,7 +240,7 @@ msgstr ""
 #: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: qrc/main.qml:208
 msgctxt "main|"
@@ -328,7 +328,7 @@ msgstr ""
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "חבר פעיל"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -346,7 +346,7 @@ msgstr "להיות חלק מקהילת openSUSE"
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "לראות היכן"
 
 #: qrc/main.qml:256
 msgctxt "main|"
@@ -360,6 +360,9 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"חברים אחרים נמצאים ברחבי העולם, להכיר כמה אנשים מ־openSUSE, למצוא קבוצות "
+"משתמשים מקומיות של openSUSE, לחגוג בשחרורי גרסה, ללמוד על מבנה הממשל ועוד. "
+"לעקוב"
 
 #: qrc/main.qml:260
 msgctxt "main|"
@@ -369,7 +372,7 @@ msgstr "חדשות openSUSE"
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "באתר החדשות שלנו ולראות מה המפתחים שלנו מתכננים"
 
 #: qrc/main.qml:264
 msgctxt "main|"
@@ -489,6 +492,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"ישנם מנהלי התקנים קניינים מסוימים (כגון Nvidia) וחבילות (כגון Google Chrome) "
+"ש־openSUSE אינה יכולה לכלול כברירת המחדל."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -496,6 +501,7 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"אם יש לך התקן Nvidia ורצון להשתמש במנהלי ההתקנים הקנייניים, נא לקרוא את זה"
 
 #: qrc/main.qml:320
 msgctxt "main|"
@@ -509,6 +515,9 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"להתקנת Google Chrome, ניתן פשוט להוריד אותו ישירות מ־Google. Google מספקת "
+"מאגר שייווסף אל המערכת שלך בהתקנת Google Chrome. זה יאפשר לעדכן את Google "
+"Chrome לצד המערכת שלך."
 
 #: qrc/main.qml:324
 msgctxt "main|"
@@ -522,6 +531,8 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"כמה מקודדים להפעלת מדיה לא נכללים ב־openSUSE בכלל סיבות רישיון. בכל מקרה, "
+"ישנם מאגרים זמינים שניתן לקרוא עליהם"
 
 #: qrc/main.qml:329
 msgctxt "main|"
