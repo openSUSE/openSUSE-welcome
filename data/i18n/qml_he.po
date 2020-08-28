@@ -37,7 +37,7 @@ msgstr "תמיכה"
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "קראו אותי"
 
 #: qrc/main.qml:139
 msgctxt "main|"
@@ -126,11 +126,14 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"אם זוהי הפעם שבה הנך משתמש/ת שלך ב־operSUSE, ברצוננו שתרגיש/י כמו בבית "
+"בהפלגה החדשה שלך. נא לקחת את הזמן להתאים את עצמך עם כל הכפתורים וליידע אותנו "
+"בחוויה שלך ב"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr "מדיה חברתית"
+msgstr "מדיה החברתית שלנו"
 
 #: qrc/main.qml:167
 msgctxt "main|"
@@ -163,22 +166,22 @@ msgstr ""
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
@@ -231,6 +234,8 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"אמצעי המדיה החברתית הנפוצים ביותר כבר נמצאים בתחתית, אך כנראה שכמה מהם יהיו "
+"שימושיים בשבילך, לפי האלף־בית:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
@@ -369,7 +374,7 @@ msgstr ""
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planet openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
@@ -508,7 +513,7 @@ msgstr ""
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google מציעה את קובץ RPM של Google Chrome באתר שלה."
 
 #: qrc/main.qml:327
 msgctxt "main|"
