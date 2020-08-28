@@ -374,17 +374,17 @@ msgstr ""
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "לעזור לנו בשחרור הגרסה הבאה של openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "לכל גרסה יש"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "סט של משימות"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -425,12 +425,12 @@ msgstr "הצעת תכונות חדשות או תכנה"
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "ביקור"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -526,12 +526,12 @@ msgstr "כאן"
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "מאגרים קהילתיים"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "באתר"
 
 #: qrc/main.qml:338
 msgctxt "main|"
