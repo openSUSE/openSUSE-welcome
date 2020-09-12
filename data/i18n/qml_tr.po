@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-26 14:40+0000\n"
-"Last-Translator: Mert Gör <mertgor@masscollabs.com>\n"
+"PO-Revision-Date: 2020-09-12 15:47+0000\n"
+"Last-Translator: Muhammet Kara <muhammet.kara@collabora.com>\n"
 "Language-Team: Turkish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/tr/>\n"
 "Language: tr\n"
@@ -16,12 +16,12 @@ msgstr ""
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr "Hoşgeldiniz"
+msgstr "Hoş geldiniz"
 
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr "Hey, bu openSUSE"
+msgstr "Merhaba, karşınızda openSUSE"
 
 #: qrc/main.qml:134
 msgctxt "main|"
