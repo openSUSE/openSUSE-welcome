@@ -9,11 +9,11 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Project-Id-Version: \n"
 "POT-Creation-Date: 08.26.2020\n"
-"PO-Revision-Date: 2020-10-05 01:48+0300\n"
+"PO-Revision-Date: 2020-10-05 17:26+0300\n"
 "Last-Translator: Omer I.S. <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <kde-i18n-doc@kde.org>\n"
 "Language: he\n"
-"X-Generator: Lokalize 20.08.1\n"
+"X-Generator: Poedit 2.4.1\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
@@ -318,6 +318,11 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"בין אם הנך מפתח/ת מנוסה בלינוקס או משתמש/ת קצה שרק התחיל/ה לעבוד עם לינוקס, "
+"ישנן דרכים רבות עבורך להשתתף בפרויקט openSUSE. ניתן להצטרף לפורום כדי לקבל "
+"עזרה או לעזור לאחרים עם openSUSE, למצוא ולדווח על באגים, לקחת חלק בתהליך "
+"השחרור, לעיין בתיעוד, לשלוח את רשימת המשאלות שלך לחבילות ותכונות חדשות, "
+"ליצור ולהגיש טלאים או למצוא דרכים יצירתיות אחרות לתרום."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -339,6 +344,9 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"בקהילת openSUSE. יש צורך בהתחברות בכול הפעילויות כמעט כדי ליהנות מכול הכיף. "
+"ייתכן שיהיה ברצונך ליצור עמוד משתמש ולשתף קצת מידע שימושי או התעניינות לגבי "
+"עצמך עם אחרים."
 
 #: qrc/main.qml:252
 msgctxt "main|"
@@ -389,7 +397,7 @@ msgstr "לעזור לנו בשחרור הגרסה הבאה של openSUSE"
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr "לכל גרסה יש"
+msgstr "בכול גרסה יש"
 
 #: qrc/main.qml:271
 msgctxt "main|"
@@ -403,6 +411,8 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"לביצוע. חלקן מסובכות, חלקם קלות לביצוע, אפילו למתחילים. נא לבדוק את הבעיות "
+"ולספר למישהו מ־openSUSE אם מצאת משימה נאותה."
 
 #: qrc/main.qml:276
 msgctxt "main|"
@@ -416,11 +426,13 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"ישנן מספר קהילות פעילות בהן ניתן לדון על המתרחש ב־openSUSE ולעזור למשתמשים "
+"אחרים ב־openSUSE. יש לנו רשימות תפוצה, ערוצי IRC ופורומים. נא להסתכל ב"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr "ערוצי תקשורת"
+msgstr "ערוצי התקשורת"
 
 #: qrc/main.qml:282
 msgctxt "main|"
