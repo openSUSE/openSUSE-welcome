@@ -1,22 +1,27 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2020-10-18 03:49+0000\n"
+"Last-Translator: OUBOUALI Hakim <Hakim.oubouali.skr@gmail.com>\n"
+"Language-Team: Central Atlas Tamazight <https://l10n.opensuse.org/projects/"
+"opensuse-welcome/master/tzm/>\n"
 "Language: tzm\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n >= 2 && (n < 11 || n > 99);\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "Berrek"
 
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr ""
+msgstr "Aha, wa d openSUSE"
 
 #: qrc/main.qml:134
 msgctxt "main|"
@@ -26,12 +31,12 @@ msgstr ""
 #: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "Tiwisi"
 
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Γer-i"
 
 #: qrc/main.qml:139
 msgctxt "main|"
@@ -41,67 +46,67 @@ msgstr ""
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Iɣawasen"
 
 #: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Sers openSUSE"
 
 #: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "Tiwisi n GNOME"
 
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Tiwisi n Plasma"
 
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Tiwisi n Xfce"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "Tiwisi n MATE"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Tiwisi n Enlightenment"
 
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "Γef Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "Γef Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "Tiwisi n LXDE"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "Tiwisi n LXQt"
 
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "Γef Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Tiwisi n Deepin"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
@@ -234,7 +239,7 @@ msgstr ""
 #: qrc/main.qml:208
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebuk"
 
 #: qrc/main.qml:209
 msgctxt "main|"
@@ -244,17 +249,17 @@ msgstr ""
 #: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Tiligṛam"
 
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Tarabbut n Facebook"
 
 #: qrc/main.qml:215
 msgctxt "main|"
@@ -269,7 +274,7 @@ msgstr ""
 #: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Asenfaṛ"
 
 #: qrc/main.qml:220
 msgctxt "main|"
@@ -279,7 +284,7 @@ msgstr ""
 #: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Amsawal"
 
 #: qrc/main.qml:224
 msgctxt "main|"
