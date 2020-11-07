@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-02 01:54+0000\n"
+"PO-Revision-Date: 2020-11-07 02:50+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/ja/>\n"
@@ -526,8 +526,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
-"非オープンソースドライバ (例: Nvidia) やパッケージ (Google Chrome) について"
-"は、ライセンス上の矛盾が発生することから、 openSUSE には同梱されていません。"
+"非オープンソースの (プロプライエタリな) ドライバ (例: Nvidia) やパッケージ (Google Chrome) "
+"については、ライセンス上の矛盾が発生することから、 openSUSE には同梱されていません。"
 
 #: qrc/main.qml:318
 msgctxt "main|"
