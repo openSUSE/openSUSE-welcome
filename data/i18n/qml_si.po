@@ -1,17 +1,22 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2021-03-07 14:23+0000\n"
+"Last-Translator: Hela Basa <R45XvezA@pm.me>\n"
+"Language-Team: Sinhala <https://l10n.opensuse.org/projects/opensuse-welcome/"
+"master/si/>\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "සාදරයෙන් පිළිගනිමු"
 
 #: qrc/main.qml:131
 msgctxt "main|"
@@ -26,12 +31,12 @@ msgstr ""
 #: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "සහාය"
 
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "මෙය කියවන්න"
 
 #: qrc/main.qml:139
 msgctxt "main|"
@@ -41,7 +46,7 @@ msgstr ""
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "මෘදුකාංග ගන්න"
 
 #: qrc/main.qml:143
 msgctxt "main|"
@@ -56,7 +61,7 @@ msgstr ""
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "ප්ලාස්මා උපකාර"
 
 #: qrc/main.qml:148
 msgctxt "main|"
