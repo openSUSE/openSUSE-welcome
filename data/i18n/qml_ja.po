@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-07 02:50+0000\n"
+"PO-Revision-Date: 2021-05-15 06:58+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/ja/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.6.2\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -21,7 +21,7 @@ msgstr "ようこそ"
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr "ようこそ、こちらは openSUSE です"
+msgstr "openSUSE へようこそ"
 
 #: qrc/main.qml:134
 msgctxt "main|"
