@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-09 19:08+0000\n"
+"PO-Revision-Date: 2021-06-08 16:00+0000\n"
 "Last-Translator: Paolo Za <zapaolo@email.it>\n"
 "Language-Team: Italian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/it/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.6.2\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -499,7 +499,7 @@ msgstr ""
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr "Build Service"
+msgstr "Servizio di compilazione"
 
 #: qrc/main.qml:300
 msgctxt "main|"
