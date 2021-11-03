@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-02 22:12+0000\n"
+"PO-Revision-Date: 2021-11-04 01:14+0000\n"
 "Last-Translator: Taras Panchenko <top39@ukr.net>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/uk/>\n"
@@ -27,7 +27,7 @@ msgstr "Агов, це openSUSE"
 #: qrc/main.qml:134
 msgctxt "main|"
 msgid "Basics"
-msgstr ""
+msgstr "Основи"
 
 #: qrc/main.qml:135
 msgctxt "main|"
@@ -37,7 +37,7 @@ msgstr "Підтримка"
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Варто знати"
 
 #: qrc/main.qml:139
 msgctxt "main|"
@@ -126,11 +126,14 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Якщо ви вперше використовуєте openSUSE, ми хотіли б, щоб ви відчували себе "
+"як вдома у новому подорожі. Знайдіть час, щоб ознайомитися з усіма кнопками "
+"та повідомити нам, чи вам до вподоби цей досвід у наших"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr "соціальні медіа"
+msgstr "соціальних мережах"
 
 #: qrc/main.qml:167
 msgctxt "main|"
@@ -145,7 +148,7 @@ msgstr "Пристосувати"
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Закрити"
 
 #: qrc/main.qml:176
 msgctxt "main|"
@@ -159,6 +162,10 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce пропонує різноманітні варіанти налаштування, включаючи "
+"можливість обрати макет робочого столу, який відповідає вашому робочому "
+"процесу. Ви можете обрати одну з них як відправну точку та налаштувати її "
+"пізніше."
 
 #: qrc/main.qml:179
 msgctxt "main|"
@@ -188,42 +195,42 @@ msgstr "Теми"
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Натисніть на зображення, щоб застосувати теми до програм."
 
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko світла"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko темна"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita світла"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita темна"
 
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr "Соціальні медіа"
+msgstr "Соціальні мережі"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Початок"
 
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr "Соціальні медіа: Як до нас дістатися!"
+msgstr "Соціальні мережі: Як до нас дістатися!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -231,6 +238,8 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"Найпоширеніші соціальні мережі вже перераховані в нижньому колонтитулі, але "
+"ось деякі інші, які можуть виявитися корисними, за алфавітом:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
@@ -280,12 +289,12 @@ msgstr "Проєкт"
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Фабрика"
 
 #: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Чат"
 
 #: qrc/main.qml:224
 msgctxt "main|"
@@ -312,6 +321,14 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Незалежно від того, чи є ви досвідченим розробником Linux чи кінцевим "
+"користувачем, який тільки починає працювати з Linux, у вас є багато шляхів "
+"взяти участь у проекті openSUSE. Приєднуйтесь до форуму, щоб отримати "
+"допомогу чи допомогти іншим із openSUSE, виявляйте та повідомляйте про "
+"помилки, беріть на себе питання щодо процесів випуску, переглядайте "
+"документацію, надсилайте список бажань щодо нових пакетів та функцій, "
+"створюйте та надсилайте виправлення чи знаходьте інші творчі способи робити "
+"свій внесок."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -408,7 +425,7 @@ msgstr ""
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Обговорюйте openSUSE та допомагайте іншим користувачам"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -431,17 +448,17 @@ msgstr ""
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Запропонуйте нові функції або програмне забезпечення"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Відвідайте"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -456,7 +473,7 @@ msgstr ""
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Поширюйте Слово"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -482,12 +499,12 @@ msgstr ""
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Варто знати"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Додаткове ПЗ"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -495,6 +512,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Існують певні власницькі драйвери (наприклад, Nvidia) та пакети (наприклад, "
+"Google Chrome), які openSUSE не може типово включати до свого складу."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -519,7 +538,7 @@ msgstr ""
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "На веб-сайті Google пропонує власну збірку Google Chrome RPM."
 
 #: qrc/main.qml:327
 msgctxt "main|"
