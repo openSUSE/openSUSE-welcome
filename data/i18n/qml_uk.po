@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-04 01:14+0000\n"
+"PO-Revision-Date: 2021-11-04 16:12+0000\n"
 "Last-Translator: Taras Panchenko <top39@ukr.net>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/uk/>\n"
@@ -353,7 +353,7 @@ msgid ""
 msgstr ""
 "спільноти openSUSE. Для більшості заходів потрібен вхід, щоб насолоджуватися "
 "всіма розвагами. Можливо, ви захочете створити сторінку користувача та "
-"поділитися корисною інформацією чи інтересами про вас з іншими."
+"поділитися корисною інформацією про вас чи інтересами з іншими."
 
 #: qrc/main.qml:252
 msgctxt "main|"
@@ -410,7 +410,7 @@ msgstr "Для кожного випуску є"
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr "доступний набір завдань."
+msgstr "доступний набір завдань"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -434,16 +434,19 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Існує кілька активних спільнот, де ви можете обговорити, що відбувається в "
+"openSUSE та допомогти іншим користувачам openSUSE. У нас є списки розсилки, "
+"IRC-канали та форуми. Будь ласка, перегляньте"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "канали зв’язку"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "для огляду."
 
 #: qrc/main.qml:285
 msgctxt "main|"
@@ -469,6 +472,11 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"- нашу систему управління функціями та вимогами. Тут ви зможете отримати "
+"відсортований огляд того, що відбувається в майбутніх продуктах, стежити за "
+"обговоренням та брати участь у дискусії, додаючи коментарі або працювати над "
+"функціями для наступного покоління (версії) продукту, а також допомогти "
+"зробити openSUSE ще кращим дистрибутивом Linux."
 
 #: qrc/main.qml:294
 msgctxt "main|"
@@ -482,11 +490,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Обов’язково поширюйте інформацію про openSUSE та допоможіть іншим також "
+"скористатися цим! openSUSE пропонує чудовий дистрибутив Linux і багато інших "
+"технологій, як-от наш"
 
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "сервіс збирання,"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -495,6 +506,9 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"який може допомогти домашнім користувачам, а також системним адміністраторам "
+"і розробникам виконувати роботу та отримувати задоволення. Блог про openSUSE "
+"- розкажіть друзям чи родині та допоможіть їм встановити!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
@@ -521,11 +535,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Якщо у вас є пристрій Nvidia і ви хочете використовувати власницькі "
+"драйвери, прочитайте цю"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "вікі-статтю"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -534,6 +550,9 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Щоб встановити Google Chrome, просто завантажте його безпосередньо з Google. "
+"Google надає сховище, яке буде додано у вашу систему, коли ви встановите "
+"Google Chrome. Це дозволить оновлювати його разом із вашою системою."
 
 #: qrc/main.qml:324
 msgctxt "main|"
@@ -547,21 +566,24 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Деякі кодеки для відтворення медіафайлів не можуть бути включені в openSUSE "
+"через проблеми з ліцензуванням. Однак є доступні сховища, про які ви можете "
+"прочитати"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "тут"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Сховища спільноти"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "ввімкнено"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -570,3 +592,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", ви можете працювати зі сховищами, наданими спільнотою. Хоча ми вручну не "
+"перевіряємо сховища спільнот, вони створили своє програмне забезпечення на "
+"основі останньої версії openSUSE та повинні працювати."
