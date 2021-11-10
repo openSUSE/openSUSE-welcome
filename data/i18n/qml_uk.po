@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-04 16:12+0000\n"
+"PO-Revision-Date: 2021-11-10 22:12+0000\n"
 "Last-Translator: Taras Panchenko <top39@ukr.net>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/uk/>\n"
@@ -353,7 +353,7 @@ msgid ""
 msgstr ""
 "спільноти openSUSE. Для більшості заходів потрібен вхід, щоб насолоджуватися "
 "всіма розвагами. Можливо, ви захочете створити сторінку користувача та "
-"поділитися корисною інформацією про вас чи інтересами з іншими."
+"поділитися з іншими корисною інформацією про вас чи інтересами."
 
 #: qrc/main.qml:252
 msgctxt "main|"
