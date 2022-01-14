@@ -138,6 +138,7 @@ Window {
         property string readme:                 qsTr("Read me")
         property string documentation:          qsTr("Documentation")
         property string getsoftware:            qsTr("Get Software")
+        property string getcodecs:              qsTr("Get Codecs")
 
         // Install openSUSE button
         property string install:                qsTr("Install openSUSE")
