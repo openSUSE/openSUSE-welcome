@@ -1,5 +1,9 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-02-04 15:12+0000\n"
+"Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
+"Language-Team: Lithuanian <https://l10n.opensuse.org/projects/"
+"opensuse-welcome/master/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -7,113 +11,114 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
+"X-Generator: Weblate 4.9.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "Pasisveikinimas"
 
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr ""
+msgstr "Sveiki, čia openSUSE"
 
 #: qrc/main.qml:134
 msgctxt "main|"
 msgid "Basics"
-msgstr ""
+msgstr "Pagrindai"
 
 #: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "Palaikymas"
 
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Perskaityk dabar"
 
 #: qrc/main.qml:139
 msgctxt "main|"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentacija"
 
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Programų paieška"
 
 #: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Diegti openSUSE"
 
 #: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "GNOME pagalba"
 
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Plasma pagalba"
 
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Xfce pagalba"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "MATE pagalba"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Enlightenment pagalba"
 
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "Apie Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "Apie Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "LXDE pagalba"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "LXQt pagalba"
 
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "Apie Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Deepin pagalba"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Įsitraukite"
 
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Kurkite openSUSE"
 
 #: qrc/main.qml:163
 msgctxt "main|"
@@ -122,31 +127,34 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Jei openSUSE naudojate pirmą kartą, norėtumėme, kad šioje naujoje kelionėje "
+"jaustumėtės kaip namuose. Skirkite laiko susipažinti – pabandykite nuspausti "
+"kiekvieną mygtuką ir po to pasidalinkite savo patirtimi per mūsų"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "socialinius tinklus"
 
 #: qrc/main.qml:167
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Rodyti kitą kartą paleidus iš naujo"
 
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Derinti"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Užverti"
 
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Darbalaukio išdėstymai"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -179,12 +187,13 @@ msgstr ""
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Apipavidalinimai"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
 msgstr ""
+"Norėdami pritaikyti programų apipavidalinimus – spragtelėkite paveiksliukus."
 
 #: qrc/main.qml:187
 msgctxt "main|"
@@ -209,17 +218,17 @@ msgstr ""
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Socialiniai tinklai"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Pradžia"
 
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Socialiniai tinklai: pasiekite mus!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -227,76 +236,78 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"Dažniausiai naudojami socialiniai tinklai jau išdėstyti puslapio apačioje, o "
+"čia pateikiame jų daugiau abėcėlės tvarka:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: qrc/main.qml:208
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Diskusijos"
 
 #: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Telegram"
 
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Facebook grupė"
 
 #: qrc/main.qml:215
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "openSUSE diskusijos"
 
 #: qrc/main.qml:218
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Techninis palaikymas"
 
 #: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Projektas"
 
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Gamykla"
 
 #: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Susirašinėjimas"
 
 #: qrc/main.qml:224
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "openSUSE grupė"
 
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "openSUSE naujienos"
 
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Įsitraukite į openSUSE. Prisidėkite!"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -332,7 +343,7 @@ msgstr ""
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Tapkite openSUSE bendruomenės dalimi"
 
 #: qrc/main.qml:254
 msgctxt "main|"
@@ -370,7 +381,7 @@ msgstr ""
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Padėkite išleisti kitą openSUSE versiją"
 
 #: qrc/main.qml:269
 msgctxt "main|"
@@ -393,7 +404,7 @@ msgstr ""
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Aptarkite openSUSE ir padėkite kitiems naudotojams"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -416,7 +427,7 @@ msgstr ""
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Siūlykite naujoves ir programinę įrangą"
 
 #: qrc/main.qml:287
 msgctxt "main|"
@@ -441,7 +452,7 @@ msgstr ""
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Skleiskite žinią po pasaulį"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -472,7 +483,7 @@ msgstr ""
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Papildoma programinė įranga"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -522,7 +533,7 @@ msgstr ""
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Bendruomenės saugyklos"
 
 #: qrc/main.qml:335
 msgctxt "main|"
