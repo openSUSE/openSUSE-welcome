@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-04 15:12+0000\n"
+"PO-Revision-Date: 2022-02-04 20:11+0000\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/lt/>\n"
@@ -163,6 +163,9 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce siūlo įvairiausias prisiderinimo parinktis, įskaitant "
+"darbalaukio išdėstymus jūsų poreikiams. Galite pasirinkti vieną iš jų kaip "
+"pradinį rinkinį ir po to jį derinti."
 
 #: qrc/main.qml:179
 msgctxt "main|"
@@ -198,22 +201,22 @@ msgstr ""
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "„Greybird Geeko“ šviesus"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "„Greybird Geeko“ tamsus"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "„Adwaita“ šviesus"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "„Adwaita“ tamsus"
 
 #: qrc/main.qml:197
 msgctxt "main|"
@@ -307,7 +310,7 @@ msgstr "openSUSE naujienos"
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr "Įsitraukite į openSUSE. Prisidėkite!"
+msgstr "Įsitraukite į openSUSE. Prisidėkite"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -319,6 +322,13 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Jūs galite įsitraukti į openSUSE projektą įvairiausiais būdais tiek jei "
+"esate patyręs Linux programuotojas, tiek jei esate tik pradedantis Linux "
+"naudotojas. Ieškokite pagalbos arba patys padėti kitiems openSUSE "
+"naudotojams prisijungę prie diskusijų forumo, ieškokite klaidų ir praneškite "
+"apie jas, padėkite ruošiant naujas sistemos versijas, peržiūrėkite "
+"dokumentaciją, siųskite naujų paketų ir funkcijų pasiūlymus, renkite ir "
+"siųskite pataisas, ieškokite kitų kūrybiškų būdų prisidėti."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -326,11 +336,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Kad ir ką darytumėte, skirkite kelias minutes openSUSE aptarimui su kitais "
+"naudotojais ir tapkite"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "aktyviu openSUSE bendruomenės nariu"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -339,6 +351,9 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+". Daugumai veiklų reikalinga paskyra tam, kad galėtumėte tikrai smagiai "
+"įsitraukti. Galite susikurti naudotojo puslapį ir pasidalinti naudinga "
+"informacija arba savo pomėgiais su kitais."
 
 #: qrc/main.qml:252
 msgctxt "main|"
@@ -478,7 +493,7 @@ msgstr ""
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Perskaityk dabar"
 
 #: qrc/main.qml:314
 msgctxt "main|"
@@ -491,6 +506,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Tam tikrų nuosavybinių tvarkyklių (pvz., Nvidia) ir paketų (pvz., Google "
+"Chrome) negalime įtraukti į openSUSE iš anksto."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -498,11 +515,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Jei turite Nvidia vaizdo plokštę ir norite naudoti nuosavybines tvarkykles, "
+"tuomet skaitykite"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "šį viki straipsnį"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -511,11 +530,14 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Jei norėtumėte įsidiegti Google Chrome, tiesiog parsisiųskite šią naršyklę "
+"tiesiai iš Google. Įdiegus Google Chrome, į jūsų sistemą bus įtraukta Google "
+"saugykla. Tai leis atnaujinti naršyklę vėliau kartu su sistema."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google siūlo Google Chrome RPM paketus savo svetainėje."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -524,11 +546,14 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Kai kurios muzikos ir filmų kodavimo priemonės negali būti įtrauktos į "
+"openSUSE dėl licencijos ribojimų. Tačiau juos rasite saugyklose, apie kurias "
+"skaitykite"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "čia"
 
 #: qrc/main.qml:332
 msgctxt "main|"
@@ -538,7 +563,7 @@ msgstr "Bendruomenės saugyklos"
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "Mūsų"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -547,3 +572,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+"svetainėje galite rasti bendruomenės pateiktas saugyklas. Nors mes rankiniu "
+"būdu netikriname bendruomenės saugyklų, jose galite rasti programinę įrangą "
+"naujausioms openSUSE versijoms ir ji turėtų tiesiog veikti."
