@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-04 20:11+0000\n"
+"PO-Revision-Date: 2022-02-05 20:11+0000\n"
 "Last-Translator: Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/lt/>\n"
@@ -170,22 +170,22 @@ msgstr ""
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
@@ -363,12 +363,12 @@ msgstr "Tapkite openSUSE bendruomenės dalimi"
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Žvilgtelėkite, kur pasaulyje randasi"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "openSUSE bendruomenės"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -377,21 +377,24 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"nariai, susipažinkite su kai kuriais openSUSE žmonėmis, susiraskite vietines "
+"openSUSE naudotojų grupes, švęskite naujų versijų pasirodymus, pažinkite "
+"struktūros valdymą ir kt. Sekite"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "openSUSE naujienas"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "mūsų svetainėje ir pažiūrėkite, ką mūsų programuotojai nuveikė"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "openSUSE planetoje"
 
 #: qrc/main.qml:267
 msgctxt "main|"
@@ -401,12 +404,12 @@ msgstr "Padėkite išleisti kitą openSUSE versiją"
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Prieš kiekvieną openSUSE laidą būna"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "daug įvairiausių užduočių"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -415,6 +418,9 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+". Kai kurios iš jų būna sudėtingos, bet kai kurios lengvai įgyvendinamos "
+"netgi pradedantiesiems. Peržiūrėkite užduotis ir praneškite kam nors iš "
+"openSUSE, jei radote sau tinkamą."
 
 #: qrc/main.qml:276
 msgctxt "main|"
@@ -428,16 +434,20 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Viską, kas vyksta openSUSE projekte, galite aptarti aktyviose bendruomenėse. "
+"Jose taip pat galite suteikti pagalbą kitiems openSUSE naudotojams. Tam "
+"turime el. pašto susirašinėjimo grupes, tikralaikių pokalbių internetu ("
+"angl. IRC) kanalus ir forumus. Apžvelkite"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "komunikacijos kanalus"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "."
 
 #: qrc/main.qml:285
 msgctxt "main|"
@@ -447,12 +457,12 @@ msgstr "Siūlykite naujoves ir programinę įrangą"
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Aplankite"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -463,6 +473,11 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"– mūsų funkcijų, poreikių tvarkymo bei pranešimo apie klaidas sistemą. Čia "
+"galite matyti, kas vyksta planuojamuose produktuose, sekti bei dalyvauti "
+"diskusijose komentuodami arba dirbti ties funkcijų įgyvendinimu būsimai "
+"produktų kartai (versijai) ir taip prisidėti, kad openSUSE taptų dar "
+"geresniu Linux platinamuoju paketu."
 
 #: qrc/main.qml:294
 msgctxt "main|"
@@ -476,11 +491,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Būtinai skelbkite žinią pasauliui apie openSUSE ir padėkite kitiems iš tuo "
+"naudotis! Juk openSUSE siūlo puikų Linux platinamąjį paketą ir kitas "
+"technologijas, pvz.,"
 
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "Kūrimo paslaugą (Build Service)"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -489,6 +507,9 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+", kuri gali padėti tiek namų naudotojams, tiek sistemų administratoriams ir "
+"programuotojams dirbti ir mėgautis. Rašykite tinklaraščius apie openSUSE, "
+"kalbėkite savo draugams ir šeimai, padėkite jiems įsidiegti!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
