@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-02 19:51+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2022-03-04 21:12+0000\n"
+"Last-Translator: Fredrik Persson <fpersson.se@gmail.com>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sv/>\n"
 "Language: sv\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.9.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -86,7 +86,7 @@ msgstr "Om Budgie"
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr "About Lumina"
+msgstr "Om Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
@@ -191,7 +191,7 @@ msgstr "Tema"
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Klicka på bilden för att använda program tema."
 
 #: qrc/main.qml:187
 msgctxt "main|"
@@ -285,7 +285,7 @@ msgstr "Projekt"
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr "Factory"
+msgstr "Fabrik"
 
 #: qrc/main.qml:221
 msgctxt "main|"
@@ -305,7 +305,7 @@ msgstr "openSUSE Nyheter"
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Bidrag. Var med i openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -324,6 +324,8 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Vad du än gör, ägna några minuter åt att diskutera openSUSE med andra "
+"användare och bli en"
 
 #: qrc/main.qml:247
 msgctxt "main|"
@@ -337,21 +339,24 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"från openSUSE-gemenskapen. För de flesta aktiviteter krävs en inloggning för "
+"att kunna njuta av allt det roliga. Du kanske vill skapa en användarsida och "
+"dela användbar information eller intressen om dig med andra."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Bli en del av openSUSE Community"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Se var andra är"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "openSUSE gemenskap"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -360,6 +365,9 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"medlemmar finns över hela världen, lär känna några personer i openSUSE, "
+"hitta lokala openSUSE-användargrupper, fira releaser, lära känna "
+"styrningsstrukturen och mer. Följ"
 
 #: qrc/main.qml:260
 msgctxt "main|"
@@ -369,27 +377,27 @@ msgstr "openSUSE nyheter"
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "på vår nyhetssajt och se vad våra utvecklare håller på med"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planet openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Hjälp oss att släppa nästa version av openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "För varje release finns det en"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "uppsättning uppgifter"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -398,6 +406,9 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"tillgängliga. Vissa är komplicerade, vissa är lätta att uppnå, även för "
+"nybörjare. Titta igenom problemen och berätta för någon från openSUSE om du "
+"hittat en lämplig uppgift."
 
 #: qrc/main.qml:276
 msgctxt "main|"
@@ -411,6 +422,9 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Det finns flera aktiva gemenskaper där du kan diskutera vad som händer i "
+"openSUSE och hjälpa andra openSUSE-användare. Vi har e-postlistor, IRC-"
+"kanaler och forum. Ta gärna en titt på"
 
 #: qrc/main.qml:280
 msgctxt "main|"
@@ -420,7 +434,7 @@ msgstr "kommunikations kanaler"
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "för en översikt."
 
 #: qrc/main.qml:285
 msgctxt "main|"
@@ -450,7 +464,7 @@ msgstr ""
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Sprid ordet"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -459,11 +473,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Se till att sprida ordet om openSUSE och hjälp andra att dra nytta av det "
+"också! openSUSE erbjuder en fantastisk Linux-distribution och många andra "
+"teknologier som vår"
 
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "byggtjänst"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -472,11 +489,14 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"som kan hjälpa hemanvändare såväl som systemadministratörer och utvecklare "
+"att få jobbet gjort och ha kul. Blogga om openSUSE, berätta för dina vänner "
+"och familj och hjälp dem att installera det!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Läs mig"
 
 #: qrc/main.qml:314
 msgctxt "main|"
@@ -489,6 +509,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Det finns vissa proprietära drivrutiner (som Nvidia) och paket (som Google "
+"Chrome) som openSUSE inte kan inkludera som standard."
 
 #: qrc/main.qml:318
 msgctxt "main|"
