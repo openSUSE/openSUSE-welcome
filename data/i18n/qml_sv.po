@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-04 21:12+0000\n"
-"Last-Translator: Fredrik Persson <fpersson.se@gmail.com>\n"
+"PO-Revision-Date: 2022-05-31 17:12+0000\n"
+"Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sv/>\n"
 "Language: sv\n"
@@ -518,6 +518,8 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Om du har ett Nvidia grafikkort och vill använda de proprietära "
+"drivrutinerna, läs detta"
 
 #: qrc/main.qml:320
 msgctxt "main|"
@@ -531,11 +533,15 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"För att installera Google Chrome laddar du bara ner det direkt från Google. "
+"Google tillhandahåller ett arkiv som läggs till i ditt system när du "
+"installerar Google Chrome. Detta gör att det kan uppdateras tillsammans med "
+"ditt system."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google erbjuder Google Chromes RPM på sin webbplats."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -553,7 +559,7 @@ msgstr "här"
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Gemenskapsförråd"
 
 #: qrc/main.qml:335
 msgctxt "main|"
