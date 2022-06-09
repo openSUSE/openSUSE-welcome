@@ -45,5 +45,5 @@ title: {{socialTrans.socialMedia}}
 
 ### {{socialTrans.smTelegram}}
 
-{% include link onclick="bridge.openURL('https://t.me/openSUSE_group')" text="{{socialTrans.smTelegramOpenSuseGroup}}" class="btn btn-telegram" %}
+{% include link onclick="bridge.openURL('https://t.me/openSUSE')" text="{{socialTrans.smTelegramOpenSuseGroup}}" class="btn btn-telegram" %}
 {% include link onclick="bridge.openURL('https://t.me/opensusenews')" text="{{socialTrans.smTelegramOpenSuseNews}}" class="btn btn-telegram" %}
