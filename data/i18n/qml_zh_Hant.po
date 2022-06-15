@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-14 09:12+0000\n"
+"PO-Revision-Date: 2022-06-15 06:12+0000\n"
 "Last-Translator: Charlie Chan <cycharlie@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/zh_Hant/>\n"
@@ -66,47 +66,47 @@ msgstr "Plasma 使用說明"
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Xfce 使用說明"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "MATE 使用說明"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Enlightenment 使用說明"
 
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "關於 Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "關於 Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "LXDE 使用說明"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "LXQt 使用說明"
 
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "關於 Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Deepin 使用說明"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
@@ -217,7 +217,7 @@ msgstr "社交媒體"
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "主頁"
 
 #: qrc/main.qml:201
 msgctxt "main|"
@@ -244,7 +244,7 @@ msgstr ""
 #: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "論壇"
 
 #: qrc/main.qml:210
 msgctxt "main|"
@@ -294,7 +294,7 @@ msgstr ""
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "openSUSE 新聞"
 
 #: qrc/main.qml:239
 msgctxt "main|"
