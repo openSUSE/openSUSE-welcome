@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-31 17:12+0000\n"
+"PO-Revision-Date: 2022-08-04 13:13+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sv/>\n"
@@ -124,7 +124,10 @@ msgid ""
 "If this is your first time using openSUSE, we would like you to feel right "
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
-msgstr "Om detta är första gången du använder openSUSE, s"
+msgstr ""
+"Om detta är första gången du använder openSUSE vill vi att du ska känna dig "
+"som hemma på din nya resa. Ta dig tid att bekanta dig med alla knappar och "
+"låt oss veta hur du gillar upplevelsen på vår"
 
 #: qrc/main.qml:164
 msgctxt "main|"
@@ -216,7 +219,7 @@ msgstr "Adwaita Mörk"
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr "Sociala media"
+msgstr "Sociala medier"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
@@ -226,7 +229,7 @@ msgstr "Hem"
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr "Sociala media: Hur du når oss!"
+msgstr "Sociala medier: Hur du når oss!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
