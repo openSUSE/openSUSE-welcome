@@ -343,7 +343,7 @@ Window {
     WebEngineView {
         id: webView
         anchors.fill: parent
-        url: "web/home.html"
+        url: "aqrc:///web/home.html"
         webChannel: bridge
         property var request;
         onLoadingChanged: {

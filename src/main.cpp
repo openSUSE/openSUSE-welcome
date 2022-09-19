@@ -19,6 +19,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QtWebEngine/QtWebEngine>
+#include <QtWebEngine/QQuickWebEngineProfile>
 #include <QTranslator>
 #include <QLocale>
 #include <QDir>
@@ -27,11 +28,64 @@
 #include "enabler.h"
 #include "panellayouter.h"
 
+/// a workaround since QMimeDatabase detects .html as "application/x-extension-html" (chromium doesn't like this)
+/// instead of "text/html" as it used to.
+///
+/// cf QTBUG-106688.
+class WorkaroundSchemeHandler : public QWebEngineUrlSchemeHandler
+{
+public:
+    WorkaroundSchemeHandler(QObject *parent = nullptr) : QWebEngineUrlSchemeHandler(parent)
+    {
+    }
+    void requestStarted(QWebEngineUrlRequestJob *job) override
+    {
+        QByteArray requestMethod = job->requestMethod();
+        if (requestMethod != "GET") {
+            job->fail(QWebEngineUrlRequestJob::RequestDenied);
+            return;
+        }
+
+        QUrl requestUrl = job->requestUrl();
+        QString requestPath = requestUrl.path();
+        QScopedPointer<QFile> file(new QFile(':' + requestPath, job));
+        if (!file->exists() || file->size() == 0) {
+            job->fail(QWebEngineUrlRequestJob::UrlNotFound);
+            return;
+        }
+        QFileInfo fileInfo(*file);
+        QMimeDatabase mimeDatabase;
+        QMimeType mimeType = mimeDatabase.mimeTypeForFile(fileInfo);
+        if (mimeType.name() == "application/x-extension-html") {
+            mimeType = mimeDatabase.mimeTypeForName("text/html");
+        }
+        job->reply(mimeType.name().toUtf8(), file.take());
+    }
+};
+
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
+    QWebEngineUrlScheme qrcScheme(QByteArrayLiteral("qrc"));
+    qrcScheme.setFlags(QWebEngineUrlScheme::SecureScheme
+                    | QWebEngineUrlScheme::LocalAccessAllowed
+                    | QWebEngineUrlScheme::CorsEnabled
+                    | QWebEngineUrlScheme::ViewSourceAllowed);
+    QWebEngineUrlScheme::registerScheme(qrcScheme);
+    QWebEngineUrlScheme aqrcScheme(QByteArrayLiteral("aqrc"));
+    aqrcScheme.setFlags(QWebEngineUrlScheme::SecureScheme
+                    | QWebEngineUrlScheme::LocalAccessAllowed
+                    | QWebEngineUrlScheme::CorsEnabled
+                    | QWebEngineUrlScheme::ViewSourceAllowed);
+    QWebEngineUrlScheme::registerScheme(qrcScheme);
+    QWebEngineUrlScheme::registerScheme(aqrcScheme);
+
+    QtWebEngine::initialize();
     QGuiApplication app(argc, argv);
+
+    WorkaroundSchemeHandler *handler = new WorkaroundSchemeHandler(&app);
+    QQuickWebEngineProfile::defaultProfile()->installUrlSchemeHandler("aqrc", handler);
 
     app.setDesktopFileName("org.opensuse.opensuse_welcome.desktop");
     app.setOrganizationName("openSUSE");
@@ -43,7 +97,6 @@ int main(int argc, char *argv[])
     qmlRegisterType<Enabler>("org.openSUSE.Welcome", 1, 0, "Enabler");
     qmlRegisterType<PanelLayouter>("org.openSUSE.Welcome", 1, 0, "XfceLayouter");
 
-    qDebug() << QLocale::system().name();
     QTranslator qtTranslator;
     qtTranslator.load("qt_" + QLocale::system().name(),
                       QLibraryInfo::location(QLibraryInfo::TranslationsPath));
@@ -63,6 +116,5 @@ int main(int argc, char *argv[])
     if (engine.rootObjects().isEmpty())
         return -1;
 
-    QtWebEngine::initialize();
     return app.exec();
 }
