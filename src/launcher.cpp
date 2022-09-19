@@ -31,6 +31,9 @@ QString Launcher::currentDE()
 {
     QByteArray bytes = qgetenv("XDG_CURRENT_DESKTOP");
     QString output = QString::fromLocal8Bit(bytes);
+    if (bytes == "KDE") {
+        return "Plasma";
+    }
     return output;
 }
 Launcher::~Launcher() {
