@@ -91,6 +91,15 @@ body {
 #live.active {
     display: initial;
 }
+#plasma-welcome {
+    display: none;
+}
+#plasma-welcome.showing {
+    display: initial;
+}
+#close.hidden {
+    display: none;
+}
 a.news-link:not([href]):not([tabindex]) {
     color: #00a489;
 }

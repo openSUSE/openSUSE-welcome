@@ -16,12 +16,19 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+#include <QCoreApplication>
 #include "launcher.h"
 
 Launcher::Launcher(QObject *parent) :
     QObject(parent),
     m_process(new QProcess(this))
 {
+    m_plasmaWelcomeInstalled = programExists("plasma-welcome");
+    connect(QCoreApplication::instance(), &QCoreApplication::aboutToQuit, QCoreApplication::instance(), [installed = m_plasmaWelcomeInstalled] {
+        if (installed) {
+            QProcess::startDetached("plasma-welcome", {});
+        }
+    });
 }
 void Launcher::launch(const QString &program)
 {
@@ -35,6 +42,16 @@ QString Launcher::currentDE()
         return "Plasma";
     }
     return output;
+}
+bool Launcher::programExists(const QString &name)
+{
+    QProcess findProcess;
+    findProcess.start("which", {name});
+
+    if (!findProcess.waitForFinished())
+        return false;
+
+    return findProcess.exitCode() == 0;
 }
 Launcher::~Launcher() {
 }

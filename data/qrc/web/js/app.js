@@ -69,6 +69,12 @@ window.onload = function () {
                 document.getElementById("live").classList.add("active");
             }
         }
+        if (document.getElementById("plasma-welcome") !== null) {
+            if (launcher.plasmaWelcomeInstalled) {
+                document.getElementById("plasma-welcome").classList.add("showing");
+                document.getElementById("close").classList.add("hidden");
+            }
+        }
 
         var deHelpElms = document.querySelectorAll(".de-help,.de-footer");
         for (var i = 0; i < deHelpElms.length; i++) {
@@ -116,6 +122,7 @@ app.controller('WelcomeCtrl', function($scope) {
   $scope.xfceLayout = xfceLayout;
 
   $scope.autostart = bridge.enabled;
+  $scope.plasmaWelcomeInstalled = launcher.plasmaWelcomeInstalled;
 
   $scope.isDE = function(desktop) {
     console.log("does " + bridge.de + " include " + desktop + "?");
