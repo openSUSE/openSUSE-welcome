@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-02 01:26+0000\n"
-"Last-Translator: Luís Tiago Favas <al62006@utad.eu>\n"
+"PO-Revision-Date: 2023-01-25 12:14+0000\n"
+"Last-Translator: Juliano Camargo <julianosc@pm.me>\n"
 "Language-Team: Portuguese (Portugal) <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/pt_PT/>\n"
 "Language: pt_PT\n"
@@ -9,19 +9,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.9.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr "Bem vindo(a)"
+msgstr "Bem-vindo"
 
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr "Ahoy, este é o openSUSE"
+msgstr "Viva, este é o openSUSE"
 
 #: qrc/main.qml:134
 msgctxt "main|"
@@ -385,7 +385,7 @@ msgstr ""
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr "as noticias openSUSE"
+msgstr "as notícias openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
