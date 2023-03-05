@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-04 13:13+0000\n"
+"PO-Revision-Date: 2023-03-05 16:14+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sv/>\n"
@@ -553,6 +553,8 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Vissa codecs för att spela media kan inte inkluderas i OpenSUSE på grund av "
+"licensproblem. Det finns dock förråd som du kan läsa om"
 
 #: qrc/main.qml:329
 msgctxt "main|"
