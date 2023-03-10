@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-01-11 14:14+0000\n"
-"Last-Translator: Szymon Olesiński <grzegorzolesi40@gmail.com>\n"
+"PO-Revision-Date: 2023-03-10 23:14+0000\n"
+"Last-Translator: neome <neome@posteo.me>\n"
 "Language-Team: Polish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/pl/>\n"
 "Language: pl\n"
@@ -146,7 +146,7 @@ msgstr "Pokaż przy następnym uruchomieniu"
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Dostosuj"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
@@ -156,7 +156,7 @@ msgstr "Zamknij"
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Układy pulpitu"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -169,32 +169,32 @@ msgstr ""
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Motywy"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Kliknij na zdjęcia, żeby zastosować motywy aplikacji."
 
 #: qrc/main.qml:187
 msgctxt "main|"
