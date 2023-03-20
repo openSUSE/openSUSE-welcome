@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-18 20:10+0000\n"
+"PO-Revision-Date: 2023-03-20 07:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -81,7 +81,7 @@ msgstr "Enlightenment Помош"
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "За Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
