@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-20 07:14+0000\n"
+"PO-Revision-Date: 2023-03-21 04:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -86,17 +86,17 @@ msgstr "За Budgie"
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "За Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "LXDE Помош"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "LXQt Помош"
 
 #: qrc/main.qml:155
 msgctxt "main|"
@@ -106,12 +106,12 @@ msgstr ""
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Deepin Помош"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Придонеси"
 
 #: qrc/main.qml:160
 msgctxt "main|"
