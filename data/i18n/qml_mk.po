@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-21 04:14+0000\n"
+"PO-Revision-Date: 2023-03-22 09:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -101,7 +101,7 @@ msgstr "LXQt Помош"
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "За Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
@@ -116,7 +116,7 @@ msgstr "Придонеси"
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "openSUSE Градба"
 
 #: qrc/main.qml:163
 msgctxt "main|"
@@ -125,21 +125,24 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Ако ова е вашиот прв пат да користите openSUSE, ние би сакале да се "
+"чувствувате како дома во вашето ново патување. Одвоите време за да се "
+"запознаете со сите копчиња и кажете ни како ви се допаѓа искуството на"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "социјална медија"
 
 #: qrc/main.qml:167
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Прикажи на следно подигање"
 
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Персонализирај"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
