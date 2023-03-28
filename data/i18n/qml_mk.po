@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-27 07:14+0000\n"
+"PO-Revision-Date: 2023-03-28 04:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -252,27 +252,27 @@ msgstr ""
 #: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "ИРЦ"
 
 #: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "Телеграм"
 
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Фејсбук Група"
 
 #: qrc/main.qml:215
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "openSUSE Форуми"
 
 #: qrc/main.qml:218
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Техничка Поддршка"
 
 #: qrc/main.qml:219
 msgctxt "main|"
