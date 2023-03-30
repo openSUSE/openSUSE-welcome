@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-28 04:14+0000\n"
+"PO-Revision-Date: 2023-03-30 08:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -242,12 +242,12 @@ msgstr "Дискорд"
 #: qrc/main.qml:208
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Фејсбук"
 
 #: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Форуми"
 
 #: qrc/main.qml:210
 msgctxt "main|"
