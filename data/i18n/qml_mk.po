@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-31 06:14+0000\n"
+"PO-Revision-Date: 2023-04-01 22:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -215,7 +215,7 @@ msgstr "Adwaita Темно"
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Социјални медиуми"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
