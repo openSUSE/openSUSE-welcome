@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-01 22:14+0000\n"
+"PO-Revision-Date: 2023-04-06 07:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -161,11 +161,15 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce нуди различни опции за прилагодување, вклучувајќи ја можноста "
+"да изберете распоред на работната површина што одговара на вашиот работен "
+"тек. Можете да изберете една од овие како почетна точка и да ја прилагодите "
+"дополнително подоцна."
 
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
