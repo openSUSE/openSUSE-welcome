@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-06 07:14+0000\n"
+"PO-Revision-Date: 2023-04-07 07:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -174,7 +174,7 @@ msgstr "Cupertino"
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
