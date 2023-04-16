@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-15 09:14+0000\n"
+"PO-Revision-Date: 2023-04-16 07:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -194,17 +194,17 @@ msgstr "Теми"
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Кликнете на сликите за да ги примените апликациските теми."
 
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko Светло"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko Темно"
 
 #: qrc/main.qml:189
 msgctxt "main|"
@@ -229,7 +229,7 @@ msgstr "Дома"
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Социјална Медија: Како да стигнете до нас!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
