@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-16 07:14+0000\n"
+"PO-Revision-Date: 2023-04-21 07:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -237,6 +237,8 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"Најчесто користените социјални медиуми се веќе наведени во подножјето, но "
+"еве уште некои што може да ви бидат корисни, по азбучен ред:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
@@ -281,17 +283,17 @@ msgstr "Техничка Поддршка"
 #: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Проект"
 
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Фабрика"
 
 #: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "Чат"
 
 #: qrc/main.qml:224
 msgctxt "main|"
