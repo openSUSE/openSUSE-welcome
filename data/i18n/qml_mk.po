@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-05 06:14+0000\n"
+"PO-Revision-Date: 2023-05-05 22:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -308,7 +308,7 @@ msgstr "openSUSE Вести"
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Придонесете. Учествувајте во openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
