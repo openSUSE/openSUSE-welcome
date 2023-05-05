@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-05 22:14+0000\n"
+"PO-Revision-Date: 2023-05-06 02:14+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -320,6 +320,13 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Без разлика дали сте искусен развивач на Linux или корисник што штотуку "
+"започнал со Linux, има многу начини да учествувате во openSUSE проектот. "
+"Придружете се на форумот за да добиете помош или да им помогнете на другите "
+"со openSUSE, пронајдете и пријавите грешки, преземете проблем од процесот на "
+"издавање, прегледајте ја документацијата, испратете ја вашата листа со желби "
+"за нови пакети и функции, создадете и испраќате закрпи или најдете други "
+"креативни начини да придонесете."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -327,11 +334,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Што и да правите, одвојте неколку минути за да разговарате за openSUSE со "
+"други корисници и да станете"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "активен член"
 
 #: qrc/main.qml:249
 msgctxt "main|"
