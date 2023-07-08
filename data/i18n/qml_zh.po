@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-11-29 06:26+0000\n"
-"Last-Translator: yu zhu <bcct2010@live.cn>\n"
+"PO-Revision-Date: 2023-07-08 22:15+0000\n"
+"Last-Translator: dragon mrao <x123456789fy@outlook.com>\n"
 "Language-Team: Chinese <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/zh/>\n"
 "Language: zh\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.9.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -153,12 +153,13 @@ msgid "Desktop Layouts"
 msgstr "桌面布局"
 
 #: qrc/main.qml:177
+#, fuzzy
 msgctxt "main|"
 msgid ""
 "openSUSE Xfce offers a variety of customisation options, including the "
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
-msgstr ""
+msgstr "openSUSE Xfce 提供了多种自定义选项，包括选择适合您工作流程的桌面布局。您可以选择其中一个作为起点，以后再进一步定制。"
 
 #: qrc/main.qml:179
 msgctxt "main|"
@@ -183,12 +184,12 @@ msgstr ""
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "主题"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "点击图像以应用程序主题。"
 
 #: qrc/main.qml:187
 msgctxt "main|"
