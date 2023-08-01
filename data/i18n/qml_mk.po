@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-29 06:15+0000\n"
+"PO-Revision-Date: 2023-08-01 10:15+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -361,12 +361,12 @@ msgstr "Бидете дел од openSUSE заедницата"
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr "Видете каде другите"
+msgstr "Видете каде"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr "openSUSE заедница"
+msgstr "openSUSE заедницата"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -375,31 +375,34 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"и членовите се во светот, запознајте се со луѓето на openSUSE, најдете "
+"локални openSUSE членски групи, славате ги објавувањата, дознајте за "
+"структурата на управување и повеќе. Следете"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "openSUSE вести"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "на нашиот сајт за вести и видете што прават нашите развивачи на"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Планета openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Помогнете ни да ја објавиме следната верзија на openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "За секоја објава има"
 
 #: qrc/main.qml:271
 msgctxt "main|"
