@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-12 08:14+0000\n"
-"Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
+"PO-Revision-Date: 2023-08-08 04:15+0000\n"
+"Last-Translator: Georg Pfuetzenreuter <georg.pfuetzenreuter@suse.com>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sv/>\n"
 "Language: sv\n"
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "Om detta är första gången du använder openSUSE vill vi att du ska känna dig "
 "som hemma på din nya resa. Ta dig tid att bekanta dig med alla knappar och "
-"låt oss veta hur du gillar upplevelsen på vår"
+"låt oss veta hur du gillar upplevelsen på våra"
 
 #: qrc/main.qml:164
 msgctxt "main|"
