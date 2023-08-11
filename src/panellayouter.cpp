@@ -1,49 +1,34 @@
 #include "panellayouter.h"
+#include <memory>
 #include <QFile>
 #include <QProcess>
+#include <QTemporaryFile>
 
 PanelLayouter::PanelLayouter(QObject *parent) : QObject(parent)
 {
-    m_script = R"(
-import sys
-sys.path.append('/usr/share/xfce4-panel-profiles/xfce4-panel-profiles/')
-import gi
-
-from panelconfig import PanelConfig
-from gi.repository import Gio
-
-session_bus = Gio.BusType.SESSION
-cancellable = None
-connection = Gio.bus_get_sync(session_bus, cancellable)
-
-proxy_property = 0
-interface_properties_array = None
-destination = 'org.xfce.Xfconf'
-path = '/org/xfce/Xfconf'
-interface = destination
-
-xfconf = Gio.DBusProxy.new_sync(
-    connection,
-    proxy_property,
-    interface_properties_array,
-    destination,
-    path,
-    interface,
-    cancellable)
-
-PanelConfig.from_file("/tmp/layout").to_xfconf(xfconf)
-)";
 }
 
 void PanelLayouter::applyLayout(const QString &path)
 {
-    if (QFile::exists("/tmp/layout"))
-        QFile::remove("/tmp/layout");
+    const QString SHARE_DIR(QStringLiteral(WELCOME_SHARE_DIR));
+    const QString APPLY_LAYOUT_SCRIPT = SHARE_DIR + QStringLiteral("/xfce-apply-layout.py");
+    // `path` is only an internal application resource, embedded into the
+    // executable. We need to actually place it on disk for the helper script
+    // to use it.
+    //
+    // this is not well documented, but createNativeFile returns a heap
+    // allocated file object that we need to cleanup.
+    std::unique_ptr<QTemporaryFile> file(QTemporaryFile::createNativeFile(path));
 
-    QFile layout(path);
-    layout.copy("/tmp/layout");
+    if (!file)
+        // should never happen
+        return;
 
-    QProcess::startDetached("/usr/bin/python3", {"-c", m_script});
+    const auto result = QProcess::execute(APPLY_LAYOUT_SCRIPT, {file->fileName()});
+
+    if (result != 0) {
+	// TODO: something went wrong, display error message?
+    }
 }
 
 void PanelLayouter::setTheme(const QString &theme)
