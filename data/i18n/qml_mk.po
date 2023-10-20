@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-01 10:15+0000\n"
+"PO-Revision-Date: 2023-10-20 05:15+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -407,7 +407,7 @@ msgstr "За секоја објава има"
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "листа на задачи"
 
 #: qrc/main.qml:273
 msgctxt "main|"
