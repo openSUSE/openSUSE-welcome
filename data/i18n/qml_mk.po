@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-20 05:15+0000\n"
+"PO-Revision-Date: 2023-10-21 01:15+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -448,12 +448,12 @@ msgstr ""
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Посетете"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -468,7 +468,7 @@ msgstr ""
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Раширете го зборот"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -481,7 +481,7 @@ msgstr ""
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "градбена служба"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -518,7 +518,7 @@ msgstr ""
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "вики артикл"
 
 #: qrc/main.qml:323
 msgctxt "main|"
