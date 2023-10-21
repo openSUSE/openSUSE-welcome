@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-21 01:15+0000\n"
+"PO-Revision-Date: 2023-10-21 23:15+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -494,7 +494,7 @@ msgstr ""
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Прочитај ме"
 
 #: qrc/main.qml:314
 msgctxt "main|"
@@ -544,7 +544,7 @@ msgstr ""
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "тука"
 
 #: qrc/main.qml:332
 msgctxt "main|"
