@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-11-04 16:12+0000\n"
-"Last-Translator: Taras Panchenko <top39@ukr.net>\n"
+"PO-Revision-Date: 2024-01-12 22:59+0000\n"
+"Last-Translator: Vik On <4o3lxdc1y@mozmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/ru/>\n"
 "Language: ru\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8.1\n"
+"X-Generator: Weblate 4.9.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -37,7 +37,7 @@ msgstr "Поддержка"
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr "readme"
+msgstr "Прочесть"
 
 #: qrc/main.qml:139
 msgctxt "main|"
@@ -82,12 +82,12 @@ msgstr "Справка Enlightenment"
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr "О программе Budgie"
+msgstr "О среде Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr "О программе Lumina"
+msgstr "О среде Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
@@ -102,7 +102,7 @@ msgstr "Справка LXQt"
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr "О программе Cinnamon"
+msgstr "О среде Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
@@ -230,7 +230,7 @@ msgstr "Домой"
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr "Соцсети: Как связаться!"
+msgstr "Социальные сети: Как связаться!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -244,12 +244,12 @@ msgstr ""
 #: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
-msgstr "Дискорд"
+msgstr "Discord"
 
 #: qrc/main.qml:208
 msgctxt "main|"
 msgid "Facebook"
-msgstr "Фейсбук"
+msgstr "Facebook"
 
 #: qrc/main.qml:209
 msgctxt "main|"
@@ -264,7 +264,7 @@ msgstr "IRC"
 #: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
-msgstr "Телеграм"
+msgstr "Telegram"
 
 #: qrc/main.qml:214
 msgctxt "main|"
@@ -289,7 +289,7 @@ msgstr "Проект"
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr "Фабрика"
+msgstr "Factory"
 
 #: qrc/main.qml:221
 msgctxt "main|"
@@ -353,7 +353,7 @@ msgid ""
 msgstr ""
 "сообщества openSUSE. Для большинства действий требуется вход в систему, "
 "чтобы получать наслаждение от развлечений. Возможно, вы захотите создать "
-"страницу пользователя и поделиться полезной информацией о себе или "
+"страницу пользователя и поделиться полезной информацией или своими "
 "интересами с другими."
 
 #: qrc/main.qml:252
@@ -364,7 +364,7 @@ msgstr "Будьте частью сообщества openSUSE"
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr "Узнайте, где находятся другие члены"
+msgstr "Узнайте, где находятся другие участники"
 
 #: qrc/main.qml:256
 msgctxt "main|"
@@ -390,12 +390,13 @@ msgstr "за новостями openSUSE"
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr "на нашем новостном сайте и узнавайте, чем занимаются наши разработчики"
+msgstr ""
+"на нашем новостном сайте и узнавайте, чем занимаются наши разработчики на"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr "Планета openSUSE"
+msgstr "Планете openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
@@ -410,7 +411,7 @@ msgstr "Для каждой версии есть"
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr "серия доступных"
+msgstr "набор задач"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -419,9 +420,9 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
-"задач. Некоторые из них сложны, некоторые легко достижимы даже для новичков. "
-"Просмотрите проблемы и сообщите кому-нибудь из openSUSE, если вы нашли "
-"подходящую задачу."
+"доступных и вам. Некоторые из них сложны, некоторые легко достижимы даже для "
+"новичков. Просмотрите проблемы и сообщите кому-нибудь из openSUSE, если вы "
+"нашли подходящую задачу."
 
 #: qrc/main.qml:276
 msgctxt "main|"
@@ -435,9 +436,9 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
-"Есть несколько активных информационных каналов со своими сообществами, где "
-"вы можете обсуждать openSUSE и общаться с другими пользователями. Мы "
-"используем почтовые рассылки, IRC каналы и форумы. Ознакомьтесь с"
+"Есть несколько активных сообществ со своими сообществами, где вы можете "
+"обсуждать openSUSE и помогать другими пользователями. Мы используем почтовые "
+"рассылки, IRC-каналы и форумы. Ознакомьтесь с"
 
 #: qrc/main.qml:280
 msgctxt "main|"
@@ -474,10 +475,10 @@ msgid ""
 "distribution."
 msgstr ""
 "- нашу cистему управления функциями и требованиями. Здесь вы можете получить "
-"отсортированный обзор того, что происходит в будущих продуктах, следить за "
-"обсуждениями и участвовать в них, добавляя комментарии или работая над "
-"функциями для будущих версий продукта и помогая сделать openSUSE еще лучшим "
-"дистрибутивом Linux."
+"отсортированный обзор того, что происходит в будущих продуктах, следить и "
+"участвовать в обсуждениях, добавляя комментарии или работая над функциями "
+"для будущих поколений (версий) продукта, а также помочь сделать openSUSE ещё "
+"лучшим дистрибутивом Linux."
 
 #: qrc/main.qml:294
 msgctxt "main|"
@@ -515,7 +516,7 @@ msgstr ""
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr "readme"
+msgstr "Прочесть"
 
 #: qrc/main.qml:314
 msgctxt "main|"
@@ -543,7 +544,7 @@ msgstr ""
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr "wiki-страницу"
+msgstr "статью на wiki"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -552,17 +553,15 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
-"Для установки Google Chrome, просто скачайте его прямо со страницы Google. "
-"Google предоставляет репозитории, которые будут добавленны в систему как "
-"только вы начнете установку Google Chrome. Это позволит обновлять его вместе "
-"с остальной системой."
+"Для установки Google Chrome просто скачайте его прямо со страницы Google. "
+"Google предоставляет репозитории, которые будут добавлены в систему как "
+"только вы начнёте установку Google Chrome. Это позволит обновлять его вместе "
+"с вашей системой."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
-"На своей странице Google предлагает RPM пакет с собственной сборкой Google "
-"Chrome."
+msgstr "На своём сайте Google предлагает свой пакет RPM Google Chrome."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -588,7 +587,7 @@ msgstr "Репозитории сообщества"
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr "активированы"
+msgstr "На"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -597,6 +596,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
-", вы можете найти и работать с репозиториями участников сообщества. Хотя мы "
-"не проверяем в ручную эти репозитории, пакеты, хранящиеся там, были собраны "
-"для последней версии openSUSE и должны у вас без проблем работать."
+", вы можете взаимодействовать с репозиториями участников сообщества. Хотя мы "
+"не проверяем эти репозитории вручную, пакеты там собраны для последней "
+"версии openSUSE и должны работать без проблем."
