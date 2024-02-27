@@ -18,8 +18,12 @@
  
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
-#include <QtWebEngine/QtWebEngine>
-#include <QtWebEngine/QQuickWebEngineProfile>
+#include <QWebEngineUrlSchemeHandler>
+#include <QWebEngineUrlRequestJob>
+#include <QQuickWebEngineProfile>
+#include <QWebEngineUrlScheme>
+#include <QLibraryInfo>
+#include <QMimeDatabase>
 #include <QTranslator>
 #include <QLocale>
 #include <QDir>
@@ -48,7 +52,7 @@ public:
 
         QUrl requestUrl = job->requestUrl();
         QString requestPath = requestUrl.path();
-        QScopedPointer<QFile> file(new QFile(':' + requestPath, job));
+        std::unique_ptr<QFile> file(new QFile(':' + requestPath, job));
         if (!file->exists() || file->size() == 0) {
             job->fail(QWebEngineUrlRequestJob::UrlNotFound);
             return;
@@ -59,14 +63,12 @@ public:
         if (mimeType.name() == "application/x-extension-html") {
             mimeType = mimeDatabase.mimeTypeForName("text/html");
         }
-        job->reply(mimeType.name().toUtf8(), file.take());
+        job->reply(mimeType.name().toUtf8(), file.release());
     }
 };
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
     QWebEngineUrlScheme qrcScheme(QByteArrayLiteral("qrc"));
     qrcScheme.setFlags(QWebEngineUrlScheme::SecureScheme
                     | QWebEngineUrlScheme::LocalAccessAllowed
@@ -78,16 +80,15 @@ int main(int argc, char *argv[])
                     | QWebEngineUrlScheme::LocalAccessAllowed
                     | QWebEngineUrlScheme::CorsEnabled
                     | QWebEngineUrlScheme::ViewSourceAllowed);
-    QWebEngineUrlScheme::registerScheme(qrcScheme);
     QWebEngineUrlScheme::registerScheme(aqrcScheme);
 
-    QtWebEngine::initialize();
+    QtWebEngineQuick::initialize();
     QGuiApplication app(argc, argv);
 
     WorkaroundSchemeHandler *handler = new WorkaroundSchemeHandler(&app);
     QQuickWebEngineProfile::defaultProfile()->installUrlSchemeHandler("aqrc", handler);
 
-    app.setDesktopFileName("org.opensuse.opensuse_welcome.desktop");
+    app.setDesktopFileName("org.opensuse.opensuse_welcome");
     app.setOrganizationName("openSUSE");
     app.setOrganizationDomain("opensuse.org");
     app.setApplicationName("org.opensuse.opensuse_welcome");
@@ -98,12 +99,13 @@ int main(int argc, char *argv[])
     qmlRegisterType<PanelLayouter>("org.openSUSE.Welcome", 1, 0, "XfceLayouter");
 
     QTranslator qtTranslator;
-    qtTranslator.load("qt_" + QLocale::system().name(),
-                      QLibraryInfo::location(QLibraryInfo::TranslationsPath));
+    [[maybe_unused]] auto mainTranslatorLoaded = qtTranslator.load("qt_" + QLocale::system().name(),
+                     QLibraryInfo::path(QLibraryInfo::TranslationsPath));
     app.installTranslator(&qtTranslator);
 
     QTranslator welcomeTranslator;
-    welcomeTranslator.load("qml_" + QLocale::system().name(), "/usr/share/openSUSE-Welcome/i18n");
+    [[maybe_unused]] auto welcomeTranslatorLoaded = welcomeTranslator.load("qml_" + QLocale::system().name(),
+                     "/usr/share/openSUSE-Welcome/i18n");
     app.installTranslator(&welcomeTranslator);
 
     QDir autostartFolder(QDir::homePath() + "/.config/autostart/");

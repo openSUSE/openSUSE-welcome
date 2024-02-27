@@ -16,12 +16,12 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.9
-import QtQuick.Window 2.2
-import QtWebEngine 1.1
-import QtWebChannel 1.0
-import org.openSUSE.Welcome 1.0
-import QtQuick.XmlListModel 2.0
+import QtQuick
+import QtQuick.Window
+import QtWebEngine
+import QtWebChannel
+import org.openSUSE.Welcome
+import QtQml.XmlListModel
 
 Window {
     id: root
@@ -72,8 +72,8 @@ Window {
         source: "https://news.opensuse.org/feed"
         query: "/rss/channel/item"
 
-        XmlRole { name: "title"; query: "title/string()"}
-        XmlRole { name: "url"; query: "link/string()"}
+        XmlListModelRole { name: "title"}
+        XmlListModelRole { name: "url"}
     }
 
     property string rssNewsTitle: ""
@@ -347,7 +347,7 @@ Window {
         webChannel: bridge
         property var request;
         onLoadingChanged: {
-            if (loadRequest.status == WebEngineLoadRequest.LoadSucceededStatus) {
+            if (webView.status == WebEngineLoadingInfo.LoadSucceededStatus) {
                 webView.injectAlert();
             }
         }

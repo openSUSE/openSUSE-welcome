@@ -5,6 +5,6 @@ do
 	if grep -i "\.po" <<< "$a"; then
 		filename=$(basename $a)
 		y=${filename%.*}
-		lconvert-qt5 $a -o "${DESTDIR}${1}/${y}.qm"
+		lconvert6 $a -o "${DESTDIR}${1}/${y}.qm"
 	fi
 done
