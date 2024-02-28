@@ -15,79 +15,24 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
- 
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QtWebEngine/QtWebEngine>
-#include <QtWebEngine/QQuickWebEngineProfile>
-#include <QTranslator>
-#include <QLocale>
+
 #include <QDir>
-#include "sysinfo.h"
-#include "launcher.h"
+#include <QGuiApplication>
+#include <QLibraryInfo>
+#include <QLocale>
+#include <QQmlApplicationEngine>
+#include <QTranslator>
+
 #include "enabler.h"
+#include "launcher.h"
 #include "panellayouter.h"
-
-/// a workaround since QMimeDatabase detects .html as "application/x-extension-html" (chromium doesn't like this)
-/// instead of "text/html" as it used to.
-///
-/// cf QTBUG-106688.
-class WorkaroundSchemeHandler : public QWebEngineUrlSchemeHandler
-{
-public:
-    WorkaroundSchemeHandler(QObject *parent = nullptr) : QWebEngineUrlSchemeHandler(parent)
-    {
-    }
-    void requestStarted(QWebEngineUrlRequestJob *job) override
-    {
-        QByteArray requestMethod = job->requestMethod();
-        if (requestMethod != "GET") {
-            job->fail(QWebEngineUrlRequestJob::RequestDenied);
-            return;
-        }
-
-        QUrl requestUrl = job->requestUrl();
-        QString requestPath = requestUrl.path();
-        QScopedPointer<QFile> file(new QFile(':' + requestPath, job));
-        if (!file->exists() || file->size() == 0) {
-            job->fail(QWebEngineUrlRequestJob::UrlNotFound);
-            return;
-        }
-        QFileInfo fileInfo(*file);
-        QMimeDatabase mimeDatabase;
-        QMimeType mimeType = mimeDatabase.mimeTypeForFile(fileInfo);
-        if (mimeType.name() == "application/x-extension-html") {
-            mimeType = mimeDatabase.mimeTypeForName("text/html");
-        }
-        job->reply(mimeType.name().toUtf8(), file.take());
-    }
-};
+#include "sysinfo.h"
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
-    QWebEngineUrlScheme qrcScheme(QByteArrayLiteral("qrc"));
-    qrcScheme.setFlags(QWebEngineUrlScheme::SecureScheme
-                    | QWebEngineUrlScheme::LocalAccessAllowed
-                    | QWebEngineUrlScheme::CorsEnabled
-                    | QWebEngineUrlScheme::ViewSourceAllowed);
-    QWebEngineUrlScheme::registerScheme(qrcScheme);
-    QWebEngineUrlScheme aqrcScheme(QByteArrayLiteral("aqrc"));
-    aqrcScheme.setFlags(QWebEngineUrlScheme::SecureScheme
-                    | QWebEngineUrlScheme::LocalAccessAllowed
-                    | QWebEngineUrlScheme::CorsEnabled
-                    | QWebEngineUrlScheme::ViewSourceAllowed);
-    QWebEngineUrlScheme::registerScheme(qrcScheme);
-    QWebEngineUrlScheme::registerScheme(aqrcScheme);
-
-    QtWebEngine::initialize();
     QGuiApplication app(argc, argv);
 
-    WorkaroundSchemeHandler *handler = new WorkaroundSchemeHandler(&app);
-    QQuickWebEngineProfile::defaultProfile()->installUrlSchemeHandler("aqrc", handler);
-
-    app.setDesktopFileName("org.opensuse.opensuse_welcome.desktop");
+    app.setDesktopFileName("org.opensuse.opensuse_welcome");
     app.setOrganizationName("openSUSE");
     app.setOrganizationDomain("opensuse.org");
     app.setApplicationName("org.opensuse.opensuse_welcome");
@@ -98,16 +43,33 @@ int main(int argc, char *argv[])
     qmlRegisterType<PanelLayouter>("org.openSUSE.Welcome", 1, 0, "XfceLayouter");
 
     QTranslator qtTranslator;
-    qtTranslator.load("qt_" + QLocale::system().name(),
-                      QLibraryInfo::location(QLibraryInfo::TranslationsPath));
-    app.installTranslator(&qtTranslator);
+    if (qtTranslator.load(
+            QLocale(), QStringLiteral("qtbase"), QStringLiteral("_"), QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
+    {
+        app.installTranslator(&qtTranslator);
+    }
+    else
+        qDebug() << "Failed to load qtbase translations: " << QLibraryInfo::path(QLibraryInfo::TranslationsPath);
+    QTranslator qmlTranslator;
+    if (qmlTranslator.load(QLocale(),
+                           QStringLiteral("qtdeclarative"),
+                           QStringLiteral("_"),
+                           QLibraryInfo::path(QLibraryInfo::TranslationsPath)))
+    {
+        app.installTranslator(&qmlTranslator);
+    }
+    else
+        qDebug() << "Failed to load qtdeclarative translations";
 
     QTranslator welcomeTranslator;
-    welcomeTranslator.load("qml_" + QLocale::system().name(), "/usr/share/openSUSE-Welcome/i18n");
-    app.installTranslator(&welcomeTranslator);
+    if (welcomeTranslator.load("qml_" + QLocale::system().name(), "/usr/share/openSUSE-Welcome/i18n"))
+        app.installTranslator(&welcomeTranslator);
+    else
+        qWarning() << "Failed to load openSUSE Welcome translations";
 
     QDir autostartFolder(QDir::homePath() + "/.config/autostart/");
-    if (!autostartFolder.exists()) {
+    if (!autostartFolder.exists())
+    {
         autostartFolder.mkdir(QDir::homePath() + "/.config/autostart/");
     }
 

@@ -15,13 +15,12 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
- 
+
 #include "sysinfo.h"
 
-SysInfo::SysInfo(QObject *parent) :
-    QObject(parent)
-{
-}
+SysInfo::SysInfo(QObject *parent)
+    : QObject(parent)
+{}
 
 QString SysInfo::getOS()
 {

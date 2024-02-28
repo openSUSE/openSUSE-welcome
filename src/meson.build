@@ -4,6 +4,6 @@ welcome = executable('opensuse-welcome',
                      welcome_sources, 
                      processed_files, 
                      include_directories : inc,
-                     dependencies: qt5_dep,
+                     dependencies: qt6_dep,
                      cpp_args: '-DWELCOME_SHARE_DIR="@0@"'.format(share_dir),
                      install: true)
