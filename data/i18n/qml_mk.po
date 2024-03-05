@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-21 23:15+0000\n"
+"PO-Revision-Date: 2024-03-05 08:43+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -416,11 +416,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"достапни. Некои се комплицирани, некои лесно се постигнуваат, дури и за "
+"почетници. Разгледајте ги проблемите и кажете му на некој од openSUSE дека "
+"најдовте соодветна задача."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Дискутирајте openSUSE и помогнете им на другите корисници"
 
 #: qrc/main.qml:278
 msgctxt "main|"
