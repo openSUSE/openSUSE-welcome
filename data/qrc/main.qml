@@ -167,6 +167,7 @@ Window {
         property string autostart:              qsTr("Show on next startup")
         property string customize:              qsTr("Customise")
         property string close:                  qsTr("Close")
+        property string learnPlasma:            qsTr("Learn Plasma")
     }
     QtObject {
         WebChannel.id: "xfceTr"

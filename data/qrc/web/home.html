@@ -161,8 +161,11 @@
                     ng-model="autostart" onclick="updateAutoStart()">
                     {{homeTrans.autostart}}
                 </checkbox>
-                <button id="close" class="btn btn-sm btn-warning font-weight-bold de-footer" data-de="xfce" onclick="delayedClick('aqrc:///web/xfce.html')" lang="en">
+                <button id="customize" class="btn btn-sm btn-warning font-weight-bold de-footer" data-de="xfce" onclick="delayedClick('aqrc:///web/xfce.html')" lang="en">
                     <i class="fa fa-arrow-right"></i> {{homeTrans.customize}}
+                </button>
+                <button id="plasma-welcome" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()" lang="en">
+                    {{homeTrans.learnPlasma}}
                 </button>
                 <button id="close" class="btn btn-sm btn-danger ml-3" onclick="bridge.close()" lang="en">
                     <i class="fa fa-times"></i> {{homeTrans.close}}
