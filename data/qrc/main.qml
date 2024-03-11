@@ -16,36 +16,25 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.9
-import QtQuick.Window 2.2
-import QtWebEngine 1.1
-import QtWebChannel 1.0
-import org.openSUSE.Welcome 1.0
-import QtQuick.XmlListModel 2.0
+import QtQuick
+import QtQuick.Window
+import org.openSUSE.Welcome
+import QtQml.XmlListModel
+import QtQuick.Controls
+import QtQuick.Layouts
 
-Window {
+ApplicationWindow {
     id: root
     visible: true
     width: 800
     height: 508
 
     Component.onCompleted: {
-        setX((Screen.width / 2 - width / 2));
+        setX(Screen.width / 2 - width / 2);
         setY(Screen.height / 2 - height / 2);
-        bridgeObject.arch = systemInfo.getArch();
-        bridgeObject.os = systemInfo.getOS();
-        bridgeObject.de = launcher.currentDE();
-        bridgeObject.enabled = enabler.autostartEnabled();
-        bridgeObject.live = enabler.isLive();
-        console.log(bridgeObject.live);
     }
 
-    Enabler {
-        WebChannel.id: "enabler"
-        id: enabler
-    }
-
-    // enabler.disableAutostart, enabler.enableAutostart
+    Enabler { id: enabler }
 
     maximumHeight: height
     maximumWidth: width
@@ -54,26 +43,17 @@ Window {
 
     title: qsTr("Welcome")
 
-    SysInfo {
-        id: systemInfo
-    }
+    SysInfo { id: systemInfo }
 
-    Launcher {
-        WebChannel.id: "launcher"
-        id: launcher
-    }
-    function escapeUnsafe(unsafe) {
-        // preserve this in case it's needed, but it's most likely not.
-        return unsafe;
-    }
+    Launcher { id: launcher }
 
     XmlListModel {
         id: rssModel
         source: "https://news.opensuse.org/feed"
         query: "/rss/channel/item"
 
-        XmlRole { name: "title"; query: "title/string()"}
-        XmlRole { name: "url"; query: "link/string()"}
+        XmlListModelRole { name: "title"; elementName: "title/string()"}
+        XmlListModelRole { name: "url"; elementName: "link/string()"}
     }
 
     property string rssNewsTitle: ""
@@ -83,61 +63,24 @@ Window {
     Repeater {
         model: rssModel
         delegate: Item {
+            required property int index
+            required property string url
+            required property string title
+
             Component.onCompleted: {
-                if (model["index"] == 0) {
-                    root.rssNewsTitle = root.escapeUnsafe(model["title"])
-                    root.rssPageUrl = root.escapeUnsafe(model["url"])
-                    root.rssReady = true
-                    console.log(root.rssNewsTitle, root.rssPageUrl);
-                    webView.injectAlert();
+                if (index === 0) {
+                    root.rssNewsTitle = title;
+                    root.rssPageUrl = url;
+                    root.rssReady = true;
                 }
             }
         }
     }
 
-    XfceLayouter {
-        id: layouter
-        WebChannel.id: "layouter"
-    }
+    XfceLayouter { id: layouter }
 
     QtObject {
-        id: bridgeObject
-        property string arch: ""
-        property string os: ""
-        property string de: ""
-        property bool enabled: true
-        property bool live: false
-        property bool ready: false
-        property bool pastFirstPage: false
-
-        WebChannel.id: "bridge"
-
-        function changeTitle(title) {
-            root.title = title;
-        }
-        function close() {
-            root.close();
-        }
-        function openURL(url) {
-            Qt.openUrlExternally(url)
-        }
-
-    }
-    QtObject {
-        WebChannel.id: "homeTr"
         id: homeTr
-
-        // Header of the home screen
-        property string ahoy:                   qsTr("Ahoy, this is openSUSE")
-
-        // Sub headers that denote their categories
-        property string basicsHeader:           qsTr("Basics")
-        property string supportHeader:          qsTr("Support")
-
-        // Buttons of the basics column
-        property string readme:                 qsTr("Read me")
-        property string documentation:          qsTr("Documentation")
-        property string getsoftware:            qsTr("Get Software")
 
         // Install openSUSE button
         property string install:                qsTr("Install openSUSE")
@@ -155,21 +98,11 @@ Window {
         property string aboutcinnamon:          qsTr("About Cinnamon")
         property string deepinhelp:             qsTr("Deepin Help")
 
-        // openSUSE Contribution stuff
-        property string contribute:             qsTr("Contribute") // contribute (to openSUSE)
-        property string build:                  qsTr("Build openSUSE") // help build openSUSE
-
-        // Social media blurb.
-        property string smParagraph:            qsTr("If this is your first time using openSUSE, we would like you to feel right at home in your new voyage. Take your time to familiarize yourself with all the buttons and let us know how you like the experience on our")
-        property string smLink:                 qsTr("social media") // this phrase is part of the previous paragraph and is not a new sentence.
-
         // Footer
-        property string autostart:              qsTr("Show on next startup")
         property string customize:              qsTr("Customise")
         property string close:                  qsTr("Close")
     }
     QtObject {
-        WebChannel.id: "xfceTr"
         id: xfceTr
 
         property string customize:         qsTr("Customise")
@@ -190,7 +123,6 @@ Window {
         property string aDark:             qsTr("Adwaita Dark")
     }
     QtObject {
-        WebChannel.id: "socialTr"
         id: socialTr
 
         // The breadcrumbs [Home > Social]
@@ -224,11 +156,8 @@ Window {
         property string smTelegramOpenSuseGroup:    qsTr("openSUSE Group")
         property string smTelegramOpenSuseNews:     qsTr("openSUSE News")
 
-        // Footer
-        property string close: qsTr("Close")
     }
     QtObject {
-        WebChannel.id: "contributeTr"
         id: contributeTr
 
         // The breadcrumbs [Home > Contribute]
@@ -303,7 +232,6 @@ Window {
         property string close:          qsTr("Close")
     }
     QtObject {
-        WebChannel.id: "readmeTr"
         id: readmeTr
 
         // The breadcrumbs [Home > Read Me]
@@ -340,101 +268,264 @@ Window {
         // Close button
         property string close:          qsTr("Close")
     }
-    WebEngineView {
-        id: webView
+
+    // Since QML doesn't provide an easy way to use a colorized icon, we'll just abuse Button to provide an icon with text
+    component TextWithIcon : Button {
+        id: textWithIconRoot
+
+        background: Item {}
+        icon.color: palette.disabled.text
+    }
+
+    ColumnLayout {
         anchors.fill: parent
-        url: "aqrc:///web/home.html"
-        webChannel: bridge
-        property var request;
-        onLoadingChanged: {
-            if (loadRequest.status == WebEngineLoadRequest.LoadSucceededStatus) {
-                webView.injectAlert();
+        spacing: 0
+
+        Rectangle {
+            id: systemInfoHeader
+
+            color: "#e9ecef"
+            Layout.fillWidth: true
+            Layout.preferredHeight: 45
+
+            RowLayout {
+                anchors.fill: parent
+                anchors.leftMargin: 20
+                // disabling the layout will give everything the nice disabled color
+                enabled: false
+
+                TextWithIcon {
+                    text: systemInfo.os
+                    icon.source: "qrc:/icons/desktop.svg"
+                }
+
+                Label {
+                    Layout.alignment: Qt.AlignHCenter
+                    text: "|"
+                    font.pointSize: 11
+                }
+
+                TextWithIcon {
+                    text: systemInfo.arch
+                    icon.source: "qrc:/icons/industry.svg"
+                }
+
+                Label {
+                    Layout.alignment: Qt.AlignHCenter
+                    text: "|"
+                    font.pointSize: 11
+                }
+
+                TextWithIcon {
+                    text: launcher.currentDE
+                    icon.source: "qrc:/icons/picture-o.svg"
+                }
+
+                Item { Layout.fillWidth: true }
             }
         }
-        function injectAlert() {
-            if (!root.rssReady) {
-                return;
-            }
-            var script = "(function() { var rssFeed = document.getElementById('rss-feeds'); if(rssFeed == null) return; var alertdiv = document.createElement('div'); alertdiv.setAttribute('class', 'alert alert-info text-truncate text-center mb-0'); alertdiv.setAttribute('role','alert'); var entrydiv = document.createElement('a'); entrydiv.setAttribute('class', 'news-link'); entrydiv.setAttribute('onclick', 'bridge.openURL(\"%1\")'); entrydiv.textContent = '%2'; alertdiv.appendChild(entrydiv); rssFeed.appendChild(alertdiv); })()".arg(root.rssPageUrl).arg(root.rssNewsTitle)
-            webView.runJavaScript(script);
-        }
-    }
 
-    Rectangle {
-        id: splash
-        height: parent.height
-        width: parent.width
-        anchors.top: parent.top
-        color: "#73ba25";
-        opacity: bridgeObject.ready ? 0 : 1
-        y: 0
+        ColumnLayout {
+            id: mainContentLayout
 
-        Image {
-            width: 340
-            height: 220
-            anchors.centerIn: parent
-            source: "qrc:///web/images/logo.svg"
-        }
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            Layout.leftMargin: 55
+            Layout.rightMargin: 55
+            Layout.topMargin: 20
+            Layout.bottomMargin: 20
+            spacing: 10
 
-        Behavior on opacity {
-            NumberAnimation {
-                duration: 300
-                easing.type: Easing.InOutQuad
-            }
-        }
-    }
-
-    Rectangle {
-        id: pageTransition
-        height: parent.height
-        width: parent.width
-        x: 0
-        y: -508
-        color: "#73ba25"
-
-        MouseArea {
-            anchors.fill: parent
-            cursorShape: Qt.ArrowCursor
-        }
-        SequentialAnimation {
-            id: pageIn
-            WebChannel.id: "pageIn"
-
-            NumberAnimation {
-                target: pageTransition
-                property: "y"
-                duration: 100
-                from: -508
-                to: 0
-                easing.type: Easing.InOutQuad
-            }
-        }
-        SequentialAnimation {
-            id: pageOut
-            WebChannel.id: "pageOut"
-
-            NumberAnimation {
-                target: pageTransition
-                property: "y"
-                duration: 150
-                from: 0
-                to: 508
-                easing.type: Easing.InOutQuad
+            Label {
+                text: qsTr("Ahoy, this is openSUSE")
+                font.weight: Font.Bold
+                font.pointSize: 26
             }
 
-            NumberAnimation {
-                target: pageTransition
-                property: "y"
-                duration: 0
-                from: 508
-                to: -508
-                easing.type: Easing.InOutQuad
+            RowLayout {
+                Layout.fillHeight: true
+                implicitWidth: root.width - 110
+                spacing: 30
+
+                ColumnLayout {
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
+                    spacing: 10
+
+                    Label {
+                        text: qsTr("Basics")
+                        font.weight: Font.Bold
+                        font.pointSize: 18
+                    }
+
+                    ThemedButton {
+                        text: qsTr("Read me")
+                        icon.source: "qrc:/icons/book.svg"
+                        themeColor: "#ffc107"
+                    }
+
+                    ThemedButton {
+                        text: qsTr("Documentation")
+                        icon.source: "qrc:/icons/external-link.svg"
+                        themeColor: "#21a4df"
+                        onClicked: Qt.openUrlExternally("https://doc.opensuse.org")
+                    }
+
+                    ThemedButton {
+                        text: qsTr("Get Software")
+                        icon.source: "qrc:/icons/shopping-cart.svg"
+                        themeColor: "#868e96"
+                        onClicked: Qt.openUrlExternally("https://software.opensuse.org/explore")
+                    }
+                }
+
+                Image {
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
+                    source: "qrc:/web/images/sinking.svg"
+                    fillMode: Image.PreserveAspectFit
+                    smooth: true
+                }
+
+                ColumnLayout {
+                    Layout.fillHeight: true
+                    Layout.fillWidth: true
+                    spacing: 10
+
+                    Label {
+                        text: qsTr("Support")
+                        font.weight: Font.Bold
+                        font.pointSize: 18
+                    }
+
+                    ThemedButton {
+                        text: qsTr("Contribute")
+                        icon.source: "qrc:/icons/hand-o-up.svg"
+                        themeColor: "#35b9ab"
+                    }
+
+                    ThemedButton {
+                        text: qsTr("Build openSUSE")
+                        icon.source: "qrc:/icons/github-alt.svg"
+                        themeColor: "#73ba25"
+                    }
+                }
+            }
+
+            Label {
+                text: qsTr("If this is your first time using openSUSE, we would like you to feel right at home in your new voyage. Take your time to familiarize yourself with all the buttons and let us know how you like the experience on our [social media](opensusewelcome://socialmedia).")
+                textFormat: Label.MarkdownText
+                wrapMode: Text.WordWrap
+                Layout.fillWidth: true
+                font.pointSize: 13
             }
         }
-    }
 
-    WebChannel {
-        id: bridge
-        registeredObjects: [bridgeObject, launcher, enabler, homeTr, socialTr, readmeTr, contributeTr, pageIn, pageOut, xfceTr, layouter]
+        Rectangle {
+            id: rssFeedDisplay
+
+            color: "#d3edf9"
+            border {
+                width: 1
+                color: "#badeed"
+            }
+
+            Layout.fillWidth: true
+            Layout.preferredHeight: 50
+
+            Label {
+                text: {
+                    if (!root.rssReady)
+                        return qsTr("Loading news...");
+
+                    return "<a href=\"" + root.rssPageUrl + "\">" + root.rssNewsTitle + "</a>";
+                }
+                onLinkActivated: Qt.openUrlExternally(root.rssPageUrl)
+                ToolTip.text: root.rssPageUrl
+                ToolTip.visible: hh.hovered && root.rssReady
+                anchors.centerIn: parent
+                color: "#07a9b5"
+                font.pointSize: 13
+
+                HoverHandler {
+                    id: hh
+                    cursorShape: Qt.PointingHandCursor
+                }
+            }
+        }
+
+        Rectangle {
+            id: pageFooter
+
+            color: "#173f4f"
+            Layout.fillWidth: true
+            Layout.preferredHeight: 65
+
+            RowLayout {
+                spacing: 20
+                anchors.fill: parent
+                anchors.leftMargin: 30
+                anchors.rightMargin: 30
+
+                // TODO: convert these into nice buttons
+                Image {
+                    source: "qrc:/icons/reddit.svg"
+                    Layout.preferredWidth: 15
+                    Layout.preferredHeight: 15
+                    Layout.alignment: Qt.AlignHCenter
+                    fillMode: Image.PreserveAspectFit
+                    mipmap: true
+                }
+
+                Image {
+                    source: "qrc:/icons/facebook.svg"
+                    Layout.preferredWidth: 15
+                    Layout.preferredHeight: 15
+                    Layout.alignment: Qt.AlignHCenter
+                    fillMode: Image.PreserveAspectFit
+                    mipmap: true
+                }
+
+                Image {
+                    source: "qrc:/icons/twitter.svg"
+                    Layout.preferredWidth: 15
+                    Layout.preferredHeight: 15
+                    Layout.alignment: Qt.AlignHCenter
+                    fillMode: Image.PreserveAspectFit
+                    mipmap: true
+                }
+
+                Image {
+                    source: "qrc:/icons/mastodon.svg"
+                    Layout.preferredWidth: 15
+                    Layout.preferredHeight: 15
+                    Layout.alignment: Qt.AlignHCenter
+                    fillMode: Image.PreserveAspectFit
+                    mipmap: true
+                }
+
+                Item { Layout.fillWidth: true }
+
+                CheckBox {
+                    text: qsTr("Show on next startup")
+                    onCheckedChanged: enabler.autostart = checked
+                    Component.onCompleted: checked = enabler.autostart
+                    Layout.alignment: Qt.AlignHCenter
+                }
+
+                ThemedButton {
+                    themeColor: "#dc3545"
+                    Layout.preferredWidth: 65
+                    Layout.preferredHeight: 30
+                    Layout.alignment: Qt.AlignHCenter
+                    text: qsTr("Close")
+                    icon {
+                        source: "qrc:/icons/times.svg"
+                        color: "white"
+                    }
+                    onClicked: root.close()
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1792"
+   height="1792"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="life-ring.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.58138021"
+     inkscape:cx="768"
+     inkscape:cy="768"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="m 896,0 c 495,0 896,401 896,896 0,495 -401,896 -896,896 C 401,1792 0,1391 0,896 0,401 401,0 896,0 Z m 0,128 c -130,0 -253,33 -361,90 l 194,194 c 53,-18 109,-28 167,-28 59,0 114,10 167,28 L 1257,218 C 1149,161 1026,128 896,128 Z M 218,1257 412,1063 c -18,-53 -28,-109 -28,-167 0,-59 10,-114 28,-167 L 218,535 c -57,108 -90,231 -90,361 0,130 33,253 90,361 z m 678,407 c 130,0 253,-33 361,-90 l -194,-194 c -53,18 -108,28 -167,28 -58,0 -114,-10 -167,-28 l -194,194 c 108,57 231,90 361,90 z m 0,-384 c 212,0 384,-172 384,-384 0,-212 -172,-384 -384,-384 -212,0 -384,172 -384,384 0,212 172,384 384,384 z m 484,-217 194,194 c 57,-108 90,-231 90,-361 0,-130 -33,-253 -90,-361 l -194,194 c 18,53 28,109 28,167 0,58 -10,114 -28,167 z"
+     id="path1" />
+</svg>

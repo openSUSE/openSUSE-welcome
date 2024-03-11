@@ -1,9 +1,9 @@
 project('opensuse-welcome', 'cpp')
-qt5 = import('qt5')
-qt5_dep = dependency('qt5', modules: ['Core', 'Quick', 'WebEngine', 'WebChannel'])
+qt6 = import('qt6')
+qt6_dep = dependency('qt6', modules: ['Core', 'Quick'])
 inc = include_directories('src/include')
-qresource_files = ['data/qrc/qml.qrc', 'data/qrc/css.qrc', 'data/qrc/fonts.qrc', 'data/qrc/html.qrc', 'data/qrc/images.qrc', 'data/qrc/js.qrc', 'data/qrc/webresources.qrc', 'data/qrc/layouts.qrc']
-processed_files = qt5.preprocess(moc_headers: ['src/include/enabler.h', 'src/include/launcher.h', 'src/include/sysinfo.h', 'src/include/panellayouter.h'],
+qresource_files = ['data/qrc/qml.qrc', 'data/qrc/fonts.qrc', 'data/qrc/images.qrc', 'data/qrc/layouts.qrc']
+processed_files = qt6.preprocess(moc_headers: ['src/include/enabler.h', 'src/include/launcher.h', 'src/include/sysinfo.h', 'src/include/panellayouter.h'],
                                  include_directories: inc,
                                  qresources: qresource_files)
 

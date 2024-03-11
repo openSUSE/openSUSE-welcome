@@ -1,16 +1,17 @@
-#ifndef LAUNCHER_H
-#define LAUNCHER_H
+#pragma once
+
 #include <QObject>
-#include <QProcess>
+
 class Launcher : public QObject
 {
     Q_OBJECT
+
+    Q_PROPERTY(QString currentDE READ currentDE CONSTANT FINAL)
+
 public:
     explicit Launcher(QObject *parent = nullptr);
     ~Launcher();
+
     Q_INVOKABLE void launch(const QString &program);
-    Q_INVOKABLE QString currentDE();
-protected:
-    QProcess *m_process;
+    QString currentDE();
 };
-#endif

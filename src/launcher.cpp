@@ -18,23 +18,23 @@
 
 #include "launcher.h"
 
-Launcher::Launcher(QObject *parent) :
-    QObject(parent),
-    m_process(new QProcess(this))
-{
-}
+#include <QProcess>
+
+Launcher::Launcher(QObject *parent)
+    : QObject(parent)
+{}
 void Launcher::launch(const QString &program)
 {
-    m_process->startDetached(program);
+    QProcess::startDetached(program, {});
 }
 QString Launcher::currentDE()
 {
     QByteArray bytes = qgetenv("XDG_CURRENT_DESKTOP");
     QString output = QString::fromLocal8Bit(bytes);
-    if (bytes == "KDE") {
+    if (bytes == "KDE")
+    {
         return "Plasma";
     }
     return output;
 }
-Launcher::~Launcher() {
-}
+Launcher::~Launcher() {}

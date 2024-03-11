@@ -21,25 +21,21 @@ public slots:
 
 #endif // SYSINFO_H
 */
-#ifndef BACKEND_H
-#define BACKEND_H
+
+#pragma once
 
 #include <QObject>
-#include <QString>
 
 class SysInfo : public QObject
 {
     Q_OBJECT
 
+    Q_PROPERTY(QString os READ getOS CONSTANT FINAL)
+    Q_PROPERTY(QString arch READ getArch CONSTANT FINAL)
+
 public:
     explicit SysInfo(QObject *parent = nullptr);
 
-    Q_INVOKABLE QString getOS();
-    Q_INVOKABLE QString getArch();
-
-signals:
-    void userNameChanged();
-
+    QString getOS();
+    QString getArch();
 };
-
-#endif // BACKEND_H
