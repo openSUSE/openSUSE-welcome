@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-03-05 08:43+0000\n"
+"PO-Revision-Date: 2024-04-02 01:43+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -432,16 +432,19 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Постојат неколку активни заедници каде што можете да разговарате за тоа што "
+"се случува во openSUSE и да им помогнете на другите корисници на openSUSE. "
+"Имаме мејлинг листи, IRC канали и форуми. Ве молиме погледнете на"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "комуникациските канали"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "за преглед."
 
 #: qrc/main.qml:285
 msgctxt "main|"
