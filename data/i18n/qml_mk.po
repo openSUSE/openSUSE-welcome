@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-02 01:43+0000\n"
+"PO-Revision-Date: 2024-04-02 06:43+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/"
 "opensuse-welcome/master/mk/>\n"
@@ -449,7 +449,7 @@ msgstr "за преглед."
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Предложете нови функции или софтвер"
 
 #: qrc/main.qml:287
 msgctxt "main|"
