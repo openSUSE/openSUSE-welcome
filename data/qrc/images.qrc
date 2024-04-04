@@ -17,5 +17,27 @@
         <file>web/images/xfce/Adwaita-Light.png</file>
         <file>web/images/xfce/Greybird-Geeko-Light.png</file>
         <file>web/images/xfce/Greybird-Geeko-Dark.png</file>
+        <file>icons/arrow-left.svg</file>
+        <file>icons/arrow-right.svg</file>
+        <file>icons/book.svg</file>
+        <file>icons/check-square-o.svg</file>
+        <file>icons/desktop.svg</file>
+        <file>icons/dot-circle-o.svg</file>
+        <file>icons/external-link.svg</file>
+        <file>icons/facebook.svg</file>
+        <file>icons/github-alt.svg</file>
+        <file>icons/hand-o-up.svg</file>
+        <file>icons/hdd-o.svg</file>
+        <file>icons/home.svg</file>
+        <file>icons/industry.svg</file>
+        <file>icons/life-ring.svg</file>
+        <file>icons/mastodon.svg</file>
+        <file>icons/matrix-org.svg</file>
+        <file>icons/picture-o.svg</file>
+        <file>icons/reddit.svg</file>
+        <file>icons/shopping-cart.svg</file>
+        <file>icons/square-o.svg</file>
+        <file>icons/times.svg</file>
+        <file>icons/twitter.svg</file>
     </qresource>
 </RCC>

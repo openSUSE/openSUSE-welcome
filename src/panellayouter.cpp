@@ -1,12 +1,12 @@
 #include "panellayouter.h"
-#include <memory>
 #include <QFile>
 #include <QProcess>
 #include <QTemporaryFile>
+#include <memory>
 
-PanelLayouter::PanelLayouter(QObject *parent) : QObject(parent)
-{
-}
+PanelLayouter::PanelLayouter(QObject *parent)
+    : QObject(parent)
+{}
 
 void PanelLayouter::applyLayout(const QString &path)
 {
@@ -26,25 +26,25 @@ void PanelLayouter::applyLayout(const QString &path)
 
     const auto result = QProcess::execute(APPLY_LAYOUT_SCRIPT, {file->fileName()});
 
-    if (result != 0) {
-	// TODO: something went wrong, display error message?
+    if (result != 0)
+    {
+        // TODO: something went wrong, display error message?
     }
 }
 
 void PanelLayouter::setTheme(const QString &theme)
 {
-    QProcess::startDetached("xfconf-query", { "-c", "xsettings", "-p", "/Net/ThemeName", "-s", theme });
+    QProcess::startDetached("xfconf-query", {"-c", "xsettings", "-p", "/Net/ThemeName", "-s", theme});
 }
 
 void PanelLayouter::setIconTheme(const QString &theme)
 {
-    QProcess::startDetached("xfconf-query", { "-c", "xsettings", "-p", "/Net/IconThemeName", "-s", theme });
+    QProcess::startDetached("xfconf-query", {"-c", "xsettings", "-p", "/Net/IconThemeName", "-s", theme});
 }
-
 
 void PanelLayouter::setFont(const QString &theme)
 {
-    QProcess::startDetached("xfconf-query", { "-c", "xsettings", "-p", "/Gtk/FontName", "-s", theme });
+    QProcess::startDetached("xfconf-query", {"-c", "xsettings", "-p", "/Gtk/FontName", "-s", theme});
 }
 
 void PanelLayouter::runCommand(const QString &cmd)
@@ -54,19 +54,26 @@ void PanelLayouter::runCommand(const QString &cmd)
 
 void PanelLayouter::setLook(const QString &look)
 {
-    if (look == "gbGkLight") {
+    if (look == "gbGkLight")
+    {
         this->setTheme("Greybird-Geeko-Light");
         this->setFont("Noto Sans 11");
         this->setIconTheme("elementary-xfce");
-    } else if (look == "gbGkDark") {
+    }
+    else if (look == "gbGkDark")
+    {
         this->setTheme("Greybird-Geeko-Dark");
         this->setFont("Noto Sans 11");
         this->setIconTheme("elementary-xfce-dark");
-    } else if (look == "aLight") {
+    }
+    else if (look == "aLight")
+    {
         this->setTheme("Adwaita");
         this->setFont("Cantarell 11");
         this->setIconTheme("Adwaita");
-    } else if (look == "aDark") {
+    }
+    else if (look == "aDark")
+    {
         this->setTheme("Adwaita-dark");
         this->setFont("Cantarell 11");
         this->setIconTheme("Adwaita");

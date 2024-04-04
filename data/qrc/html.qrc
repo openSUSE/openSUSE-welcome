@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/">
-        <file>web/contribute.html</file>
-        <file>web/home.html</file>
-        <file>web/readme.html</file>
-        <file>web/socials.html</file>
-        <file>web/xfce.html</file>
-    </qresource>
-</RCC>

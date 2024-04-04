@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1408"
+   height="1408"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="square-o.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.58138021"
+     inkscape:cx="768"
+     inkscape:cy="640.71669"
+     inkscape:window-width="1920"
+     inkscape:window-height="1136"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 1120,128 H 288 c -88,0 -160,72 -160,160 v 832 c 0,88 72,160 160,160 h 832 c 88,0 160,-72 160,-160 V 288 c 0,-88 -72,-160 -160,-160 z m 288,160 v 832 c 0,159 -129,288 -288,288 H 288 C 129,1408 0,1279 0,1120 V 288 C 0,129 129,0 288,0 h 832 c 159,0 288,129 288,288 z"
+     id="path1" />
+</svg>
