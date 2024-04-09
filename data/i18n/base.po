@@ -109,7 +109,7 @@ msgstr ""
 
 #: qrc/main.qml:160
 msgctxt "main|"
-msgid "Build openSUSE"
+msgid "Help by Donating"
 msgstr ""
 
 #: qrc/main.qml:163
@@ -450,7 +450,7 @@ msgstr ""
 
 #: qrc/main.qml:298
 msgctxt "main|"
-msgid "build service"
+msgid "Help by Donating"
 msgstr ""
 
 #: qrc/main.qml:300

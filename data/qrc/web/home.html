@@ -15,7 +15,7 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
---> 
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -116,12 +116,13 @@
                     <a class="btn btn-block btn-primary" onclick="delayedClick('aqrc:///web/contribute.html')" href="">
                         <i class="fa fa-hand-o-up"></i> {{homeTrans.contribute}}
                     </a>
-                    <a class="btn btn-block btn-success" href=""
-                        onclick="bridge.openURL('https://build.opensuse.org/')">
-                        <i class="fa fa-github-alt"></i> {{homeTrans.build}}
+                    <!-- donation button -->
+                    <a class="btn btn-block btn-success font-weight-bold" href=""
+                        onclick="bridge.openURL('https://geekos.org/donate/')">
+                        <i class="fa fa-euro"></i> {{homeTrans.donate}}
                     </a>
+                    <!-- end donation button -->
                 </div>
-
             </div>
 
             <div class="row my-3" id="live">
@@ -134,9 +135,8 @@
                 {{homeTrans.smParagraph}} <a class="" onclick="delayedClick('aqrc:///web/socials.html')"
                     href="">{{homeTrans.smLink}}</a>.
             </p>
-
-
         </div>
+
         <div id="rss-feeds">
         </div>
 
