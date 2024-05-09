@@ -13,7 +13,36 @@ A new button has been added that enables you to donate the Geeko Foundation, the
 <img src="https://l10n.opensuse.org/widgets/opensuse-welcome/-/master/multi-blue.svg" alt="Translation status" />
 </a>
 
+## Build instructions
+
+```
+$ sudo zypper in libQt5Core-devel libqt5-qtdeclarative-devel libqt5-qtwebchannel-devel libqt5-qtwebengine-devel libqt5-linguist hicolor-icon-theme meson
+$ git clone git@github.com:openSUSE/openSUSE-welcome.git
+$ cd openSUSE-welcome
+$ meson setup builddir
+$ cd builddir
+$ ninja build
+$ src/openSUSE-welcome # execute newly built app
+```
+
+### OBS build
+
+This will show you how to make a test build of rpms from your git repo
+```
+$ zypper in osc # or openSUSE-release-tools
+$ osc bco X11:Utilities/opensuse-welcome
+$ cd home*X11*Utilities/openSUSE-welcome
+
+
+$ vim _service # Change _service file to point to your github repo
+$ osc service runall # will fetch new sources and make changelog entry
+$ osc addremove #  make sure that the old source archive is gone prior running this
+$ osc commit # check changelog by osc vc
+
+```
+
 ## About
+
 openSUSE Welcome is a utility that welcomes users to openSUSE. It includes links to various resources, 
 including a link to the donation page at https://geekos.org.
 
