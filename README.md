@@ -32,13 +32,10 @@ This will show you how to make a test build of rpms from your git repo
 $ zypper in osc # or openSUSE-release-tools
 $ osc bco X11:Utilities/opensuse-welcome
 $ cd home*X11*Utilities/openSUSE-welcome
-
-
 $ vim _service # Change _service file to point to your github repo
-$ osc service runall # will fetch new sources and make changelog entry
+$ osc service runall # will fetch new sources and make a changelog entry
 $ osc addremove #  make sure that the old source archive is gone prior running this
 $ osc commit # check changelog by osc vc
-
 ```
 
 ## About
