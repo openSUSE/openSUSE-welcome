@@ -43,4 +43,4 @@ $ osc commit # check changelog by osc vc
 openSUSE Welcome is a utility that welcomes users to openSUSE. It includes links to various resources, 
 including a link to the donation page at https://geekos.org.
 
-![Screenshot of openSUSE Welcome.](https://github.com/patrickfitz/openSUSE-welcome/blob/master/Welcome.png)
+![Screenshot of openSUSE Welcome.](https://github.com/openSUSE/openSUSE-welcome/blob/master/Welcome.png)
