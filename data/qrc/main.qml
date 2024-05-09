@@ -158,6 +158,7 @@ Window {
         // openSUSE Contribution stuff
         property string contribute:             qsTr("Contribute") // contribute (to openSUSE)
         property string build:                  qsTr("Build openSUSE") // help build openSUSE
+        property string donate:                 qsTr("Help by Donation") // donate to Geeko Foundation
 
         // Social media blurb.
         property string smParagraph:            qsTr("If this is your first time using openSUSE, we would like you to feel right at home in your new voyage. Take your time to familiarize yourself with all the buttons and let us know how you like the experience on our")
