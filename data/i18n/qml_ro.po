@@ -1,118 +1,123 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-05-20 19:46+0000\n"
+"Last-Translator: Coleasa Nicolae <nicolaefericitu@duck.com>\n"
+"Language-Team: Romanian <https://l10n.opensuse.org/projects/opensuse-welcome/"
+"master/ro/>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
+"X-Generator: Weblate 5.5.5\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 #: qrc/main.qml:55
 msgctxt "main|"
 msgid "Welcome"
-msgstr ""
+msgstr "Bine ați venit"
 
 #: qrc/main.qml:131
 msgctxt "main|"
 msgid "Ahoy, this is openSUSE"
-msgstr ""
+msgstr "Ahoy, acesta este openSUSE"
 
 #: qrc/main.qml:134
 msgctxt "main|"
 msgid "Basics"
-msgstr ""
+msgstr "Noțiuni de bază"
 
 #: qrc/main.qml:135
 msgctxt "main|"
 msgid "Support"
-msgstr ""
+msgstr "Asistență"
 
 #: qrc/main.qml:138
 msgctxt "main|"
 msgid "Read me"
-msgstr ""
+msgstr "Citește-mă"
 
 #: qrc/main.qml:139
 msgctxt "main|"
 msgid "Documentation"
-msgstr ""
+msgstr "Documentație"
 
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Obțineți software"
 
 #: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Instalați openSUSE"
 
 #: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "Ajutor GNOME"
 
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Ajutor Plasma"
 
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Ajutor Xfce"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "Ajutor MATE"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Ajutor Enlightenment"
 
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "Despre Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "Despre Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "Ajutor LXDE"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "Ajutor LXQt"
 
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "Despre Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Ajutor Deepin"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuiți"
 
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Construiți openSUSE"
 
 #: qrc/main.qml:161
 msgctxt "main|"
@@ -126,31 +131,34 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Dacă este prima dată când utilizați openSUSE, am dori să vă simțiți ca acasă "
+"în noua dvs. călătorie. Luați-vă timp pentru a vă familiariza cu toate "
+"butoanele și anunțați-ne cum vă place experiența pe"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "rețelele noastre sociale"
 
 #: qrc/main.qml:167
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Afișare la următoarea pornire"
 
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Personalizați"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Închidere"
 
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Aspecte desktop"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -159,6 +167,10 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce oferă o varietate de opțiuni de personalizare, inclusiv "
+"posibilitatea de a alege un aspect de desktop care să se potrivească "
+"fluxului dvs. de lucru. Puteți alege una dintre acestea ca punct de plecare "
+"și o puteți personaliza ulterior."
 
 #: qrc/main.qml:179
 msgctxt "main|"
@@ -183,12 +195,12 @@ msgstr ""
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Teme"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Faceți clic pe imagini pentru a aplica teme de aplicații."
 
 #: qrc/main.qml:187
 msgctxt "main|"
@@ -213,17 +225,17 @@ msgstr ""
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr ""
+msgstr "Rețele sociale"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr ""
+msgstr "Acasă"
 
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr ""
+msgstr "Rețele sociale: Cum să ajungeți la noi!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -231,6 +243,9 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"Cele mai frecvent utilizate rețele de socializare sunt deja listate în "
+"subsol, dar iată alte câteva pe care le puteți găsi utile, în ordine "
+"alfabetică:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
@@ -245,7 +260,7 @@ msgstr ""
 #: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "Forumuri"
 
 #: qrc/main.qml:210
 msgctxt "main|"
@@ -260,27 +275,27 @@ msgstr ""
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "Grup pe Facebook"
 
 #: qrc/main.qml:215
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "Forumuri openSUSE"
 
 #: qrc/main.qml:218
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "Suport tehnic"
 
 #: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "Proiect"
 
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Fabrică"
 
 #: qrc/main.qml:221
 msgctxt "main|"
@@ -290,17 +305,17 @@ msgstr ""
 #: qrc/main.qml:224
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "Grupul openSUSE"
 
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "Știri openSUSE"
 
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Contribuiți. Participați la openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -312,6 +327,14 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Fie că sunteți un dezvoltator Linux experimentat sau un utilizator final "
+"care abia a început să folosească Linux, există multe modalități de a "
+"participa la proiectul openSUSE. Înscrieți-vă pe un forum pentru a primi "
+"ajutor sau pentru a-i ajuta pe alții cu openSUSE, găsiți și raportați "
+"erorile, preluați o problemă din procesul de lansare, revizuiți "
+"documentația, trimiteți lista de dorințe pentru noi pachete și "
+"caracteristici, creați și trimiteți corecții sau găsiți alte modalități "
+"creative de a contribui."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -319,11 +342,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Orice ați face, luați câteva minute pentru a discuta despre openSUSE cu alți "
+"utilizatori și deveniți un"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "membru activ"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -332,6 +357,10 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"a comunității openSUSE. Pentru majoritatea activităților este nevoie de o "
+"autentificare pentru a vă bucura de toată distracția. S-ar putea să doriți "
+"să creați o pagină de utilizator și să împărtășiți cu ceilalți câteva "
+"informații utile sau interese despre dvs."
 
 #: qrc/main.qml:252
 msgctxt "main|"
@@ -458,7 +487,7 @@ msgstr ""
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "Help by Donating"
-msgstr ""
+msgstr "Ajutați prin donații"
 
 #: qrc/main.qml:300
 msgctxt "main|"
