@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-20 19:46+0000\n"
+"PO-Revision-Date: 2024-05-20 22:46+0000\n"
 "Last-Translator: Coleasa Nicolae <nicolaefericitu@duck.com>\n"
 "Language-Team: Romanian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/ro/>\n"
@@ -342,8 +342,8 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
-"Orice ați face, luați câteva minute pentru a discuta despre openSUSE cu alți "
-"utilizatori și deveniți un"
+"Orice ați face, luați-vă câteva minute pentru a discuta despre openSUSE cu "
+"alți utilizatori și deveniți un"
 
 #: qrc/main.qml:247
 msgctxt "main|"
@@ -357,7 +357,7 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
-"a comunității openSUSE. Pentru majoritatea activităților este nevoie de o "
+"al comunității openSUSE. Pentru majoritatea activităților este nevoie de o "
 "autentificare pentru a vă bucura de toată distracția. S-ar putea să doriți "
 "să creați o pagină de utilizator și să împărtășiți cu ceilalți câteva "
 "informații utile sau interese despre dvs."
@@ -365,17 +365,17 @@ msgstr ""
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Faceți parte din comunitatea openSUSE"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Vedeți unde se află alte"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "comunități openSUSE"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -384,36 +384,40 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"membrii sunt localizați în întreaga lume, faceți cunoștință cu câțiva oameni "
+"din openSUSE, găsiți grupuri locale de utilizatori openSUSE, sărbătoriți "
+"lansările, aflați despre structura de guvernare și multe altele. Urmăriți"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "știrile openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
 msgstr ""
+"pe site-ul nostru de știri și vedeți ce pun la cale dezvoltatorii noștri pe"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planeta openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Ajutați-ne să lansăm următoarea versiune de openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Pentru fiecare versiune există un"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "set de sarcini"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -422,11 +426,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"disponibile. Unele sunt complicate, altele sunt ușor de realizat, chiar și "
+"pentru începători. Răsfoiți problemele și spuneți cuiva de la openSUSE dacă "
+"ați găsit o sarcină adecvată."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Discutați despre openSUSE și ajutați alți utilizatori"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -435,26 +442,29 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Există mai multe comunități active în care puteți discuta despre ce se "
+"întâmplă în openSUSE și puteți ajuta alți utilizatori openSUSE. Avem liste "
+"de discuții, canale IRC și forumuri. Vă rugăm să aruncați o privire la"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "canalele de comunicare"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "pentru o prezentare generală."
 
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Sugerați noi caracteristici sau software"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Vizitați"
 
 #: qrc/main.qml:289
 msgctxt "main|"
@@ -470,11 +480,17 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"sistemul nostru de gestionare a caracteristicilor și cerințelor. Aici puteți "
+"obține o imagine de ansamblu a lucrurilor care se întâmplă în produsele "
+"viitoare, puteți urmări și participa la discuții adăugând comentarii sau "
+"lucrând la caracteristici pentru următoarea generație de produse (versiune) "
+"și puteți contribui la transformarea openSUSE într-o distribuție Linux și "
+"mai bună."
 
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Răspândiți vestea"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -483,6 +499,9 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Asigurați-vă că răspândiți cuvântul despre openSUSE și ajutați-i și pe alții "
+"să beneficieze de el! openSUSE oferă o distribuție Linux excelentă și multe "
+"alte tehnologii, cum ar fi"
 
 #: qrc/main.qml:298
 msgctxt "main|"
