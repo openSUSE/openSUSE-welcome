@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-20 22:46+0000\n"
+"PO-Revision-Date: 2024-05-25 21:46+0000\n"
 "Last-Translator: Coleasa Nicolae <nicolaefericitu@duck.com>\n"
 "Language-Team: Romanian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/ro/>\n"
@@ -499,7 +499,7 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
-"Asigurați-vă că răspândiți cuvântul despre openSUSE și ajutați-i și pe alții "
+"Asigurați-vă că răspândiți vestea despre openSUSE și ajutați-i și pe alții "
 "să beneficieze de el! openSUSE oferă o distribuție Linux excelentă și multe "
 "alte tehnologii, cum ar fi"
 
@@ -515,16 +515,20 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"care îi poate ajuta atât pe utilizatorii obișnuiți, cât și pe "
+"administratorii de sistem și pe dezvoltatori să își facă treaba și să se "
+"distreze. Scrieți pe blog despre openSUSE, spuneți-le prietenilor și "
+"familiei dvs. și ajutați-i să îl instaleze!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Citește-mă"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Software suplimentar"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -532,6 +536,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Există anumite drivere proprietare (cum ar fi Nvidia) și pachete (cum ar fi "
+"Google Chrome) pe care openSUSE nu le poate include în mod implicit."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -539,11 +545,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Dacă aveți un dispozitiv Nvidia și doriți să utilizați driverele "
+"proprietare, citiți acest"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "articol wiki"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -552,11 +560,15 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Pentru a instala Google Chrome, trebuie doar să îl descărcați direct de la "
+"Google. Google pune la dispoziție un depozit care va fi adăugat în sistemul "
+"dvs. atunci când instalați Google Chrome. Acest lucru îi va permite să fie "
+"actualizat alături de sistemul dvs."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google oferă RPM pentru Google Chrome pe site-ul său web."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -565,21 +577,24 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Unele codecuri pentru redarea de conținut media nu pot fi incluse în "
+"openSUSE din cauza unor probleme de licență. Cu toate acestea, există "
+"depozite disponibile despre care puteți citi"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "aici"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Depozite comunitare"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "Pe"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -588,3 +603,7 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", este posibil să dați peste depozite furnizate de comunitate. Deși nu "
+"verificăm manual depozitele comunității, acestea și-au construit software-ul "
+"în raport cu cea mai recentă versiune de openSUSE și ar trebui să "
+"funcționeze."
