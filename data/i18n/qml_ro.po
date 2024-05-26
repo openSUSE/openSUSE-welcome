@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-25 21:46+0000\n"
+"PO-Revision-Date: 2024-05-26 22:46+0000\n"
 "Last-Translator: Coleasa Nicolae <nicolaefericitu@duck.com>\n"
 "Language-Team: Romanian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/ro/>\n"
@@ -589,7 +589,7 @@ msgstr "aici"
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr "Depozite comunitare"
+msgstr "Depozitele comunității"
 
 #: qrc/main.qml:335
 msgctxt "main|"
