@@ -119,11 +119,6 @@ msgctxt "main|"
 msgid "Build openSUSE"
 msgstr "Construiți openSUSE"
 
-#: qrc/main.qml:161
-msgctxt "main|"
-msgid "Help by Donating"
-msgstr ""
-
 #: qrc/main.qml:163
 msgctxt "main|"
 msgid ""
