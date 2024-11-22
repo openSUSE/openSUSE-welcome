@@ -27,3 +27,4 @@ GenericName[pl]=Program do powitania w openSUSE.
 Name[zh_CN]=欢迎
 Comment[zh_CN]=openSUSE 欢迎程序。
 GenericName[zh_CN]=欢迎程序
+NotShowIn=GNOME;
