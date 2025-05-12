@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-12-17 00:54+0000\n"
-"Last-Translator: Mohammad Rezaei Seresht <m_rezaei_seresht@hotmail.com>\n"
+"PO-Revision-Date: 2025-05-13 00:59+0000\n"
+"Last-Translator: Mohammad Rezaei Seresht <m.networking@gmail.com>\n"
 "Language-Team: Persian <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -161,6 +161,9 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce گزینه‌های سفارشی‌سازی متنوعی از جمله امکان انتخاب طرح‌بندی دسکتاپ "
+"متناسب با گردش کار شما را ارائه می‌دهد. می‌توانید یکی از این موارد را به عنوان "
+"نقطه شروع انتخاب کرده و بعداً آن را سفارشی‌سازی کنید."
 
 #: qrc/main.qml:179
 msgctxt "main|"
@@ -195,22 +198,22 @@ msgstr "برای اعمال تم برنامه روی تصاویر کلیک کن�
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "جیکوی گری‌برد روشن"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "جیکوی گری‌برد تیره"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "آدویتا روشن"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "آدویتا تیره"
 
 #: qrc/main.qml:197
 msgctxt "main|"
@@ -233,11 +236,13 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"رایج‌ترین رسانه‌های اجتماعی مورد استفاده در پاورقی فهرست شده‌اند، اما در اینجا "
+"به ترتیب حروف الفبا، موارد مفید دیگری نیز آورده شده است:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
-msgstr "اختلاف"
+msgstr "دیسکورد"
 
 #: qrc/main.qml:208
 msgctxt "main|"
@@ -314,6 +319,13 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"چه یک توسعه‌دهنده باتجربه لینوکس باشید و چه یک کاربر نهایی که تازه با لینوکس "
+"شروع به کار کرده باشید، راه‌های زیادی برای مشارکت در پروژه openSUSE وجود "
+"دارد. به یک انجمن بپیوندید تا در مورد openSUSE به دیگران کمک کنید یا از آنها "
+"کمک بگیرید، اشکالات را پیدا کرده و گزارش دهید، یک مشکل را از فرآیند انتشار "
+"به دست بگیرید، مستندات را بررسی کنید، لیست خواسته‌های خود را برای بسته‌ها و "
+"ویژگی‌های جدید ارسال کنید، وصله‌ها را ایجاد و ارسال کنید، یا راه‌های خلاقانه "
+"دیگری برای مشارکت پیدا کنید."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -321,6 +333,8 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"هر کاری که انجام می‌دهید، چند دقیقه وقت بگذارید و در مورد openSUSE با سایر "
+"کاربران صحبت کنید و تبدیل شوید به یکی"
 
 #: qrc/main.qml:247
 msgctxt "main|"
@@ -334,21 +348,24 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"از جامعه openSUSE. برای اکثر فعالیت‌ها، برای لذت بردن از تمام امکانات، ورود "
+"به سیستم لازم است. شاید بخواهید یک صفحه کاربری ایجاد کنید و اطلاعات مفید یا "
+"علایق خود را با دیگران به اشتراک بگذارید."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "عضوی از انجمن openSUSE باشید"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "جاهای دیگر را ببینید"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "جامعه openSUSE"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -357,6 +374,9 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"اعضا در سراسر جهان مستقر هستند، با برخی از اعضای openSUSE آشنا می‌شوند، گروه‌"
+"های کاربری محلی openSUSE را پیدا می‌کنند، انتشارها را جشن می‌گیرند، در مورد "
+"ساختار مدیریتی اطلاعات کسب می‌کنند و موارد دیگر. دنبال کردن"
 
 #: qrc/main.qml:260
 msgctxt "main|"
@@ -366,27 +386,27 @@ msgstr "اخبار اپن‌سوزه"
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "در سایت خبری ما باشید و ببینید توسعه‌دهندگان ما چه می‌کنند"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "سیاره openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "به ما در انتشار نسخه بعدی openSUSE کمک کنید"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "برای هر انتشار، یک"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "مجموعه وظایف"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -395,11 +415,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"موجود است. برخی از آنها پیچیده هستند، برخی از آنها آسان است، حتی برای "
+"مبتدیان. مشکلات را بررسی کنید و اگر کار مناسبی پیدا کردید، به یکی از اعضای "
+"openSUSE اطلاع دهید."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "در مورد openSUSE بحث کنید و به سایر کاربران کمک کنید"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -408,31 +431,34 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"چندین انجمن فعال وجود دارد که می‌توانید در آنها درباره اتفاقات اوپن‌سوزه بحث "
+"کنید و به سایر کاربران اوپن‌سوزه کمک کنید. ما لیست‌های پستی، کانال‌های IRC و "
+"انجمن‌ها را داریم. لطفاً نگاهی به ... بیندازید"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "کانال‌های ارتباطی"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "برای یک مرور کلی."
 
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "ویژگی ها یا نرم افزارهای جدید را پیشنهاد دهید"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "بازدید"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "باگزیلا"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -443,11 +469,15 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"سیستم مدیریت ویژگی‌ها و نیازمندی‌های ما. در اینجا می‌توانید یک مرور کلی از "
+"اتفاقات محصولات آینده دریافت کنید، با افزودن نظرات، بحث را دنبال کنید و در "
+"آن شرکت کنید یا روی ویژگی‌های نسل بعدی محصول (نسخه) کار کنید و به تبدیل "
+"openSUSE به یک توزیع لینوکس حتی بهتر کمک کنید."
 
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "خبر را پخش کنید"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -456,11 +486,14 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"حتماً در مورد openSUSE اطلاع‌رسانی کنید و به دیگران نیز کمک کنید تا از آن بهره‌"
+"مند شوند! openSUSE یک توزیع لینوکس عالی و بسیاری از فناوری‌های دیگر مانند ما "
+"را ارائه می‌دهد"
 
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr ""
+msgstr "سرویس ساخت"
 
 #: qrc/main.qml:300
 msgctxt "main|"
@@ -469,16 +502,19 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"که می‌تواند به کاربران خانگی و همچنین مدیران سیستم و توسعه‌دهندگان کمک کند تا "
+"کار خود را انجام دهند و از آن لذت ببرند. درباره openSUSE وبلاگ بنویسید، به "
+"دوستان و خانواده خود بگویید و به آنها در نصب آن کمک کنید!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "مرا بخوان"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "نرم‌افزار اضافی"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -486,6 +522,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"درایورهای اختصاصی خاصی (مانند انویدیا) و بسته‌هایی (مانند گوگل کروم) وجود "
+"دارند که openSUSE نمی‌تواند به طور پیش‌فرض آنها را در خود جای دهد."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -493,11 +531,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"اگر دستگاه Nvidia دارید و می خواهید از درایورهای اختصاصی استفاده کنید، این "
+"را بخوانید"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "مقاله ویکی"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -506,11 +546,14 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"برای نصب گوگل کروم، کافیست آن را مستقیماً از گوگل دانلود کنید. گوگل یک مخزن "
+"ارائه می‌دهد که هنگام نصب گوگل کروم به سیستم شما اضافه می‌شود. این به شما "
+"امکان می‌دهد تا آن را در کنار سیستم خود به‌روزرسانی کنید."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "گوگل RPM گوگل کروم را در وب‌سایت خود ارائه می‌دهد."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -519,21 +562,23 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"برخی از کدک‌های پخش رسانه به دلیل مشکلات مجوز نمی‌توانند در openSUSE گنجانده "
+"شوند. با این حال، مخازن در دسترس هستند که می توانید در مورد آنها مطالعه کنید"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "اینجا"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "مخازن انجمن"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "روشن"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -542,3 +587,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+"، ممکن است با مخازن ارائه شده توسط جامعه مواجه شوید. اگرچه ما مخازن جامعه را "
+"به صورت دستی بررسی نمی‌کنیم، اما آنها نرم‌افزار خود را بر اساس آخرین نسخه "
+"openSUSE ساخته‌اند و باید کار کنند."
