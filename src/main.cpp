@@ -65,6 +65,12 @@ public:
 
 int main(int argc, char *argv[])
 {
+    // Run openSUSE-tweaked gnome-tour or plasma-welcome if available and quit.
+    Launcher launcher;
+    if (launcher.launchSessionWelcome()) {
+        return 0; //  quit if session greeter successfully launched
+    }
+
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
     QWebEngineUrlScheme qrcScheme(QByteArrayLiteral("qrc"));
