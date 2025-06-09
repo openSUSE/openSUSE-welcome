@@ -43,7 +43,6 @@ bool Launcher::launchSessionWelcome()
     if (!welcomeBinary.isEmpty()) {
         if (QProcess::startDetached(welcomeBinary, {})) {
             qDebug() << "Launched system welcome:" << welcomeBinary;
-            QCoreApplication::quit();  // exit openSUSE Welcome
             return true;
         } else {
             qWarning() << "Failed to start:" << welcomeBinary;
