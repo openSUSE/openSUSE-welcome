@@ -17,11 +17,41 @@
  */
 
 #include "launcher.h"
+#include <QStandardPaths>
+#include <QDebug>
+#include <QCoreApplication>
 
 Launcher::Launcher(QObject *parent) :
     QObject(parent),
     m_process(new QProcess(this))
 {
+}
+
+// Run openSUSE-tweaked gnome-tour or plasma-welcome if available and quit.
+bool Launcher::launchSessionWelcome()
+{
+    qDebug() << "launchSessionWelcome() called";
+    const QString de = currentDE().toLower();
+    QString welcomeBinary;
+
+    if (de == "plasma") {
+        welcomeBinary = QStandardPaths::findExecutable("plasma-welcome");
+    } else if (de == "gnome") {
+        welcomeBinary = QStandardPaths::findExecutable("gnome-tour");
+    }
+
+    if (!welcomeBinary.isEmpty()) {
+        if (QProcess::startDetached(welcomeBinary, {})) {
+            qDebug() << "Launched system welcome:" << welcomeBinary;
+            QCoreApplication::quit();  // exit openSUSE Welcome
+            return true;
+        } else {
+            qWarning() << "Failed to start:" << welcomeBinary;
+        }
+    } else {
+        qDebug() << "No welcome tool available for DE:" << de;
+    }
+    return false;
 }
 void Launcher::launch(const QString &program)
 {
