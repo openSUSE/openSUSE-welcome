@@ -21,7 +21,7 @@ $ git clone git@github.com:openSUSE/openSUSE-welcome.git
 $ cd openSUSE-welcome
 $ meson setup builddir
 $ cd builddir
-$ ninja build
+$ ninja
 $ src/openSUSE-welcome # execute newly built app
 ```
 
