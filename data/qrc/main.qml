@@ -35,7 +35,6 @@ Window {
         bridgeObject.arch = systemInfo.getArch();
         bridgeObject.os = systemInfo.getOS();
         bridgeObject.de = launcher.currentDE();
-        bridgeObject.enabled = enabler.autostartEnabled();
         bridgeObject.live = enabler.isLive();
         console.log(bridgeObject.live);
     }
@@ -105,7 +104,6 @@ Window {
         property string arch: ""
         property string os: ""
         property string de: ""
-        property bool enabled: true
         property bool live: false
         property bool ready: false
         property bool pastFirstPage: false
