@@ -36,7 +36,6 @@ Window {
         bridgeObject.os = systemInfo.getOS();
         bridgeObject.de = launcher.currentDE();
         bridgeObject.live = enabler.isLive();
-        enabler.disableAutostart();
         console.log(bridgeObject.live);
     }
 
