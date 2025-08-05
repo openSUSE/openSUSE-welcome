@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-06-02 14:59+0000\n"
+"PO-Revision-Date: 2025-08-05 19:59+0000\n"
 "Last-Translator: a Rubes <aRubes@pm.me>\n"
 "Language-Team: Hebrew <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/he/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 5.12.2\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -131,6 +131,8 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"אם זו הפעם הראשונה שאתם משתמשים ב-openSUSE, נשמח שתחושו בבית במסעכם החדש. "
+"קחו את הזמן להכיר את כל הלחצנים וספרו לנו איך החוויה ב-"
 
 #: qrc/main.qml:164
 msgctxt "main|"
@@ -164,26 +166,32 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce מציעה מגוון אפשרויות התאמה אישית, כולל היכולת לבחור פריסת "
+"שולחן עבודה המתאימה לזרימת העבודה שלך. ניתן לבחור אחת מהאפשרויות הללו כנקודת "
+"התחלה ולהתאים אותה אישית בהמשך."
 
 #: qrc/main.qml:179
+#, fuzzy
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
+#, fuzzy
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
+#, fuzzy
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
@@ -198,22 +206,22 @@ msgstr "הקליקו על התמונות על מנת להחיל ערכות נו�
 #: qrc/main.qml:187
 msgctxt "main|"
 msgid "Greybird Geeko Light"
-msgstr ""
+msgstr "Greybird Geeko Light"
 
 #: qrc/main.qml:188
 msgctxt "main|"
 msgid "Greybird Geeko Dark"
-msgstr ""
+msgstr "Greybird Geeko Dark"
 
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr ""
+msgstr "Adwaita Light"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr ""
+msgstr "Adwaita Dark"
 
 #: qrc/main.qml:197
 msgctxt "main|"
@@ -236,76 +244,79 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
+"מרבית הרשתות החברתיות הנפוצות כבר מופיעות בתחתית העמוד, אך הנה כמה נוספות "
+"שעשויות להיות שימושיות עבורכם, לפי סדר אלפביתי:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: qrc/main.qml:208
+#, fuzzy
 msgctxt "main|"
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: qrc/main.qml:209
 msgctxt "main|"
 msgid "Forums"
-msgstr ""
+msgstr "פורומים"
 
 #: qrc/main.qml:210
 msgctxt "main|"
 msgid "IRC"
-msgstr ""
+msgstr "צ'אט בפרוטוקול IRC"
 
 #: qrc/main.qml:211
 msgctxt "main|"
 msgid "Telegram"
-msgstr ""
+msgstr "טלגרם"
 
 #: qrc/main.qml:214
 msgctxt "main|"
 msgid "Facebook Group"
-msgstr ""
+msgstr "קבוצת פייסבוק"
 
 #: qrc/main.qml:215
 msgctxt "main|"
 msgid "openSUSE Forums"
-msgstr ""
+msgstr "פורומי openSUSE"
 
 #: qrc/main.qml:218
 msgctxt "main|"
 msgid "Tech Support"
-msgstr ""
+msgstr "תמיכה טכנית"
 
 #: qrc/main.qml:219
 msgctxt "main|"
 msgid "Project"
-msgstr ""
+msgstr "פרויקט"
 
 #: qrc/main.qml:220
 msgctxt "main|"
 msgid "Factory"
-msgstr ""
+msgstr "Factory"
 
 #: qrc/main.qml:221
 msgctxt "main|"
 msgid "Chat"
-msgstr ""
+msgstr "צ'אט"
 
 #: qrc/main.qml:224
 msgctxt "main|"
 msgid "openSUSE Group"
-msgstr ""
+msgstr "קבוצת openSUSE"
 
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "חדשות openSUSE"
 
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "תרמו. השתתפו ב openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
