@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-08-05 19:59+0000\n"
+"PO-Revision-Date: 2025-08-05 22:59+0000\n"
 "Last-Translator: a Rubes <aRubes@pm.me>\n"
 "Language-Team: Hebrew <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/he/>\n"
@@ -171,19 +171,16 @@ msgstr ""
 "התחלה ולהתאים אותה אישית בהמשך."
 
 #: qrc/main.qml:179
-#, fuzzy
 msgctxt "main|"
 msgid "Cupertino"
 msgstr "Cupertino"
 
 #: qrc/main.qml:180
-#, fuzzy
 msgctxt "main|"
 msgid "El Ratón"
 msgstr "El Ratón"
 
 #: qrc/main.qml:181
-#, fuzzy
 msgctxt "main|"
 msgid "Unitatis"
 msgstr "Unitatis"
@@ -253,10 +250,9 @@ msgid "Discord"
 msgstr "Discord"
 
 #: qrc/main.qml:208
-#, fuzzy
 msgctxt "main|"
 msgid "Facebook"
-msgstr "Facebook"
+msgstr "פייסבוק"
 
 #: qrc/main.qml:209
 msgctxt "main|"
@@ -328,18 +324,23 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"בין אם אתם מפתחות לינוקס מנוסים או משתמשי קצה שרק מתחילים עם לינוקס, יש לכם "
+"דרכים רבות להשתתף בפרויקט openSUSE. הצטרפו לפורום כדי לקבל עזרה או לעזור "
+"לאחרים עם openSUSE, מצאו ודווחו על באגים, קחו על עצמכם טיפול בבעיה מתהליך "
+"שחרור הגרסה העדכנית, עברו על התיעוד, שלחו את רשימת הבקשות שלכם לחבילות "
+"ותכונות חדשות, צרו ושלחו תיקונים, או מצאו דרכים יצירתיות אחרות לתרום."
 
 #: qrc/main.qml:245
 msgctxt "main|"
 msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
-msgstr ""
+msgstr "מה שלא תעשו, קחו כמה רגעים לדבר על openSUSE עם משתמשות אחרות והפכו ל-"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "חבר/ה פעיל/ה"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -348,21 +349,23 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"בקהילת openSUSE. ברוב הפעילויות נדרשת כניסת משתמשים רשומים להנאה מרבית. "
+"ייתכן שתרצו ליצור דף משתמש/ת ולשתף מידע שימושי או תחומי עניין עם אחרים."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "קחו חלק בקהילת openSUSE"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "צפו איפה"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "חברי קהילת openSUSE"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -371,36 +374,38 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"ממוקמים בעולם, הכירו כמה אנשי openSUSE, מצאו קבוצות משתמשים מקומיות, חגגו "
+"שחרורי גרסה, למדו על מבנה השליטה והממשל ועוד. עקבו אחר"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "חדשות openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "באתר החדשות שלנו ותראו על מה המפתחים/ות שלנו עובדים/ות"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "פלנטת openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "עזרו לנו לשחרר את הגרסה הבאה של openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "עבור כל שחרור גרסה יש"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "סט משימות"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -409,11 +414,13 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"זמין. חלקן מורכבות, חלקן קל להשגה אפילו עבור מתחילות. סקרו את נושאי הפעולה "
+"ואמרו למישהו מ openSUSE אם מצאתם משימה נאותה."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "דונו ב-openSUSE ועזרו למשתמשים אחרים"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -422,31 +429,33 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"שנן מספר קהילות פעילות בהן תוכלו לדון במה שקורה ב-openSUSE ולעזור למשתמשי "
+"openSUSE אחרים. יש לנו רשימות תפוצה, ערוצי IRC ופורומים. אנא עיינו ב-"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "ערוצי תקשורת"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr "לסקירה שלהם."
 
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "הצע תכונות או תוכנות חדשות"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "בקרו ב-"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -457,11 +466,15 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"מערכת ניהול התכונות והדרישות שלנו. כאן תוכלו לקבל סקירה ממוינת של דברים "
+"שקורים במוצרים העתידים להגיע בקרוב, לעקוב ולהשתתף בדיון על ידי הוספת תגובות "
+"או עבודה על תכונות לגרסה הבאה של המוצר, ולעזור להפוך את openSUSE להפצת "
+"לינוקס טובה עוד יותר."
 
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "הפיצו את הבשורה"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -470,6 +483,8 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"זכרו להפיץ את הבשורה על openSUSE ועזרו גם לאחרים ליהנות ממנה! openSUSE מציעה "
+"הפצת לינוקס נהדרת וטכנולוגיות רבות אחרות כמו ה"
 
 #: qrc/main.qml:298
 msgctxt "main|"
@@ -483,16 +498,19 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"שיכול לעזור למשתמשים ביתיים, כמו גם למנהלות מערכת ולמפתחים, לבצע עבודה "
+"וליהנות. כתבו בבלוג על openSUSE, ספרו לחברים ולמשפחה שלכם ועזרו להם להתקין "
+"אותה!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "קראו אותי"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "תוכנות נוספות"
 
 #: qrc/main.qml:316
 msgctxt "main|"
@@ -500,6 +518,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"יש דרייברים קנייניים מסוימים (כמו Nvidia) וחבילות (כמו Google Chrome) ש "
+"openSUSE לא יכולה לכלול כברירת מחדל."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -507,11 +527,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"אם יש לכם התקן של Nvidia ואתם מעוניינים להשתמש במנהלי ההתקן הקנייניים, קראו "
+"את זה"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "עמוד וויקי"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -520,11 +542,15 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"אם יש לך התקן של Nvidia וברצונך להשתמש במנהלי ההתקן הקנייניים, קרא/י את זה. "
+"כדי להתקין את Google Chrome, פשוט הורידו אותו ישירות מגוגל. גוגל מספקת מאגר "
+"שיתווסף למערכת שלך בעת התקנת Google Chrome. זה יאפשר לו להתעדכן יחד עם "
+"המערכת שלך."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "גוגל מציעה את חבילת ה-RPM של גוגל כרום באתר האינטרנט שלה."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -533,21 +559,23 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"מקודדים מסוימים לניגון מדיה אינם יכולים להיכלל ב־openSUSE עקב בעיות רישוי. "
+"עם זאת, קיימים מאגרים זמינים שניתן לקרוא עליהם"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "כאן"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "מאגרי קהילה"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "על"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -556,3 +584,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", אתם עשויים להיתקל במאגרים שסופקו על ידי הקהילה. על אף שאיננו בודקים באופן "
+"ידני את מאגרי הקהילה, הם בנו את התוכנה שלהם על בסיס הגרסה האחרונה של "
+"openSUSE והיא אמורה לעבוד."
