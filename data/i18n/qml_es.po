@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2020-05-26 14:40+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"PO-Revision-Date: 2025-10-22 19:59+0000\n"
+"Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/es/>\n"
 "Language: es\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 5.13.3\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -48,7 +48,7 @@ msgstr "Documentación"
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr "Obtener programas"
+msgstr "Obtener software"
 
 #: qrc/main.qml:143
 msgctxt "main|"
@@ -73,7 +73,7 @@ msgstr "Ayuda de Xfce"
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr "Ayuda de Mate"
+msgstr "Ayuda de MATE"
 
 #: qrc/main.qml:150
 msgctxt "main|"
@@ -166,7 +166,7 @@ msgstr ""
 "openSUSE Xfce ofrece varias opciones de personalización, que incluyen la "
 "posibilidad de elegir una disposición de escritorio que se ajuste a su flujo "
 "de trabajo. Puede elegir uno de estos como punto de partida y personalizarlo "
-"aún más luego."
+"más adelante aún más."
 
 #: qrc/main.qml:179
 msgctxt "main|"
@@ -327,7 +327,7 @@ msgstr ""
 "openSUSE. Únase a un foro para que le ayuden o para ayudar a otros con "
 "openSUSE, encuentre e informe de fallos, encárguese de un problema durante "
 "el proceso de publicación, revise la documentación, envíe sus propuestas "
-"para incluir paquetes o funcionalidades nuevos, cree y envíe parches o "
+"para incluir paquetes o funcionalidades nuevas, cree y envíe parches o "
 "encuentre otras formas creativas para contribuir."
 
 #: qrc/main.qml:245
@@ -497,7 +497,7 @@ msgstr ""
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "build service"
-msgstr "servicio de construcciones"
+msgstr "servicio de compilaciones"
 
 #: qrc/main.qml:300
 msgctxt "main|"
