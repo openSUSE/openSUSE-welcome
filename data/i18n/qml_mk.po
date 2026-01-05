@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-03 11:04+0000\n"
+"PO-Revision-Date: 2026-01-05 07:04+0000\n"
 "Last-Translator: \"Kristijan \\\"Fremen\\\" Velkovski\" <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/opensuse-"
 "welcome/master/mk/>\n"
@@ -558,7 +558,7 @@ msgstr ""
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
-msgstr ""
+msgstr "Google нуди RPM на Google Chrome на својата веб-страница."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -567,6 +567,9 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Некои кодеци за репродукција на медиуми не можат да бидат вклучени во "
+"openSUSE поради проблеми со лиценцирањето. Сепак, постојат достапни "
+"складишта за кои можете да прочитате"
 
 #: qrc/main.qml:329
 msgctxt "main|"
@@ -576,12 +579,12 @@ msgstr "тука"
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Складишта на заедницата"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "На"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -590,3 +593,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+", може да се сретнете со складишта обезбедени од заедницата. Иако ние рачно "
+"не ги проверуваме складиштата на заедницата, тие го изградија својот софтвер "
+"според најновата верзија на openSUSE и треба да функционира."
