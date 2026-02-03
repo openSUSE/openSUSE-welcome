@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-02 22:04+0000\n"
+"PO-Revision-Date: 2026-02-03 19:04+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sk/>\n"
@@ -41,52 +41,52 @@ msgstr "Prečítajte si"
 #: qrc/main.qml:139
 msgctxt "main|"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentácia"
 
 #: qrc/main.qml:140
 msgctxt "main|"
 msgid "Get Software"
-msgstr ""
+msgstr "Získajte softvér"
 
 #: qrc/main.qml:143
 msgctxt "main|"
 msgid "Install openSUSE"
-msgstr ""
+msgstr "Nainštalujte openSUSE"
 
 #: qrc/main.qml:146
 msgctxt "main|"
 msgid "GNOME Help"
-msgstr ""
+msgstr "Pomocník GNOME"
 
 #: qrc/main.qml:147
 msgctxt "main|"
 msgid "Plasma Help"
-msgstr ""
+msgstr "Pomocník Plasma"
 
 #: qrc/main.qml:148
 msgctxt "main|"
 msgid "Xfce Help"
-msgstr ""
+msgstr "Pomocník Xfce"
 
 #: qrc/main.qml:149
 msgctxt "main|"
 msgid "MATE Help"
-msgstr ""
+msgstr "Pomocník MATE"
 
 #: qrc/main.qml:150
 msgctxt "main|"
 msgid "Enlightenment Help"
-msgstr ""
+msgstr "Pomocník Enlightenment"
 
 #: qrc/main.qml:151
 msgctxt "main|"
 msgid "About Budgie"
-msgstr ""
+msgstr "O Budgie"
 
 #: qrc/main.qml:152
 msgctxt "main|"
 msgid "About Lumina"
-msgstr ""
+msgstr "O Lumina"
 
 #: qrc/main.qml:153
 msgctxt "main|"
