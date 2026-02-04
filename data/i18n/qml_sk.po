@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-03 19:04+0000\n"
+"PO-Revision-Date: 2026-02-04 19:04+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sk/>\n"
@@ -91,32 +91,32 @@ msgstr "O Lumina"
 #: qrc/main.qml:153
 msgctxt "main|"
 msgid "LXDE Help"
-msgstr ""
+msgstr "Pomocník LXDE"
 
 #: qrc/main.qml:154
 msgctxt "main|"
 msgid "LXQt Help"
-msgstr ""
+msgstr "Pomocník LXQt"
 
 #: qrc/main.qml:155
 msgctxt "main|"
 msgid "About Cinnamon"
-msgstr ""
+msgstr "O Cinnamon"
 
 #: qrc/main.qml:156
 msgctxt "main|"
 msgid "Deepin Help"
-msgstr ""
+msgstr "Pomocník Deepin"
 
 #: qrc/main.qml:159 qrc/main.qml:235
 msgctxt "main|"
 msgid "Contribute"
-msgstr ""
+msgstr "Prispievajte"
 
 #: qrc/main.qml:160
 msgctxt "main|"
 msgid "Build openSUSE"
-msgstr ""
+msgstr "Zostavte si openSUSE"
 
 #: qrc/main.qml:161
 msgctxt "main|"
@@ -130,16 +130,19 @@ msgid ""
 "at home in your new voyage. Take your time to familiarize yourself with all "
 "the buttons and let us know how you like the experience on our"
 msgstr ""
+"Ak používate openSUSE po prvýkrát, chceli by sme, aby ste sa na svojej novej "
+"ceste cítili ako doma. Venujte čas oboznámeniu sa so všetkými tlačidlami a "
+"dajte nám vedieť, ako sa vám páči táto skúsenosť na našich"
 
 #: qrc/main.qml:164
 msgctxt "main|"
 msgid "social media"
-msgstr ""
+msgstr "sociálnych médiách"
 
 #: qrc/main.qml:167
 msgctxt "main|"
 msgid "Show on next startup"
-msgstr ""
+msgstr "Zobraziť pri ďalšom spustení"
 
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
@@ -462,7 +465,7 @@ msgstr ""
 #: qrc/main.qml:298
 msgctxt "main|"
 msgid "Help by Donating"
-msgstr ""
+msgstr "Pomôžte darovaním"
 
 #: qrc/main.qml:300
 msgctxt "main|"
