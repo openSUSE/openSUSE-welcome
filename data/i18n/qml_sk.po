@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-04 19:04+0000\n"
+"PO-Revision-Date: 2026-02-07 13:04+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sk/>\n"
@@ -147,17 +147,17 @@ msgstr "Zobraziť pri ďalšom spustení"
 #: qrc/main.qml:168 qrc/main.qml:175
 msgctxt "main|"
 msgid "Customise"
-msgstr ""
+msgstr "Prispôsobte si"
 
 #: qrc/main.qml:169 qrc/main.qml:228 qrc/main.qml:303 qrc/main.qml:341
 msgctxt "main|"
 msgid "Close"
-msgstr ""
+msgstr "Zavrieť"
 
 #: qrc/main.qml:176
 msgctxt "main|"
 msgid "Desktop Layouts"
-msgstr ""
+msgstr "Rozloženie pracovnej plochy"
 
 #: qrc/main.qml:177
 msgctxt "main|"
@@ -166,36 +166,40 @@ msgid ""
 "ability to choose a desktop layout that fits your workflow. You can choose "
 "one of these as a starting point and customise it further later."
 msgstr ""
+"openSUSE Xfce ponúka celý rad možností prispôsobenia, vrátane možnosti "
+"výberu rozloženia pracovnej plochy, ktoré vyhovuje vášmu pracovnému postupu. "
+"Môžete si vybrať jeden z nich ako východiskový bod a neskôr ho ďalej "
+"prispôsobiť."
 
 #: qrc/main.qml:179
 msgctxt "main|"
 msgid "Cupertino"
-msgstr ""
+msgstr "Cupertino"
 
 #: qrc/main.qml:180
 msgctxt "main|"
 msgid "El Ratón"
-msgstr ""
+msgstr "El Ratón"
 
 #: qrc/main.qml:181
 msgctxt "main|"
 msgid "Unitatis"
-msgstr ""
+msgstr "Unitatis"
 
 #: qrc/main.qml:182
 msgctxt "main|"
 msgid "Redmond"
-msgstr ""
+msgstr "Redmond"
 
 #: qrc/main.qml:184
 msgctxt "main|"
 msgid "Themes"
-msgstr ""
+msgstr "Motívy vzhľadu"
 
 #: qrc/main.qml:185
 msgctxt "main|"
 msgid "Click the images to apply application themes."
-msgstr ""
+msgstr "Kliknutím na obrázky môžete použiť motívy aplikácie."
 
 #: qrc/main.qml:187
 msgctxt "main|"
