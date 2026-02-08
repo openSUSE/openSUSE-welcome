@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-07 19:04+0000\n"
+"PO-Revision-Date: 2026-02-08 21:04+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sk/>\n"
@@ -309,12 +309,12 @@ msgstr "Skupina openSUSE"
 #: qrc/main.qml:225
 msgctxt "main|"
 msgid "openSUSE News"
-msgstr ""
+msgstr "Novinky openSUSE"
 
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr ""
+msgstr "Prispievajte. Zapojte sa do openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -326,6 +326,13 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
+"Či už ste skúsený vývojár Linuxu alebo koncový používateľ, ktorý s Linuxom "
+"práve začína, existuje mnoho spôsobov, ako sa môžete zapojiť do projektu "
+"openSUSE. Pripojte sa k fóru, aby ste získali pomoc alebo pomohli ostatným s "
+"openSUSE, našli a nahlásili chyby, prevzali problém z procesu vydávania, "
+"skontrolovali dokumentáciu, poslali svoj zoznam želaní pre nové balíky a "
+"funkcie, vytvorili a odoslali opravy alebo našli iné kreatívne spôsoby, ako "
+"prispieť."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -333,11 +340,13 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
+"Nech už robíte čokoľvek, venujte pár minút diskusii o openSUSE s ostatnými "
+"používateľmi a staňte sa"
 
 #: qrc/main.qml:247
 msgctxt "main|"
 msgid "active member"
-msgstr ""
+msgstr "aktívnym členom"
 
 #: qrc/main.qml:249
 msgctxt "main|"
@@ -346,21 +355,24 @@ msgid ""
 "all the fun. You might wish to create a user page and share some useful "
 "information or interests about you with others."
 msgstr ""
+"komunity openSUSE. Pre väčšinu aktivít je potrebné sa prihlásiť, aby ste si "
+"mohli užiť všetku zábavu. Možno si budete chcieť vytvoriť používateľskú "
+"stránku a podeliť sa s ostatnými o užitočné informácie alebo o svoje záujmy."
 
 #: qrc/main.qml:252
 msgctxt "main|"
 msgid "Be part of the openSUSE Community"
-msgstr ""
+msgstr "Staňte sa súčasťou komunity openSUSE"
 
 #: qrc/main.qml:254
 msgctxt "main|"
 msgid "See where other"
-msgstr ""
+msgstr "Zistite, kde sa nachádzajú ostatní členovia"
 
 #: qrc/main.qml:256
 msgctxt "main|"
 msgid "openSUSE community"
-msgstr ""
+msgstr "komunity openSUSE"
 
 #: qrc/main.qml:258
 msgctxt "main|"
@@ -369,36 +381,39 @@ msgid ""
 "local openSUSE user groups, celebrate releases, learn about the governance "
 "structure and more. Follow"
 msgstr ""
+"po celom svete, spoznajte niektorých ľudí z openSUSE, nájdite miestne "
+"skupiny používateľov openSUSE, oslávte vydania, spoznajte štruktúru riadenia "
+"a mnoho ďalšieho. Sledujte"
 
 #: qrc/main.qml:260
 msgctxt "main|"
 msgid "openSUSE news"
-msgstr ""
+msgstr "novinky openSUSE"
 
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr ""
+msgstr "na našej stránke s novinkami a zistite, na čom pracujú naši vývojári na"
 
 #: qrc/main.qml:264
 msgctxt "main|"
 msgid "Planet openSUSE"
-msgstr ""
+msgstr "Planet openSUSE"
 
 #: qrc/main.qml:267
 msgctxt "main|"
 msgid "Help us to release the next version of openSUSE"
-msgstr ""
+msgstr "Pomôžte nám vydať ďalšiu verziu openSUSE"
 
 #: qrc/main.qml:269
 msgctxt "main|"
 msgid "For every release there is a"
-msgstr ""
+msgstr "Pre každé vydanie je"
 
 #: qrc/main.qml:271
 msgctxt "main|"
 msgid "set of tasks"
-msgstr ""
+msgstr "súbor úloh"
 
 #: qrc/main.qml:273
 msgctxt "main|"
@@ -407,11 +422,14 @@ msgid ""
 "beginners. Look through the issues and tell someone from openSUSE if you "
 "found an adequate task."
 msgstr ""
+"k dispozícii. Niektoré sú zložité, iné ľahko zvládnuteľné aj pre "
+"začiatočníkov. Prejdite si problémy a ak nájdete vhodnú úlohu, informujte o "
+"tom niekoho z openSUSE."
 
 #: qrc/main.qml:276
 msgctxt "main|"
 msgid "Discuss openSUSE and help other users"
-msgstr ""
+msgstr "Diskutujte o openSUSE a pomáhajte ostatným používateľom"
 
 #: qrc/main.qml:278
 msgctxt "main|"
@@ -420,16 +438,19 @@ msgid ""
 "in openSUSE and help out other openSUSE users. We have mailing lists, IRC "
 "channels and forums. Please have a look at the"
 msgstr ""
+"Existuje niekoľko aktívnych komunít, kde môžete diskutovať o dianí v "
+"openSUSE a pomáhať ostatným používateľom openSUSE. Máme e-mailové "
+"konferencie, IRC kanály a fóra. Prosím, pozrite si"
 
 #: qrc/main.qml:280
 msgctxt "main|"
 msgid "communication channels"
-msgstr ""
+msgstr "komunikačné kanály"
 
 #: qrc/main.qml:282
 msgctxt "main|"
 msgid "for an overview."
-msgstr ""
+msgstr ", kde nájdete prehľad."
 
 #: qrc/main.qml:285
 msgctxt "main|"
