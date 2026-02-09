@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-08 21:04+0000\n"
+"PO-Revision-Date: 2026-02-09 22:04+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sk/>\n"
@@ -455,17 +455,17 @@ msgstr ", kde nájdete prehľad."
 #: qrc/main.qml:285
 msgctxt "main|"
 msgid "Suggest New Features or Software"
-msgstr ""
+msgstr "Navrhnite nové funkcie alebo softvér"
 
 #: qrc/main.qml:287
 msgctxt "main|"
 msgid "Visit"
-msgstr ""
+msgstr "Navštívte"
 
 #: qrc/main.qml:289
 msgctxt "main|"
 msgid "Bugzilla"
-msgstr ""
+msgstr "Bugzilla"
 
 #: qrc/main.qml:291
 msgctxt "main|"
@@ -476,11 +476,16 @@ msgid ""
 "generation (version) and help to make openSUSE an even better Linux "
 "distribution."
 msgstr ""
+"náš systém správy funkcií a požiadaviek. Tu nájdete prehľad vecí, ktoré sa "
+"dejú v pripravovaných produktoch, môžete sledovať a zúčastňovať sa diskusie "
+"pridávaním komentárov alebo pracovať na funkciách pre ďalšiu generáciu "
+"(verziu) produktov a pomáhať tak robiť openSUSE ešte lepšou linuxovou "
+"distribúciou."
 
 #: qrc/main.qml:294
 msgctxt "main|"
 msgid "Spread the word"
-msgstr ""
+msgstr "Rozširujte informácie"
 
 #: qrc/main.qml:296
 msgctxt "main|"
@@ -489,6 +494,9 @@ msgid ""
 "too! openSUSE offers a great Linux distribution and many other technologies "
 "like our"
 msgstr ""
+"Nezabudnite šíriť informácie o openSUSE a pomôcť tak aj ostatným, aby z neho "
+"mohli mať prospech! openSUSE ponúka skvelú linuxovú distribúciu a mnoho "
+"ďalších technológií, ako je napríklad naša,"
 
 #: qrc/main.qml:298
 msgctxt "main|"
@@ -502,16 +510,19 @@ msgid ""
 "done and have fun. Blog about openSUSE, tell your friends and family and "
 "help them install it!"
 msgstr ""
+"ktoré môžu pomôcť domácim používateľom, správcom systémov aj vývojárom pri "
+"práci a zábave. Napíšte blog o openSUSE, povedzte o ňom svojim priateľom a "
+"rodine a pomôžte im s inštaláciou!"
 
 #: qrc/main.qml:310
 msgctxt "main|"
 msgid "Read Me"
-msgstr ""
+msgstr "Prečítajte si"
 
 #: qrc/main.qml:314
 msgctxt "main|"
 msgid "Extra Software"
-msgstr ""
+msgstr "Dodatočný softvér"
 
 #: qrc/main.qml:316
 msgctxt "main|"
