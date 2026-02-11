@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-09 22:04+0000\n"
+"PO-Revision-Date: 2026-02-11 19:04+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/sk/>\n"
@@ -530,6 +530,8 @@ msgid ""
 "There are certain proprietary drivers (such as Nvidia) and packages (such as "
 "Google Chrome) that openSUSE cannot include by default."
 msgstr ""
+"Existujú určité proprietárne ovládače (napríklad Nvidia) a balíky (napríklad "
+"Google Chrome), ktoré openSUSE nemôže štandardne obsahovať."
 
 #: qrc/main.qml:318
 msgctxt "main|"
@@ -537,11 +539,13 @@ msgid ""
 "If you have an Nvidia device and wish to use the proprietary drivers, read "
 "this"
 msgstr ""
+"Ak máte zariadenie Nvidia a chcete používať proprietárne ovládače, "
+"prečítajte si tento"
 
 #: qrc/main.qml:320
 msgctxt "main|"
 msgid "wiki article"
-msgstr ""
+msgstr "článok na wiki"
 
 #: qrc/main.qml:323
 msgctxt "main|"
@@ -550,11 +554,16 @@ msgid ""
 "provides a repository that will be added to your system when you install "
 "Google Chrome. This will allow it to be updated alongside your system."
 msgstr ""
+"Ak chcete nainštalovať Google Chrome, stačí si ho stiahnuť priamo z Google. "
+"Google poskytuje repozitár, ktorý sa pri inštalácii prehliadača Google "
+"Chrome pridá do vášho systému. To umožní jeho aktualizáciu spolu s vaším "
+"systémom."
 
 #: qrc/main.qml:324
 msgctxt "main|"
 msgid "Google offers Google Chrome's RPM on its website."
 msgstr ""
+"Google ponúka RPM pre prehliadač Google Chrome na svojej webovej stránke."
 
 #: qrc/main.qml:327
 msgctxt "main|"
@@ -563,21 +572,23 @@ msgid ""
 "licensing issues. However, there are repositories available that you can "
 "read about"
 msgstr ""
+"Niektoré kodeky na prehrávanie médií nemôžu byť zahrnuté v openSUSE z dôvodu "
+"licenčných problémov. Existujú však repozitáre, o ktorých si môžete prečítať"
 
 #: qrc/main.qml:329
 msgctxt "main|"
 msgid "here"
-msgstr ""
+msgstr "tu"
 
 #: qrc/main.qml:332
 msgctxt "main|"
 msgid "Community Repositories"
-msgstr ""
+msgstr "Komunitné repozitáre"
 
 #: qrc/main.qml:335
 msgctxt "main|"
 msgid "On"
-msgstr ""
+msgstr "Na"
 
 #: qrc/main.qml:338
 msgctxt "main|"
@@ -586,3 +597,6 @@ msgid ""
 "manually vet community repositories, they have built their software against "
 "the latest version of openSUSE and should work."
 msgstr ""
+"môžete naraziť na repozitáre poskytované komunitou. Hoci komunitné "
+"repozitáre ručne nekontrolujeme, ich softvér je vytvorený v súlade s "
+"najnovšou verziou openSUSE a mal by fungovať."
