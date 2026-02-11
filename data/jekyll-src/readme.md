@@ -28,6 +28,8 @@ title: {{readTrans.readme}}
 
 {{readTrans.packman}} {% include link onclick="bridge.openURL('https://en.opensuse.org/Additional_package_repositories')" text="{{readTrans.packmanhere}}" %}.
 
+{{readTrans.opi}} {% include link onclick="bridge.openURL('https://en.opensuse.org/SDB:OBS_Package_Installer')" text="{{readTrans.opihere}}" %}.
+
 ## {{readTrans.community}}
 
 {{readTrans.on}} {% include link onclick="bridge.openURL('https://software.opensuse.org/explore')" text="software.opensuse.org" %}.
