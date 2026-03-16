@@ -327,6 +327,12 @@ Window {
         // Link at packman paragraph
         property string packmanhere:    qsTr("here")
 
+        // OPI paragraph
+        property string opi:            qsTr("To install packages from third party vendors, the packman repository or community repositories on the openSUSE Build Service, you can also use the opi tool. Find more information ")
+
+        // Find more information ...
+        property string opihere:        qsTr("here")
+
         // Community repos header
         property string community:      qsTr("Community Repositories")
 
