@@ -15,6 +15,10 @@
       type: secondary
       icon: shopping-bag
       onclick: bridge.openURL('https://software.opensuse.org/explore')
+    - name: {{homeTrans.getcodecs}}
+      type: secondary
+      icon: file-video-o
+      onclick: bridge.openURL('https://en.opensuse.org/SDB:Installing_codecs_from_Packman_repositories')
       
   - type: image
     url: images/sinking.svg
