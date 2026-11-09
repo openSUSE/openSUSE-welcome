@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-16 21:04+0000\n"
+"PO-Revision-Date: 2026-11-09 19:13+0000\n"
 "Last-Translator: \"Omer I.S.\" <omeritzicschwartz@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.opensuse.org/projects/opensuse-welcome/"
 "master/he/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Weblate 5.15\n"
+"X-Generator: Weblate 2026.11.1\n"
 "X-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
@@ -214,27 +214,27 @@ msgstr "Greybird Geeko Dark"
 #: qrc/main.qml:189
 msgctxt "main|"
 msgid "Adwaita Light"
-msgstr "Adwaita Light"
+msgstr "‏Adwaita בהירה"
 
 #: qrc/main.qml:190
 msgctxt "main|"
 msgid "Adwaita Dark"
-msgstr "Adwaita Dark"
+msgstr "‏Adwaita כהה"
 
 #: qrc/main.qml:197
 msgctxt "main|"
 msgid "Social Media"
-msgstr "מדיה חברתית"
+msgstr "רשתות חברתיות"
 
 #: qrc/main.qml:198 qrc/main.qml:236 qrc/main.qml:311
 msgctxt "main|"
 msgid "Home"
-msgstr "בית"
+msgstr "מסך הבית"
 
 #: qrc/main.qml:201
 msgctxt "main|"
 msgid "Social Media: How to reach us!"
-msgstr "מדיה חברתית: איך ליצור עמנו קשר!"
+msgstr "רשתות חברתיות: כך אפשר ליצור איתנו קשר!"
 
 #: qrc/main.qml:204
 msgctxt "main|"
@@ -242,8 +242,8 @@ msgid ""
 "Most commonly used social medias are already listed in the footer, but here "
 "are some more you might find useful, alphabetically:"
 msgstr ""
-"רוב הרשתות החברתיות הנפוצות כבר מופיעות בתחתית העמוד, אך הינה כמה רשתות "
-"נוספות שעשויות להיות שימושיות עבורך, בסדר אלפביתי:"
+"רוב הרשתות החברתיות הנפוצות כבר מופיעות בתחתית, אבל חשבנו שאולי הרשתות "
+"הנוספות הבאות עשויות להיות שימושיות עבורך, לפי סדר אלפביתי:"
 
 #: qrc/main.qml:207
 msgctxt "main|"
@@ -313,7 +313,7 @@ msgstr "חדשות openSUSE"
 #: qrc/main.qml:239
 msgctxt "main|"
 msgid "Contribute. Participate in openSUSE"
-msgstr "להירתם. להשתתף במיזם openSUSE"
+msgstr "הירתמות. השתתפות במיזם openSUSE"
 
 #: qrc/main.qml:242
 msgctxt "main|"
@@ -325,12 +325,12 @@ msgid ""
 "the documentation, send your wish list for new packages and features, create "
 "and submit patches, or find other creative ways to contribute."
 msgstr ""
-"בין אם יש לך ניסיון נרחב בפיתוח עבור לינוקס או שרק התחלת להשתמש בלינוקס בתור "
-"משתמש/ת קצה, יש הרבה דרכים שבהן אפשר להשתתף במיזם openSUSE. אפשר להצטרף "
-"לפורום בשביל לקבל עזרה או לעזור לאחרים עם openSUSE,‏ לאתר תקלות ולדווח עליהן, "
-"לפתור בעיה מרשימת הבעיות שפתירתן נחוצה בשביל להוציא גרסה חדשה, לסקור את "
-"התיעוד, לשלוח את החבילות והתכונות החדשות שהיית רוצה שנוסיף, ליצור ולשלוח "
-"טלאי קוד, או למצוא דרכים יצירתיות אחרות להירתם."
+"לא משנה אם יש לך ניסיון נרחב בפיתוח על לינוקס או שרק התחלת להשתמש בלינוקס, "
+"עדיין יש לך הרבה דרכים להשתתף במיזם openSUSE. אפשר להצטרף לפורום כדי לבקש "
+"עזרה או לעזור לאחרים עם openSUSE, לאתר תקלות לדווח עליהן, לתקן תקלה שמופיעה "
+"ברשימת הדרישות לפרסום הגרסה החדשה, לשלוח רשימה של החבילות והיכולות החדשות "
+"שהיית רוצה שנוסיף, לעבור על התיעוד ולהציע שיפורים, ליצור ולשלוח טלאי קוד, או "
+"למצוא דרכים יצירתיות אחרות להשתתף."
 
 #: qrc/main.qml:245
 msgctxt "main|"
@@ -338,8 +338,8 @@ msgid ""
 "Whatever you do, take a few minutes to discuss openSUSE with other users and "
 "become an"
 msgstr ""
-"בין כה וכה, אנחנו מזמינים אותך לקחת כמה רגעים בשביל לשוחח בנושא openSUSE עם "
-"משתמשים אחרים ולהפוך"
+"בלי קשר, אנחנו מזמינים אותך לשוחח כמה רגעים על openSUSE עם משתמשים אחרים "
+"ולהפוך"
 
 #: qrc/main.qml:247
 msgctxt "main|"
@@ -389,7 +389,7 @@ msgstr "חדשות openSUSE"
 #: qrc/main.qml:262
 msgctxt "main|"
 msgid "on our news site and see what our developers are up to on"
-msgstr "באתר החדשות שלנו ותראו על מה המפתחים/ות שלנו עובדים/ות"
+msgstr "באתר החדשות שלנו ולראות על מה צוות הפיתוח שלנו עובד"
 
 #: qrc/main.qml:264
 msgctxt "main|"
